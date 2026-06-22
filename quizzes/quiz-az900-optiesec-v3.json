@@ -1,0 +1,1020 @@
+[
+  {
+    "vraag": "In an IaaS model, is the customer responsible for patching the guest operating system?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "In het shared responsibility model is de klant bij IaaS verantwoordelijk voor het gastbesturingssysteem (patchen, updates).",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "In a SaaS model, is the customer responsible for maintaining the physical datacenter?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Bij SaaS beheert Microsoft het fysieke datacenter en bijna alles eronder, niet de klant.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Are information and data always the customer's responsibility, regardless of the cloud service type?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "In het shared responsibility model is de klant ALTIJD verantwoordelijk voor data, identiteiten en accounts, ongeacht het servicetype.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "A company replaces its on-premises servers with cloud services and now pays a monthly bill based on actual usage. Which expenditure model does this represent?",
+    "opties": [
+      "Capital expenditure (CapEx)",
+      "Operational expenditure (OpEx)",
+      "Fixed asset depreciation",
+      "A one-time licensing fee"
+    ],
+    "antwoord": 1,
+    "toelichting": "Maandelijks betalen voor werkelijk gebruik is operationele uitgave (OpEx). De cloud verschuift kosten van CapEx naar OpEx via het consumption-based model.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Does high availability keep a system operational during planned and unplanned outages?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "High availability houdt systemen draaiend tijdens storingen en gepland onderhoud.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Does vertical scaling mean adding more instances of a resource?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Verticaal schalen is juist meer CPU en RAM toevoegen aan een bestaande resource, niet meer instances (dat is horizontaal schalen).",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Does elasticity automatically add or remove resources to match changing demand?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Elasticity schaalt automatisch op en neer met de vraag.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "The pricing approach where you pay only for the resources you use, with no upfront purchase, is called ____________.",
+    "opties": [
+      "capital expenditure",
+      "the consumption-based model",
+      "a region pair",
+      "total cost of ownership"
+    ],
+    "antwoord": 1,
+    "toelichting": "Het consumption-based model betekent betalen voor wat je gebruikt zonder investering vooraf. Dit is een kernvoordeel van de cloud.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Which cloud service model gives the customer the MOST control over, and responsibility for, the environment?",
+    "opties": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "A fully managed SaaS suite"
+    ],
+    "antwoord": 2,
+    "toelichting": "IaaS geeft de meeste controle en ook de meeste verantwoordelijkheid, je beheert het OS, de middleware en de apps zelf.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "A company wants a ready-to-use email and collaboration suite with no servers or software to manage. Which cloud service type should they choose?",
+    "opties": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "On-premises"
+    ],
+    "antwoord": 2,
+    "toelichting": "Een kant-en-klare e-mail- en samenwerkingsoplossing (zoals Microsoft 365) is SaaS. Je gebruikt het gewoon, Microsoft beheert vrijwel alles.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Which statement best describes serverless computing?",
+    "opties": [
+      "You provision and patch the virtual machines in advance",
+      "You run code without managing the underlying infrastructure and pay per execution",
+      "You rent a fixed amount of compute every month whether you use it or not",
+      "You manage the operating system but not the hardware"
+    ],
+    "antwoord": 1,
+    "toelichting": "Serverless betekent dat je alleen code schrijft, de cloud levert automatisch de resources, en je betaalt per uitvoering. Azure Functions is het bekendste voorbeeld.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Does a hybrid cloud combine on-premises or private infrastructure with public cloud services?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Hybrid combineert on-premises of private met public cloud.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "In a public cloud, is the physical hardware dedicated to a single organization?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "In een public cloud deelt de klant de hardware (multi-tenant), die is niet aan een enkele organisatie toegewezen.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Can a private cloud give an organization more control to meet specific regulatory requirements?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Een private cloud biedt meer controle, handig voor strenge compliance-eisen.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "What is an Azure region?",
+    "opties": [
+      "A logical container used to group resources for billing",
+      "A set of datacenters deployed within a latency-defined perimeter and connected by a dedicated network",
+      "A single physical server inside a datacenter",
+      "A subscription-level spending limit"
+    ],
+    "antwoord": 1,
+    "toelichting": "Een region is een set datacenters binnen een latency-defined perimeter, verbonden door een eigen netwerk.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Are availability zones physically separate locations within a single Azure region?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Availability zones zijn fysiek gescheiden locaties BINNEN een region.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Does a region pair consist of two regions in different geographies, chosen for the lowest possible latency?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Region pairs liggen binnen dezelfde geografie (bijvoorbeeld West Europe en North Europe), gekoppeld voor disaster recovery, niet voor lage latency.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Do region pairs support disaster recovery, and are planned platform updates rolled out to one region at a time?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Platform-updates worden per region uitgerold, niet tegelijk in beide. Region pairs ondersteunen disaster recovery.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "At which scope can you apply a single policy so that it is automatically inherited by all subscriptions beneath it?",
+    "opties": [
+      "Resource",
+      "Resource group",
+      "Management group",
+      "Tag"
+    ],
+    "antwoord": 2,
+    "toelichting": "Een management group staat boven subscriptions. Beleid en rechten die je daar instelt, worden geerfd door alle onderliggende subscriptions.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Each Azure resource must belong to ____________ resource group.",
+    "opties": [
+      "zero",
+      "exactly one",
+      "one or more",
+      "an unlimited number of"
+    ],
+    "antwoord": 1,
+    "toelichting": "Elke resource hoort in precies een resource group. Resource groups kunnen niet genest worden.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Match: Which Azure compute service runs small pieces of event-driven code without managing servers, billed per execution?",
+    "opties": [
+      "Azure Functions",
+      "Azure Virtual Machines",
+      "Azure Container Instances"
+    ],
+    "antwoord": 0,
+    "toelichting": "Azure Functions draait event-driven code per uitvoering (serverless).",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Match: Which Azure compute service provides full control over an operating system that you install and maintain yourself?",
+    "opties": [
+      "Azure Functions",
+      "Azure Virtual Machines",
+      "Azure Container Instances"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure Virtual Machines geven volledige controle over een eigen OS (IaaS).",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Match: Which Azure compute service runs a lightweight, portable application package quickly without a full virtual machine?",
+    "opties": [
+      "Azure Functions",
+      "Azure Virtual Machines",
+      "Azure Container Instances"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Container Instances draaien een lichte, draagbare app zonder een compleet VM, snel op te starten en te schalen.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which service automatically increases or decreases the number of identical virtual machines based on demand?",
+    "opties": [
+      "Availability set",
+      "Azure Virtual Machine Scale Sets",
+      "Azure Virtual Desktop",
+      "Azure Bastion"
+    ],
+    "antwoord": 1,
+    "toelichting": "Virtual Machine Scale Sets maken en verwijderen automatisch identieke VM's op basis van de vraag (horizontaal schalen).",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which Azure service is a platform as a service (PaaS) offering for hosting web apps and APIs without managing the underlying operating system?",
+    "opties": [
+      "Azure Virtual Machines",
+      "Azure App Service",
+      "Azure Blob Storage",
+      "Azure DNS"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure App Service is een PaaS-dienst voor het hosten van web-apps en API's. Microsoft beheert het OS en het platform.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Can Virtual Network (VNet) peering connect two virtual networks so resources can communicate privately?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "VNet peering koppelt twee virtuele netwerken zodat resources privé communiceren.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Does a VPN Gateway send encrypted traffic over the public internet?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Een VPN Gateway versleutelt verkeer en stuurt het over het publieke internet.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Does an ExpressRoute connection travel over the public internet?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "ExpressRoute gaat juist NIET over het internet, het is een privéverbinding via een provider.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which routing protocol does Azure ExpressRoute use to exchange routes between your network and Microsoft?",
+    "opties": [
+      "Open Shortest Path First (OSPF)",
+      "Border Gateway Protocol (BGP)",
+      "Routing Information Protocol (RIP)",
+      "Hypertext Transfer Protocol (HTTP)"
+    ],
+    "antwoord": 1,
+    "toelichting": "ExpressRoute gebruikt BGP (Border Gateway Protocol) om routes dynamisch uit te wisselen tussen jouw netwerk en Microsoft.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "A ____________ assigns a private IP address from your virtual network to an Azure service, so traffic stays on the Microsoft network instead of the public internet.",
+    "opties": [
+      "public endpoint",
+      "private endpoint",
+      "service tag",
+      "DNS record"
+    ],
+    "antwoord": 1,
+    "toelichting": "Een private endpoint geeft een Azure-dienst een privé IP-adres uit jouw VNet, via Azure Private Link.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Does locally redundant storage (LRS) keep three copies of your data within a single datacenter?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "LRS bewaart 3 kopieën in een datacenter.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Does the Archive access tier have the lowest storage cost, but must data be rehydrated before it can be read?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Archive is de goedkoopste opslag maar data moet eerst gerehydrateerd worden voordat je het kunt lezen.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Does zone-redundant storage (ZRS) replicate your data to a second Azure region?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "ZRS kopieert NIET naar een tweede region, het verspreidt 3 kopieën over zones binnen dezelfde region.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which storage redundancy option protects against both an availability zone failure and a full region failure?",
+    "opties": [
+      "Locally redundant storage (LRS)",
+      "Zone-redundant storage (ZRS)",
+      "Geo-redundant storage (GRS)",
+      "Geo-zone-redundant storage (GZRS)"
+    ],
+    "antwoord": 3,
+    "toelichting": "GZRS combineert ZRS (3 zones synchroon in de primaire region) met een asynchrone kopie in een tweede region.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which tool should you use to estimate the cost of Azure services BEFORE you deploy them?",
+    "opties": [
+      "Microsoft Cost Management",
+      "Azure Pricing Calculator",
+      "Azure Advisor",
+      "Azure Monitor"
+    ],
+    "antwoord": 1,
+    "toelichting": "De Azure Pricing Calculator schat kosten vooraf in (planning).",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Does a tag consist of a name and value pair that you apply to a resource?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Een tag is een naam/waarde-paar.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Do resources automatically inherit the tags applied to their resource group by default?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Resources erven tags van hun resource group NIET automatisch (standaardgedrag).",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Can tags be used to group and report on costs in Microsoft Cost Management?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Tags zijn uitstekend om kosten te groeperen en te rapporteren.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Which service evaluates resources against business rules and can prevent the creation of non-compliant resources?",
+    "opties": [
+      "Resource locks",
+      "Azure Policy",
+      "Azure role-based access control (RBAC)",
+      "Microsoft Purview"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure Policy toetst resources aan regels en kan niet-conforme resources weigeren bij het aanmaken (deny-effect).",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "You must prevent a critical resource from being deleted, while still allowing team members to change its configuration. Which feature should you use?",
+    "opties": [
+      "A ReadOnly lock",
+      "A CanNotDelete (Delete) lock",
+      "An Azure Policy deny rule",
+      "The RBAC Reader role"
+    ],
+    "antwoord": 1,
+    "toelichting": "Een CanNotDelete (Delete) lock voorkomt verwijderen, maar wijzigen mag nog.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Which service helps you discover, classify, and govern data across your organization to support regulations such as GDPR?",
+    "opties": [
+      "Azure Monitor",
+      "Microsoft Purview",
+      "Azure Advisor",
+      "Microsoft Defender for Cloud"
+    ],
+    "antwoord": 1,
+    "toelichting": "Microsoft Purview ontdekt, classificeert en bestuurt data in de hele organisatie en helpt bij compliance zoals GDPR en AVG.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Is the Azure portal a web-based graphical interface available at portal.azure.com?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "De Azure portal is de web-GUI op portal.azure.com.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Does Azure Cloud Shell run in the browser and support both Bash (Azure CLI) and PowerShell?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Cloud Shell draait in de browser en ondersteunt zowel Bash (Azure CLI) als PowerShell.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Can Azure resources only be managed through the portal, not through a command line?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure is op meerdere manieren te beheren: portal, CLI, PowerShell en ARM of Bicep, niet alleen via de portal.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "In the Azure portal, to be alerted when your spending reaches 80% of your monthly budget, you configure a budget in ____________.",
+    "opties": [
+      "Azure Advisor",
+      "Microsoft Cost Management",
+      "Azure Monitor metrics",
+      "the resource lock blade"
+    ],
+    "antwoord": 1,
+    "toelichting": "Budgetten en spending-alerts stel je in onder Microsoft Cost Management.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Which Azure tool provides personalized recommendations across reliability, security, performance, operational excellence, and cost?",
+    "opties": [
+      "Azure Monitor",
+      "Azure Service Health",
+      "Azure Advisor",
+      "Azure Policy"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Advisor geeft persoonlijke aanbevelingen over reliability, security, performance, operational excellence en cost.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Your Azure-hosted application is unavailable and you suspect the cause is an outage on Microsoft's side. Which tool should you check?",
+    "opties": [
+      "Azure Advisor",
+      "Azure Service Health",
+      "Microsoft Cost Management",
+      "Azure Policy"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure Service Health toont de status van Azure-diensten en waarschuwt bij storingen en gepland onderhoud.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Can Azure Monitor collect both metrics and logs from Azure resources?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Azure Monitor verzamelt metrics en logs.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Is Log Analytics used to query and analyze log data collected by Azure Monitor?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Log Analytics is de tool om die logdata te bevragen.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Is Application Insights a type of resource lock?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Application Insights is geen resource lock, het is een Azure Monitor-functie voor applicatie-monitoring (APM).",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] When using IaaS virtual machines, is the customer responsible for patching the guest operating system?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Bij IaaS patcht de klant het gast-OS.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "[ADVANCED] When using a PaaS service such as Azure SQL Database, does Microsoft manage the underlying operating system and runtime?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Bij PaaS (zoals Azure SQL Database) beheert Microsoft het OS en de runtime.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "[ADVANCED] In every cloud service type, is physical security of the datacenter the customer's responsibility?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Fysieke beveiliging van het datacenter is ALTIJD Microsoft, nooit de klant, ongeacht het servicetype.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "[ADVANCED] A startup wants no upfront hardware spend and the ability to scale resources down during quiet periods. Does consumption-based (OpEx) pricing support this?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Consumption-based (OpEx) pricing schrapt de investering vooraf.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "[ADVANCED] A startup wants no upfront hardware spend and the ability to scale resources down during quiet periods. Does elasticity support this?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Elasticity laat je automatisch opschalen bij drukte en afschalen in rustige periodes om kosten te besparen.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "[ADVANCED] Does Azure Arc let you manage on-premises servers and servers in other clouds from Azure?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Azure Arc breidt Azure-beheer uit naar servers buiten Azure (on-premises en andere clouds).",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "[ADVANCED] Does a multi-cloud strategy mean using more than one public cloud provider?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Multi-cloud betekent meerdere public cloud providers gebruiken.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "[ADVANCED] Does a hybrid cloud require that no data is ever kept on-premises?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Een hybrid cloud houdt juist vaak bewust data on-premises.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "[ADVANCED] A company must move a legacy application to the cloud without changing it, and needs to keep full control of the operating system. Which cloud service model is the best fit?",
+    "opties": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "A no-code SaaS platform"
+    ],
+    "antwoord": 2,
+    "toelichting": "Een bestaande applicatie ongewijzigd migreren met volledige controle over het OS is het klassieke lift-and-shift scenario, dat is IaaS (een VM).",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "[ADVANCED] Match: Which VM option distributes VMs across fault and update domains within a datacenter to protect against hardware failures and maintenance?",
+    "opties": [
+      "Availability set",
+      "Virtual Machine Scale Set"
+    ],
+    "antwoord": 0,
+    "toelichting": "Een availability set verdeelt VM's over fault- en update-domains binnen een datacenter.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Match: Which VM option automatically adjusts the number of identical virtual machine instances to match load?",
+    "opties": [
+      "Availability set",
+      "Virtual Machine Scale Set"
+    ],
+    "antwoord": 1,
+    "toelichting": "Een Scale Set past het aantal identieke VM's automatisch aan op de belasting.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Can global virtual network peering connect virtual networks located in different Azure regions?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Global VNet peering verbindt VNets in verschillende regions.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Does ExpressRoute provide a private connection to Microsoft that does not traverse the public internet?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "ExpressRoute is een privéverbinding die niet over het internet loopt.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Does a private endpoint expose an Azure service to the public internet using a public IP address?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Een private endpoint gebruikt juist een privé IP binnen je VNet, niet een publiek IP via internet.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] A development team wants to deploy a containerized web application and scale it, without managing VMs or a full Kubernetes cluster. Which option is the simplest fit?",
+    "opties": [
+      "Azure Virtual Machines",
+      "Azure App Service",
+      "Azure Blob Storage",
+      "Azure DNS"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure App Service kan containers draaien en regelt schaling zonder dat je VM's of een Kubernetes-cluster beheert.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Does geo-redundant storage (GRS) copy data to a paired secondary region asynchronously?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "GRS kopieert asynchroon naar een gekoppelde tweede region.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Is the Cool access tier intended for data that is accessed frequently and offers the lowest access cost?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "De Cool tier is voor data die je WEINIG gebruikt, met lagere opslagkosten maar hogere toegangskosten.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Do access tiers (hot, cool, cold, and archive) apply to Blob storage?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Access tiers gelden alleen voor Blob storage.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] A European company must keep all data inside the EU and must survive a full datacenter (zone) failure. It wants to minimize cost and does not need cross-region DR. Which storage redundancy option best fits?",
+    "opties": [
+      "Locally redundant storage (LRS)",
+      "Zone-redundant storage (ZRS)",
+      "Geo-redundant storage (GRS)",
+      "Geo-zone-redundant storage (GZRS)"
+    ],
+    "antwoord": 1,
+    "toelichting": "ZRS houdt 3 kopieën synchroon over zones binnen een region, dus data blijft in de EU en een zone-uitval wordt opgevangen, tegen lagere kosten dan GZRS.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Is Microsoft Entra ID Azure's cloud-based identity and access management service?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Microsoft Entra ID is de cloud-IAM-dienst van Azure.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Can a Conditional Access policy require multi-factor authentication only when a sign-in is risky or comes from an untrusted location?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Conditional Access kan MFA voorwaardelijk afdwingen, alleen bij risico of een onvertrouwde locatie.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Does the built-in RBAC Reader role allow a user to modify resources?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "De Reader-rol mag alleen lezen, niet wijzigen.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] The finance team must be able to view all Azure resources and cost data, but must not be able to create, change, or delete anything. Which built-in RBAC role should you assign?",
+    "opties": [
+      "Owner",
+      "Contributor",
+      "Reader",
+      "User Access Administrator"
+    ],
+    "antwoord": 2,
+    "toelichting": "De Reader-rol mag resources en gegevens bekijken maar niets aanmaken, wijzigen of verwijderen.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Does the Zero Trust model assume breach and verify every request explicitly?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Zero Trust gaat uit van assume breach en verifieert elke aanvraag expliciet.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Does defense in depth rely on a single perimeter firewall as its only protective layer?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Defense in depth gebruikt juist MEERDERE lagen, niet een enkele firewall.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Can Microsoft Defender for Cloud assess the security posture of resources running in AWS and Google Cloud?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Defender for Cloud is multicloud en beoordeelt ook resources in AWS en GCP.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "[ADVANCED] Which statement best describes Infrastructure as Code (IaC) using ARM templates or Bicep?",
+    "opties": [
+      "Manually clicking through the portal to create each resource",
+      "Defining infrastructure in declarative files that can be versioned and redeployed consistently",
+      "A dashboard that visualizes resource performance",
+      "A monthly billing report for a subscription"
+    ],
+    "antwoord": 1,
+    "toelichting": "Infrastructure as Code beschrijft infrastructuur in declaratieve bestanden (ARM-templates in JSON, of Bicep) die je in versiebeheer kunt zetten.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Are ARM templates declarative JSON files used to deploy Azure resources?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "ARM-templates zijn declaratieve JSON-bestanden.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Is Bicep a domain-specific language that transpiles (compiles) to ARM templates?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Bicep is een eenvoudigere taal die naar ARM-JSON compileert.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Can Azure Resource Manager only be used through the Azure portal?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure Resource Manager is op meerdere manieren te gebruiken: portal, CLI, PowerShell, SDK en templates.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] A company has servers on-premises, in AWS, and in Azure. They want to apply Azure policies to all of them and manage them from a single place in Azure. Which service should they use?",
+    "opties": [
+      "Azure Migrate",
+      "Azure Arc",
+      "Azure Bastion",
+      "Azure Monitor"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure Arc projecteert servers en services van buiten Azure (on-premises, AWS, GCP) in Azure, zodat je er beleid op toepast en ze centraal beheert.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Match: Which governance feature prevents accidental deletion or modification of a specific resource?",
+    "opties": [
+      "Azure Policy",
+      "Resource lock",
+      "Microsoft Purview"
+    ],
+    "antwoord": 1,
+    "toelichting": "Resource locks beschermen tegen per ongeluk verwijderen of wijzigen.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Match: Which governance feature enforces organizational rules, such as allowed regions or allowed VM sizes?",
+    "opties": [
+      "Azure Policy",
+      "Resource lock",
+      "Microsoft Purview"
+    ],
+    "antwoord": 0,
+    "toelichting": "Azure Policy dwingt regels af zoals toegestane regions of VM-sizes.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Match: Which governance feature discovers, classifies, and governs data across the organization?",
+    "opties": [
+      "Azure Policy",
+      "Resource lock",
+      "Microsoft Purview"
+    ],
+    "antwoord": 2,
+    "toelichting": "Microsoft Purview ontdekt, classificeert en bestuurt data.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Can a budget in Microsoft Cost Management trigger alerts when a spending threshold is reached?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Een budget in Cost Management kan alerts sturen bij drempels.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Does the Azure Pricing Calculator show your actual past spending?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "De Pricing Calculator toont GEEN werkelijke historie, die schat vooraf in.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Can both the location (region) and the type of a resource affect its cost?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Zowel locatie (region) als resourcetype beïnvloeden de kosten.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] In the Azure portal, where would an administrator go to view the Secure Score and security recommendations for a subscription?",
+    "opties": [
+      "Microsoft Cost Management",
+      "Microsoft Defender for Cloud",
+      "The resource group overview blade",
+      "Azure Service Health"
+    ],
+    "antwoord": 1,
+    "toelichting": "De Secure Score en beveiligingsaanbevelingen vind je in Microsoft Defender for Cloud.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Does Azure Advisor give recommendations across cost, security, reliability, operational excellence, and performance?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Advisor dekt vijf categorieën aanbevelingen.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Does Azure Service Health provide personalized alerts about Azure service incidents and planned maintenance that affect your resources?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Service Health geeft persoonlijke meldingen over incidenten en onderhoud.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Is Application Insights used to monitor the performance and usage of your applications?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Application Insights monitort prestaties en gebruik van applicaties, onderdeel van Azure Monitor.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Match: Which Azure feature blocks the creation of resources outside the West Europe region?",
+    "opties": [
+      "Azure Policy",
+      "Resource lock",
+      "Cost Management budget",
+      "Conditional Access"
+    ],
+    "antwoord": 0,
+    "toelichting": "Azure Policy beperkt toegestane regions.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Match: Which Azure feature prevents accidental deletion of the production database?",
+    "opties": [
+      "Azure Policy",
+      "Resource lock",
+      "Cost Management budget",
+      "Conditional Access"
+    ],
+    "antwoord": 1,
+    "toelichting": "Een resource lock voorkomt verwijdering van de productiedatabase.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Match: Which Azure feature sends an alert when monthly spend reaches 80% of the budget?",
+    "opties": [
+      "Azure Policy",
+      "Resource lock",
+      "Cost Management budget",
+      "Conditional Access"
+    ],
+    "antwoord": 2,
+    "toelichting": "Een Cost Management budget stuurt de 80%-alert.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "[ADVANCED] Match: Which Azure feature requires MFA when users sign in from outside the corporate network?",
+    "opties": [
+      "Azure Policy",
+      "Resource lock",
+      "Cost Management budget",
+      "Conditional Access"
+    ],
+    "antwoord": 3,
+    "toelichting": "Conditional Access dwingt MFA af op basis van locatie.",
+    "domein": "Azure Management and Governance"
+  }
+]

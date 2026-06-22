@@ -1,0 +1,19 @@
+Deployment instructions:
+
+1. Create a new GitHub repository called "az900-quiz-app" (set to PRIVATE).
+
+2. Push the code:
+   cd /home/harryvandervalk/Documents/CyberSecurity/QuizApp
+   git remote add origin https://github.com/HarryvanderValk/az900-quiz-app.git
+   git branch -M main
+   git push -u origin main
+
+3. Deploy on Streamlit Cloud:
+   - Go to https://streamlit.io/cloud
+   - Sign in with GitHub (grant access to the private repo when prompted)
+   - Click "New app"
+   - Select "az900-quiz-app" → main branch → app.py
+   - Click Deploy
+
+Your app will be live (only you can see it unless you share access).
+Streamlit free tier allows 1 private app + unlimited public apps.

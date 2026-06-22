@@ -1,0 +1,152 @@
+[
+  {
+    "vraag": "Uit hoeveel lagen bestaat het OSI-model?",
+    "opties": ["7", "4", "5", "6"],
+    "antwoord": 0,
+    "toelichting": "Het OSI-model bestaat uit 7 lagen: fysiek, datalink, netwerk, transport, sessie, presentatie en applicatie."
+  },
+  {
+    "vraag": "Wat is de functie van het ARP-protocol?",
+    "opties": [
+      "MAC-adressen vertalen naar poortnummers",
+      "IP-adressen vertalen naar MAC-adressen",
+      "Poortnummers vertalen naar IP-adressen",
+      "IP-adressen vertalen naar domeinnamen"
+    ],
+    "antwoord": 1,
+    "toelichting": "ARP (Address Resolution Protocol) vertaalt IP-adressen naar MAC-adressen, zodat apparaten op hetzelfde netwerk elkaar kunnen vinden."
+  },
+  {
+    "vraag": "Wat is een ARP spoofing-aanval?",
+    "opties": [
+      "Het versturen van valse ARP-antwoorden om verkeer te onderscheppen",
+      "Het wijzigen van het MAC-adres van een router",
+      "Het overbelasten van een switch met ARP-verzoeken",
+      "Het blokkeren van alle ARP-requests op een netwerk"
+    ],
+    "antwoord": 0,
+    "toelichting": "Bij ARP spoofing/poisoning stuurt een aanvaller valse ARP-antwoorden, waardoor verkeer naar de aanvaller wordt geleid (man-in-the-middle)."
+  },
+  {
+    "vraag": "Uit welke stappen bestaat de TCP three-way handshake?",
+    "opties": [
+      "FIN, ACK, SYN",
+      "ACK, SYN-ACK, FIN",
+      "SYN, SYN-ACK, ACK",
+      "SYN, ACK, FIN"
+    ],
+    "antwoord": 2,
+    "toelichting": "De TCP three-way handshake verloopt in drie stappen: 1) SYN (client), 2) SYN-ACK (server), 3) ACK (client)."
+  },
+  {
+    "vraag": "Wat is het belangrijkste verschil tussen TCP en UDP?",
+    "opties": [
+      "TCP werkt alleen op IPv4, UDP werkt alleen op IPv6",
+      "TCP is sneller, UDP is langzamer",
+      "TCP gebruikt alleen IP-adressen, UDP gebruikt alleen MAC-adressen",
+      "TCP is verbindingsgericht en betrouwbaar, UDP is verbindingsloos en sneller"
+    ],
+    "antwoord": 3,
+    "toelichting": "TCP is verbindingsgericht met bevestigingen (ACKs) en is daardoor betrouwbaar maar langzamer. UDP is verbindingsloos en sneller maar zonder garantie op levering."
+  },
+  {
+    "vraag": "Wat is een DMZ in netwerkbeveiliging?",
+    "opties": [
+      "Een privé-netwerk voor werknemers",
+      "Een type firewall",
+      "Een virtueel netwerk voor gasten",
+      "Een beveiligde zone voor publieke diensten, gescheiden van het interne netwerk"
+    ],
+    "antwoord": 3,
+    "toelichting": "Een DMZ (Demilitarized Zone) is een netwerkzone waar publieke diensten zoals webservers staan, gescheiden van het interne bedrijfsnetwerk."
+  },
+  {
+    "vraag": "Wat is het doel van hashing?",
+    "opties": [
+      "Data versleutelen zodat deze geheim blijft",
+      "Data omzetten naar een unieke, niet-omkeerbare waarde voor integriteitscontrole",
+      "Data comprimeren voor opslag",
+      "Data versneld verzenden over een netwerk"
+    ],
+    "antwoord": 1,
+    "toelichting": "Hashing is een one-way-functie die data omzet naar een unieke hashwaarde. Het wordt gebruikt om integriteit te controleren en is niet omkeerbaar."
+  },
+  {
+    "vraag": "Wat is het verschil tussen symmetrische en asymmetrische encryptie?",
+    "opties": [
+      "Asymmetrisch is altijd sneller dan symmetrisch",
+      "Symmetrisch gebruikt één sleutel voor zowel encryptie als decryptie; asymmetrisch gebruikt een public/private key-paar",
+      "Symmetrisch is altijd veiliger dan asymmetrisch",
+      "Symmetrisch gebruikt twee sleutels, asymmetrisch gebruikt één sleutel"
+    ],
+    "antwoord": 1,
+    "toelichting": "Bij symmetrische encryptie gebruiken zender en ontvanger dezelfde sleutel. Bij asymmetrische encryptie wordt een public key gebruikt om te versleutelen en een private key om te ontsleutelen."
+  },
+  {
+    "vraag": "Wat is een CAM-table en waar wordt deze gebruikt?",
+    "opties": [
+      "In een firewall om verkeersregels op te slaan",
+      "In een DNS-server om domeinnamen te vertalen",
+      "In een router om IP-pakketten door te sturen",
+      "In een switch om MAC-adressen aan poorten te koppelen"
+    ],
+    "antwoord": 3,
+    "toelichting": "Een CAM-table (Content Addressable Memory) zit in een switch en koppelt MAC-adressen aan fysieke poorten, zodat frames naar de juiste poort worden gestuurd."
+  },
+  {
+    "vraag": "Wat doet het DNS (Domain Name System)?",
+    "opties": [
+      "Het vertalen van domeinnamen naar IP-adressen",
+      "Het toewijzen van IP-adressen aan computers",
+      "Het routeren van pakketten tussen netwerken",
+      "Het beveiligen van netwerkverbindingen"
+    ],
+    "antwoord": 0,
+    "toelichting": "DNS fungeert als het 'telefoonboek van het internet' en vertaalt domeinnamen (zoals google.com) naar IP-adressen."
+  },
+  {
+    "vraag": "Welk ICMP-commando wordt gebruikt om netwerkconnectiviteit te testen?",
+    "opties": ["nslookup", "ipconfig", "ping", "tracert"],
+    "antwoord": 2,
+    "toelichting": "Ping stuurt ICMP Echo Request-berichten en wacht op Echo Reply om te controleren of een doel bereikbaar is."
+  },
+  {
+    "vraag": "Wat is de functie van een firewall?",
+    "opties": [
+      "Het vertalen van IP-adressen naar domeinnamen",
+      "Het versnellen van netwerkverkeer",
+      "Het toewijzen van IP-adressen aan apparaten",
+      "Het filteren van netwerkverkeer op basis van regels (ACLs)"
+    ],
+    "antwoord": 3,
+    "toelichting": "Een firewall filtert inkomend en uitgaand verkeer op basis van toegangscontrolelijsten (ACLs) om het netwerk te beveiligen."
+  },
+  {
+    "vraag": "Wat is een 'default gateway'?",
+    "opties": [
+      "Het toegangspunt voor draadloos netwerk",
+      "De switch die alle apparaten in een lokaal netwerk verbindt",
+      "De router die verkeer van het lokale netwerk naar andere netwerken stuurt",
+      "De DNS-server van een netwerk"
+    ],
+    "antwoord": 2,
+    "toelichting": "De default gateway is de router die verkeer van een lokaal netwerk naar andere netwerken (zoals het internet) doorstuurt."
+  },
+  {
+    "vraag": "Wat is 'salting' in de context van hashing?",
+    "opties": [
+      "Het omzetten van een hash naar base64",
+      "Het comprimeren van een hash voor opslag",
+      "Het versleutelen van een hash met een geheime sleutel",
+      "Het toevoegen van willekeurige data aan een wachtwoord voordat het wordt gehasht"
+    ],
+    "antwoord": 3,
+    "toelichting": "Salting voegt een willekeurige waarde (salt) toe aan een wachtwoord voordat het wordt gehasht, om rainbow table-aanvallen te voorkomen."
+  },
+  {
+    "vraag": "Welke tool wordt beschreven als de 'Cyber Swiss Army knife' voor encoding, decoding en cryptografie?",
+    "opties": ["Wireshark", "Nmap", "Burp Suite", "CyberChef"],
+    "antwoord": 3,
+    "toelichting": "CyberChef is een tool die wordt gebruikt voor encoding/decoding, encryptie/decryptie, hashing en data-analyse."
+  }
+]

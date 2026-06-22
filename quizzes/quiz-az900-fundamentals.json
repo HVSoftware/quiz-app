@@ -1,0 +1,563 @@
+[
+  {
+    "vraag": "What is cloud computing?",
+    "opties": [
+      "Storing files on remote servers only",
+      "Delivering computing services over the internet on a pay-as-you-go basis",
+      "Running software applications on a local machine",
+      "Using physical hardware infrastructure in your own data center that meets enterprise compliance requirements"
+    ],
+    "antwoord": 1,
+    "toelichting": "Cloud computing is the delivery of computing services (servers, storage, databases, networking, software) over the internet (the cloud) with pay-as-you-go pricing."
+  },
+  {
+    "vraag": "Which cloud deployment model uses a mix of on-premises and cloud resources?",
+    "opties": [
+      "Hybrid cloud",
+      "Public cloud",
+      "Private cloud hosted internally",
+      "Community cloud for shared use by multiple organizations that meets enterprise compliance requirements"
+    ],
+    "antwoord": 0,
+    "toelichting": "A hybrid cloud combines public and private clouds, allowing data and applications to be shared between them."
+  },
+  {
+    "vraag": "What is a key benefit of the consumption-based model?",
+    "opties": [
+      "You must sign a long-term contract for services for optimal performance and scalability across all workloads",
+      "Fixed upfront costs are required before using services with built-in support for monitoring and analytics",
+      "You manage the physical hardware infrastructure yourself",
+      "You only pay for what you use"
+    ],
+    "antwoord": 3,
+    "toelichting": "The consumption-based model ('pay-as-you-go') means you only pay for the resources you actually use, with no upfront costs."
+  },
+  {
+    "vraag": "Which of these is a benefit of high availability in Azure?",
+    "opties": [
+      "Applications run faster than before",
+      "Applications need less storage space over time with built-in support for monitoring and analytics",
+      "Applications can recover from failures with minimal downtime",
+      "Applications cost less to run overall with built-in support for monitoring and analytics"
+    ],
+    "antwoord": 2,
+    "toelichting": "High availability ensures applications remain running with minimal downtime, even when failures occur."
+  },
+  {
+    "vraag": "What does scalability mean in cloud computing?",
+    "opties": [
+      "The ability to run applications on any device type",
+      "The ability to adjust resources as demand changes",
+      "The ability to reduce costs over time automatically",
+      "The ability to add more security features when needed across all supported deployment models"
+    ],
+    "antwoord": 1,
+    "toelichting": "Scalability is the ability to add or remove resources (compute, storage, etc.) as demand changes, without over-provisioning."
+  },
+  {
+    "vraag": "What is elasticity in cloud computing?",
+    "opties": [
+      "Applications are deployed much faster than before",
+      "Data is automatically backed up to a secondary location",
+      "Resources are fixed and cannot change after deployment as part of a comprehensive cloud strategy",
+      "Resources can automatically scale up and down based on demand"
+    ],
+    "antwoord": 3,
+    "toelichting": "Elasticity means the cloud can automatically scale resources up or down in response to real-time demand changes."
+  },
+  {
+    "vraag": "Which of the following is a characteristic of the public cloud?",
+    "opties": [
+      "Resources are dedicated to a single organization exclusively for optimal performance and scalability across all workloads",
+      "Resources are hosted entirely on-premises behind a firewall",
+      "Resources are shared by multiple organizations over the internet",
+      "Resources are only available to government agencies and partners"
+    ],
+    "antwoord": 2,
+    "toelichting": "In the public cloud, third-party providers make resources available to multiple organizations (multi-tenant) over the internet."
+  },
+  {
+    "vraag": "What is the primary purpose of fault tolerance?",
+    "opties": [
+      "To simplify application deployment across environments",
+      "To increase application speed and reduce latency for optimal performance and scalability across all workloads",
+      "To keep applications running even when components fail",
+      "To reduce storage costs by compressing data"
+    ],
+    "antwoord": 2,
+    "toelichting": "Fault tolerance ensures that a system continues operating even when one or more components fail, with no interruption of service."
+  },
+  {
+    "vraag": "What is the difference between CapEx and OpEx?",
+    "opties": [
+      "CapEx is mainly used for software licensing; OpEx is used for hardware purchases as part of a comprehensive cloud strategy",
+      "CapEx is a one-time upfront cost; OpEx is ongoing operational cost",
+      "There is no practical difference between the two models",
+      "CapEx is always variable cost; OpEx is always fixed cost that meets enterprise compliance requirements"
+    ],
+    "antwoord": 1,
+    "toelichting": "CapEx (Capital Expenditure) is a one-time upfront investment in physical infrastructure. OpEx (Operational Expenditure) is ongoing spending for services consumed."
+  },
+  {
+    "vraag": "What does IaaS provide?",
+    "opties": [
+      "Software applications accessed via a web browser on any device",
+      "A complete business application ready to use out of the box that meets enterprise compliance requirements",
+      "Virtualized computing resources like VMs, storage, and networking",
+      "A fully managed platform for developing new applications across all supported deployment models"
+    ],
+    "antwoord": 2,
+    "toelichting": "IaaS (Infrastructure as a Service) provides virtualized compute, storage, and networking resources on demand."
+  },
+  {
+    "vraag": "What does PaaS provide?",
+    "opties": [
+      "Physical servers hosted in a third-party data center facility",
+      "Ready-to-use software applications for business users",
+      "Virtual machines and basic networking connectivity only that meets enterprise compliance requirements",
+      "A managed platform to build, deploy, and scale applications"
+    ],
+    "antwoord": 3,
+    "toelichting": "PaaS (Platform as a Service) provides a managed environment for building, deploying, and scaling applications without managing the underlying infrastructure."
+  },
+  {
+    "vraag": "What does SaaS provide?",
+    "opties": [
+      "Ready-to-use software applications over the internet",
+      "Virtualized hardware resources for running custom workloads across all supported deployment models",
+      "Cloud storage capacity for files and databases only that meets enterprise compliance requirements",
+      "A development platform for building custom applications"
+    ],
+    "antwoord": 0,
+    "toelichting": "SaaS (Software as a Service) delivers fully functional software applications over the internet, managed by the provider."
+  },
+  {
+    "vraag": "Which Azure service is an example of IaaS?",
+    "opties": [
+      "Azure SQL Database — a managed relational database service",
+      "Microsoft 365 — a suite of productivity applications",
+      "Azure Virtual Machines — virtualized servers in the cloud",
+      "Azure App Service — a platform for hosting web applications for optimal performance and scalability across all workloads"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Virtual Machines is an IaaS offering, giving you full control over VMs including the OS and installed software."
+  },
+  {
+    "vraag": "Which Azure service is an example of PaaS?",
+    "opties": [
+      "Azure Blob Storage for storing unstructured data at scale as part of a comprehensive cloud strategy",
+      "Azure App Service for hosting web apps and REST APIs",
+      "Azure Virtual Machines for running custom workloads",
+      "Azure Firewall for network security and traffic filtering"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure App Service is a PaaS offering for hosting web apps, REST APIs, and mobile backends without managing the infrastructure."
+  },
+  {
+    "vraag": "Which Azure service is an example of SaaS?",
+    "opties": [
+      "Microsoft 365 — productivity apps managed by Microsoft",
+      "Azure Kubernetes Service — managed container orchestration that meets enterprise compliance requirements",
+      "Azure Functions — serverless event-driven compute",
+      "Azure Virtual Desktop — desktop virtualization service"
+    ],
+    "antwoord": 0,
+    "toelichting": "Microsoft 365 is a SaaS offering — a complete set of productivity applications managed by Microsoft."
+  },
+  {
+    "vraag": "What is an Azure region?",
+    "opties": [
+      "A virtual network created inside the Azure cloud platform with built-in support for monitoring and analytics",
+      "A single data center located in a specific city",
+      "A global network of Microsoft offices around the world",
+      "A set of data centers deployed within a latency-defined perimeter"
+    ],
+    "antwoord": 3,
+    "toelichting": "An Azure region is a set of data centers deployed in a specific area, connected with low-latency networking."
+  },
+  {
+    "vraag": "What is the purpose of availability zones?",
+    "opties": [
+      "To provide different pricing tiers for Azure services as part of a comprehensive cloud strategy",
+      "To enable global load balancing across continents for optimal performance and scalability across all workloads",
+      "To protect applications from data center failures",
+      "To reduce network latency across geographic regions"
+    ],
+    "antwoord": 2,
+    "toelichting": "Availability zones are physically separate data centers within an Azure region, protecting against a single data center failure."
+  },
+  {
+    "vraag": "What is a region pair?",
+    "opties": [
+      "Two availability zones within a single Azure region",
+      "Two regions in the same geography, at least 300 miles apart",
+      "Two regions located on different continents entirely",
+      "Two regions deployed within the same country borders as part of a comprehensive cloud strategy"
+    ],
+    "antwoord": 1,
+    "toelichting": "A region pair is two regions in the same geography, at least 300 miles apart, used for disaster recovery and high availability."
+  },
+  {
+    "vraag": "What is Azure Resource Manager (ARM)?",
+    "opties": [
+      "The deployment and management service for Azure resources",
+      "A tool designed for managing physical on-premises servers with built-in support for monitoring and analytics",
+      "A virtual machine management tool with monitoring features",
+      "A fully managed database service available in Azure with built-in support for monitoring and analytics"
+    ],
+    "antwoord": 0,
+    "toelichting": "Azure Resource Manager is the management layer that enables you to create, update, and delete resources in your Azure subscription."
+  },
+  {
+    "vraag": "What is an Azure resource group?",
+    "opties": [
+      "A logical grouping of Azure subscriptions under one account that meets enterprise compliance requirements",
+      "A pricing tier that determines how much you pay for services for optimal performance and scalability across all workloads",
+      "A collection of virtual machines deployed in the same region",
+      "A container that holds related resources for an Azure solution"
+    ],
+    "antwoord": 3,
+    "toelichting": "A resource group is a logical container for grouping related Azure resources that share the same lifecycle."
+  },
+  {
+    "vraag": "What is an Azure subscription?",
+    "opties": [
+      "A specific type of virtual machine available in Azure",
+      "A networking service that connects on-premises to Azure with built-in support for monitoring and analytics",
+      "A logical container for resource groups that defines billing boundaries",
+      "A single Azure resource deployed in the cloud for optimal performance and scalability across all workloads"
+    ],
+    "antwoord": 2,
+    "toelichting": "An Azure subscription is a logical unit of Azure services linked to an Azure account. It defines billing and access boundaries."
+  },
+  {
+    "vraag": "What is a management group in Azure?",
+    "opties": [
+      "A group of related virtual networks in the same region that meets enterprise compliance requirements",
+      "A group of users managed in Azure Active Directory",
+      "A specific pricing tier for enterprise customers only that meets enterprise compliance requirements",
+      "A container for managing access, policies, and compliance across multiple subscriptions"
+    ],
+    "antwoord": 3,
+    "toelichting": "Management groups help organize and manage multiple subscriptions at scale, applying governance policies across them."
+  },
+  {
+    "vraag": "Which Azure service provides serverless compute?",
+    "opties": [
+      "Azure Kubernetes Service — managed container orchestration",
+      "Azure Virtual Machines — virtualized servers in the cloud across all supported deployment models",
+      "Azure App Service — platform for hosting web applications",
+      "Azure Functions — event-driven serverless compute service"
+    ],
+    "antwoord": 3,
+    "toelichting": "Azure Functions is a serverless compute service that runs event-driven code without requiring you to manage infrastructure."
+  },
+  {
+    "vraag": "What is Azure Blob Storage used for?",
+    "opties": [
+      "Hosting web applications and API endpoints",
+      "Storing large amounts of unstructured data such as images and videos",
+      "Running virtual machine disks for production workloads",
+      "Storing structured relational data in tables that meets enterprise compliance requirements"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure Blob Storage is designed for storing massive amounts of unstructured data, such as text, binary data, images, and videos."
+  },
+  {
+    "vraag": "What is Azure SQL Database?",
+    "opties": [
+      "A NoSQL database service for document storage",
+      "An in-memory cache for high-performance applications",
+      "A fully managed relational database service based on SQL Server",
+      "A key-value store for simple lookups and queries across all supported deployment models"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure SQL Database is a fully managed Platform as a Service (PaaS) relational database based on Microsoft SQL Server."
+  },
+  {
+    "vraag": "What is Cosmos DB in Azure?",
+    "opties": [
+      "A globally distributed NoSQL database service",
+      "A caching service for improving application performance as part of a comprehensive cloud strategy",
+      "A relational database for structured data storage",
+      "A storage account service for blobs and files"
+    ],
+    "antwoord": 0,
+    "toelichting": "Azure Cosmos DB is a globally distributed, multi-model NoSQL database service with low latency and high availability."
+  },
+  {
+    "vraag": "What is the purpose of Azure Virtual Network (VNet)?",
+    "opties": [
+      "To store virtual machine disks and snapshots across all supported deployment models",
+      "To deploy web applications to the internet",
+      "To monitor network traffic and performance metrics",
+      "To logically isolate and connect Azure resources in a network"
+    ],
+    "antwoord": 3,
+    "toelichting": "Azure Virtual Network enables Azure resources to securely communicate with each other, the internet, and on-premises networks."
+  },
+  {
+    "vraag": "What is Azure Load Balancer used for?",
+    "opties": [
+      "Distributing incoming network traffic across multiple VMs",
+      "Blocking malicious traffic from reaching your applications for optimal performance and scalability across all workloads",
+      "Managing DNS records and domain name resolution",
+      "Storing configuration files for your applications with built-in support for monitoring and analytics"
+    ],
+    "antwoord": 0,
+    "toelichting": "Azure Load Balancer distributes incoming traffic to healthy backend resources (VMs or VM scale sets) to ensure high availability."
+  },
+  {
+    "vraag": "What is Azure Active Directory (Azure AD)?",
+    "opties": [
+      "A fully managed database service running in Azure",
+      "Microsoft's cloud-based identity and access management service",
+      "A virtual network service for connecting cloud resources",
+      "A directory service designed for on-premises servers only as part of a comprehensive cloud strategy"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure AD is Microsoft's cloud-based identity and access management service, providing authentication and authorization for cloud resources."
+  },
+  {
+    "vraag": "What is the principle of least privilege?",
+    "opties": [
+      "Granting permissions only to senior administrators",
+      "Removing all permissions from all users at all times for optimal performance and scalability across all workloads",
+      "Granting only the minimum permissions needed to perform a task",
+      "Giving every user all available permissions by default"
+    ],
+    "antwoord": 2,
+    "toelichting": "The principle of least privilege means giving users only the permissions they absolutely need to do their job, nothing more."
+  },
+  {
+    "vraag": "What is RBAC in Azure?",
+    "opties": [
+      "A role-based access control system for managing permissions on Azure resources",
+      "A billing management tool for tracking cloud spending with built-in support for monitoring and analytics",
+      "A networking protocol for secure data transmission as part of a comprehensive cloud strategy",
+      "A database backup and recovery tool for Azure SQL"
+    ],
+    "antwoord": 0,
+    "toelichting": "Azure RBAC (Role-Based Access Control) lets you manage who has access to Azure resources, what they can do, and which resources they can access."
+  },
+  {
+    "vraag": "What is Azure Policy used for?",
+    "opties": [
+      "Managing virtual machine backups and disaster recovery across all supported deployment models",
+      "Deploying containerized applications using Kubernetes",
+      "Monitoring application performance and setting alerts",
+      "Creating and enforcing governance rules for your Azure resources"
+    ],
+    "antwoord": 3,
+    "toelichting": "Azure Policy helps enforce organizational standards and assess compliance by creating rules that govern resource configurations."
+  },
+  {
+    "vraag": "What is the defense-in-depth security model?",
+    "opties": [
+      "A layered approach to security with multiple defensive measures",
+      "A firewall-only strategy for protecting network traffic",
+      "A security model designed for physical data centers exclusively",
+      "A single layer of security to protect cloud resources across all supported deployment models"
+    ],
+    "antwoord": 0,
+    "toelichting": "Defense in depth uses multiple layers of security (physical, identity, network, application, data) so that if one layer fails, others still provide protection."
+  },
+  {
+    "vraag": "What is Azure Blueprints?",
+    "opties": [
+      "A diagramming tool for designing network architectures with built-in support for monitoring and analytics",
+      "A tool for designing relational database schemas",
+      "A service for defining a repeatable set of Azure resources and policies",
+      "A service for creating virtual machines from templates"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Blueprints enables you to define a repeatable set of Azure resources, policies, and role assignments for creating compliant environments."
+  },
+  {
+    "vraag": "What does Azure Security Center provide?",
+    "opties": [
+      "Unified security management and threat protection across hybrid cloud workloads",
+      "Cost management and billing optimization recommendations that meets enterprise compliance requirements",
+      "Domain name system (DNS) management and resolution",
+      "Container orchestration using Kubernetes technology that meets enterprise compliance requirements"
+    ],
+    "antwoord": 0,
+    "toelichting": "Azure Security Center provides unified security management, advanced threat protection, and security recommendations across Azure and on-premises workloads."
+  },
+  {
+    "vraag": "What is a Service Level Agreement (SLA) in Azure?",
+    "opties": [
+      "A pricing agreement that determines service costs with built-in support for monitoring and analytics",
+      "A technical support plan for enterprise customers",
+      "A contract that guarantees specific application features",
+      "Microsoft's commitment regarding uptime and connectivity for Azure services"
+    ],
+    "antwoord": 3,
+    "toelichting": "An SLA is Microsoft's formal commitment to a specific level of service availability (uptime percentage) and connectivity for each Azure service."
+  },
+  {
+    "vraag": "What is the Azure Pricing Calculator used for?",
+    "opties": [
+      "Tracking your actual Azure spending after deployment as part of a comprehensive cloud strategy",
+      "Applying discounts and credits to your monthly bill",
+      "Estimating the cost of Azure services before deploying them",
+      "Generating invoices for existing Azure resources"
+    ],
+    "antwoord": 2,
+    "toelichting": "The Azure Pricing Calculator lets you estimate the cost of Azure services to help you plan and budget before deployment."
+  },
+  {
+    "vraag": "What is the Total Cost of Ownership (TCO) Calculator?",
+    "opties": [
+      "A tool to monitor your current Azure costs in real time across all supported deployment models",
+      "A tool to estimate the cost of running an application on-premises vs. in Azure",
+      "A tool to estimate required network bandwidth for applications with built-in support for monitoring and analytics",
+      "A tool to configure virtual machine sizes and specifications"
+    ],
+    "antwoord": 1,
+    "toelichting": "The TCO Calculator compares the cost of your current on-premises infrastructure with the cost of running the same workload in Azure."
+  },
+  {
+    "vraag": "Which factor affects the cost of an Azure resource?",
+    "opties": [
+      "The total number of users in your organization with built-in support for monitoring and analytics",
+      "The color theme selected in the Azure portal interface",
+      "The resource type and its size configuration only across all supported deployment models",
+      "The Azure region, resource size, and usage duration"
+    ],
+    "antwoord": 3,
+    "toelichting": "Azure costs depend on the resource type, its configuration (size), the region where it runs, and how long it's used."
+  },
+  {
+    "vraag": "What is Azure Advisor?",
+    "opties": [
+      "A help desk ticketing system for reporting issues",
+      "A personalized recommendation engine for best practices in Azure",
+      "A virtual machine management and monitoring tool for optimal performance and scalability across all workloads",
+      "A service that automatically deploys applications to Azure that meets enterprise compliance requirements"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure Advisor analyzes your deployed resources and gives personalized recommendations on cost, performance, reliability, and security."
+  },
+  {
+    "vraag": "What is Azure Monitor?",
+    "opties": [
+      "A billing and cost management tool for Azure",
+      "A network security and traffic filtering service across all supported deployment models",
+      "A service for collecting, analyzing, and acting on telemetry from Azure resources",
+      "A service for deploying and managing applications"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Monitor provides full observability (metrics, logs, alerts) into the performance and health of your applications and infrastructure."
+  },
+  {
+    "vraag": "What is Azure Service Health?",
+    "opties": [
+      "A database health monitoring and performance tool",
+      "A tool for monitoring on-premises server infrastructure as part of a comprehensive cloud strategy",
+      "A service that provides information about service issues and planned maintenance",
+      "A dashboard that shows the health of your specific deployed applications"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Service Health provides a personalized view of Azure service health, including ongoing issues, planned maintenance, and advisory information."
+  },
+  {
+    "vraag": "What is Azure Resource Locks?",
+    "opties": [
+      "Locks that prevent accidental deletion or modification of Azure resources",
+      "Locks that encrypt data stored in Azure at rest",
+      "Locks that restrict network traffic to and from resources across all supported deployment models",
+      "Locks that prevent unauthorized users from logging in"
+    ],
+    "antwoord": 0,
+    "toelichting": "Resource locks prevent accidental deletion or modification of critical Azure resources by applying a CanNotDelete or ReadOnly lock."
+  },
+  {
+    "vraag": "What does Azure Key Vault do?",
+    "opties": [
+      "Manages user passwords and login credentials only across all supported deployment models",
+      "Monitors network traffic for security threats",
+      "Encrypts all data stored in Azure automatically across all supported deployment models",
+      "Stores and manages secrets, encryption keys, and certificates"
+    ],
+    "antwoord": 3,
+    "toelichting": "Azure Key Vault securely stores and manages secrets (API keys, passwords), encryption keys, and certificates."
+  },
+  {
+    "vraag": "What is Microsoft Defender for Cloud?",
+    "opties": [
+      "A DNS protection service for domain security",
+      "A backup service for virtual machines and databases that meets enterprise compliance requirements",
+      "A firewall service for blocking malicious traffic that meets enterprise compliance requirements",
+      "A cloud workload protection platform with security alerts and advanced threat protection"
+    ],
+    "antwoord": 3,
+    "toelichting": "Microsoft Defender for Cloud provides unified security management and advanced threat protection across hybrid and multi-cloud workloads."
+  },
+  {
+    "vraag": "What is a Microsoft Entra ID (formerly Azure AD) tenant?",
+    "opties": [
+      "A dedicated and trusted instance of Microsoft Entra ID for an organization",
+      "A security group that defines user permissions and roles",
+      "A single user account with access to Azure resources that meets enterprise compliance requirements",
+      "A virtual network that isolates cloud resources as part of a comprehensive cloud strategy"
+    ],
+    "antwoord": 0,
+    "toelichting": "A Microsoft Entra ID tenant is a dedicated directory representing an organization, used for identity and access management."
+  },
+  {
+    "vraag": "What is Conditional Access in Microsoft Entra ID?",
+    "opties": [
+      "A feature that blocks all access requests by default",
+      "A networking feature for establishing VPN connections across all supported deployment models",
+      "A tool for evaluating access conditions before granting access",
+      "A billing feature for applying conditional pricing discounts"
+    ],
+    "antwoord": 2,
+    "toelichting": "Conditional Access evaluates signals (user, device, location, risk) to enforce access policies, such as requiring MFA for specific users."
+  },
+  {
+    "vraag": "What is Azure Firewall?",
+    "opties": [
+      "A virtual private network service for remote access across all supported deployment models",
+      "A web application firewall that only protects HTTP traffic for optimal performance and scalability across all workloads",
+      "A managed network security service that protects Azure Virtual Network resources",
+      "A physical firewall appliance deployed in Microsoft data centers"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Firewall is a managed, cloud-based network security service that protects your Azure Virtual Network resources."
+  },
+  {
+    "vraag": "What is DDoS Protection in Azure?",
+    "opties": [
+      "A traffic management service for load balancing as part of a comprehensive cloud strategy",
+      "A firewall designed specifically for web applications that meets enterprise compliance requirements",
+      "A service that blocks all incoming network traffic",
+      "A service that protects applications from Distributed Denial of Service attacks"
+    ],
+    "antwoord": 3,
+    "toelichting": "Azure DDoS Protection safeguards Azure applications by monitoring and mitigating Distributed Denial of Service (DDoS) attacks."
+  },
+  {
+    "vraag": "What is the Azure Well-Architected Framework?",
+    "opties": [
+      "A set of design principles for building secure, reliable, and cost-effective cloud solutions",
+      "A compliance certification standard for cloud applications as part of a comprehensive cloud strategy",
+      "A detailed framework for designing physical data centers with built-in support for monitoring and analytics",
+      "A blueprint for designing network architecture in Azure"
+    ],
+    "antwoord": 0,
+    "toelichting": "The Azure Well-Architected Framework provides guiding principles across five pillars: cost optimization, performance efficiency, reliability, security, and operational excellence."
+  },
+  {
+    "vraag": "What does the Azure Marketplace offer?",
+    "opties": [
+      "Free Azure subscriptions for new customers with built-in support for monitoring and analytics",
+      "Physical hardware for on-premises data centers",
+      "A catalog of third-party solutions and services certified to run on Azure",
+      "Only Microsoft-owned software and services"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Marketplace is an online store with thousands of third-party applications, services, and solutions certified to run on Azure."
+  }
+]

@@ -1,0 +1,619 @@
+[
+  {
+    "vraag": "Which cloud computing model allows an organization to use a combination of on-premises infrastructure and public cloud services?",
+    "opties": [
+      "Public cloud",
+      "Private cloud",
+      "Hybrid cloud",
+      "Community cloud"
+    ],
+    "antwoord": 2,
+    "toelichting": "A hybrid cloud combines on-premises infrastructure (or a private cloud) with a public cloud, allowing data and applications to be shared between them.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "A company wants to minimize upfront hardware costs and only pay for the computing resources it actually uses. Which pricing model best describes this approach?",
+    "opties": [
+      "Capital expenditure (CapEx)",
+      "Operational expenditure (OpEx)",
+      "Fixed pricing",
+      "Reserved capacity"
+    ],
+    "antwoord": 1,
+    "toelichting": "Cloud computing follows an operational expenditure (OpEx) model where you pay for resources as you use them (consumption-based).",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Which cloud service model places the MOST management responsibility on the customer?",
+    "opties": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Function as a Service (FaaS)"
+    ],
+    "antwoord": 2,
+    "toelichting": "IaaS gives the customer the most control and the most responsibility. The cloud provider manages the physical hardware, but the customer is responsible for the OS, applications, data, and runtime.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "A company uses Microsoft 365 for email and collaboration. Which cloud service type does this represent?",
+    "opties": [
+      "Infrastructure as a Service (IaaS)",
+      "Platform as a Service (PaaS)",
+      "Software as a Service (SaaS)",
+      "Desktop as a Service (DaaS)"
+    ],
+    "antwoord": 2,
+    "toelichting": "Microsoft 365 is a fully managed application delivered via the cloud. Users access it through a browser or app without managing any underlying infrastructure.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Is 'High availability' a benefit of cloud computing?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "High availability ensures services remain accessible even during failures. This is a key benefit of cloud computing.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Is 'Geo-distribution' a benefit of cloud computing?",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 0,
+    "toelichting": "Geo-distribution means you can deploy resources in datacenters around the world. This is a key benefit of cloud computing.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "What is the difference between vertical scaling and horizontal scaling?",
+    "opties": [
+      "Vertical scaling adds more VMs; horizontal scaling adds more CPU/RAM to existing VMs",
+      "Vertical scaling increases the capacity of a resource; horizontal scaling adds more instances of resources",
+      "Vertical scaling is only for storage; horizontal scaling is only for compute",
+      "There is no difference; both terms mean the same thing"
+    ],
+    "antwoord": 1,
+    "toelichting": "Vertical scaling (scaling up/down) means increasing or decreasing the capabilities of a single resource. Horizontal scaling (scaling out/in) means adding or removing instances.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "In the shared responsibility model, which of the following is ALWAYS the customer's responsibility, regardless of the cloud service type?",
+    "opties": [
+      "Physical security of the datacenter",
+      "Operating system patching",
+      "Information and data",
+      "Network infrastructure"
+    ],
+    "antwoord": 2,
+    "toelichting": "The customer always retains responsibility for their own data and information, user accounts, and access management. Physical datacenter security is always the cloud provider's responsibility.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Which characteristic of cloud computing allows a system to automatically recover from failure?",
+    "opties": [
+      "Scalability",
+      "Elasticity",
+      "Reliability",
+      "Predictability"
+    ],
+    "antwoord": 2,
+    "toelichting": "Reliability refers to the ability of a system to recover from failures and continue to function. Cloud infrastructure is designed with redundancy and decentralization.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "A company needs to deploy a web application quickly without managing the underlying servers or operating system. Which cloud service type should they use?",
+    "opties": [
+      "IaaS",
+      "PaaS",
+      "SaaS",
+      "On-premises"
+    ],
+    "antwoord": 1,
+    "toelichting": "PaaS provides a managed platform for developing, running, and managing applications without dealing with the underlying infrastructure. Azure App Service is an example.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Which of the following describes the concept of 'elasticity' in cloud computing?",
+    "opties": [
+      "The ability to ensure data is backed up in multiple locations",
+      "The ability to automatically add or remove resources based on demand",
+      "The ability to restrict access to authorized users only",
+      "The ability to predict future costs accurately"
+    ],
+    "antwoord": 1,
+    "toelichting": "Elasticity is the ability to automatically scale resources up or down based on current demand. During a spike in traffic, the cloud can automatically provision additional resources.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "What is an Azure region?",
+    "opties": [
+      "A logical grouping of Azure subscriptions",
+      "A set of datacenters deployed within a latency-defined perimeter",
+      "A tool used to manage Azure billing",
+      "A virtual network within Azure"
+    ],
+    "antwoord": 1,
+    "toelichting": "An Azure region is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which Azure component provides a logical container used to group related resources for an Azure solution?",
+    "opties": [
+      "Azure subscription",
+      "Management group",
+      "Resource group",
+      "Azure region"
+    ],
+    "antwoord": 2,
+    "toelichting": "A resource group is a logical container that holds related Azure resources. Every Azure resource must belong to exactly one resource group.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "A company requires that data remains available even if an entire Azure datacenter fails. Which storage redundancy option should they choose at minimum?",
+    "opties": [
+      "Locally Redundant Storage (LRS)",
+      "Zone-Redundant Storage (ZRS)",
+      "Geo-Redundant Storage (GRS)",
+      "Read-Access Geo-Redundant Storage (RA-GRS)"
+    ],
+    "antwoord": 1,
+    "toelichting": "ZRS replicates data synchronously across three availability zones within a single region. If one datacenter fails, the data is still available from the other zones.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which Azure storage redundancy option provides protection against both zone-level and region-level failures?",
+    "opties": [
+      "LRS",
+      "ZRS",
+      "GRS",
+      "GZRS"
+    ],
+    "antwoord": 3,
+    "toelichting": "GZRS combines ZRS in the primary region (3 copies across 3 availability zones) with asynchronous replication to a secondary region, protecting against both zone and region failures.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which Azure Blob Storage access tier has the lowest storage cost but the highest access cost and latency?",
+    "opties": [
+      "Hot",
+      "Cool",
+      "Cold",
+      "Archive"
+    ],
+    "antwoord": 3,
+    "toelichting": "The Archive tier has the lowest storage cost but the highest cost to access data and the highest retrieval latency. Data must be rehydrated before it can be accessed.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which Azure compute service runs code in response to events without requiring you to manage any infrastructure?",
+    "opties": [
+      "Azure Virtual Machines",
+      "Azure App Service",
+      "Azure Functions",
+      "Azure Container Instances"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Functions is a serverless compute service that lets you run event-triggered code without managing infrastructure. You only pay for the compute time your code uses.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "What is the purpose of Azure Virtual Network (VNet)?",
+    "opties": [
+      "To store data in the cloud",
+      "To enable communication between Azure resources, on-premises networks, and the internet",
+      "To monitor the performance of Azure resources",
+      "To manage user identities and access"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure Virtual Network (VNet) enables Azure resources to securely communicate with each other, the internet, and on-premises networks.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which service is the cloud-based identity and access management service in Azure?",
+    "opties": [
+      "Azure Policy",
+      "Microsoft Entra ID",
+      "Azure Monitor",
+      "Microsoft Purview"
+    ],
+    "antwoord": 1,
+    "toelichting": "Microsoft Entra ID (formerly Azure Active Directory) is Azure's cloud-based identity and access management service.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which Azure feature uses if-then rules to automatically enforce security requirements based on signals such as user location, device, and application?",
+    "opties": [
+      "Role-Based Access Control (RBAC)",
+      "Multi-Factor Authentication (MFA)",
+      "Conditional Access",
+      "Azure Policy"
+    ],
+    "antwoord": 2,
+    "toelichting": "Conditional Access policies are if-then statements that evaluate signals (user identity, location, device state, application) to make access decisions.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which security model assumes that every request is a potential threat and requires verification, regardless of where the request originates?",
+    "opties": [
+      "Defense-in-Depth",
+      "Zero Trust",
+      "Shared Responsibility",
+      "Least Privilege"
+    ],
+    "antwoord": 1,
+    "toelichting": "The Zero Trust model operates on 'never trust, always verify.' Its three guiding principles are: verify explicitly, use least privilege access, and assume breach.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "A company wants to ensure that a specific user can view Azure resources but cannot modify or delete them. Which built-in RBAC role should be assigned?",
+    "opties": [
+      "Owner",
+      "Contributor",
+      "Reader",
+      "User Access Administrator"
+    ],
+    "antwoord": 2,
+    "toelichting": "The Reader role allows a user to view all resources but not make any changes. The Contributor role allows creating and managing resources but not granting access.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which Azure service provides a unified security management system that includes a Secure Score and threat protection for cloud workloads?",
+    "opties": [
+      "Azure Monitor",
+      "Azure Advisor",
+      "Microsoft Defender for Cloud",
+      "Microsoft Sentinel"
+    ],
+    "antwoord": 2,
+    "toelichting": "Microsoft Defender for Cloud provides a Secure Score that rates your security configuration, gives recommendations for improvement, and offers threat protection.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Which Azure tool should you use to estimate the cost of Azure services BEFORE deploying them?",
+    "opties": [
+      "Microsoft Cost Management",
+      "Azure Pricing Calculator",
+      "Azure Advisor",
+      "Azure Monitor"
+    ],
+    "antwoord": 1,
+    "toelichting": "The Azure Pricing Calculator is a free web-based tool that lets you estimate the cost of Azure products and services before you deploy them.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "A company wants to receive an alert when their Azure spending reaches 80% of their monthly budget. Which tool provides this capability?",
+    "opties": [
+      "Azure Pricing Calculator",
+      "Azure Advisor",
+      "Microsoft Cost Management",
+      "Azure Service Health"
+    ],
+    "antwoord": 2,
+    "toelichting": "Microsoft Cost Management allows you to set budgets and configure alerts when spending reaches certain thresholds (e.g., 50%, 80%, 100% of your budget).",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "What is the purpose of Azure tags?",
+    "opties": [
+      "To restrict access to Azure resources",
+      "To provide metadata for organizing, managing, and tracking costs of Azure resources",
+      "To encrypt data stored in Azure",
+      "To create backups of Azure resources"
+    ],
+    "antwoord": 1,
+    "toelichting": "Tags are name-value pairs that help you categorize resources for cost management, automation, and operations.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Which Azure service helps enforce organizational standards by evaluating resources for compliance with business rules?",
+    "opties": [
+      "Azure Resource Locks",
+      "Azure Blueprints",
+      "Azure Policy",
+      "Azure Monitor"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Policy evaluates Azure resources by comparing their properties against business rules. It can prevent non-compliant resources from being created.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "An administrator needs to prevent the accidental deletion of a critical production database in Azure. Other team members should still be able to modify the database configuration. Which feature should the administrator use?",
+    "opties": [
+      "Azure Policy",
+      "A ReadOnly resource lock",
+      "A Delete resource lock",
+      "Role-Based Access Control (RBAC)"
+    ],
+    "antwoord": 2,
+    "toelichting": "A Delete lock prevents the resource from being deleted but still allows modifications to its properties and configuration.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Which Azure service provides a unified view of data governance across an organization and helps with regulatory compliance such as GDPR?",
+    "opties": [
+      "Azure Policy",
+      "Microsoft Defender for Cloud",
+      "Microsoft Purview",
+      "Azure Monitor"
+    ],
+    "antwoord": 2,
+    "toelichting": "Microsoft Purview provides a unified data governance solution that helps you discover, catalog, and manage data across your organization.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Which tool in Azure provides personalized recommendations to improve reliability, security, performance, and reduce costs?",
+    "opties": [
+      "Azure Monitor",
+      "Azure Service Health",
+      "Azure Advisor",
+      "Microsoft Defender for Cloud"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Advisor analyzes your Azure configuration and usage, then provides recommendations across five categories: reliability, security, performance, cost, and operational excellence.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Which Azure tool should you check if your Azure-hosted web application is experiencing downtime and you suspect the issue is on Microsoft's side?",
+    "opties": [
+      "Azure Advisor",
+      "Azure Monitor",
+      "Azure Service Health",
+      "Microsoft Cost Management"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Service Health provides a personalized view of the health of Azure services and regions you are using. If Azure is experiencing an outage, Service Health will show this.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Contoso Ltd. is a European financial services company migrating to Azure. GDPR requires all data to remain in the EU. They need datacenter failure protection but not cross-region DR, and want to minimize costs. Which combination should they use?",
+    "opties": [
+      "Deploy resources to West US and use LRS",
+      "Deploy resources to West Europe and use ZRS",
+      "Deploy resources to West Europe and use GZRS",
+      "Deploy resources to any region and use GRS"
+    ],
+    "antwoord": 1,
+    "toelichting": "ZRS replicates across three availability zones within a single region, providing datacenter-level protection without the added cost of geo-replication. West Europe keeps data in the EU.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Which Azure feature should Fabrikam use to restrict VM sizes across the organization?",
+    "opties": [
+      "Azure Policy",
+      "RBAC Reader role",
+      "Resource locks",
+      "Azure Advisor"
+    ],
+    "antwoord": 0,
+    "toelichting": "Azure Policy can enforce VM size restrictions across the organization, preventing deployment of VMs larger than Standard.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Which Azure feature should Fabrikam use so the finance team can view resources and cost data but not modify anything?",
+    "opties": [
+      "Azure Policy",
+      "RBAC Reader role",
+      "Resource locks",
+      "Azure Resource Manager templates"
+    ],
+    "antwoord": 1,
+    "toelichting": "The RBAC Reader role allows the finance team to view all resources and cost data without being able to modify anything.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Which concept allows Tailwind Traders to automatically adjust resources during a 500% traffic spike and scale back afterward?",
+    "opties": [
+      "High availability",
+      "Elasticity",
+      "Geo-distribution",
+      "Vertical scaling"
+    ],
+    "antwoord": 1,
+    "toelichting": "Elasticity is the ability to automatically adjust resources based on demand, scaling up during traffic spikes and back down after.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Which scaling method is ideal for handling the Black Friday traffic spike by adding more VM instances?",
+    "opties": [
+      "High availability",
+      "Elasticity",
+      "Geo-distribution",
+      "Horizontal scaling"
+    ],
+    "antwoord": 3,
+    "toelichting": "Horizontal scaling (scaling out) means adding more VM instances to handle increased load, which is ideal for web traffic spikes.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Northwind Traders: A custom inventory app requiring specific OS configurations and third-party drivers fits which cloud service model?",
+    "opties": [
+      "IaaS",
+      "PaaS",
+      "SaaS"
+    ],
+    "antwoord": 0,
+    "toelichting": "Workload A requires full OS control for specific configurations and drivers, which is IaaS (e.g., Azure Virtual Machines).",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Northwind Traders: A new customer-facing web app where developers want to focus only on code fits which cloud service model?",
+    "opties": [
+      "IaaS",
+      "PaaS",
+      "SaaS"
+    ],
+    "antwoord": 1,
+    "toelichting": "Developers want to focus on code only, so PaaS (e.g., Azure App Service) handles the infrastructure.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Northwind Traders: Company-wide email and document collaboration fits which cloud service model?",
+    "opties": [
+      "IaaS",
+      "PaaS",
+      "SaaS"
+    ],
+    "antwoord": 2,
+    "toelichting": "Standard email and collaboration is SaaS (e.g., Microsoft 365) — a ready-to-use service.",
+    "domein": "Cloud Concepts"
+  },
+  {
+    "vraag": "Adventure Works Cycles: How should they prevent accidental deletion of production resources while allowing developers to freely manage dev resources?",
+    "opties": [
+      "Apply a ReadOnly lock to both resource groups",
+      "Apply a Delete lock to the production resource group only",
+      "Apply an Azure Policy preventing all resource deletion across the subscription",
+      "Remove the Contributor role from all users in both resource groups"
+    ],
+    "antwoord": 1,
+    "toelichting": "A Delete lock on the production resource group prevents accidental deletion while still allowing modifications. The dev group stays unrestricted.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Litware Inc.: Which service should they use to reassign users from Owner to Reader role (principle of least privilege)?",
+    "opties": [
+      "Azure Policy",
+      "RBAC",
+      "Conditional Access",
+      "Microsoft Defender for Cloud"
+    ],
+    "antwoord": 1,
+    "toelichting": "RBAC should be used to reassign users from the Owner role to the Reader role, following the principle of least privilege.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Litware Inc.: Which service should they use to enforce MFA when employees access patient data from personal devices outside the office?",
+    "opties": [
+      "Azure Policy",
+      "RBAC",
+      "Conditional Access",
+      "Microsoft Defender for Cloud"
+    ],
+    "antwoord": 2,
+    "toelichting": "Conditional Access can enforce MFA when users access resources from unmanaged devices or external locations.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Litware Inc.: Which service should they use to identify security vulnerabilities in their Azure resources?",
+    "opties": [
+      "Azure Policy",
+      "RBAC",
+      "Conditional Access",
+      "Microsoft Defender for Cloud"
+    ],
+    "antwoord": 3,
+    "toelichting": "Microsoft Defender for Cloud scans resources for security vulnerabilities and provides a Secure Score with recommendations.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Contoso cost management: Which tool should they use to estimate costs for a new project with 10 VMs, 2 SQL databases, and 500 GB blob storage?",
+    "opties": [
+      "Azure Monitor",
+      "Pricing Calculator",
+      "Cost Management",
+      "Azure Advisor"
+    ],
+    "antwoord": 1,
+    "toelichting": "The Azure Pricing Calculator estimates costs for new projects before deployment by selecting services and configuring options.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Contoso cost management: Which feature should they use to track which department is responsible for which costs?",
+    "opties": [
+      "Tags",
+      "Pricing Calculator",
+      "Cost Management budgets",
+      "Azure Advisor"
+    ],
+    "antwoord": 0,
+    "toelichting": "Tags (name-value pairs like Department=Marketing) solve the visibility problem by allowing cost filtering per department.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Contoso cost management: Which tool should they use to set budget alerts for monthly spending?",
+    "opties": [
+      "Azure Monitor",
+      "Pricing Calculator",
+      "Cost Management",
+      "Azure Advisor"
+    ],
+    "antwoord": 2,
+    "toelichting": "Microsoft Cost Management allows setting budgets with percentage-based alerts to prevent overspending.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Relecloud has servers on-premises (Frankfurt), in Azure (West Europe), and in AWS. Which Azure solution provides a single management plane for all 95 servers?",
+    "opties": [
+      "Azure Virtual Network peering",
+      "Azure ExpressRoute",
+      "Azure Arc",
+      "Azure Migrate"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Arc extends Azure management to servers anywhere — on-premises, Azure, or other clouds like AWS — providing a single dashboard.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Fourth Coffee wants to implement Zero Trust for their Azure-hosted app. Which statement correctly applies Zero Trust principles?",
+    "opties": [
+      "Since all resources are within Azure, they can be trusted automatically",
+      "Each component should verify every request, even from internal services, and all data should be encrypted",
+      "Zero Trust only applies to user authentication, not service-to-service communication",
+      "A strong perimeter firewall is sufficient for Zero Trust"
+    ],
+    "antwoord": 1,
+    "toelichting": "Zero Trust means 'never trust, always verify.' Every component must verify every request, even from other internal services, and data should be encrypted.",
+    "domein": "Azure Architecture and Services"
+  },
+  {
+    "vraag": "Woodgrove Bank: Which Azure service should enforce that all resources are deployed only in West Europe and North Europe?",
+    "opties": [
+      "Resource Locks",
+      "Azure Policy",
+      "Microsoft Purview",
+      "Microsoft Defender for Cloud"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure Policy can enforce that resources are only created in allowed regions (West Europe, North Europe).",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Woodgrove Bank: Which Azure feature should prevent the production SQL database from being deleted, even by Global Administrators?",
+    "opties": [
+      "Azure Policy",
+      "Resource Lock (Delete)",
+      "Resource Lock (ReadOnly)",
+      "RBAC"
+    ],
+    "antwoord": 1,
+    "toelichting": "A Delete lock prevents deletion while still allowing configuration changes. Even owners cannot delete a locked resource without removing the lock first.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Woodgrove Bank: Which Azure service should classify and catalog sensitive customer data with full audit trails?",
+    "opties": [
+      "Azure Policy",
+      "Resource Locks",
+      "Microsoft Purview",
+      "Microsoft Defender for Cloud"
+    ],
+    "antwoord": 2,
+    "toelichting": "Microsoft Purview provides data discovery, classification, cataloging, and compliance auditing.",
+    "domein": "Azure Management and Governance"
+  },
+  {
+    "vraag": "Woodgrove Bank: Which Azure service provides a real-time security health score with prioritized recommendations?",
+    "opties": [
+      "Azure Policy",
+      "Resource Locks",
+      "Microsoft Purview",
+      "Microsoft Defender for Cloud"
+    ],
+    "antwoord": 3,
+    "toelichting": "Microsoft Defender for Cloud provides the Secure Score with prioritized security recommendations.",
+    "domein": "Azure Architecture and Services"
+  }
+]
