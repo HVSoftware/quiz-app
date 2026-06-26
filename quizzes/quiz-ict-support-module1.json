@@ -1,0 +1,146 @@
+[
+  {
+    "vraag": "Wat is een belangrijke taak van een ICT-supportmedewerker?",
+    "opties": [
+      "Ontwikkelen van besturingssystemen",
+      "Ondersteunen van eindgebruikers bij ICT-vraagstukken",
+      "Ontwerpen van databases",
+      "Bouwen van routers"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "Het ondersteunen van eindgebruikers behoort tot de kerntaken van een ICT-supportmedewerker."
+  },
+  {
+    "vraag": "Waar staat SLA voor?",
+    "opties": [
+      "System Level Access",
+      "Service Level Agreement",
+      "Support Level Administration",
+      "Software License Agreement"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "Een SLA bevat afspraken tussen leverancier en klant over de dienstverlening."
+  },
+  {
+    "vraag": "Wat betekent SPOC binnen een servicedesk?",
+    "opties": [
+      "Single Point Of Contact",
+      "Service Process Operations Center",
+      "System Point Of Control",
+      "Support Process Of Communication"
+    ],
+    "antwoord": 0,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "De servicedesk fungeert vaak als centraal aanspreekpunt voor gebruikers."
+  },
+  {
+    "vraag": "Wat is firmware?",
+    "opties": [
+      "Software voor databases",
+      "Software die permanent opgeslagen is in een apparaat",
+      "Een type cloudopslag",
+      "Een netwerkprotocol"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "Firmware bevindt zich permanent in hardware zoals routers, printers of BIOS/UEFI."
+  },
+  {
+    "vraag": "Wat is een voordeel van virtualisatie?",
+    "opties": [
+      "Meer fysieke hardware nodig",
+      "Hogere kosten",
+      "Eenvoudiger beheer",
+      "Minder schaalbaarheid"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "Virtualisatie vermindert hardwarebehoefte en vereenvoudigt beheer."
+  },
+  {
+    "vraag": "Wat doet een firewall?",
+    "opties": [
+      "Slaat gegevens op",
+      "Controleert netwerkverkeer en beschermt tegen ongewenste toegang",
+      "Verwerkt SQL-query's",
+      "Beheert gebruikersaccounts"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "Een firewall beveiligt systemen door netwerkverkeer te controleren."
+  },
+  {
+    "vraag": "Wat is de kleinste informatie-eenheid in een computer?",
+    "opties": [
+      "Byte",
+      "Bit",
+      "Kilobyte",
+      "Character"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "Een bit kan slechts de waarde 0 of 1 bevatten."
+  },
+  {
+    "vraag": "Welke programmeertaalcategorie bevat SQL?",
+    "opties": [
+      "1GL",
+      "2GL",
+      "3GL",
+      "4GL"
+    ],
+    "antwoord": 3,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "SQL wordt beschouwd als een Fourth Generation Language."
+  },
+  {
+    "vraag": "Welke accountsoort wordt gebruikt door applicaties om automatisch taken uit te voeren?",
+    "opties": [
+      "Gebruikersaccount",
+      "Gastaccount",
+      "Serviceaccount",
+      "Beheerdersaccount"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "Serviceaccounts worden gebruikt door diensten en applicaties."
+  },
+  {
+    "vraag": "Waarvoor wordt SQL gebruikt?",
+    "opties": [
+      "Netwerkverkeer beheren",
+      "Hardware configureren",
+      "Gegevens opvragen, toevoegen, wijzigen en verwijderen",
+      "Webpagina's opmaken"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "SQL is bedoeld voor het werken met gegevens in databases."
+  },
+  {
+    "vraag": "Welke laag van de IT-stack verzorgt communicatie tussen apparaten?",
+    "opties": [
+      "Applicatie",
+      "Database",
+      "Netwerk",
+      "Hardware"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "Het netwerk zorgt voor communicatie tussen systemen."
+  },
+  {
+    "vraag": "Waar staat TCP/IP vooral voor?",
+    "opties": [
+      "Een databaseplatform",
+      "Een verzameling netwerkprotocollen",
+      "Een besturingssysteem",
+      "Een programmeertaal"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Module 1",
+    "toelichting": "TCP/IP maakt communicatie tussen computers mogelijk."
+  }
+]
