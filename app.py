@@ -238,6 +238,11 @@ def toon_vraag() -> None:
         else:
             st.error(f"**Wrong.** Correct answer: **{opties[q['antwoord']]}**")
 
+        # Update score
+        if juist and not st.session_state.get("score_bijgewerkt", False):
+            st.session_state.score += 1
+            st.session_state.score_bijgewerkt = True
+
         # Next button (placed here so the user doesn't have to scroll past the answers)
         st.divider()
         if st.button("Next →", type="secondary", use_container_width=False):
@@ -262,11 +267,6 @@ def toon_vraag() -> None:
         if q.get("toelichting"):
             with st.expander("Explanation", expanded=True):
                 st.info(q["toelichting"])
-
-        # Update score
-        if juist and not st.session_state.get("score_bijgewerkt", False):
-            st.session_state.score += 1
-            st.session_state.score_bijgewerkt = True
 
 
 def toon_eindscherm() -> None:
