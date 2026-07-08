@@ -1,0 +1,602 @@
+[
+  {
+    "vraag": "Wat is een Service Request?",
+    "opties": [
+      "Een storing in een IT-systeem die direct opgelost moet worden",
+      "Een formeel verzoek van een gebruiker voor iets dat de servicedesk kan leveren",
+      "Een aanpassing aan de IT-infrastructuur",
+      "Een beveiligingsincident"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Een Service Request is een formeel verzoek van een gebruiker of klant voor iets dat normaal binnen de afgesproken dienstverlening valt, zoals een nieuw account of extra software."
+  },
+  {
+    "vraag": "Wat is het verschil tussen een incident en een Service Request?",
+    "opties": [
+      "Er is geen verschil; ze worden hetzelfde afgehandeld",
+      "Een incident is een storing die de dienstverlening verstoort; een Service Request is een verzoek voor een nieuwe of aanvullende dienst",
+      "Een incident duurt altijd langer dan een Service Request",
+      "Een Service Request is altijd urgenter dan een incident"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Een incident verstoort een bestaande dienst, terwijl een Service Request een gewenste toevoeging of aanpassing is die normaal via een standaardprocedure verloopt."
+  },
+  {
+    "vraag": "Welk onderdeel van ITIL beschrijft het verwerken van Service Requests?",
+    "opties": [
+      "Incident Management",
+      "Problem Management",
+      "Request Fulfilment",
+      "Change Management"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Request Fulfilment is het ITIL-proces dat zich richt op het efficiënt en gestandaardiseerd afhandelen van Service Requests."
+  },
+  {
+    "vraag": "Waar registreer je een Service Request?",
+    "opties": [
+      "In een Excel-bestand op de lokale schijf",
+      "In een ticketsysteem of ITSM-tool",
+      "In een e-mail die je verstuurt naar je collega",
+      "Op een Post-it briefje aan het bureau"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Service Requests worden geregistreerd in een ITSM-tool (zoals TOPdesk, ServiceNow of Jira Service Management) zodat ze traceerbaar zijn."
+  },
+  {
+    "vraag": "Wat is een Servicecatalogus?",
+    "opties": [
+      "Een lijst met alle IT-storingen van het afgelopen jaar",
+      "Een overzicht van alle diensten en producten die de servicedesk aanbiedt",
+      "Een intern telefoonboek van IT-medewerkers",
+      "Een handboek voor het installeren van software"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "De servicecatalogus geeft gebruikers inzicht in welke diensten beschikbaar zijn, hoe ze aangevraagd kunnen worden en wat de levertijden zijn."
+  },
+  {
+    "vraag": "Een gebruiker wil een nieuw wachtwoord voor zijn account. Hoe categoriseer je dit?",
+    "opties": [
+      "Incident",
+      "Problem",
+      "Service Request",
+      "Change"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Het resetten van een wachtwoord is een standaard, voorzienbare aanvraag en valt daarmee onder een Service Request."
+  },
+  {
+    "vraag": "Wat betekent SLA in de context van een Service Request?",
+    "opties": [
+      "Software License Agreement",
+      "Service Level Agreement — afspraken over levertijd en kwaliteit van de dienst",
+      "System Load Analysis",
+      "Security Layer Access"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Een SLA legt vast binnen welke termijn een Service Request afgehandeld moet worden en wat de kwaliteitsnormen zijn."
+  },
+  {
+    "vraag": "Wat is het doel van een selfserviceportaal bij Service Requests?",
+    "opties": [
+      "Gebruikers laten inloggen op productieservers",
+      "Gebruikers zelfstandig aanvragen laten indienen zonder tussenkomst van de servicedesk",
+      "IT-beheerders toegang geven tot firewallregels",
+      "Automatisch incidenten detecteren in het netwerk"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Via een selfserviceportaal kunnen gebruikers 24/7 aanvragen indienen, wat de werkdruk op de servicedesk verlaagt en de doorlooptijd verkort."
+  },
+  {
+    "vraag": "Welke informatie is het meest belangrijk bij het registreren van een Service Request?",
+    "opties": [
+      "De naam van de teamleider van de aanvrager",
+      "Het type computer van de aanvrager",
+      "De naam van de aanvrager, beschrijving van het verzoek en gewenste datum",
+      "Het IP-adres van de printer van de aanvrager"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Voor een goede afhandeling moet minimaal worden vastgelegd wie de aanvrager is, wat er precies gevraagd wordt en wanneer het gewenst is."
+  },
+  {
+    "vraag": "Wat is een standaard wijziging (standard change) in relatie tot een Service Request?",
+    "opties": [
+      "Een grote infrastructuurwijziging die altijd goedkeuring van de directeur vereist",
+      "Een vooraf goedgekeurde, routinematige wijziging met een laag risico die vergelijkbaar is met een Service Request",
+      "Een noodwijziging die onmiddellijk doorgevoerd wordt",
+      "Een wijziging waarvoor altijd een externe leverancier nodig is"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Standaard wijzigingen zijn low-risk, vooraf goedgekeurd en volgen een vaste procedure — vergelijkbaar met hoe Service Requests worden afgehandeld."
+  },
+  {
+    "vraag": "Wat doe je als een Service Request buiten jouw bevoegdheid valt?",
+    "opties": [
+      "Je weigert de aanvraag zonder verdere uitleg",
+      "Je lost het op zonder toestemming te vragen",
+      "Je escaleert de aanvraag naar het juiste niveau of team",
+      "Je wacht tot de gebruiker een tweede keer belt"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Escalatie zorgt ervoor dat verzoeken door de juiste persoon of het juiste team worden afgehandeld binnen de gestelde termijnen."
+  },
+  {
+    "vraag": "Wat is de eerste stap bij het afhandelen van een Service Request?",
+    "opties": [
+      "Beginnen met de uitvoering zonder te registreren",
+      "Het verzoek registreren en categoriseren",
+      "Direct de gebruiker bellen voor een afspraak",
+      "De aanvraag doorsturen naar een manager"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Registratie en categorisatie zijn essentieel om het verzoek traceerbaar te maken en aan het juiste team toe te wijzen."
+  },
+  {
+    "vraag": "Wat is de juiste prioriteit voor een Service Request voor een nieuwe laptop voor een medewerker die over twee weken in dienst komt?",
+    "opties": [
+      "Kritiek — direct oplossen",
+      "Hoog — vandaag afhandelen",
+      "Laag of normaal — op tijd voor de startdatum",
+      "Wordt niet geprioriteerd"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Service Requests worden geprioriteerd op basis van impact en urgentie. Een aanvraag voor een toekomstige medewerker is normaal of laag en moet voor de startdatum afgehandeld zijn."
+  },
+  {
+    "vraag": "Hoe informeer je de gebruiker over de voortgang van zijn Service Request?",
+    "opties": [
+      "Helemaal niet; de gebruiker wacht gewoon",
+      "Via het ticketsysteem en/of e-mail, met regelmatige statusupdates",
+      "Alleen mondeling aan het koffiezetapparaat",
+      "Na volledige afhandeling stuur je één bericht"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Goede communicatie over de status verhoogt de klanttevredenheid en vermindert onnodige herhalingscontacten."
+  },
+  {
+    "vraag": "Wat is een veelgebruikte tool voor het registreren van Service Requests in Nederland?",
+    "opties": [
+      "Microsoft Word",
+      "TOPdesk",
+      "Adobe Photoshop",
+      "VLC Media Player"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "TOPdesk is een populaire Nederlandse ITSM-tool die veel gebruikt wordt voor het beheren van Service Requests en incidenten."
+  },
+  {
+    "vraag": "Wanneer sluit je een Service Request ticket af?",
+    "opties": [
+      "Zodra je zelf klaar bent met de werkzaamheden",
+      "Nadat de aanvrager bevestigd heeft dat het verzoek naar tevredenheid is afgehandeld",
+      "Na 24 uur automatisch",
+      "Als de manager akkoord geeft"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Een ticket sluit je pas af nadat de gebruiker bevestigd heeft dat alles naar wens is opgelost."
+  },
+  {
+    "vraag": "Wat is de rol van een servicedeskmedewerker bij een Service Request?",
+    "opties": [
+      "Alleen doorgeven aan een hogere afdeling",
+      "Ontvangen, registreren, toewijzen en eventueel zelf afhandelen van het verzoek",
+      "Alleen telefonisch contact onderhouden",
+      "Nieuwe IT-systemen ontwerpen"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "De servicedeskmedewerker is het eerste aanspreekpunt en verantwoordelijk voor het correct registreren en routeren van verzoeken."
+  },
+  {
+    "vraag": "Wat verstaan we onder de 'levertijd' van een Service Request?",
+    "opties": [
+      "De tijd die de gebruiker nodig heeft om het formulier in te vullen",
+      "De afgesproken maximale tijd waarbinnen het verzoek wordt afgehandeld",
+      "De tijd die de leverancier nodig heeft om hardware te bezorgen",
+      "De reistijd van de monteur"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "De levertijd (of doorlooptijd) is de periode tussen het indienen van het verzoek en de volledige afhandeling ervan, zoals vastgelegd in de SLA."
+  },
+  {
+    "vraag": "Een gebruiker vraagt om een extra scherm voor zijn werkplek. Welk type aanvraag is dit?",
+    "opties": [
+      "Incident",
+      "Probleem",
+      "Service Request",
+      "Noodwijziging"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Het aanvragen van extra hardware zoals een beeldscherm is een standaard Service Request."
+  },
+  {
+    "vraag": "Wat is de betekenis van ITSM?",
+    "opties": [
+      "Internet Traffic and Security Management",
+      "IT Service Management — het beheren van IT-diensten op een gestructureerde manier",
+      "Integrated Technology and Software Module",
+      "International Telecom Standards Manual"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "ITSM staat voor IT Service Management en beschrijft hoe IT-diensten worden ontworpen, geleverd en verbeterd."
+  },
+  {
+    "vraag": "Welk ITIL-concept beschrijft het vastleggen van alle IT-componenten en hun onderlinge relaties?",
+    "opties": [
+      "Servicecatalogus",
+      "CMDB (Configuration Management Database)",
+      "Risicoregister",
+      "Probleemlog"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "De CMDB bevat informatie over alle configuratie-items (CI's) en wordt gebruikt bij het afhandelen van verzoeken en incidenten."
+  },
+  {
+    "vraag": "Hoe behandel je een Service Request dat spoedeisend is?",
+    "opties": [
+      "Je verhoogt de prioriteit en handelt het verzoek sneller af volgens de escalatieprocedure",
+      "Je behandelt het op dezelfde manier als alle andere verzoeken",
+      "Je wacht tot er een incident van gemaakt wordt",
+      "Je vraagt de gebruiker het morgen opnieuw in te dienen"
+    ],
+    "antwoord": 0,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Urgente verzoeken krijgen een hogere prioriteit en worden via de escalatieprocedure sneller doorgezet."
+  },
+  {
+    "vraag": "Wat is een goedkeuringsworkflow bij een Service Request?",
+    "opties": [
+      "Een automatische beveiliging die alle aanvragen blokkeert",
+      "Een geautomatiseerd proces waarbij bepaalde aanvragen eerst door een leidinggevende of manager goedgekeurd moeten worden",
+      "Een manier om de aanvrager te identificeren via biometrie",
+      "Een lijst van verboden software-aanvragen"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Bij sommige Service Requests (zoals dure hardware of speciale software) is goedkeuring van een manager vereist voordat de uitvoering begint."
+  },
+  {
+    "vraag": "Waarom is het belangrijk om een Service Request volledig te documenteren?",
+    "opties": [
+      "Zodat collega's weten hoe druk jij het hebt gehad",
+      "Om traceerbaarheid, verantwoording en een kennisbank op te bouwen voor toekomstige aanvragen",
+      "Omdat de wet dit verplicht voor elke IT-handeling",
+      "Documentatie is niet belangrijk bij Service Requests"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Goede documentatie zorgt voor traceerbaarheid, helpt bij audits en bouwt een kennisbank op waarmee toekomstige vergelijkbare verzoeken sneller afgehandeld kunnen worden."
+  },
+  {
+    "vraag": "Wat is een First-Time Fix Rate (FTFR) bij Service Requests?",
+    "opties": [
+      "Het percentage verzoeken dat bij het eerste contact volledig wordt afgehandeld",
+      "De snelheid waarmee de eerste medewerker een ticket aanpakt",
+      "Het aantal verzoeken dat per dag binnenkomt",
+      "De tijd tot het eerste telefoontje van de gebruiker"
+    ],
+    "antwoord": 0,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "De First-Time Fix Rate geeft aan hoe efficiënt de servicedesk is; hoe hoger dit percentage, hoe beter."
+  },
+  {
+    "vraag": "Een gebruiker wil toegang tot een gedeeld netwerkmapje. Hoe classificeer je dit verzoek?",
+    "opties": [
+      "Incident — er is iets stuk",
+      "Service Request — het is een verzoek om toegang te verlenen",
+      "Probleem — de oorzaak moet onderzocht worden",
+      "Noodwijziging — het moet direct"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Het verlenen van toegangsrechten is een standaard Service Request dat via de normale procedure verloopt."
+  },
+  {
+    "vraag": "Wat betekent het begrip 'fulfillment' bij Service Requests?",
+    "opties": [
+      "Het annuleren van een verzoek",
+      "Het daadwerkelijk uitvoeren en leveren van wat gevraagd is",
+      "Het door sturen naar een externe partij",
+      "Het terugsturen van defecte hardware"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Fulfillment betekent dat het verzoek volledig en naar tevredenheid is uitgevoerd en geleverd."
+  },
+  {
+    "vraag": "Hoe kan een kennisbank (knowledge base) helpen bij Service Requests?",
+    "opties": [
+      "Door de gebruiker automatisch toegang te geven tot alle systemen",
+      "Door servicedeskmedewerkers te voorzien van kant-en-klare oplossingen voor veelgestelde vragen",
+      "Door de serverinfrastructuur te monitoren",
+      "Door automatisch nieuwe accounts aan te maken"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Een kennisbank bevat eerder gedocumenteerde oplossingen, waardoor servicedeskmedewerkers veelvoorkomende verzoeken sneller kunnen afhandelen."
+  },
+  {
+    "vraag": "Welke van de volgende is GEEN voorbeeld van een Service Request?",
+    "opties": [
+      "Een nieuw gebruikersaccount aanmaken",
+      "Software installeren op een laptop",
+      "Een printer die niet meer werkt na een update",
+      "Toegang verlenen tot een applicatie"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Een printer die niet meer werkt is een incident (onverwachte verstoring), geen Service Request."
+  },
+  {
+    "vraag": "Wat is het verschil tussen urgentie en impact bij het prioriteren van een Service Request?",
+    "opties": [
+      "Urgentie beschrijft hoeveel mensen het verzoek indienen; impact beschrijft de kosten",
+      "Urgentie beschrijft hoe snel het afgehandeld moet worden; impact beschrijft hoeveel personen of processen het beïnvloedt",
+      "Ze betekenen precies hetzelfde",
+      "Impact bepaalt de categorie; urgentie bepaalt wie het afhandelt"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Urgentie = hoe snel? Impact = hoeveel schade/hinder? Samen bepalen ze de prioriteit van het verzoek."
+  },
+  {
+    "vraag": "Wat is het verschil tussen eerstelijns- en tweedelijns support bij Service Requests?",
+    "opties": [
+      "Eerstelijns lost alles op; tweedelijns is alleen voor incidenten",
+      "Eerstelijns is het eerste aanspreekpunt voor eenvoudige verzoeken; tweedelijns behandelt complexere of gespecialiseerde verzoeken",
+      "Eerstelijns werkt alleen 's nachts; tweedelijns overdag",
+      "Er is geen verschil"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Eerstelijns (1e lijn) behandelt eenvoudige verzoeken direct; complexe verzoeken worden geëscaleerd naar tweedelijns (2e lijn) specialisten."
+  },
+  {
+    "vraag": "Wat moet je doen als een Service Request langer duurt dan de in de SLA afgesproken tijd?",
+    "opties": [
+      "Het ticket gewoon open laten staan",
+      "De gebruiker vragen het opnieuw in te dienen",
+      "Het ticket escaleren en de gebruiker proactief informeren over de vertraging",
+      "De SLA aanpassen zodat het verzoek op tijd is"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Bij dreigende SLA-overschrijding moet je escaleren en de gebruiker actief informeren om klanttevredenheid te waarborgen."
+  },
+  {
+    "vraag": "Welke informatie staat typisch in een Service Request formulier?",
+    "opties": [
+      "Het privéadres van de aanvrager",
+      "Naam aanvrager, afdeling, beschrijving van het verzoek, gewenste datum en eventuele bijlagen",
+      "Het wachtwoord van de aanvrager",
+      "De naam van de CEO van het bedrijf"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Een goed ingevuld formulier bevat alle benodigde gegevens om het verzoek snel en correct te verwerken."
+  },
+  {
+    "vraag": "Wat is een 'workaround' in de context van een Service Request?",
+    "opties": [
+      "Een definitieve oplossing voor een technisch probleem",
+      "Een tijdelijke maatregel om de gebruiker toch zijn werk te laten doen terwijl de definitieve oplossing nog wordt gerealiseerd",
+      "Een manier om de SLA te omzeilen",
+      "Een procedure om hardware te retourneren"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Een workaround is een tijdelijke oplossing die de gebruiker in staat stelt te werken totdat de definitieve oplossing beschikbaar is."
+  },
+  {
+    "vraag": "Wat is de functie van een ticketnummer bij een Service Request?",
+    "opties": [
+      "Het nummer bepaalt de prioriteit automatisch",
+      "Het ticketnummer is een unieke identificatie waarmee het verzoek gevolgd en gecommuniceerd kan worden",
+      "Het ticketnummer geeft aan welke medewerker het verzoek afhandelt",
+      "Het ticketnummer bepaalt de kosten van het verzoek"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Het ticketnummer maakt het verzoek uniek identificeerbaar, zodat zowel de aanvrager als de servicedesk de status eenvoudig kan opvragen en volgen."
+  },
+  {
+    "vraag": "Hoe reageer je als een gebruiker een verzoek indient dat niet in de servicecatalogus staat?",
+    "opties": [
+      "Je voert het verzoek direct uit zonder vragen",
+      "Je weigert het verzoek altijd",
+      "Je overlegt met je leidinggevende of de juiste afdeling om te bepalen of en hoe het verzoek afgehandeld kan worden",
+      "Je stuurt de gebruiker een link naar de servicecatalogus en sluit het ticket"
+    ],
+    "antwoord": 2,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Niet-gecatalogiseerde verzoeken vereisen overleg om te bepalen of het verzoek terecht is en hoe het afgehandeld dient te worden."
+  },
+  {
+    "vraag": "Wat is de beste manier om de gebruikerstevredenheid over Service Requests te meten?",
+    "opties": [
+      "Door te kijken hoeveel tickets er per dag gesloten worden",
+      "Door na afhandeling een tevredenheidsenquête te sturen aan de aanvrager",
+      "Door de snelheid van het netwerk te meten",
+      "Door het aantal medewerkers op de servicedesk te tellen"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Een klanttevredenheidsonderzoek (CSAT) na afhandeling geeft directe feedback over de kwaliteit van de service."
+  },
+  {
+    "vraag": "Wat is de rol van Change Management in relatie tot Service Requests?",
+    "opties": [
+      "Change Management vervangt Request Fulfilment volledig",
+      "Sommige Service Requests, zoals grote softwareinstallaties, moeten via een changeproces worden goedgekeurd",
+      "Change Management is alleen voor hardware-aanpassingen",
+      "Service Requests hebben nooit te maken met Change Management"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Wanneer een Service Request een risico met zich meebrengt of grote impact heeft, kan het via Change Management lopen voor goedkeuring."
+  },
+  {
+    "vraag": "Wat versta je onder 'on-boarding' als Service Request?",
+    "opties": [
+      "Het inschepen van hardware voor internationaal transport",
+      "Het volledig gereedmaken van werkplek, accounts en toegangsrechten voor een nieuwe medewerker",
+      "Het installeren van een nieuw besturingssysteem",
+      "Het verwijderen van een oud gebruikersaccount"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "On-boarding omvat alles wat nodig is om een nieuwe medewerker productief te laten starten: laptop, accounts, e-mail, toegangsrechten, etc."
+  },
+  {
+    "vraag": "Welke van de volgende uitspraken over Service Requests is JUIST?",
+    "opties": [
+      "Service Requests zijn altijd gratis voor de aanvrager",
+      "Service Requests volgen een vaste, vooraf gedefinieerde procedure",
+      "Service Requests mogen nooit worden afgewezen",
+      "Service Requests zijn alleen voor IT-medewerkers bedoeld"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Service Requests volgen een gestandaardiseerd proces (procedure) dat vooraf is gedefinieerd in de servicecatalogus."
+  },
+  {
+    "vraag": "Waarom is het belangrijk om de categorie van een Service Request correct te kiezen?",
+    "opties": [
+      "Zodat het ticket mooier eruitziet in het systeem",
+      "Omdat de categorie bepaalt aan welk team of welke specialist het verzoek toegewezen wordt",
+      "Zodat de gebruiker de status zelf kan wijzigen",
+      "De categorie heeft geen invloed op de afhandeling"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "De juiste categorie zorgt voor correcte routing naar het juiste team en voorkomt onnodige vertragingen."
+  },
+  {
+    "vraag": "Een medewerker belt de servicedesk en vraagt om een nieuw e-mailadres aan te maken voor een stagiair. Wat is de eerste actie?",
+    "opties": [
+      "Direct het account aanmaken zonder te registreren",
+      "De medewerker vragen een ticket in te dienen via het selfserviceportaal of het verzoek zelf registreren",
+      "De medewerker doorverbinden met de systeembeheerder",
+      "Wachten tot de stagiair zelf belt"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Altijd eerst registreren, ook als de afhandeling direct volgt — dit zorgt voor traceerbaarheid en meetbaarheid."
+  },
+  {
+    "vraag": "Wat is het doel van rapportages over Service Requests?",
+    "opties": [
+      "Het bewijzen dat de servicedesk altijd gelijk heeft",
+      "Inzicht geven in prestaties, trends en verbeterpunten van de dienstverlening",
+      "Bijhouden welke gebruikers de meeste aanvragen indienen",
+      "Automatisch SLA's aanpassen"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Rapportages (bijv. over doorlooptijden, aantallen en klanttevredenheid) helpen de servicedesk om de dienstverlening continu te verbeteren."
+  },
+  {
+    "vraag": "Wat betekent 'off-boarding' als Service Request?",
+    "opties": [
+      "Het aansluiten van nieuwe randapparatuur",
+      "Het intrekken van accounts, toegangsrechten en inleveren van apparatuur bij vertrek van een medewerker",
+      "Het migreren van data naar een nieuw systeem",
+      "Het vervangen van een defecte laptop"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Off-boarding omvat alle stappen die nodig zijn bij het vertrek van een medewerker: accounts deactiveren, hardware inleveren, toegangsrechten intrekken."
+  },
+  {
+    "vraag": "Wat is een veelgebruikte methode om Service Requests te categoriseren?",
+    "opties": [
+      "Alphabetisch op de naam van de aanvrager",
+      "Op basis van type (hardware, software, toegang, informatie) en afdeling",
+      "Op volgorde van binnenkomst, zonder verdere categorisatie",
+      "Op basis van de leeftijd van de aanvrager"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Categorisatie op type en afdeling maakt efficiënte routing en rapportage mogelijk."
+  },
+  {
+    "vraag": "Welk principe beschrijft dat de servicedesk fungeert als het centrale aanspreekpunt voor alle IT-verzoeken?",
+    "opties": [
+      "BYOD (Bring Your Own Device)",
+      "SPOC (Single Point Of Contact)",
+      "VPN (Virtual Private Network)",
+      "GDPR (General Data Protection Regulation)"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "De servicedesk is het SPOC: één centraal punt waar alle gebruikers terechtkunnen voor ondersteuning en aanvragen."
+  },
+  {
+    "vraag": "Wat is een veelgebruikt communicatiekanaal voor het indienen van een Service Request?",
+    "opties": [
+      "Per fax",
+      "Via het selfserviceportaal, e-mail of telefoon",
+      "Via sociale media zoals Instagram",
+      "Door persoonlijk langs te gaan bij de serverruimte"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Gangbare kanalen zijn het selfserviceportaal, e-mail en telefoon. Elk kanaal resulteert in een geregistreerd ticket."
+  },
+  {
+    "vraag": "Waarom worden sommige Service Requests automatisch afgehandeld?",
+    "opties": [
+      "Omdat de gebruiker niet de juiste rechten heeft om ze zelf te doen",
+      "Omdat eenvoudige, voorspelbare verzoeken geautomatiseerd kunnen worden, wat tijd en fouten bespaart",
+      "Omdat automatisering altijd beter is dan menselijk handelen",
+      "Omdat de SLA dit verplicht"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Automatisering van standaard Service Requests (bijv. wachtwoordherstel) vermindert de werkdruk en versnelt de afhandeling."
+  },
+  {
+    "vraag": "Wat is het verschil tussen een Service Request en een informatieverzoek?",
+    "opties": [
+      "Er is geen verschil",
+      "Een informatieverzoek is een vraag om uitleg of informatie; een Service Request vraagt om daadwerkelijke actie of levering",
+      "Een informatieverzoek kost altijd geld; een Service Request is gratis",
+      "Informatieverzoeken worden nooit geregistreerd"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Een informatieverzoek (bijv. 'Hoe log ik in op de VPN?') vraagt om kennis; een Service Request (bijv. 'Geef mij toegang tot de VPN') vraagt om een concrete actie."
+  },
+  {
+    "vraag": "Hoe draag je een Service Request over aan een collega?",
+    "opties": [
+      "Je stuurt een e-mail naar de collega buiten het systeem",
+      "Je wijst het ticket in het ITSM-systeem toe aan de collega en voegt een duidelijke toelichting toe",
+      "Je belt de collega en beschrijft mondeling wat er nodig is",
+      "Je sluit het ticket en laat de gebruiker opnieuw bellen"
+    ],
+    "antwoord": 1,
+    "domein": "ICT-Support Medewerker - Service Request",
+    "toelichting": "Overdracht via het ITSM-systeem zorgt voor continuïteit, traceerbaarheid en voorkomt dat informatie verloren gaat."
+  }
+]

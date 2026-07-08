@@ -40,8 +40,8 @@ for fp in sorted(exam_dir.glob("quiz-*.json")):
         if not isinstance(q["antwoord"], int) or not (0 <= q["antwoord"] < len(q["opties"])):
             print(f"❌ {fp.name} Q{i}: invalid antwoord index")
             errors += 1
-        if "domein" in q and q["domein"] not in ("Cloud Concepts", "Azure Architecture and Services", "Azure Management and Governance"):
-            print(f"❌ {fp.name} Q{i}: unknown domein '{q['domein']}'")
+        if "domein" in q and (not isinstance(q["domein"], str) or not q["domein"].strip()):
+            print(f"❌ {fp.name} Q{i}: 'domein' must be a non-empty string")
             errors += 1
 
     print(f"✅ {fp.name}: {len(data)} questions OK")
