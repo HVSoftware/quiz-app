@@ -6,6 +6,7 @@ Usage:
 """
 
 import json
+import os
 import random
 import sys
 from datetime import datetime
@@ -23,6 +24,7 @@ QUIZ_DIRS = [
 
 REQUIRED_FIELDS = {"vraag", "opties", "antwoord"}
 OPTIONAL_FIELDS = {"toelichting", "domein"}
+BUY_ME_A_COFFEE_URL = os.getenv("BUY_ME_A_COFFEE_URL", "https://buymeacoffee.com")
 
 
 # ---------------------------------------------------------------------------
@@ -130,6 +132,10 @@ def toon_sidebar(quiz_files: dict[str, Path]) -> None:
             toon_score_overzicht()
             if st.button("Stop & restart", use_container_width=True):
                 _reset_quiz()
+
+        st.divider()
+        st.caption("Enjoying the quizzes? Support the project with a small coffee.")
+        st.link_button("Buy me a coffee ☕", BUY_ME_A_COFFEE_URL, use_container_width=True)
 
 
 def _start_quiz(path: Path) -> None:
