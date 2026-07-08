@@ -300,7 +300,7 @@
     "toelichting": "De First-Time Fix Rate geeft aan hoe efficiënt de servicedesk is; hoe hoger dit percentage, hoe beter."
   },
   {
-    "vraag": "Een gebruiker wil toegang tot een gedeeld netwerkmapje. Hoe clasificeer je dit verzoek?",
+    "vraag": "Een gebruiker wil toegang tot een gedeeld netwerkmapje. Hoe classificeer je dit verzoek?",
     "opties": [
       "Incident — er is iets stuk",
       "Service Request — het is een verzoek om toegang te verlenen",
