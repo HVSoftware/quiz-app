@@ -1,0 +1,482 @@
+[
+  {
+    "vraag": "The AI Act is a piece of legislation created for the European Union (EU). In Article 1, the AI Act describes its objectives. What are the main objectives of the AI Act?",
+    "opties": [
+      "Guidelines focused solely on environmental protection, with no specific rules for high-risk AI, no prohibitions, and innovation measures only for large corporations",
+      "Harmonized rules for AI systems in the EU, prohibitions on certain AI practices, requirements for high-risk AI, transparency rules, market surveillance, and innovation support",
+      "Prohibitions on AI practices, rules for general-purpose AI only, transparency rules excluding high-risk AI, and support for innovation restricted to non-European entities",
+      "Rules for AI systems limited to safety and health, prohibitions on all AI practices, transparency rules only for high-risk AI, and innovation support excluding startups"
+    ],
+    "antwoord": 1,
+    "toelichting": "This option accurately reflects the AI Act's main points, including harmonized rules for AI systems, prohibitions on certain AI practices, specific requirements for high-risk systems, transparency rules, market surveillance, and innovation support focused on SMEs. (Literature: A, Chapter 3.1, 3.2; AI Act, Article 1)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "According to the AI Act, what do accountability and compliance mean?",
+    "opties": [
+      "Accountability focuses on maintaining user privacy and data security, while compliance relates to the integration with existing IT infrastructure.",
+      "Accountability involves holding developers and operators in AI development responsible, and compliance means adhering to legal requirements.",
+      "Accountability is about ensuring that AI systems are profitable for developers, and compliance involves meeting user demands and preferences.",
+      "Accountability refers to AI users being accountable for correct use of the system, while compliance means following industry standards for AI innovation."
+    ],
+    "antwoord": 1,
+    "toelichting": "Accountability means that developers and operators of AI systems can be held responsible for their actions and outcomes. Compliance refers to following the legal and regulatory requirements outlined in the AI Act to ensure systems are safe, transparent, and fair. (Literature: A, Chapter 3.10)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "Under the AI Act, individuals affected by AI systems have specific rights to ensure transparency, fairness, and accountability. What is a right explicitly granted under the AI Act?",
+    "opties": [
+      "The right to be informed of interacting with or being affected by an AI system",
+      "The right to demand access to the source code of the AI system",
+      "The right to prohibit the use of AI in any decision-making process that involves them",
+      "The right to request deletion of personal data used by the AI system"
+    ],
+    "antwoord": 0,
+    "toelichting": "Individuals must be informed when they are interacting with an AI system, unless it is obvious to a reasonably well-informed person. This ensures transparency and helps individuals understand when AI is influencing decisions that may affect them. (Literature: A, Chapter 3.6; AI Act, Article 50)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "Anna, a compliance officer at an SME, is responsible for overseeing the implementation of a new AI system used for automating customer support. The company did not build this system but is buying it from another provider. The AI system is classified as high-risk. What should Anna not consider, given the obligations for AI users?",
+    "opties": [
+      "Developing the AI model's algorithms further to enhance its decision-making capabilities without involving its provider",
+      "Keeping detailed records of the AI system's performance and ensuring compliance with relevant reporting requirements",
+      "Monitoring the performance of the AI system to ensure it operates as intended and complies with safety standards",
+      "Reporting any serious incidents or malfunctions with the AI system to the appropriate authorities as is required by law"
+    ],
+    "antwoord": 0,
+    "toelichting": "Anna should not attempt to independently develop the AI system's algorithm or modify its decision-making capabilities without the involvement of its provider. This is outside the scope of user obligations and could result in compliance breach or unintended consequences. Users are not responsible for altering the system's internal structure. (Literature: A, Chapter 1.1)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "An AI system for facial recognition is used for security purposes in public spaces. Which organization is most relevant to overseeing compliance with data protection and privacy regulations (such as the GDPR) for this AI system?",
+    "opties": [
+      "The European Consumer Organization (BEUC)",
+      "The European Artificial Intelligence Board (EAIB)",
+      "The European Court of Justice (ECJ)",
+      "The European Data Protection Board (EDPB)"
+    ],
+    "antwoord": 3,
+    "toelichting": "The EDPB is responsible for ensuring consistent application of GDPR across EU member states. It works with national data protection authorities to address issues like the use of biometric data in AI security systems. (Literature: A, Chapter 3.9, 3.10, 4.5)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A business develops an AI system for personalized marketing. During a compliance review, the team identifies risks: no documentation on data handling, the decision process is not understood, and customers are complaining. The business uses ISO/IEC 42001 and NIST AI RMF. What should the business do?",
+    "opties": [
+      "Conduct a series of user experience (UX) tests to get feedback on usability, learnability, and customer preferences",
+      "Focus on improving the system's prediction accuracy to improve cost efficiency, customer satisfaction, and engagement",
+      "Implement a documentation process that details data sources, processing methods, and algorithmic decision-making",
+      "Upgrade the system's hardware to ensure faster processing, greater efficiency, and higher customer satisfaction"
+    ],
+    "antwoord": 2,
+    "toelichting": "Implementing a comprehensive documentation process aligns with ISO/IEC 42001, which emphasizes transparency and documentation throughout the AI lifecycle. The NIST AI RMF also supports this by promoting detailed records of data and decisions to ensure traceability and accountability. (Literature: B, Chapter 2.3)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A business develops an AI system to monitor hospitalized patients using HD cameras. To improve performance, they want to build a database of patient videos with professional notes for training data. Should the business do a DPIA now?",
+    "opties": [
+      "Yes, because a DPIA is required for AI projects that could pose a high risk to the rights of natural persons.",
+      "Yes, because a DPIA is required for any project that collects personal data, even if the project is low risk.",
+      "No, because a DPIA is not required for using data for training purposes, education, or scientific research.",
+      "No, because a DPIA is only required after the AI system has been fully developed, tested, and deployed."
+    ],
+    "antwoord": 0,
+    "toelichting": "A DPIA is necessary when processing operations are likely to result in a high risk to the rights and freedoms of natural persons, especially when using new technologies like AI systems that process highly sensitive data such as patient videos. (Literature: A, Chapter 4.5)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A business develops a real-time facial recognition AI system. A private security firm deploys it in a public shopping mall, scanning visitors, cross-checking them with databases of past offenders and political activists, and covertly tracking flagged visitors. According to the AI Act, in which category should this use be classified?",
+    "opties": [
+      "Unacceptable risk",
+      "High risk",
+      "Limited risk",
+      "Minimal or no risk"
+    ],
+    "antwoord": 0,
+    "toelichting": "Real-time biometric identification in public to track individuals based on political activity is prohibited under Article 5 of the AI Act. The Act bans AI systems used for untargeted surveillance and social scoring that infringe on fundamental rights. (Literature: A, Chapter 3.3, 3.4; AI Act, Article 5(1)(d))",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A travel agency uses AI for dynamic, targeted marketing campaigns, using browsing history and inferring users' emotional state to suggest customized destinations. What risk must the travel agency address?",
+    "opties": [
+      "The risk of including potential biases. They should update the training data regularly to avoid suggesting irrelevant destinations or infer wrong emotional states.",
+      "The risk of ineffective advertising activities. They should focus on updating the algorithm, because the AI Act does not cover personalized advertisements.",
+      "The risk of lack of transparency. They should guarantee openness about the AI, reduce bias in suggestions, and evaluate if the advertising activities are ethical.",
+      "The risk of misusing personal data. They should stop using AI-driven personalization because the AI Act forbids using personal data for targeted advertising."
+    ],
+    "antwoord": 2,
+    "toelichting": "Under the AI Act, this captures the main obligations. Agencies must solve transparency by telling consumers about AI involvement, prevent bias, and guarantee that advertising tactics follow ethical standards. (Literature: A, Chapter 7.8, 7.9)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A company developed an AI model that can be used in various industries, including healthcare and finance. Due to its wide application, it carries potential risks to public health. What did the company develop, and what practices should they implement?",
+    "opties": [
+      "The company developed a general-purpose AI (GPAI) that carries systemic risks. It should conduct additional tests to mitigate the risks.",
+      "The company developed a high-risk AI system. It should implement all the requirements for high-risk AI systems as outlined in the AI Act.",
+      "The company developed a narrow AI model. It should ensure the model operates only within predefined parameters to prevent risks.",
+      "The company developed an experimental AI model. It should focus on research and development without immediate risk management."
+    ],
+    "antwoord": 0,
+    "toelichting": "The company developed a GPAI model that carries systemic risks. The company should do an additional model assessment using protocols and state-of-the-art tools, including the implementation and documentation of security tests. (Literature: A, Chapter 3.7; AI Act, Article 3, Article 55)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "An organization develops a high-risk AI system. During testing, the team identifies inconsistencies in data completeness and outdated records. The organization uses the CEN/CLC/TR 18115 framework. What should they do?",
+    "opties": [
+      "Conduct a data protection impact assessment (DPIA) to address the fairness of AI decision-making",
+      "Encrypt all training and testing datasets using protocols to prevent unauthorized access to personal data",
+      "Implement general-purpose risk controls to reduce the mentioned operational and reputational risks",
+      "Improve the data quality by applying structured quality metrics and statistical evaluation methods"
+    ],
+    "antwoord": 3,
+    "toelichting": "CEN/CLC/TR 18115 provides guidance on evaluating and improving data quality throughout the lifecycle of AI systems. It emphasizes the use of metrics for characteristics like completeness and timeliness, especially during data preparation, to ensure compliance with Article 10 of the AI Act. (Literature: B, Chapter 1; AI Act, Article 10)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "The AI Act describes several roles connected to an AI system. What is the definition of the role 'importer of an AI system'?",
+    "opties": [
+      "A person or organization that designs, develops, and markets an AI system under their own name or trademark.",
+      "A person or organization that places an AI system on the market but is not responsible for its original development.",
+      "A person or organization that uses an AI system in their operations and ensures local compliance with user obligations.",
+      "A regulatory authority tasked with monitoring if the AI system is imported in compliance with the AI Act regulations."
+    ],
+    "antwoord": 1,
+    "toelichting": "This is the definition of the role 'importer', typically when the system is developed outside the EU. Importers are responsible for ensuring the system meets EU regulatory requirements and working with providers to demonstrate compliance. (Literature: A, Chapter 3.1)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A business develops an AI system for fraud detection in financial transactions. Given the potential for false positives, the business uses ISO/IEC 23894. According to this standard, what should they do?",
+    "opties": [
+      "Embed risk management into all activities to ensure comprehensive oversight and proactive risk mitigation",
+      "Enhance data privacy measures to protect sensitive information and comply with privacy regulations",
+      "Focus on improving model accuracy to ensure reliable performance and minimize false positives",
+      "Implement cybersecurity measures to protect the system from external threats and unauthorized access"
+    ],
+    "antwoord": 0,
+    "toelichting": "This approach integrates risk management throughout the organization, customizing frameworks to fit specific contexts and involving stakeholders to effectively identify and mitigate AI-related risks. This follows the ISO/IEC 23894 standard. (Literature: B, Chapter 3.2)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A manufacturing company uses AI-driven robotics for quality control. A whistleblower reports the AI system shows an unusually low number of faulty products due to a software update. Managers knew but did not address it. What should the next actions be?",
+    "opties": [
+      "Adjust the internal algorithm to address the problem; notify the relevant competent authority if the issue still exists after 30 days",
+      "Investigate the problem internally and start solving it; notify the relevant competent authority of the occurrence immediately",
+      "Research the whistleblower's reasons for reporting; notify the relevant competent authority if consumers start complaining",
+      "Stop using the AI system and switch to an older method; this makes it unnecessary to inform the relevant competent authority"
+    ],
+    "antwoord": 1,
+    "toelichting": "Investigating guarantees that the underlying cause of the issue is known and addressed. Reporting to the relevant competent authority guarantees compliance. (Literature: A, Chapter 7.4, 3.10; AI Act, Article 73)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "MedTech Diagnostics uses a high-risk AI system for diagnosing medical conditions from X-ray images. They have external audit, risk management, records, documentation, and human review in place. What else should they implement?",
+    "opties": [
+      "They should add robust data governance procedures to maintain the reliability and fairness of their AI system.",
+      "They should ensure that the AI system can operate independently without any human intervention for efficiency.",
+      "They should implement a system to automatically override human decisions to speed up the diagnosis process.",
+      "They should include a feature that allows patients to directly modify their medical records based on AI suggestions."
+    ],
+    "antwoord": 0,
+    "toelichting": "Robust data and data governance cover the quality, bias mitigation and traceability of training and operational data, ensuring the system is fair and reliable. (Literature: A, Chapter 3.3; AI Act, Article 15)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "An insurance company implements a new AI-based credit scoring system. Four risks are identified: lack of proper training data, integration issues, non-compliance with GDPR, transparency and quality. Which risk is not important for AI Act compliance?",
+    "opties": [
+      "A lack of proper training data",
+      "Integration with other applications",
+      "Non-compliance with the GDPR",
+      "Transparency and quality of the model"
+    ],
+    "antwoord": 1,
+    "toelichting": "Integration with other applications that does not work well is certainly a risk, but not one defined in the AI Act. (Literature: A, Chapter 7.2, 7.3)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A government agency proposes an AI system for predicting crime hotspots with automated surveillance, automatically identifying suspicious persons and reporting them to police. Are there any risks?",
+    "opties": [
+      "Yes, because an AI system used for automated decisions carries the inherent risk of bias, which may unfairly disadvantage individuals.",
+      "Yes, because the AI Act foresees so many privacy risks with surveillance systems that it outright forbids its employment in public spaces.",
+      "No, because in crime prosecution and prevention, AI systems carry no particular risks since they are used to enhance public safety.",
+      "No, because public domain AI systems boost efficiency and carry no risk, since the decisions are objective and free from human error."
+    ],
+    "antwoord": 0,
+    "toelichting": "The AI Act specifically mentions this main concern. In sensitive fields like crime prosecution, the possibility of biased data or faulty algorithms in AI systems can produce discriminating results. For AI systems in high-risk applications, the AI Act requires openness, risk evaluations, and bias mitigation techniques. (Literature: A, Chapter 8.1, 8.2, 8.3)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "An organization develops an AI system for recruitment. During testing, the system unintentionally favored candidates from certain backgrounds. They use ISO/IEC TR 24368. What should they do?",
+    "opties": [
+      "Adjust the algorithm to prioritize demographic quotas based on employment statistics",
+      "Adopt a zero-data approach by removing all demographic data from the training set",
+      "Apply cybersecurity measures to protect candidate data and enhance system integrity",
+      "Implement a stakeholder engagement process to identify and mitigate potential biases"
+    ],
+    "antwoord": 3,
+    "toelichting": "ISO/IEC TR 24368 promotes stakeholder engagement to uncover ethical risks, like bias, and develop inclusive, fair AI systems. This supports the AI Act's goals around fairness and non-discrimination. (Literature: B, Chapter 4)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "An organization develops an AI system for loan approval. The compliance team finds a lack of transparency in decision-making and limited documentation for risk evaluation. They use ISO/IEC 42001 and NIST AI RMF. What should they do?",
+    "opties": [
+      "Conduct a safety compliance assessment based on recommended cybersecurity guidelines",
+      "Decommission the AI system immediately and transition to a manual loan approval process",
+      "Define a measurement plan with transparency metrics and record decision logic for oversight",
+      "Rebuild the system using synthetic data to eliminate as many sources of bias as possible"
+    ],
+    "antwoord": 2,
+    "toelichting": "ISO/IEC 42001 emphasizes transparent and explainable decision-making, along with thorough documentation across the AI lifecycle. The NIST AI RMF supports defining metrics through its Measure function and promoting traceability. (Literature: B, Chapter 2.2, 2.5)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "An automotive manufacturer develops a level 4 automated vehicle with AI-based object recognition. Risks include: compromised speed bump detection, unknown vehicle dimensions, unexplainable decisions, and lack of stakeholder input. When looking at AI Act compliance, what must be addressed?",
+    "opties": [
+      "The risk of insufficient testing under real-world conditions",
+      "The risk of lack of transparency in AI decision-making",
+      "The risk of limited scalability of the AI system to other vehicle models",
+      "The risk of limited stakeholder involvement during AI development"
+    ],
+    "antwoord": 1,
+    "toelichting": "Article 11 of the AI Act emphasizes transparency in AI systems to identify and rectify potential risks, which is the central issue in this scenario. (Literature: A, Chapter 7.10)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A logistics company is choosing between a closed-source AI model with pre-certified compliance and an open-source AI model with transparency. Which model best balances AI Act compliance, innovation, and cost?",
+    "opties": [
+      "A closed-source AI model, because it is intrinsically more secure and trusted by authorities.",
+      "A closed-source AI model, because it provides pre-certified compliance, lessening the burden of proving AI Act compliance.",
+      "An open-source AI model, because it guarantees complete transparency, helping with documentation and auditability requirements.",
+      "An open-source AI model, because it is excepted from AI Act compliance due to the source code being publicly available."
+    ],
+    "antwoord": 2,
+    "toelichting": "Full transparency offered by open-source models fits the criteria of the AI Act for auditability, traceability, and risk control. These advantages let the logistics firm show compliance more easily. (Literature: A, Chapter 6)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "The AI Act defines ethical principles for AI development. What is not one of those principles?",
+    "opties": [
+      "Explicability",
+      "Fairness",
+      "Loss prevention",
+      "Respect for AI autonomy"
+    ],
+    "antwoord": 3,
+    "toelichting": "The correct principle is respect for human autonomy. The AI Act primarily focuses on principles such as fairness, loss prevention, and explicability, which aim to ensure that AI systems are developed and used responsibly, transparently, and without bias. (Literature: A, Chapter 9.1)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A startup develops an AI system for personalized learning in schools, collecting data on student performance and behavior. According to the AI Act, what should the startup consider to balance innovation with regulation?",
+    "opties": [
+      "Avoid labeling the system as high-risk to circumvent additional regulatory burdens and streamline innovation",
+      "Ensure the AI system undergoes a conformity assessment and complies with high-risk system regulations",
+      "Implement robust data protection features but take out user notifications to avoid delays in deployment",
+      "Market the system to private schools exclusively to limit the impact of high-risk compliance requirements"
+    ],
+    "antwoord": 1,
+    "toelichting": "Conducting a conformity assessment and ensuring transparency are crucial for compliance with high-risk system regulations. (Literature: A, Chapter 7.6; AI Act, Article 6, Annex III)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "Fintegra, a financial institution, implements AI for fraud detection requiring customer transaction and demographic data. How should they comply with the AI Act's data minimization requirement?",
+    "opties": [
+      "Anonymize all transaction data and remove any identifying data, even if critical for fraud detection.",
+      "Collect all personal details including full name and precise address for precise analysis, storing securely.",
+      "Limit data collection to transaction data relevant to detecting fraud, avoiding processing personal details like full name or precise address.",
+      "Share collected data only with recognized vendors compliant with the AI Act to minimize internal handling of personal details."
+    ],
+    "antwoord": 2,
+    "toelichting": "The principle of data minimization under the AI Act requires organizations to collect and process only data that is strictly necessary for the specific purpose of the AI system. (Literature: A, Chapter 4.1)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "EduTech implements an adaptive learning platform that personalizes learning paths for students. What risk should they mitigate to ensure ethical use?",
+    "opties": [
+      "The risk of bias and discrimination, mitigated by regularly reviewing and updating the AI system's data sets and algorithms.",
+      "The risk of over-reliance on technology, mitigated by keeping the AI system's decision-making process confidential.",
+      "The risk of privacy breaches, mitigated by focusing more on improving the technical performance of the AI system.",
+      "The risk of transparency issues, mitigated by ensuring the AI system operates without human oversight."
+    ],
+    "antwoord": 0,
+    "toelichting": "Bias and discrimination are big risks in education. Regularly reviewing and updating data sets and algorithms helps mitigate the risk of bias and discrimination. (Literature: A, Chapter 7.6)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A hospital develops an AI diagnostic system. It's successfully adopted in the US, and EU specialists want to adopt it but don't understand how it works or have experience monitoring AI. What is not a risk associated with adoption?",
+    "opties": [
+      "The risk of lack of effective human supervision",
+      "The risk of misdiagnosis due to automation bias",
+      "The risk of mistrust caused by lack of transparency",
+      "The risk of unauthorized access to patient records"
+    ],
+    "antwoord": 3,
+    "toelichting": "While data privacy and unauthorized access are important concerns, they are not specifically highlighted as risks related to the operational adoption and understanding of the AI diagnostic system in this scenario. (Literature: A, Chapter 7.7)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A business makes an AI system for smart home assistants. Voice recognition errors cause unintended actions and privacy breaches. They use CEN/CLC/TR 18115. What should the AI provider do?",
+    "opties": [
+      "Create a stakeholder engagement plan to get different views on how the AI system works",
+      "Do an ethical impact assessment to understand privacy risks of smart home assistants",
+      "Improve the training data quality by using systematic validation and error-checking methods",
+      "Increase data security with encryption to protect voice data and prevent data breaches"
+    ],
+    "antwoord": 2,
+    "toelichting": "Enhancing data quality through systematic validation and error-checking aligns with the CEN/CLC/TR 18115 framework, addressing the need for accurate and complete data to ensure safe and effective AI system performance. (Literature: B, Chapter 1)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A technology company was found using an AI system for real-time remote biometric identification, explicitly prohibited by the AI Act. What is the appropriate penalty?",
+    "opties": [
+      "A formal warning without financial penalties",
+      "An administrative fine of up to €7.5 million or 1% of total global annual turnover",
+      "An administrative fine of up to €15 million or 3% of total global annual turnover",
+      "An administrative fine of up to €35 million or 7% of total global annual turnover"
+    ],
+    "antwoord": 3,
+    "toelichting": "This penalty aligns with the maximum possible fine for the most severe violations under the AI regulation. (Literature: A, Chapter 3.11; AI Act, Article 52, Article 99)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "The AI Act emphasizes transparency and traceability. Why are they important?",
+    "opties": [
+      "Because they are crucial for ensuring accountability and fostering trust in AI systems.",
+      "Because they are mandatory requirements for all products, including AI systems.",
+      "Because they are particularly essential for the reliability and automation of AI systems.",
+      "Because they are shared between European, Chinese, and American legislation."
+    ],
+    "antwoord": 0,
+    "toelichting": "Detailed information about the data used helps to understand, explain, and comprehend the decisions and actions of an AI system. Traceability ensures that AI decision-making processes, datasets, and system operations can be reviewed and audited. (Literature: A, Chapter 3.1)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "An AI system used by a retail organization changes website display based on user preferences, recommends products, and enhances user experience using click history. According to the AI Act, in which category should this be classified?",
+    "opties": [
+      "Unacceptable risk",
+      "High risk",
+      "Limited risk",
+      "Minimal or no risk"
+    ],
+    "antwoord": 3,
+    "toelichting": "The system employs non-sensitive data, runs in a low-stakes setting, and only affects users' purchasing experience, so it is categorized as minimal or no risk. (Literature: A, Chapter 3.3, 3.4)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A company creates an AI system for automated hiring that screens resumes and ranks candidates. They worry about biases. What is the best approach to mitigate biases?",
+    "opties": [
+      "Allow the AI system to learn and adapt without further human intervention",
+      "Ignore biases in the training data and focus on the AI system's performance",
+      "Implement a diverse development team to create and monitor the AI system",
+      "Use a single source of data for training the AI system to ensure consistency"
+    ],
+    "antwoord": 2,
+    "toelichting": "A diverse team can help identify and mitigate biases, ensuring the AI system is fair and inclusive. (Literature: A, Chapter 4.5; AI Act, Guideline 81)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "Feline Finesse is a webshop using AI for dynamic pricing, search ranking, and recommendations. They are transparent about it, but the CEO questions what degree of transparency is required. What should the CEO know?",
+    "opties": [
+      "Transparency can prove to consumers that the system is objective. Consumers have a right under the AI Act to understand how their data is used, fostering trust.",
+      "Transparency can show the limits or constraints of the AI system. Consumers may lose trust, damaging the company's reputation.",
+      "Transparency is not mandated for e-commerce. Consumers do not need knowledge of how the AI system operates.",
+      "Transparency is restricted to making the source code available. Consumer confidence may decrease from understanding the algorithm."
+    ],
+    "antwoord": 0,
+    "toelichting": "A pillar of the AI Act and a major determinant of public confidence is transparency. (Literature: A, Chapter 3.6)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A high-risk AI system is used in recruitment, automatically filtering candidates. The deployer has not implemented human oversight. According to the AI Act, does this system require human oversight?",
+    "opties": [
+      "Yes, because human oversight is necessary for intervention in decision-making processes.",
+      "Yes, because human oversight ensures compliance with fairness and transparency obligations.",
+      "No, because automated systems are designed to function without human intervention.",
+      "No, because recruitment processes do not involve critical safety risks to natural persons."
+    ],
+    "antwoord": 0,
+    "toelichting": "The AI Act emphasizes the importance of human oversight for high-risk AI systems to ensure a mechanism for human intervention, especially when decisions may be questionable or have significant impacts. (Literature: A, Chapter 10.2.3)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A company plans to launch a GPAI model. The company is based outside the EU but plans to distribute across EU member states. According to the AI Act, what is not required before distributing?",
+    "opties": [
+      "Appoint an authorized representative in the EU to handle compliance matters",
+      "Comply with EU copyright regulations for model training with copyrighted data",
+      "Conduct a thorough audit to verify full conformity with all EU laws and regulations",
+      "Publish a detailed summary of the content used for training the GPAI model"
+    ],
+    "antwoord": 2,
+    "toelichting": "A full conformity assessment is required only for high-risk AI systems, and general-purpose AI models do not fall under the high-risk category. Therefore, the company is not required to conduct a full conformity assessment. (Literature: A, Chapter 3)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "An organization deploys an AI system for predictive maintenance. After months, it generates many false alerts. Investigation shows they didn't consider dynamic environmental changes and lack a formal process for reassessing risks. They use ISO/IEC 23894. What should they do?",
+    "opties": [
+      "Conduct a human-centered design workshop to improve system usability",
+      "Design a risk management process with ongoing evaluation and monitoring",
+      "Perform a cybersecurity audit to identify and address possible vulnerabilities",
+      "Replace the AI system with a simpler, rule-based model for easier control"
+    ],
+    "antwoord": 1,
+    "toelichting": "ISO/IEC 23894 highlights the importance of embedding dynamic, ongoing risk management throughout the AI lifecycle, including post-deployment. (Literature: B, Chapter 3.2, 3.4)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A car fleet management company uses AI to track driver behavior and forecast maintenance. A recent audit found insufficient data protection procedures. Why are data management and privacy protection essential?",
+    "opties": [
+      "Because it enables the business to prioritize business objectives and operational efficiency",
+      "Because it enhances user trust, safeguards personal data, and prevents unauthorized access",
+      "Because it is mandatory and complying with the AI Act avoids legal trouble and potential fines",
+      "Because it streamlines data gathering procedures by removing the need for user consent"
+    ],
+    "antwoord": 1,
+    "toelichting": "The AI Act emphasizes protecting individual privacy and ensuring ethical data management, which supports accurate and fair AI system operations. (Literature: A, Chapter 4.3, 4.4, 4.6)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "According to the AI Act, which use of an AI system fits the classification of limited risk?",
+    "opties": [
+      "A chatbot designed to assist customers with general inquiries, programmed to disclose it is an AI.",
+      "A facial recognition system used for real-time identification of customers in public spaces.",
+      "A medical diagnostic tool that assists doctors with treatment recommendations based on patient data.",
+      "An AI system that operates an autonomous vehicle on public roads without human supervision."
+    ],
+    "antwoord": 0,
+    "toelichting": "The AI Act categorizes AI systems that interact with users but do not have significant potential to impact rights, safety or legal obligations as limited risk. They must comply with transparency obligations. (Literature: A, Chapter 3.3)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "A business develops an AI system for education that determines student access to materials, admission, or class assignment. According to the AI Act, in which category should this be classified?",
+    "opties": [
+      "Unacceptable risk",
+      "High risk",
+      "Limited risk",
+      "Minimal or no risk"
+    ],
+    "antwoord": 1,
+    "toelichting": "AI systems designed to assess access to education should be classified as high-risk, because they can have a large impact on natural persons. AI is directly influencing whether a student can access educational resources or be admitted. (Literature: A, Chapter 3.3, 3.4; AI Act, Article 6 (Annex III))",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "An organization developed an AI system for automated hiring. The system scores candidates from certain ethnic backgrounds lower due to demographic bias, and there's no internal review process. They use ISO/IEC TR 24368. What should they do?",
+    "opties": [
+      "Create a synthetic dataset to address demographic imbalances and improve fairness",
+      "Implement transparency to increase the system's explainability and accountability",
+      "Strengthen data encryption practices and use access control to prevent breaches",
+      "Use an ethical framework with stakeholder input to evaluate human rights issues"
+    ],
+    "antwoord": 3,
+    "toelichting": "ISO/IEC TR 24368 emphasizes the importance of ethical frameworks, human rights practices, stakeholder involvement, and fairness in AI development. Establishing an ethical review process helps identify and mitigate discrimination. (Literature: B, Chapter 4.2, 4.3)",
+    "domein": "AICP Sample Exam EN"
+  },
+  {
+    "vraag": "An AI startup develops a GPAI model trained on publicly available online content. After launching, they receive a legal notice from authors claiming IP was used without authorization. What should be done?",
+    "opties": [
+      "Argue that the GPAI model qualifies as open-source and is exempt from copyright compliance obligations",
+      "Claim fair use under the AI Act since the content was publicly available, and continue using the dataset",
+      "Delete the AI-generated outputs containing similarities to the disputed works to avoid infringement claims",
+      "Document and share details of the GPAI training dataset, including provenance, to ensure compliance"
+    ],
+    "antwoord": 3,
+    "toelichting": "Under Article 53 of the AI Act, providers must document the training process and include detailed information on the data's provenance and characteristics. (Literature: A, Chapter 3)",
+    "domein": "AICP Sample Exam EN"
+  }
+]

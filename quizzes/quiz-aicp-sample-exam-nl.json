@@ -1,0 +1,482 @@
+[
+  {
+    "vraag": "De AI Act is een wet die is opgesteld voor de Europese Unie (EU). In artikel 1 worden de doelstellingen van de AI Act beschreven. Wat zijn de belangrijkste doelstellingen van de AI Act?",
+    "opties": [
+      "Richtlijnen die puur bedoeld zijn voor milieubescherming, zonder specifieke regels voor AI met een hoog risico, zonder verboden, en met innovatiemaatregelen alleen voor grote bedrijven",
+      "Geharmoniseerde regels voor AI-systemen in de EU, verboden voor bepaalde AI-praktijken, vereisten voor AI met een hoog risico, transparantieregels, markttoezicht en innovatieondersteuning",
+      "Verboden voor AI-praktijken, uitsluitend regels voor AI voor algemene doeleinden, transparantieregels behalve voor AI met een hoog risico en innovatieondersteuning beperkt tot niet-Europese entiteiten",
+      "Regels voor AI-systemen beperkt tot veiligheid en gezondheid, verboden voor alle AI-praktijken, transparantieregels uitsluitend voor AI met een hoog risico, en innovatieondersteuning voor alle bedrijven behalve start-ups"
+    ],
+    "antwoord": 1,
+    "toelichting": "Deze optie geeft een juiste weerspiegeling van de hoofdpunten van de AI Act, waaronder geharmoniseerde regels voor AI-systemen, verboden voor bepaalde AI-praktijken, specifieke vereisten voor systemen met een hoog risico, transparantieregels, markttoezicht en innovatieondersteuning gericht op kmo's. (Literatuur: A, hoofdstuk 3.1, 3.2; AI Act, artikel 1)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Wat betekenen verantwoording en naleving volgens de AI Act?",
+    "opties": [
+      "Verantwoording draait om het handhaven van gebruikersprivacy en dataveiligheid, terwijl naleving betrekking heeft op integratie met een bestaande IT-infrastructuur.",
+      "Verantwoording houdt in dat ontwikkelaars en operators die AI ontwikkelen daarvoor verantwoordelijk worden gehouden, en naleving betekent dat wettelijke vereisten in acht worden genomen.",
+      "Verantwoording draait om het garanderen dat AI-systemen winstgevend zijn voor ontwikkelaars, en naleving houdt in dat systemen voldoen aan de wensen en voorkeuren van gebruikers.",
+      "Verantwoording betekent dat AI-gebruikers verantwoordelijk worden gehouden voor correct gebruik van het systeem, terwijl naleving betekent dat binnen de sector gangbare normen voor AI-innovatie in acht worden genomen."
+    ],
+    "antwoord": 1,
+    "toelichting": "Verantwoording betekent dat ontwikkelaars en operators van AI-systemen verantwoordelijk kunnen worden gehouden voor hun handelingen en resultaten. Naleving verwijst naar het in acht nemen van wettelijke en regelgevende vereisten zoals beschreven in de AI Act. (Literatuur: A, hoofdstuk 3.10)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Personen die de gevolgen ondervinden van AI-systemen hebben onder de AI Act specifieke rechten om transparantie, billijkheid en verantwoording te waarborgen. Welk recht wordt expliciet verleend onder de AI Act?",
+    "opties": [
+      "Het recht om te worden geïnformeerd over het feit dat ze interageren met of de gevolgen ondervinden van een AI-systeem",
+      "Het recht om inzage in de broncode van het AI-systeem te eisen",
+      "Het recht om het gebruik van AI te verbieden voor elk besluitvormingsproces dat betrekking op hen heeft",
+      "Het recht om verwijdering van door het AI-systeem gebruikte persoonsgegevens aan te vragen"
+    ],
+    "antwoord": 0,
+    "toelichting": "Personen moeten ervan in kennis worden gesteld dat zij interageren met een AI-systeem, tenzij dit duidelijk is voor een redelijk opmerkzaam persoon. Zo wordt transparantie gewaarborgd. (Literatuur: A, hoofdstuk 3.6; AI Act, artikel 50)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Anna is als compliance officer bij een kmo verantwoordelijk voor het toezicht op de implementatie van een nieuw AI-systeem voor klantondersteuning. Het bedrijf koopt het systeem van een andere aanbieder. Het systeem is geclassificeerd als hoog risico. Wat kan Anna beter niet overwegen?",
+    "opties": [
+      "De algoritmes van het AI-model verder ontwikkelen om de besluitvormende capaciteiten te verbeteren zonder de aanbieder daarbij te betrekken",
+      "De prestaties van het AI-systeem gedetailleerd bijhouden en zorgen dat aan alle relevante rapportagevereisten wordt voldaan",
+      "De prestaties van het AI-systeem monitoren om te waarborgen dat het werkt zoals beoogd en voldoet aan veiligheidsnormen",
+      "Elk ernstig incident met of gebrekkig functioneren van het AI-systeem melden bij de toepasselijke instanties, zoals wettelijk vereist"
+    ],
+    "antwoord": 0,
+    "toelichting": "Anna mag niet proberen het algoritme van het AI-systeem onafhankelijk te ontwikkelen of de besluitvormende capaciteiten ervan te wijzigen zonder de aanbieder daarbij te betrekken. Dit valt buiten de scope van de verplichtingen van de gebruiker. (Literatuur: A, hoofdstuk 1.1)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een AI-systeem voor gezichtsherkenning wordt in openbare ruimtes gebruikt voor beveiligingsdoeleinden. Welke organisatie is het meest relevant voor toezicht op naleving van databescherming en privacyregelgeving (zoals de AVG)?",
+    "opties": [
+      "De Europese Consumentenorganisatie (BEUC)",
+      "De Europese Raad voor Artificiële Intelligentie (AI-board)",
+      "Het Europese Hof van Justitie (EHJ)",
+      "Het Europese Comité voor Gegevensbescherming (EDPB)"
+    ],
+    "antwoord": 3,
+    "toelichting": "Het EDPB is verantwoordelijk voor een consistente toepassing van de AVG in alle lidstaten van de EU. Samen met nationale autoriteiten voor databescherming pakt het kwesties aan zoals het gebruik van biometrische data in AI-beveiligingssystemen. (Literatuur: A, hoofdstuk 3.9, 3.10, 4.5)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een bedrijf ontwikkelt een AI-systeem voor gepersonaliseerde marketing. Het team stelt vast: geen documentatie over dataverwerking, besluitvormingsproces wordt niet begrepen, klanten klagen. Het bedrijf gebruikt ISO/IEC 42001 en NIST AI RMF. Wat moet het bedrijf doen?",
+    "opties": [
+      "Een reeks UX-tests uitvoeren om feedback over bruikbaarheid, leerbaarheid en klantvoorkeuren te verzamelen",
+      "Proberen om voorspellingen nauwkeuriger te maken om kostenefficiëntie, klanttevredenheid en betrokkenheid te verbeteren",
+      "Een documentatieproces implementeren waarin databronnen, verwerkingsmethoden en de algoritmische besluitvorming worden beschreven",
+      "De systeemhardware upgraden om snellere verwerking, meer efficiëntie en hogere klanttevredenheid te waarborgen"
+    ],
+    "antwoord": 2,
+    "toelichting": "Implementatie van een uitgebreid documentatieproces is in lijn met ISO/IEC 42001, waarin transparantie en documentatie voor de gehele AI-levenscyclus wordt benadrukt. Het NIST AI RMF ondersteunt dit door het gedetailleerd bijhouden van data en beslissingen. (Literatuur: B, hoofdstuk 2.3)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een bedrijf ontwikkelt een AI-systeem voor monitoring van patiënten in een ziekenhuis met HD-camera's. Om prestaties te verbeteren willen ze een videodatabase met professionele notities aanleggen. Moet het bedrijf nu een DPIA uitvoeren?",
+    "opties": [
+      "Ja, want een DPIA is verplicht voor AI-projecten die mogelijk een hoog risico vormen voor de rechten van natuurlijke personen.",
+      "Ja, want een DPIA is verplicht voor elk project waarbij persoonsgegevens worden verzameld, zelfs als het risico laag is.",
+      "Nee, want een DPIA is niet verplicht wanneer gegevens worden gebruikt voor trainingsdoeleinden, onderwijs of wetenschappelijk onderzoek.",
+      "Nee, want een DPIA is pas verplicht nadat een AI-systeem volledig is ontwikkeld, getest en uitgerold."
+    ],
+    "antwoord": 0,
+    "toelichting": "Een DPIA is verplicht wanneer verwerkingsactiviteiten waarschijnlijk resulteren in een hoog risico voor de rechten en vrijheden van natuurlijke personen, vooral bij gebruik van nieuwe technologieën zoals AI-systemen die zeer gevoelige gegevens verwerken. (Literatuur: A, hoofdstuk 4.5)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een bedrijf ontwikkelt een AI-systeem voor real-time gezichtsherkenning. Een particulier beveiligingsbedrijf zet het in in een winkelcentrum, scant bezoekers, vergelijkt met databases van overtreders en politiek activisten, en volgt gemarkeerde bezoekers. In welke categorie valt dit?",
+    "opties": [
+      "Onaanvaardbaar risico",
+      "Hoog risico",
+      "Beperkt risico",
+      "Laag of geen risico"
+    ],
+    "antwoord": 0,
+    "toelichting": "Openbare biometrische identificatie in real time om personen te volgen op basis van hun politieke activiteit is verboden onder artikel 5 van de AI Act. (Literatuur: A, hoofdstuk 3.3, 3.4; AI Act, artikel 5(1)(d))",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een reisbureau gebruikt AI voor dynamische, gerichte marketingcampagnes, gebruikt browsegeschiedenis en bepaalt de gemoedstoestand van gebruikers om bestemmingen te suggereren. Welk risico moet het reisbureau aanpakken?",
+    "opties": [
+      "Het risico op mogelijke bias. Het bureau moet trainingsdata regelmatig bijwerken om irrelevante suggesties te voorkomen.",
+      "Het risico op ineffectieve reclameactiviteiten. Het bureau moet het algoritme bijwerken, want gepersonaliseerde advertenties vallen niet onder de AI Act.",
+      "Het risico op een gebrek aan transparantie. Het bureau moet openheid over AI garanderen, bias in suggesties terugdringen en ethiek beoordelen.",
+      "Het risico op misbruik van persoonsgegevens. Het bureau moet stoppen met AI-personalisatie omdat de AI Act dit verbiedt."
+    ],
+    "antwoord": 2,
+    "toelichting": "Dit zijn de voornaamste verplichtingen onder de AI Act. Bureaus moeten transparant zijn door consumenten te informeren over de inzet van AI, bias te voorkomen en te garanderen dat reclamestrategieën aan ethische normen voldoen. (Literatuur: A, hoofdstuk 7.8, 7.9)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een bedrijf heeft een AI-model ontwikkeld dat in verschillende sectoren kan worden gebruikt, met potentiële risico's voor de volksgezondheid. Wat heeft het bedrijf ontwikkeld en welke praktijken moeten worden geïmplementeerd?",
+    "opties": [
+      "Het bedrijf heeft een AI-systeem voor algemene doeleinden (GPAI) dat systeemrisico's meebrengt. Het moet aanvullende tests uitvoeren.",
+      "Het bedrijf heeft een AI-systeem met een hoog risico ontwikkeld. Het moet alle vereisten voor hoog-risico systemen implementeren.",
+      "Het bedrijf heeft een beperkt AI-model ontwikkeld. Het moet waarborgen dat het model alleen binnen vooraf gedefinieerde parameters werkt.",
+      "Het bedrijf heeft een experimenteel AI-model ontwikkeld. Het moet zich op onderzoek richten zonder onmiddellijk risicomanagement."
+    ],
+    "antwoord": 0,
+    "toelichting": "Het bedrijf heeft een GPAI-model ontwikkeld dat systeemrisico's met zich meebrengt. Het moet een aanvullende beoordeling uitvoeren aan de hand van protocollen en geavanceerde instrumenten. (Literatuur: A, hoofdstuk 3.7; AI Act, artikel 3 en 55)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een organisatie ontwikkelt een AI-systeem met een hoog risico. Het team stelt inconsistenties in datavolledigheid en verouderde records vast. Ze gebruiken CEN/CLC/TR 18115. Wat moeten ze doen?",
+    "opties": [
+      "Een DPIA uitvoeren om de billijkheid van AI-besluitvorming aan te pakken",
+      "Alle datasets versleutelen om onbevoegde inzage in persoonsgegevens te voorkomen",
+      "Algemene maatregelen voor risicobeheer implementeren",
+      "De datakwaliteit verbeteren door gestructureerde meetwaarden en statistische evaluatiemethoden toe te passen"
+    ],
+    "antwoord": 3,
+    "toelichting": "CEN/CLC/TR 18115 bevat richtlijnen om de datakwaliteit in de hele levenscyclus van AI-systemen te evalueren en verbeteren, met nadruk op meetwaarden voor volledigheid en tijdigheid. (Literatuur: B, hoofdstuk 1; AI Act, artikel 10)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "In de AI Act worden diverse rollen beschreven. Wat is de definitie van de rol 'importeur van een AI-systeem'?",
+    "opties": [
+      "Een persoon of organisatie die een AI-systeem ontwerpt, ontwikkelt en onder eigen naam in de handel brengt.",
+      "Een persoon of organisatie die een AI-systeem in de handel brengt, maar niet verantwoordelijk is voor de oorspronkelijke ontwikkeling.",
+      "Een persoon of organisatie die een AI-systeem gebruikt voor eigen activiteiten en lokale verplichtingen naleeft.",
+      "Een regelgevende instantie die monitort of het AI-systeem wordt geïmporteerd conform de AI Act."
+    ],
+    "antwoord": 1,
+    "toelichting": "Dit is de definitie van de rol 'importeur', doorgaans wanneer het systeem buiten de EU is ontwikkeld. De importeur moet zorgen dat het systeem voldoet aan alle EU-vereisten. (Literatuur: A, hoofdstuk 3.1)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een bedrijf ontwikkelt een AI-systeem voor fraudedetectie bij financiële transacties. Vanwege valspositieven gebruikt het bedrijf ISO/IEC 23894. Wat moet het bedrijf volgens deze norm doen?",
+    "opties": [
+      "Risicomanagement integreren in alle activiteiten voor breed toezicht en proactieve risicobeperking",
+      "Maatregelen voor dataprivacy uitbreiden om gevoelige informatie te beschermen",
+      "De nauwkeurigheid van het model verbeteren om valspositieven te minimaliseren",
+      "Cyberbeveiligingsmaatregelen implementeren tegen externe dreigingen"
+    ],
+    "antwoord": 0,
+    "toelichting": "Bij deze aanpak wordt risicomanagement geïntegreerd in de gehele organisatie, in lijn met ISO/IEC 23894. (Literatuur: B, hoofdstuk 3.2)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een productiebedrijf gebruikt AI-gestuurde robots voor kwaliteitscontrole. Een klokkenluider meldt dat het systeem een ongebruikelijk laag aantal defecten detecteert door een software-update. Managers waren op de hoogte. Welke acties moeten worden ondernomen?",
+    "opties": [
+      "Het interne algoritme aanpassen; de bevoegde autoriteit informeren als het probleem na 30 dagen nog bestaat",
+      "Het probleem intern onderzoeken en starten met een oplossing; de bevoegde autoriteit onmiddellijk informeren",
+      "De redenen van de klokkenluider onderzoeken; de autoriteit informeren als consumenten klagen",
+      "Stoppen met het AI-systeem; dan is het niet nodig de autoriteit te informeren"
+    ],
+    "antwoord": 1,
+    "toelichting": "Door onderzoek te doen wordt de onderliggende oorzaak gevonden en aangepakt. Melding aan de bevoegde autoriteit garandeert naleving. (Literatuur: A, hoofdstuk 7.4, 3.10; AI Act, artikel 73)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "MedTech Diagnostics gebruikt een AI-systeem met hoog risico voor medische diagnoses op basis van röntgenbeelden. Ze hebben externe audit, risicomanagement, gegevensopslag, documentatie en menselijke beoordeling. Wat moeten ze nog meer implementeren?",
+    "opties": [
+      "Robuuste procedures voor datagovernance toevoegen voor betrouwbaarheid en billijkheid",
+      "Zorgen dat het AI-systeem onafhankelijk kan werken zonder menselijke tussenkomst",
+      "Een systeem implementeren om menselijke beslissingen automatisch te overrulen",
+      "Een functie toevoegen zodat patiënten hun medisch dossier kunnen wijzigen op basis van AI-suggesties"
+    ],
+    "antwoord": 0,
+    "toelichting": "Met robuuste data en datagovernance zorgt het bedrijf voor kwaliteit, beperkt het bias en bevordert het de traceerbaarheid van trainings- en gebruiksdata. (Literatuur: A, hoofdstuk 3.3; AI Act, artikel 15)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een verzekeringsmaatschappij implementeert een AI-kredietscoresysteem. Risico's: gebrek aan trainingsdata, integratieproblemen, niet-naleving AVG, transparantie en kwaliteit. Welk risico is niet belangrijk voor AI Act-naleving?",
+    "opties": [
+      "Een gebrek aan goede trainingsdata",
+      "Integratie met andere toepassingen",
+      "Niet-naleving van de AVG",
+      "Transparantie en kwaliteit van het model"
+    ],
+    "antwoord": 1,
+    "toelichting": "Een gebrekkige integratie met andere toepassingen is absoluut een risico, maar geen risico zoals gedefinieerd in de AI Act. (Literatuur: A, hoofdstuk 7.2, 7.3)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een overheidsinstantie stelt voor AI te gebruiken voor het voorspellen van criminaliteitsbrandhaarden met geautomatiseerde surveillance. Personen met verdacht gedrag worden automatisch gemeld. Kleven er risico's aan de implementatie?",
+    "opties": [
+      "Ja, want risico op bias is inherent aan AI voor geautomatiseerde beslissingen, waardoor personen onterecht benadeeld kunnen worden.",
+      "Ja, want de AI Act verbiedt ronduit de inzet van bewakingssystemen in openbare ruimtes.",
+      "Nee, want AI-systemen voor misdaadpreventie vormen geen specifieke risico's omdat ze de openbare veiligheid verbeteren.",
+      "Nee, want AI-systemen in het publieke domein zijn objectief en vrij van menselijke fouten."
+    ],
+    "antwoord": 0,
+    "toelichting": "Deze belangrijke reden tot zorg wordt specifiek benoemd in de AI Act. Op gevoelige gebieden als misdaadbestrijding kunnen bias in data of algoritmes discriminerende resultaten opleveren. (Literatuur: A, hoofdstuk 8.1, 8.2, 8.3)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een organisatie ontwikkelt een AI-systeem voor personeelswerving. Het systeem begunstigt onbedoeld bepaalde achtergronden. Ze gebruiken ISO/IEC TR 24368. Wat moeten ze doen?",
+    "opties": [
+      "Het algoritme aanpassen om prioriteit te geven aan demografische quota's",
+      "Alle demografische data uit de trainingsset verwijderen",
+      "Cyberbeveiligingsmaatregelen toepassen om sollicitantgegevens te beschermen",
+      "Een proces voor stakeholderbetrokkenheid implementeren om bias op te sporen en weg te nemen"
+    ],
+    "antwoord": 3,
+    "toelichting": "ISO/IEC TR 24368 bevordert de betrokkenheid van stakeholders om ethische risico's als bias aan het licht te brengen en inclusieve, eerlijke AI-systemen te ontwikkelen. (Literatuur: B, hoofdstuk 4)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een organisatie ontwikkelt een AI-systeem voor leninggoedkeuring. Het team vindt gebrek aan transparantie en beperkte documentatie. Ze gebruiken ISO/IEC 42001 en NIST AI RMF. Wat moeten ze doen?",
+    "opties": [
+      "Een veiligheidsnalevingsbeoordeling uitvoeren op basis van cyberbeveiligingsrichtlijnen",
+      "Het AI-systeem uit bedrijf nemen en overstappen op handmatige goedkeuring",
+      "Een meetplan met transparantiewaarden definiëren en beslissingslogica vastleggen",
+      "Het systeem herbouwen met synthetische data om bias te elimineren"
+    ],
+    "antwoord": 2,
+    "toelichting": "ISO/IEC 42001 legt de nadruk op transparante en verklaarbare besluitvorming met grondige documentatie. Het NIST AI RMF ondersteunt meetwaarden en traceerbaarheid. (Literatuur: B, hoofdstuk 2.2, 2.5)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een autofabrikant ontwikkelt een niveau 4 geautomatiseerd voertuig met AI-objectherkenning. Risico's: verminderde drempeldetectie bij weinig licht, onbekende voertuigafmetingen, onverklaarbare beslissingen, gebrek aan stakeholderinput. Wat moet worden aangepakt voor AI Act-naleving?",
+    "opties": [
+      "Het risico op onvoldoende tests in realistische omstandigheden",
+      "Het risico op gebrek aan transparantie in de besluitvorming door de AI",
+      "Het risico op beperkte schaalbaarheid naar andere voertuigmodellen",
+      "Het risico op beperkte betrokkenheid van stakeholders"
+    ],
+    "antwoord": 1,
+    "toelichting": "Artikel 11 van de AI Act benadrukt de transparantie van AI-systemen om mogelijke risico's op te sporen en te verhelpen. (Literatuur: A, hoofdstuk 7.10)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een logistiek bedrijf kiest tussen een closed-source AI-model met gecertificeerde naleving en een open-source AI-model met transparantie. Welk model past het beste bij AI Act, innovatie en kosten?",
+    "opties": [
+      "Closed-source, omdat dit intrinsiek veiliger is en meer vertrouwd wordt door instanties.",
+      "Closed-source, omdat dit vooraf gecertificeerde naleving biedt en minder bewijslast geeft.",
+      "Open-source, omdat dit volledige transparantie garandeert, gunstig voor documentatie en controleerbaarheid.",
+      "Open-source, omdat dit is uitgesloten van AI Act-naleving vanwege openbare broncode."
+    ],
+    "antwoord": 2,
+    "toelichting": "De volledige transparantie van opensourcemodellen sluit aan bij de criteria voor controleerbaarheid, traceerbaarheid en risicobeheer uit de AI Act. (Literatuur: A, hoofdstuk 6)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "In de AI Act worden ethische principes voor AI-ontwikkeling gedefinieerd. Wat is geen van deze principes?",
+    "opties": [
+      "Verklaarbaarheid",
+      "Billijkheid",
+      "Verliespreventie",
+      "Respect voor AI-autonomie"
+    ],
+    "antwoord": 3,
+    "toelichting": "Het juiste principe is respect voor menselijke autonomie. De AI Act richt zich op principes als billijkheid, verliespreventie en verklaarbaarheid. (Literatuur: A, hoofdstuk 9.1)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een start-up ontwikkelt een AI-systeem voor gepersonaliseerd leren op scholen. Het systeem verzamelt gegevens over prestaties en leergedrag. Wat moet de start-up overwegen voor balans tussen innovatie en regelgeving?",
+    "opties": [
+      "Het systeem niet als 'hoog risico' labelen om regeldruk te omzeilen",
+      "Zorgen dat het systeem een conformiteitsbeoordeling ondergaat en voldoet aan hoog-risico regelgeving",
+      "Databescherming implementeren maar gebruikersmeldingen achterwege laten",
+      "Het systeem exclusief voor privéscholen in de handel brengen"
+    ],
+    "antwoord": 1,
+    "toelichting": "Uitvoeren van een conformiteitsbeoordeling en zorgen voor transparantie zijn cruciaal voor naleving van hoog-risico systemen. (Literatuur: A, hoofdstuk 7.6; AI Act, artikel 6, bijlage III)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Fintegra implementeert AI voor fraudedetectie met toegang tot transactiegegevens en demografische gegevens. Hoe kunnen ze het beste voldoen aan minimale gegevensverwerking?",
+    "opties": [
+      "Alle transactiegegevens anonimiseren en identificerende data verwijderen, zelfs als cruciaal voor fraudedetectie",
+      "Alle persoonsgegevens verzamelen voor precieze analyse en veilig bewaren",
+      "Gegevensverzameling beperken tot relevante transactiegegevens, vermijden van volledige namen of adressen",
+      "Gegevens alleen delen met erkende AI Act-conforme leveranciers"
+    ],
+    "antwoord": 2,
+    "toelichting": "Het principe van minimale gegevensverwerking vereist dat alleen strikt noodzakelijke gegevens worden verzameld voor het specifieke doel. (Literatuur: A, hoofdstuk 4.1)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "EduTech implementeert een adaptief leerplatform dat leertrajecten personaliseert. Welk risico moet EduTech beperken voor ethisch AI-gebruik?",
+    "opties": [
+      "Het risico op bias en discriminatie, te beperken door datasets en algoritmes regelmatig te controleren en bij te werken.",
+      "Het risico op bovenmatige afhankelijkheid van technologie, te beperken door het besluitvormingsproces vertrouwelijk te houden.",
+      "Het risico op privacy-inbreuken, te beperken door te focussen op betere technische prestaties.",
+      "Het risico op transparantieproblemen, te beperken door het systeem zonder menselijk toezicht te laten werken."
+    ],
+    "antwoord": 0,
+    "toelichting": "Bias en discriminatie vormen grote risico's in het onderwijs. Regelmatige controle en bijwerking van datasets en algoritmes beperkt dit risico. (Literatuur: A, hoofdstuk 7.6)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een ziekenhuis ontwikkelt een diagnostisch AI-systeem. Het is succesvol in de VS. EU-specialisten willen het overnemen maar begrijpen niet hoe het werkt en hebben geen AI-monitoringservaring. Wat is geen risico bij overname?",
+    "opties": [
+      "Het risico op ontbrekend effectief menselijk toezicht",
+      "Het risico op onjuiste diagnoses wegens bias in automatisering",
+      "Het risico op wantrouwen wegens te weinig transparantie",
+      "Het risico op onbevoegde inzage in patiëntendossiers"
+    ],
+    "antwoord": 3,
+    "toelichting": "Hoewel dataprivacy en onbevoegde inzage belangrijk zijn, vormen ze in dit scenario geen specifiek risico voor de overstap naar het diagnostische AI-systeem. (Literatuur: A, hoofdstuk 7.7)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een bedrijf maakt een AI-systeem voor slimme-woningassistenten. Spraakherkenningsfouten veroorzaken onbedoelde acties en privacy-inbreuken. Ze gebruiken CEN/CLC/TR 18115. Wat moet de aanbieder doen?",
+    "opties": [
+      "Een stakeholderbetrokkenheidsplan opstellen",
+      "Een ethische impactbeoordeling uitvoeren",
+      "De kwaliteit van trainingsdata verbeteren met systematische validatie en foutcontrole",
+      "Dataveiligheid vergroten met versleuteling"
+    ],
+    "antwoord": 2,
+    "toelichting": "Verbetering van de datakwaliteit door systematische validatie en foutcontrole sluit aan bij CEN/CLC/TR 18115 voor nauwkeurige en volledige data. (Literatuur: B, hoofdstuk 1)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een technologiebedrijf gebruikt real-time biometrische identificatie op afstand, nadrukkelijk verboden onder de AI Act. Wat is de juiste sanctie?",
+    "opties": [
+      "Een formele waarschuwing zonder financiële sancties",
+      "Een administratieve geldboete tot €7,5 miljoen of 1% van de wereldwijde jaaromzet",
+      "Een administratieve geldboete tot €15 miljoen of 3% van de wereldwijde jaaromzet",
+      "Een administratieve geldboete tot €35 miljoen of 7% van de wereldwijde jaaromzet"
+    ],
+    "antwoord": 3,
+    "toelichting": "Deze sanctie sluit aan bij de maximaal mogelijke boete voor de ernstigste overtredingen onder de AI-regelgeving. (Literatuur: A, hoofdstuk 3.11; AI Act, artikel 52 en 99)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "De AI Act legt nadruk op transparantie en traceerbaarheid. Waarom zijn deze belangrijk?",
+    "opties": [
+      "Omdat ze cruciaal zijn om verantwoording te waarborgen en vertrouwen in AI-systemen te stimuleren.",
+      "Omdat dit verplichte vereisten zijn voor alle producten, inclusief AI-systemen.",
+      "Omdat ze van wezenlijk belang zijn voor de betrouwbaarheid en automatisering van AI-systemen.",
+      "Omdat de Europese, Chinese en Amerikaanse wetgeving deze aspecten gemeen hebben."
+    ],
+    "antwoord": 0,
+    "toelichting": "Transparantie en traceerbaarheid zijn belangrijk voor de verantwoording en het gebruikersvertrouwen in AI-systemen. (Literatuur: A, hoofdstuk 3.1)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een retailorganisatie gebruikt een AI-systeem dat website-elementen aanpast aan gebruikersvoorkeuren, producten aanbeveelt en de gebruikerservaring verbetert op basis van klikgeschiedenis. In welke categorie valt dit?",
+    "opties": [
+      "Onaanvaardbaar risico",
+      "Hoog risico",
+      "Beperkt risico",
+      "Laag of geen risico"
+    ],
+    "antwoord": 3,
+    "toelichting": "Het systeem gebruikt niet-gevoelige gegevens, draait in een omgeving waar het belang laag is, en beïnvloedt alleen de aankoopervaring. (Literatuur: A, hoofdstuk 3.3, 3.4)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een bedrijf ontwikkelt een AI-systeem voor geautomatiseerde besluitvorming in werving. Het screent cv's en geeft aanbevelingen. Het bedrijf maakt zich zorgen over bias. Wat kunnen ze het beste doen?",
+    "opties": [
+      "Het AI-systeem laten leren zonder menselijke tussenkomst",
+      "Bias in trainingsdata negeren en focussen op prestaties",
+      "Een divers ontwikkelteam samenstellen om het systeem te maken en monitoren",
+      "Het systeem trainen met één enkele databron voor consistentie"
+    ],
+    "antwoord": 2,
+    "toelichting": "Een divers team kan helpen bias op te sporen en te beperken, zodat het AI-systeem billijk en inclusief is. (Literatuur: A, hoofdstuk 4.5; AI Act, richtlijn 81)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Feline Finesse is een webshop die AI gebruikt voor dynamische prijzen, zoekresultaten en aanbevelingen. Ze zijn transparant, maar de CEO vraagt zich af welke transparantie vereist is. Wat moet de CEO weten?",
+    "opties": [
+      "Transparantie kan bewijzen dat het systeem objectief is. Consumenten hebben recht om te begrijpen hoe hun data wordt gebruikt, wat vertrouwen bevordert.",
+      "Transparantie kan beperkingen tonen, waardoor consumenten mogelijk vertrouwen verliezen.",
+      "Transparantie is niet verplicht voor e-commerce. Consumenten hebben geen kennis nodig van AI-werking.",
+      "Transparantie blijft beperkt tot het beschikbaar stellen van broncode."
+    ],
+    "antwoord": 0,
+    "toelichting": "Transparantie is een pijler van de AI Act en een bepalende factor voor het publieke vertrouwen. (Literatuur: A, hoofdstuk 3.6)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Voor een wervingsproces wordt een AI-systeem met hoog risico gebruikt dat sollicitanten automatisch filtert. Er is geen mechanisme voor menselijk toezicht. Is menselijk toezicht vereist onder de AI Act?",
+    "opties": [
+      "Ja, want menselijk toezicht is nodig voor tussenkomst in besluitvormingsprocessen.",
+      "Ja, want menselijk toezicht waarborgt naleving van billijkheids- en transparantieverplichtingen.",
+      "Nee, want geautomatiseerde systemen zijn ontworpen om zonder menselijke tussenkomst te functioneren.",
+      "Nee, want wervingsprocessen brengen geen kritieke veiligheidsrisico's met zich mee."
+    ],
+    "antwoord": 0,
+    "toelichting": "De AI Act benadrukt het belang van menselijk toezicht voor AI-systemen met een hoog risico, vooral bij twijfelachtige beslissingen met aanzienlijke gevolgen. (Literatuur: A, hoofdstuk 10.2.3)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een bedrijf bereidt de lancering voor van een GPAI-model. Het bedrijf is buiten de EU gevestigd maar wil distribueren in EU-lidstaten. Wat is niet vereist voor distributie?",
+    "opties": [
+      "Een gemachtigde in de EU aanstellen voor nalevingskwesties",
+      "EU-auteursrechtregelgeving naleven voor training met auteursrechtelijk beschermde data",
+      "Een grondige audit uitvoeren voor volledige conformiteit met alle EU-wetten",
+      "Een gedetailleerde samenvatting publiceren van de gebruikte trainingsdata"
+    ],
+    "antwoord": 2,
+    "toelichting": "Een volledige conformiteitsbeoordeling is alleen vereist voor AI-systemen met een hoog risico. GPAI-modellen vallen niet in die categorie. (Literatuur: A, hoofdstuk 3)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een organisatie zet een AI-systeem in voor predictief onderhoud. Na maanden genereert het veel valse meldingen. Onderzoek toont: geen rekening gehouden met omgevingsveranderingen en geen formeel herbeoordelingsproces. Ze gebruiken ISO/IEC 23894. Wat moeten ze doen?",
+    "opties": [
+      "Een Human Centered Design-workshop organiseren",
+      "Een risicomanagementproces met constante evaluatie en monitoring ontwikkelen",
+      "Een cyberbeveiligingsaudit uitvoeren",
+      "Het AI-systeem vervangen door een eenvoudiger rule-based model"
+    ],
+    "antwoord": 1,
+    "toelichting": "ISO/IEC 23894 benadrukt het belang van dynamisch en constant risicomanagement in de volledige AI-levenscyclus, ook na uitrol. (Literatuur: B, hoofdstuk 3.2, 3.4)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een wagenparkbeheerder gebruikt AI voor het bijhouden van bestuurdersgedrag en onderhoudsvoorspellingen. Een audit toonde onvoldoende databescherming. Waarom zijn databeheer en privacybescherming essentieel?",
+    "opties": [
+      "Omdat het bedrijf prioriteit kan geven aan zakelijke doelstellingen en efficiëntie",
+      "Omdat het gebruikersvertrouwen toeneemt, persoonsgegevens worden beschermd en onbevoegde inzage wordt voorkomen",
+      "Omdat naleving verplicht is en juridische problemen worden voorkomen",
+      "Omdat procedures voor dataverzameling worden gestroomlijnd en toestemming niet nodig is"
+    ],
+    "antwoord": 1,
+    "toelichting": "De AI Act benadrukt het belang van bescherming van individuele privacy en ethisch databeheer voor accurate en eerlijke AI-werking. (Literatuur: A, hoofdstuk 4.3, 4.4, 4.6)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Welk gebruik van een AI-systeem wordt onder de AI Act geclassificeerd als beperkt risico?",
+    "opties": [
+      "Een chatbot voor algemene klantvragen die zich als AI identificeert",
+      "Gezichtsherkenning voor real-time identificatie in openbare ruimtes",
+      "Een medisch diagnostische tool voor behandelingsaanbevelingen",
+      "Een autonoom voertuig zonder menselijk toezicht"
+    ],
+    "antwoord": 0,
+    "toelichting": "AI-systemen die met gebruikers interageren maar geen grote impact op rechten, veiligheid of wettelijke verplichtingen hebben, worden als beperkt risico gecategoriseerd. (Literatuur: A, hoofdstuk 3.3)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een bedrijf ontwikkelt een AI-systeem voor onderwijs dat bepaalt of een leerling toegang krijgt tot materialen, wordt toegelaten of ingedeeld. In welke categorie valt dit?",
+    "opties": [
+      "Onaanvaardbaar risico",
+      "Hoog risico",
+      "Beperkt risico",
+      "Laag of geen risico"
+    ],
+    "antwoord": 1,
+    "toelichting": "AI-systemen voor toegang tot onderwijs moeten als hoog risico worden geclassificeerd vanwege de grote impact op natuurlijke personen en grondrechten. (Literatuur: A, hoofdstuk 3.3, 3.4; AI Act, artikel 6 (bijlage III))",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een organisatie heeft een AI-systeem voor automatische personeelswerving ontwikkeld. Het systeem geeft bepaalde etnische groepen lagere scores door demografische bias. Er is geen intern beoordelingsproces. Ze gebruiken ISO/IEC TR 24368. Wat moeten ze doen?",
+    "opties": [
+      "Een synthetische dataset maken voor betere demografische verhoudingen",
+      "Transparantie implementeren voor verklaarbaarheid en verantwoording",
+      "Dataversleuteling en toegangsbeheer aanscherpen",
+      "Een ethisch kader met stakeholderinput gebruiken om mensenrechtenkwesties te evalueren"
+    ],
+    "antwoord": 3,
+    "toelichting": "ISO/IEC TR 24368 benadrukt het belang van ethische kaders, mensenrechten, stakeholderbetrokkenheid en billijkheid bij AI-ontwikkeling. (Literatuur: B, hoofdstuk 4.2, 4.3)",
+    "domein": "AICP Voorbeeldexamen NL"
+  },
+  {
+    "vraag": "Een start-up ontwikkelt een GPAI-model getraind op openbare onlinecontent. Na lancering ontvangen ze een juridische kennisgeving van auteurs over onrechtmatig gebruik van IP. Wat moet er gebeuren?",
+    "opties": [
+      "Aanvoeren dat het model open source is en vrijgesteld van auteursrecht",
+      "Beweren dat er sprake is van eerlijk gebruik omdat de content openbaar was",
+      "AI-output met overeenkomsten met betwiste werken verwijderen",
+      "Naleving waarborgen door details van de trainingsdataset te documenteren en delen, inclusief herkomst"
+    ],
+    "antwoord": 3,
+    "toelichting": "Onder artikel 53 van de AI Act moeten aanbieders het trainingsproces documenteren met gedetailleerde informatie over herkomst en kenmerken van de data. (Literatuur: A, hoofdstuk 3)",
+    "domein": "AICP Voorbeeldexamen NL"
+  }
+]
