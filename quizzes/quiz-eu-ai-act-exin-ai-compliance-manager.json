@@ -1,0 +1,242 @@
+[
+  {
+    "vraag": "Wat is het hoofddoel van de EU AI Act?",
+    "opties": [
+      "Het verplicht maken van AI in alle organisaties",
+      "Het verbieden van alle generatieve AI-systemen",
+      "Het waarborgen van veilige, mensgerichte en betrouwbare AI in de EU",
+      "Het vervangen van de AVG door één AI-wet"
+    ],
+    "antwoord": 2,
+    "domein": "EU AI Act - Basis (makkelijk)",
+    "toelichting": "De AI Act wil innovatie mogelijk maken, maar tegelijk fundamentele rechten, veiligheid en vertrouwen beschermen via risicogebaseerde regels."
+  },
+  {
+    "vraag": "Welke benadering gebruikt de EU AI Act om verplichtingen te bepalen?",
+    "opties": [
+      "One-size-fits-all voor alle AI-systemen",
+      "Alleen regels voor opensource AI",
+      "Risicogebaseerde classificatie van AI-systemen",
+      "Alleen regels voor overheden"
+    ],
+    "antwoord": 2,
+    "domein": "EU AI Act - Basis (makkelijk)",
+    "toelichting": "Hoe hoger het risico van een AI-systeem, hoe strenger de eisen onder de AI Act."
+  },
+  {
+    "vraag": "Welke categorie kent de strengste behandeling onder de AI Act?",
+    "opties": [
+      "Minimaal risico",
+      "Beperkt risico",
+      "Hoog risico",
+      "Onaanvaardbaar risico"
+    ],
+    "antwoord": 3,
+    "domein": "EU AI Act - Basis (makkelijk)",
+    "toelichting": "AI met onaanvaardbaar risico is in principe verboden, met beperkte uitzonderingen voor bijvoorbeeld wetshandhaving onder strikte voorwaarden."
+  },
+  {
+    "vraag": "Wat is een typische verplichting voor AI met beperkt risico, zoals chatbots?",
+    "opties": [
+      "Verplichte CE-markering",
+      "Transparantie naar gebruikers dat ze met AI interacteren",
+      "Volledig verbod op markttoegang",
+      "Alleen gebruik door gecertificeerde data scientists"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Basis (makkelijk)",
+    "toelichting": "Bij beperkt risico ligt de focus op transparantie, zodat gebruikers weten dat AI betrokken is."
+  },
+  {
+    "vraag": "Welke rol valt onder de AI Act en brengt eigen verplichtingen mee?",
+    "opties": [
+      "Alleen de eindgebruiker",
+      "Alleen de softwareontwikkelaar",
+      "Provider en deployer (gebruiker in professionele context)",
+      "Alleen hardwarefabrikanten"
+    ],
+    "antwoord": 2,
+    "domein": "EU AI Act - Rollen (makkelijk)",
+    "toelichting": "De AI Act maakt onderscheid tussen rollen zoals provider, deployer, importeur en distributeur, elk met specifieke taken."
+  },
+  {
+    "vraag": "Wat betekent 'provider' in de context van de EU AI Act?",
+    "opties": [
+      "De partij die AI alleen intern test",
+      "De partij die een AI-systeem ontwikkelt of laat ontwikkelen en onder eigen naam op de markt brengt",
+      "Iedereen die een AI-output leest",
+      "Alleen een cloudleverancier"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Rollen (makkelijk)",
+    "toelichting": "Een provider draagt primaire productverantwoordelijkheid voor naleving, vooral bij hoog-risico AI."
+  },
+  {
+    "vraag": "Wanneer wordt een AI-systeem doorgaans als 'hoog risico' gezien onder de AI Act?",
+    "opties": [
+      "Als het duur is om te bouwen",
+      "Als het impact kan hebben op veiligheid of fundamentele rechten in gereguleerde domeinen",
+      "Als het opensource beschikbaar is",
+      "Als het minder dan 1 miljoen gebruikers heeft"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Hoog risico (medium)",
+    "toelichting": "Hoog-risico classificatie hangt samen met context en mogelijke impact, niet met prijs of populariteit."
+  },
+  {
+    "vraag": "Welke eis hoort bij hoog-risico AI-systemen?",
+    "opties": [
+      "Geen documentatieplicht zolang het model accuraat is",
+      "Een risicomanagementsysteem gedurende de levenscyclus",
+      "Alleen een eenmalige interne presentatie",
+      "Verwijderen van alle logs direct na elke voorspelling"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Hoog risico (medium)",
+    "toelichting": "Voor hoog-risico AI is risicomanagement een kernverplichting, samen met o.a. documentatie, monitoring en governance."
+  },
+  {
+    "vraag": "Waarom zijn data governance en datakwaliteit belangrijk voor hoog-risico AI?",
+    "opties": [
+      "Alleen om opslagkosten te verlagen",
+      "Om bias, fouten en discriminerende uitkomsten te beperken",
+      "Omdat dit alleen voor marketingdoeleinden nodig is",
+      "Omdat de AI Act geen andere verplichtingen bevat"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Hoog risico (medium)",
+    "toelichting": "Datakwaliteit beïnvloedt betrouwbaarheid en fairness; de AI Act vereist daarom passende data governance-maatregelen."
+  },
+  {
+    "vraag": "Welke uitspraak over menselijke controle (human oversight) past bij de AI Act?",
+    "opties": [
+      "Menselijke controle is verboden om AI autonoom te houden",
+      "Menselijke controle is alleen nodig bij systemen met minimaal risico",
+      "Voor hoog-risico AI moeten passende maatregelen bestaan zodat mensen effectief toezicht kunnen houden",
+      "Alle AI-besluiten moeten altijd handmatig worden overgenomen"
+    ],
+    "antwoord": 2,
+    "domein": "EU AI Act - Hoog risico (medium)",
+    "toelichting": "Human oversight moet betekenisvol zijn en passen bij het gebruiksscenario en de risico's van het systeem."
+  },
+  {
+    "vraag": "Wat is het doel van loggingverplichtingen bij hoog-risico AI?",
+    "opties": [
+      "Alleen debuggen door ontwikkelaars",
+      "Traceerbaarheid ondersteunen voor toezicht, incidentonderzoek en accountability",
+      "Gebruikersgedrag zonder doel bewaren",
+      "Het model sneller maken"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Governance (medium)",
+    "toelichting": "Logging helpt aantonen hoe het systeem functioneerde en ondersteunt controle en verantwoording."
+  },
+  {
+    "vraag": "Welke verplichting geldt voor deployers van hoog-risico AI in relatie tot gebruik?",
+    "opties": [
+      "Ze hoeven geen instructies van de provider te volgen",
+      "Ze moeten het systeem gebruiken volgens de gebruiksinstructies en relevante monitoring uitvoeren",
+      "Ze mogen elke veiligheidsmaatregel uitschakelen voor efficiëntie",
+      "Ze zijn automatisch vrijgesteld als ze een MKB zijn"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Rollen (medium)",
+    "toelichting": "Deployers hebben operationele verantwoordelijkheden, waaronder correct gebruik, toezicht en waar relevant incidentmelding."
+  },
+  {
+    "vraag": "Wat is een belangrijk transparantiepunt bij AI die synthetische content genereert?",
+    "opties": [
+      "Synthetische content hoeft nooit herkenbaar te zijn",
+      "Er moeten passende maatregelen zijn zodat AI-gegenereerde of gemanipuleerde content als zodanig herkenbaar is",
+      "Alleen audio hoeft gelabeld te worden",
+      "Transparantie geldt alleen buiten de EU"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Transparantie (medium)",
+    "toelichting": "De AI Act bevat transparantie-eisen om misleiding te beperken, bijvoorbeeld rond deepfakes en andere synthetische media."
+  },
+  {
+    "vraag": "Welke beschrijving past het best bij verboden AI-praktijken onder de AI Act?",
+    "opties": [
+      "AI voor spelletjes met vrijwillige gebruikers",
+      "AI-toepassingen die een onaanvaardbaar risico vormen, zoals bepaalde manipulerende of exploiterende toepassingen",
+      "AI voor spellingscontrole in tekstverwerkers",
+      "AI voor routeplanning in auto's"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Verboden praktijken (moeilijk)",
+    "toelichting": "De AI Act verbiedt specifieke praktijken die als onaanvaardbaar voor rechten en veiligheid worden beschouwd."
+  },
+  {
+    "vraag": "Wat is een kernonderdeel van conformity assessment voor hoog-risico AI?",
+    "opties": [
+      "Alleen een commerciële pitch deck",
+      "Aantonen dat aan relevante AI Act-eisen is voldaan vóór marktintroductie",
+      "Enkel een gebruikersreviewscore boven 4 sterren",
+      "Geen technische documentatie zolang een modelkaart bestaat"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Conformiteit (moeilijk)",
+    "toelichting": "Conformity assessment is bedoeld om voorafgaand aan markttoegang naleving van wettelijke vereisten aan te tonen."
+  },
+  {
+    "vraag": "Waarom is post-market monitoring belangrijk onder de AI Act?",
+    "opties": [
+      "Omdat risico's na uitrol kunnen veranderen en incidenten tijdig moeten worden gedetecteerd",
+      "Alleen om marketingcampagnes te verbeteren",
+      "Omdat het model dan automatisch juridisch compliant blijft zonder actie",
+      "Om handmatige controles volledig te vervangen"
+    ],
+    "antwoord": 0,
+    "domein": "EU AI Act - Conformiteit (moeilijk)",
+    "toelichting": "Monitoring na marktintroductie helpt nieuwe risico's signaleren en corrigerende maatregelen tijdig te nemen."
+  },
+  {
+    "vraag": "Hoe verhoudt de EU AI Act zich doorgaans tot de AVG (GDPR)?",
+    "opties": [
+      "De AI Act vervangt de AVG volledig",
+      "Alleen de AVG geldt, niet de AI Act",
+      "Beide kunnen naast elkaar gelden; AI Act richt zich op AI-risico's en AVG op persoonsgegevens",
+      "De AVG geldt alleen buiten Europa"
+    ],
+    "antwoord": 2,
+    "domein": "EU AI Act - Juridische samenhang (moeilijk)",
+    "toelichting": "Organisaties moeten vaak meerdere kaders tegelijk toepassen, waaronder AI Act en AVG, afhankelijk van de verwerking en use case."
+  },
+  {
+    "vraag": "Wat is voor een AI compliance officer een goede eerste stap bij implementatie van de AI Act?",
+    "opties": [
+      "Alle AI-projecten direct stilleggen",
+      "Een AI-systeeminventaris opstellen met use-cases, rollen en risicoclassificatie",
+      "Alleen wachten op externe audits",
+      "Alle modelcode openbaar maken"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Implementatie (moeilijk)",
+    "toelichting": "Zonder inventaris en classificatie is het moeilijk om verplichtingen en prioriteiten voor compliance gericht toe te passen."
+  },
+  {
+    "vraag": "Welke combinatie past het best bij aantoonbare AI Act-governance in een organisatie?",
+    "opties": [
+      "Geen beleid, maar wel een sterk sales-team",
+      "Beleid, rollen en verantwoordelijkheden, documentatie, training en periodieke controles",
+      "Alleen een jaarlijks persbericht over ethiek",
+      "Alleen technische modeltests zonder procesafspraken"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Implementatie (moeilijk)",
+    "toelichting": "Compliance vraagt zowel technische als organisatorische maatregelen, inclusief governance, competentie en controlemechanismen."
+  },
+  {
+    "vraag": "Wat is de beste reden om quizvragen van makkelijk naar moeilijk op te bouwen voor AI Act-training?",
+    "opties": [
+      "Omdat beginners dan direct juridische details moeten memoriseren",
+      "Omdat deelnemers eerst kernbegrippen beheersen en daarna complexere compliance-scenario's beter kunnen analyseren",
+      "Omdat moeilijke vragen altijd minder tijd kosten",
+      "Omdat de AI Act alleen basiskennis vereist"
+    ],
+    "antwoord": 1,
+    "domein": "EU AI Act - Exin examenaanpak",
+    "toelichting": "Een oplopende moeilijkheidsgraad ondersteunt didactisch leren: van definities en rollen naar governance, conformiteit en praktijktoepassing."
+  }
+]
