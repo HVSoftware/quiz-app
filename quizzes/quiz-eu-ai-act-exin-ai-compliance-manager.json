@@ -598,5 +598,185 @@
     "antwoord": 1,
     "domein": "EU AI Act - Transparantie (makkelijk)",
     "toelichting": "Transparantie versterkt vertrouwen en helpt gebruikers AI-uitkomsten in de juiste context te interpreteren."
+  },
+  {
+    "vraag": "Wat is de maximale boete voor overtreding van de EU AI Act?",
+    "opties": [
+      "€10 miljoen of 2% van de wereldwijde omzet",
+      "€20 miljoen of 4% van de wereldwijde omzet",
+      "€35 miljoen of 7% van de wereldwijde omzet",
+      "€50 miljoen of 10% van de wereldwijde omzet"
+    ],
+    "antwoord": 2,
+    "domein": "EXIN AI Compliance - Handhaving",
+    "toelichting": "Boetes kunnen oplopen tot €35 miljoen of 7% van de wereldwijde omzet."
+  },
+  {
+    "vraag": "Welke partij draagt onder de AI Act de primaire verantwoordelijkheid voor het AI-systeem?",
+    "opties": [
+      "De deployer (inzetter)",
+      "De provider (aanbieder)",
+      "De authorized representative",
+      "De eindgebruiker"
+    ],
+    "antwoord": 1,
+    "domein": "EXIN AI Compliance - Rollen",
+    "toelichting": "De provider (aanbieder) draagt de primaire verantwoordelijkheid voor het AI-systeem."
+  },
+  {
+    "vraag": "Wat is geen risicocategorie onder de AI Act?",
+    "opties": [
+      "Onaanvaardbaar risico (Unacceptable)",
+      "Hoog risico (High risk)",
+      "Neutraal risico (Neutral risk)",
+      "Beperkt risico (Limited risk)"
+    ],
+    "antwoord": 2,
+    "domein": "EXIN AI Compliance - Module 2",
+    "toelichting": "De AI Act kent vier risicocategorieën: Unacceptable, High risk, Limited risk en Minimal risk."
+  },
+  {
+    "vraag": "Wat is het doel van Module 3 (Acceptatie) in de EXIN AI Compliance training?",
+    "opties": [
+      "Het trainen van AI-modellen",
+      "Het helpen van bedrijven om de AI Act te accepteren, met sterke links naar de GDPR",
+      "Het ontwikkelen van nieuwe AI-toepassingen",
+      "Het programmeren van compliance-software"
+    ],
+    "antwoord": 1,
+    "domein": "EXIN AI Compliance - Module 3",
+    "toelichting": "Module 3 richt zich op acceptatie van de AI Act en legt sterke verbanden met de GDPR (AVG)."
+  },
+  {
+    "vraag": "Welke ISO-norm is de internationale standaard voor een AI Management Systeem?",
+    "opties": [
+      "ISO/IEC 23894",
+      "ISO/IEC 42001",
+      "ISO/IEC 5338",
+      "ISO/IEC TR 24368"
+    ],
+    "antwoord": 1,
+    "domein": "EXIN AI Compliance - Normenkader",
+    "toelichting": "ISO/IEC 42001 is de internationale norm voor een AI Management Systeem."
+  },
+  {
+    "vraag": "Waar richt ISO/IEC 23894 zich specifiek op?",
+    "opties": [
+      "De volledige levenscyclus van AI",
+      "Ethische en maatschappelijke vraagstukken",
+      "Risicobeheer en mitigeren van AI-risico's",
+      "Datamanagement in AI-projecten"
+    ],
+    "antwoord": 2,
+    "domein": "EXIN AI Compliance - Normenkader",
+    "toelichting": "ISO/IEC 23894 is specifiek gericht op het mitigeren en minimaliseren van AI-risico's."
+  },
+  {
+    "vraag": "Welk onderdeel hoort bij Module 5 (AI Act in Practice)?",
+    "opties": [
+      "Alleen theoretische achtergrond",
+      "Praktische beoordeling van High-risk systemen (Annex III) en FRIA",
+      "Het bouwen van AI-modellen",
+      "Marketing van AI-oplossingen"
+    ],
+    "antwoord": 1,
+    "domein": "EXIN AI Compliance - Module 5",
+    "toelichting": "Module 5 omvat praktische beoordeling van High-risk systemen (Annex III) en het uitvoeren van een Fundamental Right Impact Assessment (FRIA)."
+  },
+  {
+    "vraag": "Wat is een belangrijk voordeel van de EXIN AI Compliance training?",
+    "opties": [
+      "Het leren programmeren in Python",
+      "Het beheersen van de AI Act voor volledige naleving",
+      "Het verkrijgen van een ITIL-certificering",
+      "Het leren van netwerkbeveiliging"
+    ],
+    "antwoord": 1,
+    "domein": "EXIN AI Compliance - Training",
+    "toelichting": "Een belangrijk voordeel is het beheersen van de AI Act om volledige naleving binnen de organisatie te waarborgen."
+  },
+  {
+    "vraag": "Op welke waarden is de EU AI Act gestoeld?",
+    "opties": [
+      "Vrijheid, gelijkheid en broederschap",
+      "Democratie, de rechtstaat en bescherming van persoonsgegevens",
+      "Kapitalisme, vrije markt en concurrentie",
+      "Nationalisme, soevereiniteit en zelfbeschikking"
+    ],
+    "antwoord": 1,
+    "domein": "EXIN AI Compliance - AI Act",
+    "toelichting": "De AI Act is gestoeld op waarden zoals democratie, de rechtstaat en de bescherming van persoonsgegevens."
+  },
+  {
+    "vraag": "Welke norm biedt richtlijnen voor kwalitatief en compliant datamanagement in AI-projecten?",
+    "opties": [
+      "ISO/IEC 42001",
+      "ISO/IEC 5338",
+      "CEN/CLC/TR 18115",
+      "ISO/IEC TR 24368"
+    ],
+    "antwoord": 2,
+    "domein": "EXIN AI Compliance - Normenkader",
+    "toelichting": "CEN/CLC/TR 18115 biedt richtlijnen voor kwalitatief en compliant datamanagement binnen AI-projecten."
+  },
+  {
+    "vraag": "Wat omvat Module 6 (Frameworks) in de EXIN AI Compliance training?",
+    "opties": [
+      "Alleen theorie over ethiek",
+      "Gebruik van frameworks ter ondersteuning van compliance, o.a. voor General Purpose AI (GPAI)",
+      "Het ontwikkelen van nieuwe AI-frameworks",
+      "Alleen databeheer"
+    ],
+    "antwoord": 1,
+    "domein": "EXIN AI Compliance - Module 6",
+    "toelichting": "Module 6 behandelt het gebruik van frameworks ter ondersteuning van compliance, onder andere voor General Purpose AI (GPAI)."
+  },
+  {
+    "vraag": "Wat is de rol van een deployer onder de AI Act?",
+    "opties": [
+      "Het ontwikkelen van AI-systemen",
+      "Het gebruiken van een AI-toepassing",
+      "Het certificeren van AI-modellen",
+      "Het opleggen van boetes"
+    ],
+    "antwoord": 1,
+    "domein": "EXIN AI Compliance - Rollen",
+    "toelichting": "De deployer (inzetter) is de entiteit die de AI-toepassing gebruikt."
+  },
+  {
+    "vraag": "Welke ISO-norm richt zich op de volledige levenscyclus van AI, van ontwerp tot buitengebruikstelling?",
+    "opties": [
+      "ISO/IEC 42001",
+      "ISO/IEC 5338",
+      "ISO/IEC 23894",
+      "CEN/CLC/TR 18115"
+    ],
+    "antwoord": 1,
+    "domein": "EXIN AI Compliance - Normenkader",
+    "toelichting": "ISO/IEC 5338 richt zich op de volledige levenscyclus van AI, van ontwerp tot buitengebruikstelling."
+  },
+  {
+    "vraag": "Wat is een doelstelling van de EU AI Act?",
+    "opties": [
+      "Het verbieden van alle AI",
+      "Het beschermen van de mens (grondrechten, gezondheid en veiligheid) en het promoveren van innovatie",
+      "Het vervangen van alle nationale wetten",
+      "Het opleggen van AI in alle EU-lidstaten"
+    ],
+    "antwoord": 1,
+    "domein": "EXIN AI Compliance - AI Act",
+    "toelichting": "De EU AI Act heeft als doel het beschermen van de mens en het promoveren van innovatie."
+  },
+  {
+    "vraag": "Welk technisch rapport helpt bij het adresseren van ethische en maatschappelijke vraagstukken?",
+    "opties": [
+      "ISO/IEC TR 24368",
+      "ISO/IEC 42001",
+      "ISO/IEC 5338",
+      "CEN/CLC/TR 18115"
+    ],
+    "antwoord": 0,
+    "domein": "EXIN AI Compliance - Normenkader",
+    "toelichting": "ISO/IEC TR 24368 is een technisch rapport dat helpt bij het adresseren van ethische en maatschappelijke vraagstukken."
   }
 ]
