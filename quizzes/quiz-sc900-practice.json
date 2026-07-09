@@ -1,0 +1,979 @@
+[
+  {
+    "vraag": "According to the shared responsibility model, which of the following computing models places the most responsibility on the cloud service provider (CSP)?",
+    "opties": [
+      "Private Cloud",
+      "IaaS",
+      "PaaS",
+      "SaaS"
+    ],
+    "antwoord": 3,
+    "toelichting": "The SaaS model, implemented by services such as Office 365, the cloud service provider takes on service management responsibilities beyond configuring the customers desired user data and device configuration settings."
+  },
+  {
+    "vraag": "To implement a defense in-depth security methodology, which of the given measures will an organization implement?",
+    "opties": [
+      "A corporate network with no segmentation.",
+      "Multi-factor authentication for all users.",
+      "Locating all its servers in a single physical location.",
+      "All of these"
+    ],
+    "antwoord": 1,
+    "toelichting": "Distributing the physical location of servers provides added security at the physical layer by mitigating the risk that may come from outages caused by fire, hurricanes, and other disasters. Splitting a network up into multiple sub-networks provides better layered security and is an example of defense in depth at the network layer."
+  },
+  {
+    "vraag": "Which of the following cyber-attacks aims to exhaust an application's resources, making the application unavailable to legitimate users?",
+    "opties": [
+      "Dictionary attack",
+      "SQL Injection",
+      "Distributed Denial of Service (DDoS)",
+      "Ransomware"
+    ],
+    "antwoord": 2,
+    "toelichting": "A distributed denial of service (DDoS) attack is a disruptive attack that attempts to exhaust an application's resources, making the application unavailable to legitimate users."
+  },
+  {
+    "vraag": "______________ is/are used to implement encryption in transit, such as with HTTPS protocol for secure browsing, or certificate-based authentication on secure wi-fi networks.",
+    "opties": [
+      "Symmetric encryption",
+      "Asymmetric encryption",
+      "Neither symmetric or asymmetric",
+      "Both symmetric or asymmetric"
+    ],
+    "antwoord": 3,
+    "toelichting": "TLS, which facilitates HTTPS, uses asymmetric encryption to first establish the identity of one or both parties. Then, it uses asymmetric encryption to exchange a key to a symmetric cipher. However, asymmetric is only used during the initial setup of communication."
+  },
+  {
+    "vraag": "Which of the following encryption types uses a public and private key pair for encrypting and decrypting data?",
+    "opties": [
+      "Asymmetric encryption",
+      "Symmetric encryption",
+      "Hashing",
+      "All of the above"
+    ],
+    "antwoord": 0,
+    "toelichting": "Asymmetric encryption uses a public key and private key pair. Symmetric encryption uses a single shared key for bulk data encryption. Hashing is a one-way function that does not require a key."
+  },
+  {
+    "vraag": "Microsoft's six core privacy principles are:",
+    "opties": [
+      "Control, Transparency, Security, Strong legal protections, No content-based targeting, Benefits to you",
+      "Control, Transparency, Security, Legal standing, No content-based targeting, Benefits to you",
+      "Control, Transparency, Security, Strong legal protections, No content-based targeting, Freedom of information",
+      "Governance, Transparency, Security, Strong legal protections, No content-based targeting, Benefits to you"
+    ],
+    "antwoord": 0,
+    "toelichting": "Microsoft's six core privacy principles are Control, Transparency, Security, Strong legal protections, No content-based targeting, and Benefits to you."
+  },
+  {
+    "vraag": "Resources on the Service Trust Portal do not include which of the following?",
+    "opties": [
+      "Audit reports from ISO, NIST, and more",
+      "Data protection resources",
+      "Azure blueprints for security and compliance",
+      "Licensing guidance for Microsoft security solutions"
+    ],
+    "antwoord": 3,
+    "toelichting": "The Service Trust Portal does not offer Licensing guidance for Microsoft security solutions but does offer a wide range of resources to help you implement a secure and compliant environment."
+  },
+  {
+    "vraag": "The process of proving you are who you say you are is:",
+    "opties": [
+      "Authorization",
+      "Authentication",
+      "Single Sign-On",
+      "Zero Trust Security"
+    ],
+    "antwoord": 1,
+    "toelichting": "Authentication is the process of verifying the identity of a person or service."
+  },
+  {
+    "vraag": "The act of granting an authenticated party permission to do something is:",
+    "opties": [
+      "Authorization",
+      "Authentication",
+      "Single Sign-On",
+      "Zero Trust Security"
+    ],
+    "antwoord": 0,
+    "toelichting": "Authorization is the act of granting an authenticated party permission to access a resource."
+  },
+  {
+    "vraag": "Entra ID can be configured to allow users to authenticate with their social identities, such as Facebook or Google. In this scenario, Facebook and Google are serving as: (choose the best answer)",
+    "opties": [
+      "Service principals",
+      "Identity providers",
+      "Trusted entities",
+      "Managed identities"
+    ],
+    "antwoord": 1,
+    "toelichting": "In Entra ID, an identity provider maintains and manages identity information while providing authentication services to applications."
+  },
+  {
+    "vraag": "What is the relationship type that allows federated services to access resources?",
+    "opties": [
+      "Trust relationship",
+      "Shared access relationship",
+      "Claims relationship",
+      "Cross-provider relationship"
+    ],
+    "antwoord": 0,
+    "toelichting": "Federation relies on a trust relationship to allow access to resources for authenticating entities."
+  },
+  {
+    "vraag": "Which of the following identity attacks attempts to match a username against a list of weak passwords?",
+    "opties": [
+      "Spear Phishing",
+      "Phishing attack",
+      "Password spray attack",
+      "Brute force attack"
+    ],
+    "antwoord": 2,
+    "toelichting": "A password spray attack attempts to match a username against a list of weak passwords."
+  },
+  {
+    "vraag": "Which of the following cloud solutions provides capabilities such as multifactor authentication (MFA), identity protection, and role-based access control?",
+    "opties": [
+      "Azure Initiatives",
+      "Azure Blueprints",
+      "Intune App Protection policies",
+      "Entra ID (Azure AD)"
+    ],
+    "antwoord": 3,
+    "toelichting": "Cloud solutions such as Entra ID (Azure AD) provide capabilities such as multifactor authentication, identity protection, and robust role-based access control."
+  },
+  {
+    "vraag": "Which of the following is not an Entra ID identity type?",
+    "opties": [
+      "User",
+      "Member",
+      "Internal",
+      "External",
+      "Device"
+    ],
+    "antwoord": 1,
+    "toelichting": "Member is not an identity type available in Entra ID, but rather a value set on the user identity. The UserType can be set to Guest or Member."
+  },
+  {
+    "vraag": "The two types of external identities are:",
+    "opties": [
+      "Entra ID guests and members",
+      "Work accounts and social identities",
+      "Entra ID accounts and Microsoft accounts (formerly Live ID)",
+      "Entra ID B2B and B2C"
+    ],
+    "antwoord": 3,
+    "toelichting": "Entra ID B2B allows secure collaboration between organizations leveraging their work accounts. Entra ID B2C is a customer identity access management solution enabling customers to login to your directory with their social identity."
+  },
+  {
+    "vraag": "Which of the following is an advantage of single sign-on?",
+    "opties": [
+      "User passwords expire less frequently.",
+      "The user signs in once and can then access many applications or resources.",
+      "It leverages a single, centralized identity provider.",
+      "All of the above"
+    ],
+    "antwoord": 1,
+    "toelichting": "With single sign-on, a user signs in once and can then access multiple applications or resources. Although a central identity provider can be used by an organization, it isn't a benefit of single sign-on."
+  },
+  {
+    "vraag": "Which of the following is NOT a feature of Entra ID Self-Service Password Reset (SSPR)?",
+    "opties": [
+      "Password change (when user knows password but wants to change)",
+      "Password reset (when forgot password or password expired)",
+      "Password set (when account is disabled)",
+      "Password unlock (when account is locked out)"
+    ],
+    "antwoord": 2,
+    "toelichting": "A user cannot set or reset their password when their account is not enabled."
+  },
+  {
+    "vraag": "Which of the following Entra ID features protects users from password spray attacks, and bans them from using weak passwords in a global list of banned passwords when setting or resetting their password?",
+    "opties": [
+      "Identity Protection",
+      "Self-Service Password Reset",
+      "Password Protection",
+      "Conditional Access"
+    ],
+    "antwoord": 2,
+    "toelichting": "Entra ID Password Protection reduces the risk of users setting weak passwords by detecting and blocking known weak passwords from a global banned password list."
+  },
+  {
+    "vraag": "Which of the following is discouraged as a secondary authentication factor due to known vulnerabilities?",
+    "opties": [
+      "Microsoft Authenticator App",
+      "Voice call",
+      "SMS (text) message",
+      "OATH hardware token"
+    ],
+    "antwoord": 2,
+    "toelichting": "Due to vulnerabilities, such as SIM swap attacks, SMS (text) message is considered relatively weak as a second factor, and therefore is discouraged."
+  },
+  {
+    "vraag": "Which of the following statements accurately depicts a difference between Windows Hello and Windows Hello for Business?",
+    "opties": [
+      "Windows Hello is for personal devices, while Windows Hello for Business is for managed devices.",
+      "Windows Hello uses a key-based or certificate-based authentication factor.",
+      "Windows Hello supports FIDO2 authentication."
+    ],
+    "antwoord": 0,
+    "toelichting": "Windows Hello is for personal devices, while Windows Hello for Business is for managed devices. Windows Hello for Business can use a key-based or certificate-based authentication factor, where Windows Hello uses a pin or biometric authentication."
+  },
+  {
+    "vraag": "You need to implement multi-factor authentication for your Entra ID users. However, you only want to prompt for an additional authentication factor when users are not in a trusted location on an unmanaged device. Which feature should you implement? (choose the best answer)",
+    "opties": [
+      "Entra ID Conditional Access",
+      "Entra ID Identity Protection",
+      "Entra ID Password Protection",
+      "Privileged Identity Management"
+    ],
+    "antwoord": 0,
+    "toelichting": "Conditional access policies bring several benefits to authentication and authorization, including enabling selectively prompting users for a secondary authentication factor based on user location, app selection, device compliance or management state, and sign-in risk."
+  },
+  {
+    "vraag": "Which of the following is not a benefit of Entra ID Conditional Access policies?",
+    "opties": [
+      "Improves user productivity by only prompting for a secondary authentication factor when conditions indicate.",
+      "Manages risk by factoring Identity Protection risk detections in user authentication attempts.",
+      "Improves identity governance through auditing and restricting access based on device compliance.",
+      "Manages device state by implementing device compliance policies to measure device compliance."
+    ],
+    "antwoord": 3,
+    "toelichting": "While the first three items are benefits of conditional access policies, device compliance policies are implemented through Microsoft Intune."
+  },
+  {
+    "vraag": "Which of the following is not a benefit of Entra ID roles?",
+    "opties": [
+      "Eases assignment of permissions",
+      "Supports least privilege implementation",
+      "Protects users from sign-in risk",
+      "Enables role-specific delegations"
+    ],
+    "antwoord": 2,
+    "toelichting": "While Entra ID roles ease role assignments in delegation scenarios and implementation of least privilege, it is Entra ID Identity Protection that supports detection of user risk and sign-in risk."
+  },
+  {
+    "vraag": "With Privileged Identity Management, users can not only activate their own eligible roles, but if desired, can also self-review their eligible roles during scheduled access reviews.",
+    "opties": [
+      "TRUE",
+      "FALSE"
+    ],
+    "antwoord": 0,
+    "toelichting": "Privileged Identity Management (PIM) allows users to activate eligible roles themselves, while offering notification of role activation to other admins, as well as optional manager approval. PIM access reviews can be configured to allow users to self-review."
+  },
+  {
+    "vraag": "The probability that a given authentication request is not a request by the identity owner is referred to as 'user risk'.",
+    "opties": [
+      "TRUE",
+      "FALSE"
+    ],
+    "antwoord": 1,
+    "toelichting": "The two types of risk defined in the Identity Protection feature are user risk and sign-in risk. User risk represents the probability that a given identity or account is compromised. Sign-in risk represents the probability that a given authentication request isn't authorized by the identity owner."
+  },
+  {
+    "vraag": "A network security group (NSG) is comprised of inbound and outbound security rules. Rules are processed in priority order, with lower numbered rules processed _____________ higher numbers.",
+    "opties": [
+      "after",
+      "before",
+      "simultaneously",
+      "None of the above"
+    ],
+    "antwoord": 1,
+    "toelichting": "NSG rules are processed in priority order, with lower numbers processed before higher numbers. When traffic matches a rule, processing stops."
+  },
+  {
+    "vraag": "The Basic tier of Azure DDoS is free but must be enabled on each subscription.",
+    "opties": [
+      "FALSE",
+      "TRUE"
+    ],
+    "antwoord": 0,
+    "toelichting": "The Basic tier of Azure DDoS is automatically enabled and protecting all Azure subscriptions by default."
+  },
+  {
+    "vraag": "Azure Firewall is a fully stateful firewall that offers high availability. High availability must be enabled, and the number of scale instances selected at deployment time.",
+    "opties": [
+      "TRUE",
+      "FALSE"
+    ],
+    "antwoord": 1,
+    "toelichting": "High availability and unrestricted scalability is built into the solution. There is no need to select and configure scale instances."
+  },
+  {
+    "vraag": "What is the core value proposition of Azure Bastion?",
+    "opties": [
+      "RDP/SSH connectivity provided in the native Windows RDP client / any SSH client, and no public IP address required for the Azure VM.",
+      "RDP connectivity provided in the native Windows RDP client, but with no public IP address required for the Azure VM.",
+      "RDP/SSH connectivity provided in a web browser, with no RDP/SSH client needed, and no public IP address required for the Azure VM.",
+      "RDP/SSH connectivity provided over Azure Point-to-Site (P2S) VPN using the native Windows 10 VPN client."
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Bastion is a service you deploy that lets you connect to a virtual machine using your browser and the Azure portal. It provides secure and seamless RDP/SSH connectivity to your virtual machines directly from the Azure portal over TLS in a web browser."
+  },
+  {
+    "vraag": "Which secure score provides visualization of the current security posture of your cloud infrastructure, such as VMs, web app instances, and Azure SQL databases?",
+    "opties": [
+      "Microsoft 365 Secure Score",
+      "Azure Secure Score",
+      "Azure Compliance Manager",
+      "Microsoft 365 Security Compliance"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure Secure Score, found in Azure Security Center, provides visualization of the current security posture of your cloud infrastructure."
+  },
+  {
+    "vraag": "A security __________ is the implementation of a security benchmark for the specific Azure service.",
+    "opties": [
+      "control",
+      "configuration item",
+      "baseline",
+      "access package"
+    ],
+    "antwoord": 2,
+    "toelichting": "A baseline is the implementation of a security benchmark for the specific Azure service. A control is a high-level description of the feature or activity."
+  },
+  {
+    "vraag": "Which of the following tools is used to collect and analyze large amounts of data from across your entire estate, including identity, endpoints, infrastructure, apps, and data to identify and alert on potential security threats?",
+    "opties": [
+      "XDR",
+      "SOAR",
+      "SIEM",
+      "SAML"
+    ],
+    "antwoord": 2,
+    "toelichting": "A security information event management (SIEM), such as Azure Sentinel, is a tool that an organization uses to collect large amounts of data from across your environment to correlate anomalous and potentially malicious activity."
+  },
+  {
+    "vraag": "Which of the following is not an advantage of Azure Sentinel in providing integrated threat protection to your environment?",
+    "opties": [
+      "Automates data collection from a variety of sources using connectors.",
+      "Analyzes data across services to bring greater context in identifying security incidents.",
+      "Discovers apps in use on your endpoints to stop shadow IT",
+      "Automates incident response using security playbooks."
+    ],
+    "antwoord": 2,
+    "toelichting": "App discovery on endpoints to help identify unsanctioned apps is a core function of Microsoft Cloud App Discovery (MCAS), but not a feature of Azure Sentinel."
+  },
+  {
+    "vraag": "Which of the following Azure services monitors users, entity behavior, and activities with learning-based analytics to help protect user identities and credentials stored in on-premises Active Directory?",
+    "opties": [
+      "Microsoft Defender for Identity",
+      "Microsoft Defender for Cloud Apps",
+      "Microsoft Defender for Endpoint",
+      "Microsoft Defender for Office 365"
+    ],
+    "antwoord": 0,
+    "toelichting": "Microsoft Defender for Identity (formerly Azure ATP) is a cloud-based security solution that leverages your on-premises Active Directory signals to identify, detect, and investigate advanced threats."
+  },
+  {
+    "vraag": "Which of these Azure services enables you to run realistic simulated phishing and password attack campaigns in your organization, and train users to raise their awareness of these attacks?",
+    "opties": [
+      "Microsoft Defender for Endpoint",
+      "Microsoft Defender for Identity",
+      "Microsoft Defender for Office 365",
+      "Entra ID Password Protection"
+    ],
+    "antwoord": 2,
+    "toelichting": "Attack Simulation Training in MS Defender for Office 365 lets you run realistic, but simulated phishing and password attack campaigns in your organization."
+  },
+  {
+    "vraag": "Contoso IT recently implemented Microsoft Defender for Endpoint to better protect its Windows 10 endpoints. Which of the following is a feature of Endpoint behavioral sensors technology?",
+    "opties": [
+      "It monitors for configuration best practices in an endpoint security baseline.",
+      "It discovers unsanctioned apps installed by users on endpoints.",
+      "It monitors for and detects advanced threats on your Windows 10 and other endpoints and automates investigation and threat response.",
+      "Ingests data from a variety of Azure services to better assess the full scope of an incident."
+    ],
+    "antwoord": 2,
+    "toelichting": "Microsoft Defender for Endpoint detects advanced threats on your Windows 10 and other endpoints and automates investigation and threat response."
+  },
+  {
+    "vraag": "Which of the following services ingests network traffic logs to dynamically discover and analyze the cloud apps in use within your organization?",
+    "opties": [
+      "Conditional Access App Control",
+      "Microsoft Defender for Office 365",
+      "Microsoft Defender for Cloud Apps",
+      "Microsoft Defender for Endpoint"
+    ],
+    "antwoord": 2,
+    "toelichting": "The cloud discovery feature in Microsoft Defender for Cloud Apps uses your traffic logs to dynamically discover and analyze the cloud apps that your organization is using."
+  },
+  {
+    "vraag": "Which portal brings Defender for Endpoint, Defender for Office 365, and Microsoft Defender for Cloud Apps data together in consolidated a unified view and user experience?",
+    "opties": [
+      "Microsoft Purview compliance portal",
+      "Microsoft Purview Compliance Manager",
+      "Microsoft Defender portal",
+      "Microsoft 365 Admin Center"
+    ],
+    "antwoord": 2,
+    "toelichting": "Microsoft Defender portal is the new home for monitoring and managing security across your Microsoft identities, data, devices, and apps at https://security.microsoft.com."
+  },
+  {
+    "vraag": "Which secure score focuses on security across identities, apps, and data?",
+    "opties": [
+      "Azure Secure Score",
+      "Microsoft Secure Score",
+      "Microsoft 365 Compliance Score",
+      "Microsoft Defender Secure Score"
+    ],
+    "antwoord": 1,
+    "toelichting": "Microsoft Secure Score is a measurement of an organization's security posture across identities, endpoints, and apps."
+  },
+  {
+    "vraag": "What are the categories shown on the secure score in Microsoft Defender portal?",
+    "opties": [
+      "Identities, data, devices, and apps",
+      "Alerts, incidents, remediations, and recommendations",
+      "Activities, entities, anomalies, and alerts"
+    ],
+    "antwoord": 0,
+    "toelichting": "Microsoft Defender portal shows cards with these categories: identities, data, devices, and apps."
+  },
+  {
+    "vraag": "_____ are a collection of correlated _____ created when a suspicious _____ is found.",
+    "opties": [
+      "Alerts, incidents, event",
+      "Incidents, alerts, event",
+      "Events, incident, alert",
+      "Incidents, events, alert"
+    ],
+    "antwoord": 1,
+    "toelichting": "Incidents are a collection of correlated alerts created when a suspicious event is found."
+  },
+  {
+    "vraag": "Microsoft _____ is a cloud-based service that helps streamline security analyst triage, incident response, threat hunting, and vulnerability management workflows.",
+    "opties": [
+      "Defender Vulnerability Management",
+      "Defender Threat Intelligence",
+      "Defender for Cloud Apps",
+      "Defender portal"
+    ],
+    "antwoord": 1,
+    "toelichting": "Microsoft Defender Threat Intelligence is a comprehensive security platform designed to help organizations protect themselves from cyber threats."
+  },
+  {
+    "vraag": "_________________ enables continuous asset discovery and monitoring using built-in and agentless scanners continuously monitor and detect risk from devices, even when not connected to the corporate network. Risks are then prioritized based on threat intelligence and breach likelihood predictions.",
+    "opties": [
+      "Microsoft Defender Threat Intelligence",
+      "Microsoft Defender Vulnerability Management",
+      "Microsoft Purview Entitlement Management",
+      "Microsoft Defender for Cloud Apps"
+    ],
+    "antwoord": 1,
+    "toelichting": "Microsoft Defender Vulnerability Management continuously monitors and detects vulnerabilities on devices, intelligently prioritizes these vulnerabilities, and enables remediation of issues with built-in workflows."
+  },
+  {
+    "vraag": "Defender for Servers, Defender for Key Vault, and Defender for Storage are part of the foundational cloud security posture management (CSPM).",
+    "opties": [
+      "Yes",
+      "No"
+    ],
+    "antwoord": 1,
+    "toelichting": "Defender for Servers, Defender for Key Vault, and Defender for Storage are part of the cloud workload protection (CWP) features in the Standard tier of Microsoft Defender for Cloud."
+  },
+  {
+    "vraag": "What is the name of the unified portal that provides easy access to the data and tools you need to manage your organization's compliance needs and track progress?",
+    "opties": [
+      "Microsoft 365 Security and Compliance",
+      "Microsoft Purview compliance portal",
+      "Compliance Manager",
+      "Compliance Score"
+    ],
+    "antwoord": 1,
+    "toelichting": "Microsoft Purview compliance portal provides centralized access to the tools and other resources admins need to manage and track compliance activities."
+  },
+  {
+    "vraag": "_____________ measures the progress in completing recommended improvement actions within Compliance Manager.",
+    "opties": [
+      "Azure Secure Score",
+      "Microsoft Secure Score",
+      "Compliance Score"
+    ],
+    "antwoord": 2,
+    "toelichting": "Compliance score measures the progress in completing recommended improvement actions within controls. The score helps an organization to understand its current compliance posture."
+  },
+  {
+    "vraag": "_______ use machine learning to intelligently classify your data.",
+    "opties": [
+      "Sensitive information types",
+      "Sensitivity labels",
+      "Trainable classifiers",
+      "Regular expressions"
+    ],
+    "antwoord": 2,
+    "toelichting": "A Microsoft 365 trainable classifier is a tool you can train to recognize various types of content by giving it samples to look at."
+  },
+  {
+    "vraag": "Which of the following contains a snapshot of items (emails, files) that have a sensitivity or retention label applied or have been classified as a sensitive information type?",
+    "opties": [
+      "Activity Explorer",
+      "Content Explorer",
+      "Case Notes",
+      "Case Overview"
+    ],
+    "antwoord": 1,
+    "toelichting": "All data files and email messages associated with alert activities are automatically captured and displayed in the Content Explorer. Activity Explorer allows you to monitor what is being done with labeled content."
+  },
+  {
+    "vraag": "You use __________ to implement data __________.",
+    "opties": [
+      "Label policies, classification",
+      "Sensitivity labels, protection and retention",
+      "Sensitivity labels, retention",
+      "Sensitivity labels, classification and protection"
+    ],
+    "antwoord": 3,
+    "toelichting": "Sensitivity labels are used for data classification and protection. Label policies are used to publish sensitivity labels."
+  },
+  {
+    "vraag": "Retention policies are used to assign the same retention settings to content at a __________ level or __________ level.",
+    "opties": [
+      "document, site",
+      "document, mailbox",
+      "Exchange (all mailboxes only), SharePoint, OneDrive",
+      "site, mailbox"
+    ],
+    "antwoord": 3,
+    "toelichting": "Use a retention policy to assign the same retention settings for content at a site or mailbox level and use a retention label to assign retention settings at an item level (folder, document, email)."
+  },
+  {
+    "vraag": "Retention labels are used to assign retention settings at an item level, such as folder, document, or email.",
+    "opties": [
+      "TRUE",
+      "FALSE"
+    ],
+    "antwoord": 0,
+    "toelichting": "Use a retention policy to assign the same retention settings for content at a site or mailbox level and use a retention label to assign retention settings at an item level (folder, document, email)."
+  },
+  {
+    "vraag": "What is the difference between a document and a record?",
+    "opties": [
+      "Records include evidence",
+      "Records must be retained for an extended period",
+      "Records must be deleted at the end of a retention period",
+      "All of the above"
+    ],
+    "antwoord": 2,
+    "toelichting": "Records management in Microsoft 365 helps an organization manage their legal obligations, provides the ability to demonstrate compliance with regulations, and increases efficiency with regular disposition of items that are no longer required to be retained."
+  },
+  {
+    "vraag": "Data loss prevention is a way to ensure sensitive information:",
+    "opties": [
+      "is appropriately backed up.",
+      "is not unintentionally deleted.",
+      "is not inappropriately shared.",
+      "is blocked from being shared between departments."
+    ],
+    "antwoord": 2,
+    "toelichting": "Data loss prevention helps protect sensitive data and reduce risk by preventing users from inappropriately sharing it with people who should not see it."
+  },
+  {
+    "vraag": "The content search tool enables in-place content search across all of the following EXCEPT",
+    "opties": [
+      "Documents in SharePoint and OneDrive",
+      "User activities in Entra ID audit logs",
+      "Instant messaging conversations in Microsoft Teams",
+      "Email content in Exchange Online"
+    ],
+    "antwoord": 1,
+    "toelichting": "You can use the Content search tool to find email in Exchange mailboxes, documents in SharePoint sites and OneDrive locations, and instant messaging conversations in Skype for Business. Searching Entra ID audit logs is performed directly in Entra ID within the Azure Portal."
+  },
+  {
+    "vraag": "Which of the following is not a feature of core eDiscovery (Standard) workflow?",
+    "opties": [
+      "Adding sources",
+      "Adding data custodians",
+      "Creating holds and queries",
+      "Exporting data results"
+    ],
+    "antwoord": 1,
+    "toelichting": "Adding data custodians, automating notifications, and jobs are features of advanced eDiscovery."
+  },
+  {
+    "vraag": "Which of the following is not a feature available only in advanced eDiscovery (Premium) workflow?",
+    "opties": [
+      "Management of long-running jobs",
+      "Creating a legal hold",
+      "Analysis of data in a review set",
+      "Adding non-custodial data sources"
+    ],
+    "antwoord": 1,
+    "toelichting": "Advanced eDiscovery provides an end-to-end workflow to preserve, collect, analyze, review, and export content. You can create a legal hold in core eDiscovery."
+  },
+  {
+    "vraag": "What is the name of the unified data governance service that enables end-to-end data lineage?",
+    "opties": [
+      "Microsoft 365 eDiscovery",
+      "Data Loss Prevention",
+      "Entitlement Management",
+      "Microsoft Purview"
+    ],
+    "antwoord": 3,
+    "toelichting": "Microsoft Purview is a unified data governance service that helps you manage and govern your on-premises, multi-cloud, and software-as-a-service (SaaS) data."
+  },
+  {
+    "vraag": "You need to prevent accidental deletion of Azure resources in your subscription. Which feature will meet this requirement? (choose the best answer)",
+    "opties": [
+      "RBAC",
+      "Resource locks",
+      "Security groups",
+      "Azure policies"
+    ],
+    "antwoord": 1,
+    "toelichting": "Resource locks can prevent unwanted changes or accidental deletion at the subscription, resource group, or even the resource level."
+  },
+  {
+    "vraag": "The Contoso Cloud Architecture team needs to simplify deployments of new environments in Azure, including Azure Resource Manager (ARM) templates, role-based access, and policies. Which Azure service enables delivery of templates for repeatable deployment and configuration of new subscriptions and environments? (choose the best answer)",
+    "opties": [
+      "Azure Policy Initiatives",
+      "Azure Policy",
+      "ARM templates",
+      "Azure Blueprints"
+    ],
+    "antwoord": 3,
+    "toelichting": "Azure Blueprints enables cloud architects to define a repeatable set of Azure resources that implements and adheres to an organization's standards, patterns, and requirements."
+  },
+  {
+    "vraag": "Which of the following Azure services is used to monitor Azure resources to ensure new and existing deployments are in compliance with the organization's standards and regulatory requirements?",
+    "opties": [
+      "Azure Firewall",
+      "Azure Policy",
+      "Azure Blueprint",
+      "Azure RBAC"
+    ],
+    "antwoord": 1,
+    "toelichting": "Azure Policy continuously monitors Azure resources to ensure compliance. The evaluation and reporting cycle is every 24 hours."
+  },
+  {
+    "vraag": "_______ is a collection of documentation, implementation guidance, best practices, and tools that are proven guidance from Microsoft designed to accelerate your cloud adoption journey.",
+    "opties": [
+      "Azure FastTrack",
+      "Azure Migration Jumpstart",
+      "Azure Well-Architected Framework",
+      "Microsoft Cloud Adoption Framework"
+    ],
+    "antwoord": 3,
+    "toelichting": "The Microsoft Cloud Adoption Framework includes strategy and planning resources, migration guides, a cloud journey tracker, and many other resources to support a strong security posture."
+  },
+  {
+    "vraag": "Which of the following is a feature of advanced auditing in Microsoft 365?",
+    "opties": [
+      "Faster access to the Office 365 Management Activity API",
+      "Longer audit log retention to accommodate forensic and compliance investigations",
+      "Both of these",
+      "None of these"
+    ],
+    "antwoord": 2,
+    "toelichting": "Advanced Audit helps organizations to conduct forensic and compliance investigations by increasing audit log retention and providing faster access to Office 365 Management Activity API."
+  },
+  {
+    "vraag": "The core audit capabilities of Microsoft Purview enable search across Microsoft 365 services through:",
+    "opties": [
+      "Azure Purview",
+      "eDiscovery workflow",
+      "a unified audit log",
+      "Log Analytics"
+    ],
+    "antwoord": 2,
+    "toelichting": "You can use the Microsoft Purview compliance portal to search the unified audit log to view user and administrator activity in your organization."
+  },
+  {
+    "vraag": "What is the core function of eDiscovery feature in Microsoft Purview?",
+    "opties": [
+      "To enable discovery of sensitive data across Microsoft 365 features like SharePoint, OneDrive, and Teams.",
+      "To enable identifying and delivering electronic information that can be used as evidence in legal cases.",
+      "To enable Microsoft Support engineers to identify unprotected data sources that contain sensitive account data in your tenant."
+    ],
+    "antwoord": 1,
+    "toelichting": "eDiscovery is the process of identifying and delivering electronic information that can be used as evidence in legal cases."
+  },
+  {
+    "vraag": "Which of the following features available in the Microsoft Purview compliance portal provides automation of data subject requests (DSR)?",
+    "opties": [
+      "Compliance Manager",
+      "Microsoft Priva",
+      "Information Protection",
+      "Data Loss Prevention (DLP)"
+    ],
+    "antwoord": 1,
+    "toelichting": "Through automated workflows, Priva Subject Rights Requests can help alleviate the complexity and length of time involved in responding to DSR inquiries."
+  },
+  {
+    "vraag": "Which Microsoft Purview feature enables administrators to define policies to explicitly prevent communication between group or users within the organization to avoid regulatory breaches and conflict of interest issues?",
+    "opties": [
+      "Insider risk management",
+      "Communication compliance",
+      "Information barriers",
+      "eDiscovery"
+    ],
+    "antwoord": 2,
+    "toelichting": "Information barriers in Microsoft 365 is designed to prevent communication between groups, business units, or individuals that may result in a conflict of interest or regulatory breach."
+  },
+  {
+    "vraag": "Which of the following Microsoft Purview compliance solutions is focused on detecting and acting on unethical, illegal, and malicious behaviors?",
+    "opties": [
+      "Information barriers",
+      "Communication compliance",
+      "Information protection",
+      "Insider risk management"
+    ],
+    "antwoord": 3,
+    "toelichting": "Insider risk management helps minimize internal risks by enabling you to detect, investigate, and act on malicious and inadvertent activities in your organization."
+  },
+  {
+    "vraag": "Which of the following statements describes the difference between Compliance Manager and compliance score?",
+    "opties": [
+      "Compliance Manager is the auditor role who will manage your compliance activities. Compliance score is a calculation of the overall compliance posture across the organization.",
+      "Compliance Manager is an end-to-end solution in Microsoft Purview compliance portal to enable admins to manage and track compliance activities. Compliance score is a score the organization receives from the auditor role for successful compliance.",
+      "Compliance Manager is an end-to-end solution in Microsoft Purview compliance portal to enable admins to manage and track compliance activities. Compliance score is a calculation of the overall compliance posture across the organization."
+    ],
+    "antwoord": 2,
+    "toelichting": "Compliance Manager provides admins with the capabilities to understand and improve their compliance score so that they can ultimately improve the organization's compliance posture."
+  },
+  {
+    "vraag": "Which of the following is an end-to-end solution in Microsoft Purview compliance portal that enables admins to manage and track compliance activities?",
+    "opties": [
+      "Compliance Manager",
+      "Compliance Score",
+      "Microsoft 365 Security and Compliance",
+      "Privileged Access Manager"
+    ],
+    "antwoord": 0,
+    "toelichting": "Compliance Manager is an end-to-end solution in Microsoft Purview compliance portal to enable admins to manage and track compliance activities."
+  },
+  {
+    "vraag": "What are the categories shown on the secure score in Microsoft Defender portal?",
+    "opties": [
+      "Identities, data, devices, and apps",
+      "Alerts, incidents, remediations, and recommendations",
+      "Activities, entities, anomalies, and alerts"
+    ],
+    "antwoord": 0,
+    "toelichting": "Microsoft Defender portal shows cards with these categories: identities, data, devices, and apps."
+  },
+  {
+    "vraag": "Which of the following tools help to deliver intelligent, automated, and integrated security across an organization's domains, such as identities, endpoints, applications, and email?",
+    "opties": [
+      "SAML",
+      "SOAR",
+      "XDR",
+      "SIEM"
+    ],
+    "antwoord": 2,
+    "toelichting": "An XDR system is designed to deliver intelligent, automated, and integrated security across an organization's domain. It helps prevent, detect, and respond to threats across identities, endpoints, applications, email, IoT, infrastructure, and cloud platforms."
+  },
+  {
+    "vraag": "The cloud security posture management (CSPM) functionality in Microsoft Defender for Cloud includes:",
+    "opties": [
+      "Free tier functionality such as secure score, detection of misconfigurations, and asset inventory.",
+      "A range of advanced, intelligent protections in the Standard Tier of Azure Security Center.",
+      "All of these above",
+      "None of the above"
+    ],
+    "antwoord": 0,
+    "toelichting": "Cloud security posture management (CSPM) includes foundational (Free tier) features like secure score, detection of security misconfigurations in your Azure workloads, and asset inventory."
+  },
+  {
+    "vraag": "You need to provide the following functionality for infrastructure across your on-premises and Azure infrastructure. Monitor the security posture of compute resources in Azure and on-premises. Scan images within Azure Container Registry to identify vulnerabilities. Monitor and detect unusual access attempts to Azure Storage accounts. Which solution should you recommend?",
+    "opties": [
+      "Azure Firewall Manager",
+      "Azure DDoS",
+      "Microsoft Defender for Endpoint",
+      "Microsoft Defender"
+    ],
+    "antwoord": 3,
+    "toelichting": "Microsoft Defender provides a single portal for monitoring Azure and hybrid cloud workload protection and security, including XDR capabilities and intelligent protection for VMs, web app instances, cloud databases, and cloud storage."
+  },
+  {
+    "vraag": "Which of the following is NOT a function of Microsoft Defender for Cloud?",
+    "opties": [
+      "Makes recommendations on how to better secure/protect vulnerable resources in your Azure subscription.",
+      "It scans your environment to detect unprotected web applications.",
+      "Stores and tracks diagnostic data, including firewall and audit log alerts",
+      "It provides increased visibility into and control over the security of your Azure resources."
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Security Center helps you prevent, detect, and respond to threats. However, it is not responsible for storage and retention of diagnostic and audit log data."
+  },
+  {
+    "vraag": "Which of the following Azure services offers protection from the following common attacks cataloged by OWASP? 1. SQL-injection attack 2. Cross-site scripting attack. 3. Cross-origin resource sharing (CORS) attacks. 4. Man-in-the-middle (MITM) attacks.",
+    "opties": [
+      "Azure Network Security Groups (NSGs)",
+      "Azure DDoS Protection",
+      "Azure Web Application Firewall (WAF)",
+      "Microsoft Defender for Servers"
+    ],
+    "antwoord": 2,
+    "toelichting": "Azure Web Application Firewall (WAF) provides protection from common web attacks cataloged by OWASP including SQL-injection, cross-site scripting, CORS attacks, and MITM attacks."
+  },
+  {
+    "vraag": "Your security admin needs to protect Azure resources from DDoS attacks, which of the given Azure DDoS Protection tiers will help your admin to enhance protection from attacks targeting Azure virtual network resources?",
+    "opties": [
+      "Advanced",
+      "Standard",
+      "Basic"
+    ],
+    "antwoord": 1,
+    "toelichting": "The Standard service tier provides additional mitigation capabilities that are tuned specifically to Microsoft Azure Virtual Network resources."
+  },
+  {
+    "vraag": "Which of the following enables inclusion of risk as a signal in Conditional Access policy decisions in Microsoft Entra?",
+    "opties": [
+      "Privileged Identity Management (PIM)",
+      "Entra Password Protection",
+      "Identity Protection",
+      "None (available by default)"
+    ],
+    "antwoord": 2,
+    "toelichting": "Identity Protection in Entra ID enables the evaluation of risk in Conditional Access policies. However, Identity Protection is only available in Entra ID Plan 2 (P2)."
+  },
+  {
+    "vraag": "Which of the following is not a question answered by Entra ID Identity Governance?",
+    "opties": [
+      "What are users doing with access?",
+      "Are there effective organizational controls for managing that access?",
+      "Can auditors verify those controls are working.",
+      "Can users self-report these controls are appropriately limiting their access?"
+    ],
+    "antwoord": 3,
+    "toelichting": "The questions addressed by identity governance are: 1) Which users have access to which resources? 2) What are users doing with access? 3) Are there effective organizational controls for managing that access? and 4) Can auditors verify those controls are working."
+  },
+  {
+    "vraag": "Which of the following services performs the following functions leveraging event data from your on-premises Active Directory? monitors and analyzes user activities and information across your network; creates a behavioral baseline for each user; Identifies anomalous behavior, suspicious activities, and events",
+    "opties": [
+      "Microsoft Defender for Identity",
+      "Azure Security Center",
+      "Microsoft Defender for Endpoint",
+      "Microsoft Defender for Office 365"
+    ],
+    "antwoord": 0,
+    "toelichting": "Microsoft Defender for Identity leverages on-premises Active Directory signals to monitor user activities, create behavioral baselines, and identify anomalous behavior."
+  },
+  {
+    "vraag": "Which of the following types of attack uses a formal email to convince users to sign in and change their password?",
+    "opties": [
+      "Spear Phishing",
+      "Password spray attack",
+      "Phishing attack",
+      "Brute force attack"
+    ],
+    "antwoord": 2,
+    "toelichting": "A phishing attack is when a hacker sends an email that appears to come from a reputable source. The email contains a credible story, such as a security breach, instructing the user to sign in and change their password."
+  },
+  {
+    "vraag": "Which of the following is not a service provided by on-premises Active Directory Domain Services (AD DS)?",
+    "opties": [
+      "It enables organizations to manage multiple on-premises infrastructure components and systems using a single identity per user.",
+      "A directory service that stores information about members of the domain.",
+      "Verifies the credentials of the members of the domain and defines their access rights (AuthN and AuthZ).",
+      "Native support for mobile devices, SaaS, and line of business (LOB) apps that require modern authentication methods."
+    ],
+    "antwoord": 3,
+    "toelichting": "Active Directory does not natively support mobile devices, SaaS, and line of business (LOB) apps that require modern authentication methods."
+  },
+  {
+    "vraag": "Entra ID can be configured to allow users to authenticate with their social identities, such as Facebook or Google. In this scenario, Facebook and Google are serving as: (choose the best answer)",
+    "opties": [
+      "Service principals",
+      "Identity providers",
+      "Trusted entities",
+      "Managed identities"
+    ],
+    "antwoord": 1,
+    "toelichting": "In Entra ID, an identity provider maintains and manages identity information while providing authentication services to applications."
+  },
+  {
+    "vraag": "Which of the following services helps to implement identity as the primary security perimeter? (choose the best answer)",
+    "opties": [
+      "Entra ID Conditional Access policies",
+      "Intune endpoint protection policies",
+      "A next generation firewall",
+      "Azure App Gateway with the latest OWASP ruleset"
+    ],
+    "antwoord": 0,
+    "toelichting": "Entra ID Conditional Access policies ensure users meet requirements for authentication, including MFA. When coupled with Identity Protection and Intune endpoint protection, we have a solid layered defense."
+  },
+  {
+    "vraag": "Which principle of Zero Trust is demonstrated by these services or features? Just-In-Time and Just-Enough Access (JIT/JEA); RBAC and conditional access; Sensitivity labels and policies",
+    "opties": [
+      "Verify explicitly",
+      "Least privilege access",
+      "Assume breach",
+      "None of the above"
+    ],
+    "antwoord": 1,
+    "toelichting": "Just-In-Time and Just-Enough Access (JIT/JEA), Entra ID RBAC and conditional access implement least privilege access."
+  },
+  {
+    "vraag": "You can configure access to the secrets in Azure Key Vault using Azure RBAC (role based access control).",
+    "opties": [
+      "No",
+      "Yes"
+    ],
+    "antwoord": 1,
+    "toelichting": "Both access policies and Azure RBAC can be used to control access to the contents of the key vault."
+  },
+  {
+    "vraag": "Entra Connect and Entra Cloud Sync are used to configure which of the following identity models?",
+    "opties": [
+      "Federated",
+      "Synchronized",
+      "Hybrid",
+      "All the above"
+    ],
+    "antwoord": 3,
+    "toelichting": "All of these identity models are supported by Entra Connect or Entra Cloud Sync."
+  },
+  {
+    "vraag": "To enable users to securely access company resources from anywhere, the security team wants to support OATH tokens (one-time password) as a second authentication factor for Entra ID. What Microsoft solution enables use of OATH tokens for Entra ID and other identity providers?",
+    "opties": [
+      "Entra ID Identity Protection",
+      "Microsoft Authenticator",
+      "Conditional Access",
+      "Entra ID Multi-Factor Authentication"
+    ],
+    "antwoord": 1,
+    "toelichting": "To support software OATH on the Entra platform, users must install the Microsoft Authenticator app and register with their Entra IDs."
+  },
+  {
+    "vraag": "Adherence to mandatory regulations, whether multi-national, national, state or federal laws or industry that an organization must follow is known as",
+    "opties": [
+      "Governance",
+      "Risk",
+      "Non-repudiation",
+      "Compliance"
+    ],
+    "antwoord": 3,
+    "toelichting": "Compliance focuses on adherence to regulations. Three tenants of compliance are data residency, data sovereignty, and data privacy."
+  },
+  {
+    "vraag": "The VMs and other services in different virtual networks within the same subscription can communicate by default.",
+    "opties": [
+      "TRUE",
+      "FALSE"
+    ],
+    "antwoord": 1,
+    "toelichting": "Communication between different VNETs requires explicit configuration, such as virtual network peering or a VNET-to-VNET VPN."
+  },
+  {
+    "vraag": "Access reviews in Entra ID can be configured to be self-completed by the eligible members of the privileged roles.",
+    "opties": [
+      "TRUE",
+      "FALSE"
+    ],
+    "antwoord": 0,
+    "toelichting": "You can assign designated reviewers, owners, or eligible role members. Access reviews can be configured to allow users to self-review."
+  },
+  {
+    "vraag": "Which of the following services can identify over-privileged workload and user identities, actions, and resources across multi-cloud infrastructures and assess permissions risk based on permissions assigned vs permissions used?",
+    "opties": [
+      "Access Reviews",
+      "Entra Identity Protection",
+      "Azure RBAC",
+      "Entra Permissions Management"
+    ],
+    "antwoord": 3,
+    "toelichting": "Entra Permissions Management is a cloud infrastructure entitlement management (CIEM) solution that can assess permission risks by evaluating the gap between permissions granted and permissions used."
+  }
+]
