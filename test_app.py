@@ -16,7 +16,7 @@ def _import_app_module():
         return importlib.import_module("app")
 
 
-class ScanQuizFilesTests(unittest.TestCase):
+class TestScanQuizFiles(unittest.TestCase):
     def test_strips_quiz_prefix_from_filename(self) -> None:
         app = _import_app_module()
         with tempfile.TemporaryDirectory() as tmp:
