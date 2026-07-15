@@ -48,7 +48,7 @@ experience needed.
 
 - Each file is a JSON **array** of question objects (`[]`).
 - Files are auto-discovered in `../Exams/` and `../Modules/` via `scan_quiz_files()`.
-- File name becomes the quiz label (e.g. `Exams/quiz-az900-practice-v2.json` → `Exams/quiz-az900-practice-v2`).
+- File name becomes the quiz label without `quiz-` prefix (e.g. `quizzes/quiz-az900-practice-v2.json` → `az900-practice-v2`), and duplicates are auto-numbered (`name`, `name (2)`, ...).
 
 ### Validation rules (`load_quiz`)
 
