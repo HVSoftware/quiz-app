@@ -31,6 +31,42 @@ class ScanQuizFilesTests(unittest.TestCase):
         self.assertEqual(quiz_files["sample-exam"], quiz_file)
         self.assertNotIn("quizzes/quiz-sample-exam", quiz_files)
 
+    def test_scan_quiz_files_keeps_filename_when_no_quiz_prefix(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            quiz_dir = Path(tmp) / "quizzes"
+            quiz_dir.mkdir()
+            quiz_file = quiz_dir / "networking-basics.json"
+            quiz_file.write_text("[]", encoding="utf-8")
+
+            original_dirs = app.QUIZ_DIRS
+            app.QUIZ_DIRS = [quiz_dir]
+            try:
+                quiz_files = app.scan_quiz_files()
+            finally:
+                app.QUIZ_DIRS = original_dirs
+
+        self.assertIn("networking-basics", quiz_files)
+        self.assertEqual(quiz_files["networking-basics"], quiz_file)
+
+    def test_scan_quiz_files_disambiguates_duplicate_labels(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            quiz_dir = Path(tmp) / "quizzes"
+            quiz_dir.mkdir()
+            first = quiz_dir / "quiz-same-topic.json"
+            second = quiz_dir / "same-topic.json"
+            first.write_text("[]", encoding="utf-8")
+            second.write_text("[]", encoding="utf-8")
+
+            original_dirs = app.QUIZ_DIRS
+            app.QUIZ_DIRS = [quiz_dir]
+            try:
+                quiz_files = app.scan_quiz_files()
+            finally:
+                app.QUIZ_DIRS = original_dirs
+
+        self.assertEqual(quiz_files["same-topic"], first)
+        self.assertEqual(quiz_files["same-topic (2)"], second)
+
 
 if __name__ == "__main__":
     unittest.main()

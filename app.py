@@ -37,7 +37,12 @@ def scan_quiz_files() -> dict[str, Path]:
         if not d.exists():
             continue
         for fp in sorted(d.rglob("*.json")):
-            label = fp.stem.removeprefix("quiz-")
+            label_base = fp.stem.removeprefix("quiz-")
+            label = label_base
+            i = 2
+            while label in files:
+                label = f"{label_base} ({i})"
+                i += 1
             files[label] = fp
     return files
 
