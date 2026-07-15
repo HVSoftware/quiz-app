@@ -238,9 +238,7 @@ def toon_vraag() -> None:
         keuze_gemaakt = st.session_state.keuze
         juist = keuze_gemaakt == q["antwoord"]
 
-        if juist:
-            st.success("**Correct!**")
-        else:
+        if not juist:
             st.error(f"**Wrong.** Correct answer: **{opties[q['antwoord']]}**")
 
         # Update score
@@ -248,8 +246,7 @@ def toon_vraag() -> None:
             st.session_state.score += 1
             st.session_state.score_bijgewerkt = True
 
-        # Next button (placed here so the user doesn't have to scroll past the answers)
-        st.divider()
+        # Next button (above the divider line)
         if st.button("Next →", type="secondary", use_container_width=False):
             st.session_state.score_bijgewerkt = False
             st.session_state.index += 1
@@ -258,6 +255,8 @@ def toon_vraag() -> None:
             if st.session_state.index >= totaal:
                 st.session_state.voltooid = True
             st.rerun()
+
+        st.divider()
 
         # Highlight options with colour
         for idx, optie in enumerate(opties):
