@@ -5,15 +5,20 @@ import sys
 import tempfile
 import types
 import unittest
+from unittest import mock
 from pathlib import Path
 
 
-sys.modules.setdefault("streamlit", types.SimpleNamespace(session_state={}))
-app = importlib.import_module("app")
+def _import_app_module():
+    with mock.patch.dict(sys.modules, {"streamlit": types.SimpleNamespace(session_state={})}):
+        if "app" in sys.modules:
+            return importlib.reload(sys.modules["app"])
+        return importlib.import_module("app")
 
 
 class ScanQuizFilesTests(unittest.TestCase):
     def test_strips_quiz_prefix_from_filename(self) -> None:
+        app = _import_app_module()
         with tempfile.TemporaryDirectory() as tmp:
             quiz_dir = Path(tmp) / "quizzes"
             quiz_dir.mkdir()
@@ -32,6 +37,7 @@ class ScanQuizFilesTests(unittest.TestCase):
         self.assertNotIn("quizzes/quiz-sample-exam", quiz_files)
 
     def test_preserves_filename_without_quiz_prefix(self) -> None:
+        app = _import_app_module()
         with tempfile.TemporaryDirectory() as tmp:
             quiz_dir = Path(tmp) / "quizzes"
             quiz_dir.mkdir()
@@ -49,6 +55,7 @@ class ScanQuizFilesTests(unittest.TestCase):
         self.assertEqual(quiz_files["networking-basics"], quiz_file)
 
     def test_appends_numeric_suffix_for_duplicate_labels(self) -> None:
+        app = _import_app_module()
         with tempfile.TemporaryDirectory() as tmp:
             quiz_dir = Path(tmp) / "quizzes"
             quiz_dir.mkdir()
