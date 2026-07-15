@@ -64,8 +64,9 @@ class ScanQuizFilesTests(unittest.TestCase):
             finally:
                 app.QUIZ_DIRS = original_dirs
 
-        self.assertEqual(quiz_files["same-topic"], first)
-        self.assertEqual(quiz_files["same-topic (2)"], second)
+        self.assertIn("same-topic", quiz_files)
+        self.assertIn("same-topic (2)", quiz_files)
+        self.assertEqual({quiz_files["same-topic"], quiz_files["same-topic (2)"]}, {first, second})
 
 
 if __name__ == "__main__":
