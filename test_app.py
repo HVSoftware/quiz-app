@@ -13,7 +13,7 @@ app = importlib.import_module("app")
 
 
 class ScanQuizFilesTests(unittest.TestCase):
-    def test_scan_quiz_files_uses_filename_without_quiz_prefix(self) -> None:
+    def test_strips_quiz_prefix_from_filename(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             quiz_dir = Path(tmp) / "quizzes"
             quiz_dir.mkdir()
@@ -31,7 +31,7 @@ class ScanQuizFilesTests(unittest.TestCase):
         self.assertEqual(quiz_files["sample-exam"], quiz_file)
         self.assertNotIn("quizzes/quiz-sample-exam", quiz_files)
 
-    def test_scan_quiz_files_keeps_filename_when_no_quiz_prefix(self) -> None:
+    def test_preserves_filename_without_quiz_prefix(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             quiz_dir = Path(tmp) / "quizzes"
             quiz_dir.mkdir()
@@ -48,7 +48,7 @@ class ScanQuizFilesTests(unittest.TestCase):
         self.assertIn("networking-basics", quiz_files)
         self.assertEqual(quiz_files["networking-basics"], quiz_file)
 
-    def test_scan_quiz_files_disambiguates_duplicate_labels(self) -> None:
+    def test_appends_numeric_suffix_for_duplicate_labels(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             quiz_dir = Path(tmp) / "quizzes"
             quiz_dir.mkdir()
