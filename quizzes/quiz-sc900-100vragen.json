@@ -2,10 +2,10 @@
   {
     "vraag": "Wat is het principe van het Shared Responsibility Model?",
     "opties": [
-      "De klant is altijd volledig verantwoordelijk voor beveiliging",
-      "De cloudprovider is altijd volledig verantwoordelijk voor beveiliging",
-      "Verantwoordelijkheden worden gedeeld tussen cloudprovider en klant, afhankelijk van het dienstmodel",
-      "Beveiliging is alleen de verantwoordelijkheid van de IT-afdeling"
+      "De klant draagt altijd de volledige verantwoordelijkheid voor beveiliging",
+      "De cloudprovider draagt altijd de volledige verantwoordelijkheid voor beveiliging",
+      "Verantwoordelijkheden worden gedeeld en verschuiven afhankelijk van het dienstmodel",
+      "Beveiliging is uitsluitend de verantwoordelijkheid van de IT-afdeling"
     ],
     "antwoord": 2,
     "domein": "Beveiligingsmethodologieën",
@@ -14,10 +14,10 @@
   {
     "vraag": "Wat is een Smurf-aanval?",
     "opties": [
-      "Een type malware dat bestanden versleutelt",
-      "Een DDoS-aanval waarbij icmp-echo requests worden gestuurd naar een broadcast-adres met een vervalst bronadres",
-      "Een aanval waarbij wachtwoorden worden geraden",
-      "Een type phishing-aanval via e-mail"
+      "Een type ransomware-aanval waarmee bestanden worden versleuteld",
+      "Een DDoS-aanval die broadcast-verkeer stuurt met vervalste bron-IP's",
+      "Een brute-force aanval om wachtwoorden te raden via herhaling",
+      "Een gerichte phishing-aanval via een gecompromitteerde e-mail"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsmethodologieën",
@@ -26,10 +26,10 @@
   {
     "vraag": "Waarom wordt identiteit beschouwd als de nieuwe firewall?",
     "opties": [
-      "Omdat firewalls niet meer bestaan",
+      "Omdat traditionele firewalls volledig zijn verdwenen uit moderne netwerken",
       "Omdat identiteit de nieuwe perimeter is in een wereld van cloud en mobiel werken",
-      "Omdat identiteit sneller is dan een firewall",
-      "Omdat firewalls alleen voor netwerken werken"
+      "Omdat identiteit statistisch gezien sneller is dan een hardware firewall",
+      "Omdat firewalls uitsluitend werken op basis van netwerkprotocollen"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsmethodologieën",
@@ -38,10 +38,10 @@
   {
     "vraag": "Waarom is het plaatsen van een RDP-server met een publiek IP-adres sterk afgeraden?",
     "opties": [
-      "Het is te langzaam",
-      "Het is te duur",
-      "RDP is een veelgebruikt doelwit voor brute-force aanvallen en exploits",
-      "RDP werkt alleen met Windows 10"
+      "Omdat RDP-verbindingen significant langzamer zijn dan alternatieven",
+      "Omdat de licentiekosten voor een publieke RDP-server te hoog oplopen",
+      "Omdat RDP een veelgebruikt doelwit is voor brute-force aanvallen en exploits",
+      "Omdat RDP alleen compatibel is met Windows 10 en nieuwere versies"
     ],
     "antwoord": 2,
     "domein": "Beveiligingsmethodologieën",
@@ -50,10 +50,10 @@
   {
     "vraag": "Wat is het principe van Defense in Depth?",
     "opties": [
-      "Een enkele sterke beveiligingsmaatregel implementeren",
-      "Meerdere verdedigingslagen implementeren zodat als de ene laag faalt, de andere nog steeds beschermt",
-      "Alleen de buitenste laag van een netwerk beveiligen",
-      "Diepe encryptie toepassen op alle data"
+      "Implementeren van één enkele sterke beveiligingsmaatregel voor alle bedreigingen",
+      "Meerdere lagen beveiliging zodat elke laag de andere aanvult bij falen",
+      "Alleen de buitenste laag van een netwerk voorzien van beveiligingsmaatregelen",
+      "Diepe encryptie toepassen op alle data als enige beveiligingsmaatregel"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsmethodologieën",
@@ -62,22 +62,22 @@
   {
     "vraag": "Wat is het verschil tussen symmetrische en asymmetrische encryptie?",
     "opties": [
-      "Symmetrisch is langzamer, asymmetrisch is sneller",
-      "Symmetrisch gebruikt één sleutel, asymmetrisch gebruikt een sleutelpaar (public + private key)",
-      "Beide gebruiken hetzelfde aantal sleutels",
-      "Asymmetrisch is eenvoudiger te implementeren"
+      "Symmetrische encryptie is langzamer, asymmetrische encryptie is altijd sneller",
+      "Symmetrisch gebruikt één sleutel, asymmetrisch gebruikt een sleutelpaar (public + private)",
+      "Beide methoden gebruiken precies hetzelfde aantal sleutels voor versleuteling",
+      "Asymmetrische encryptie is eenvoudiger te implementeren in de praktijk"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsmethodologieën",
     "toelichting": "Symmetrische encryptie gebruikt dezelfde sleutel voor encryptie en decryptie. Asymmetrische encryptie gebruikt een sleutelpaar: met de public key versleutel je, met de private key ontsleutel je."
   },
   {
-    "vraag": "Welk probleem wordt opgelost door asymmetrische encryptie dat symmetrische encryptie niet kan oplossen?",
+    "vraag": "Welk probleem wordt opgelost door asymmetrische encryptie dat symmetrische encryptie niet kan?",
     "opties": [
-      "Snellere encryptie",
-      "Lagere CPU-belasting",
-      "Het probleem van veilige sleuteldeling en non-repudiation",
-      "Encryptie van grote bestanden"
+      "Het versnellen van het encryptieproces voor grote datasets",
+      "Het verminderen van de CPU-belasting tijdens het versleutelen van bestanden",
+      "Veilige sleuteldeling tussen partijen en het bieden van non-repudiation",
+      "Het efficiënt versleutelen van zeer grote bestanden en databases"
     ],
     "antwoord": 2,
     "domein": "Beveiligingsmethodologieën",
@@ -86,10 +86,10 @@
   {
     "vraag": "Wat is BYOD?",
     "opties": [
-      "Bring Your Own Device – het gebruik van persoonlijke apparaten voor werk",
-      "Build Your Own Database",
-      "Backup Your Own Data",
-      "Buy Your Own Software"
+      "Bring Your Own Device – het gebruik van persoonlijke apparaten voor werkdoeleinden",
+      "Build Your Own Database – het zelf bouwen van databases voor analyse",
+      "Backup Your Own Data – het zelf beheren van back-ups op een externe locatie",
+      "Buy Your Own Software – het zelf aanschaffen van softwarelicenties"
     ],
     "antwoord": 0,
     "domein": "Beveiligingsmethodologieën",
@@ -98,10 +98,10 @@
   {
     "vraag": "Wat is het kernprincipe van het Zero Trust-model?",
     "opties": [
-      "Vertrouw alles op het interne netwerk",
-      "Vertrouw niets, verificeer alles – geen impliciet vertrouwen op basis van netwerklocatie",
-      "Vertrouw alleen gebruikers met een VPN-verbinding",
-      "Vertrouw alleen apparaten die eigendom zijn van de organisatie"
+      "Vertrouw alles wat zich op het interne netwerk bevindt automatisch",
+      "Vertrouw niets, verificeer alles – geen impliciet vertrouwen op basis van locatie",
+      "Vertrouw alleen gebruikers die verbonden zijn via een beveiligde VPN-verbinding",
+      "Vertrouw alleen apparaten die eigendom zijn van de organisatie zelf"
     ],
     "antwoord": 1,
     "domein": "Zero Trust",
@@ -110,10 +110,10 @@
   {
     "vraag": "Welke twee elementen vormen de basis van een Zero Trust-implementatie?",
     "opties": [
-      "Firewall en antivirus",
-      "Identiteit (MFA, Conditional Access) en netwerksegmentatie",
-      "Back-up en Disaster Recovery",
-      "Monitoring en logging"
+      "Een krachtige firewall en een up-to-date antivirusprogramma",
+      "Identiteit (MFA, Conditional Access) en netwerksegmentatie als pijlers",
+      "Een betrouwbare back-upoplossing en een Disaster Recovery-plan",
+      "Uitgebreide logging en real-time monitoring van netwerkverkeer"
     ],
     "antwoord": 1,
     "domein": "Zero Trust",
@@ -122,10 +122,10 @@
   {
     "vraag": "Welke Microsoft-diensten worden genoemd als onderdeel van een Zero Trust-implementatie?",
     "opties": [
-      "Microsoft Word en Excel",
-      "Microsoft Defender for Cloud en Microsoft Sentinel",
-      "Microsoft Teams en SharePoint",
-      "Azure DevOps en GitHub"
+      "Microsoft Word en Excel voor het maken van beleidsdocumenten",
+      "Microsoft Defender for Cloud en Microsoft Sentinel voor beveiliging",
+      "Microsoft Teams en SharePoint voor samenwerking en communicatie",
+      "Azure DevOps en GitHub voor softwareontwikkeling en versiebeheer"
     ],
     "antwoord": 1,
     "domein": "Zero Trust",
@@ -134,10 +134,10 @@
   {
     "vraag": "Wat is het verschil tussen een Public, Private en Hybrid Cloud?",
     "opties": [
-      "Public cloud is alleen voor overheden, private cloud is voor bedrijven",
-      "Public cloud wordt gedeeld met meerdere klanten, private cloud is exclusief voor één organisatie, hybrid combineert beide",
-      "Hybrid cloud is hetzelfde als private cloud",
-      "Private cloud is altijd goedkoper dan public cloud"
+      "Public cloud is exclusief voor overheden, private cloud is alleen voor bedrijven",
+      "Public deelt infra met meerdere klanten, Private is exclusief, Hybrid combineert beide",
+      "Hybrid cloud is synoniem voor private cloud met extra beveiligingslagen",
+      "Private cloud is altijd goedkoper dan public cloud vanwege schaalvoordelen"
     ],
     "antwoord": 1,
     "domein": "Cloudbeveiliging",
@@ -149,7 +149,7 @@
       "IaaS (Infrastructure as a Service)",
       "PaaS (Platform as a Service)",
       "SaaS (Software as a Service)",
-      "On-premises"
+      "On-premises eigen beheer"
     ],
     "antwoord": 2,
     "domein": "Cloudbeveiliging",
@@ -158,10 +158,10 @@
   {
     "vraag": "Wat is het verschil tussen CapEx en OpEx?",
     "opties": [
-      "CapEx is voor software, OpEx is voor hardware",
-      "CapEx is vooraf betaalde kapitaaluitgaven, OpEx zijn doorlopende operationele uitgaven",
-      "Er is geen verschil",
-      "CapEx is goedkoper dan OpEx"
+      "CapEx is specifiek bedoeld voor softwarelicenties, OpEx voor hardware",
+      "CapEx zijn eenmalige kapitaaluitgaven, OpEx zijn doorlopende operationele kosten",
+      "Er is geen inhoudelijk verschil tussen deze twee begrippen",
+      "CapEx is relatief goedkoper dan OpEx op de lange termijn"
     ],
     "antwoord": 1,
     "domein": "Cloudbeveiliging",
@@ -170,10 +170,10 @@
   {
     "vraag": "Wat is het verschil tussen Scalability en Elasticity?",
     "opties": [
-      "Scalability is handmatig, Elasticity is automatisch",
-      "Scalability is het schalen van middelen, Elasticity is het automatisch schalen op basis van vraag",
-      "Er is geen verschil",
-      "Elasticity is langzamer dan Scalability"
+      "Scalability is een volledig automatisch proces, Elasticity vereist handmatige tussenkomst",
+      "Scalability is het schalen van middelen, Elasticity is het automatisch schalen op vraag",
+      "Er is geen inhoudelijk verschil tussen deze twee cloudconcepten",
+      "Elasticity is altijd langzamer dan Scalability vanwege het automatiseringsproces"
     ],
     "antwoord": 1,
     "domein": "Cloudbeveiliging",
@@ -182,10 +182,10 @@
   {
     "vraag": "Wat is een Availability Zone in Azure?",
     "opties": [
-      "Een fysieke locatie van een datacenter",
+      "Een fysieke locatie van een datacenter in een bepaalde regio",
       "Een onafhankelijk energie-, koel- en netwerkgedeelte binnen een Azure-regio",
-      "Een virtueel netwerk",
-      "Een abonnementstype"
+      "Een virtueel netwerk dat resources met elkaar verbindt",
+      "Een abonnementstype met specifieke beveiligingsgaranties"
     ],
     "antwoord": 1,
     "domein": "Cloudbeveiliging",
@@ -194,10 +194,10 @@
   {
     "vraag": "Wat is het doel van Resource Groups in Azure?",
     "opties": [
-      "Fysieke servers groeperen",
-      "Logische container voor het beheren en organiseren van Azure-resources",
-      "Netwerken configureren",
-      "Gebruikers authenticeren"
+      "Fysieke servers groeperen in dezelfde serverruimte",
+      "Logische container voor het beheren van Azure-resources",
+      "Netwerkconfiguraties samenvoegen tot één geheel",
+      "Gebruikers authenticeren via een gecentraliseerd portaal"
     ],
     "antwoord": 1,
     "domein": "Cloudbeveiliging",
@@ -206,10 +206,10 @@
   {
     "vraag": "Wat is Microsoft Purview?",
     "opties": [
-      "Een antivirus-oplossing",
-      "Een compliance-oplossing met tools voor data governance, classificatie en bescherming",
-      "Een cloudopslagservice",
-      "Een identity management-dienst"
+      "Een geavanceerde antivirus-oplossing voor endpointbeveiliging",
+      "Een compliance-oplossing voor data governance, classificatie en bescherming",
+      "Een cloudopslagservice voor het archiveren van bedrijfsdata",
+      "Een identity management-dienst voor toegangscontrole in de cloud"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -218,10 +218,10 @@
   {
     "vraag": "Wat is het verschil tussen Sensitive Information Types en Trainable Classifiers?",
     "opties": [
-      "Er is geen verschil",
-      "Sensitive Information Types herkennen patronen (creditcardnummers, BSN), Trainable Classifiers herkennen documenttypen (contracten, facturen)",
-      "Trainable Classifiers zijn sneller",
-      "Sensitive Information Types werken alleen in e-mail"
+      "Er is geen verschil, het zijn twee namen voor dezelfde functionaliteit",
+      "SIT herkennen patronen (creditcardnummers), Trainable Classifiers documenttypen (contracten)",
+      "Trainable Classifiers werken aanzienlijk sneller dan Sensitive Information Types",
+      "Sensitive Information Types functioneren uitsluitend binnen e-mailverkeer"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -230,10 +230,10 @@
   {
     "vraag": "Wat zijn de vier stappen van Data Loss Prevention (DLP)?",
     "opties": [
-      "Scannen, Detecteren, Blokkeren, Verwijderen",
-      "Policy instellen, Monitoring, Detectie, Protectie",
-      "Classificeren, Labelen, Bewaren, Verwijderen",
-      "Analyseren, Rapporteren, Aanbevelen, Implementeren"
+      "Scannen, Detecteren, Blokkeren, Verwijderen van gevoelige bestanden",
+      "Policy instellen, Monitoring, Detectie, Protectie tegen dataverlies",
+      "Classificeren, Labelen, Bewaren, Verwijderen van documenten",
+      "Analyseren, Rapporteren, Aanbevelen, Implementeren van maatregelen"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -242,10 +242,10 @@
   {
     "vraag": "Welke DLP-actie blokkeert een e-mail maar geeft de gebruiker de mogelijkheid uit te leggen waarom het toch verzonden moet worden?",
     "opties": [
-      "Block without override",
-      "Policy tip",
-      "Block with override",
-      "Automatic move to secure location"
+      "Block without override – volledig blokkeren zonder uitzondering",
+      "Policy tip – een waarschuwing tonen zonder de actie te blokkeren",
+      "Block with override – blokkeren met mogelijkheid voor rechtvaardiging",
+      "Automatic move to secure location – verplaatsen naar een beveiligde map"
     ],
     "antwoord": 2,
     "domein": "Gegevensbescherming",
@@ -254,10 +254,10 @@
   {
     "vraag": "Wat doet een 'policy tip' bij DLP-detectie?",
     "opties": [
-      "Blokkeert de actie onmiddellijk",
-      "Verwijdert het bestand automatisch",
+      "Blokkeert de handeling onmiddellijk zonder mogelijkheid tot overleg",
+      "Verwijdert het betreffende bestand automatisch uit het systeem",
       "Toont een waarschuwing aan de gebruiker zonder de actie te blokkeren",
-      "Stuurt een e-mail naar de IT-afdeling"
+      "Stuurt direct een melding naar de IT-afdeling voor handmatig ingrijpen"
     ],
     "antwoord": 2,
     "domein": "Gegevensbescherming",
@@ -266,10 +266,10 @@
   {
     "vraag": "Wat is Insider Risk Management?",
     "opties": [
-      "Het detecteren van malware op apparaten",
-      "Het detecteren van risicovol gedrag van eigen werknemers, bewust of onbewust",
-      "Het beheren van externe leveranciers",
-      "Het configureren van firewalls"
+      "Het detecteren en verwijderen van malware op alle bedrijfsapparaten",
+      "Het detecteren van risicovol gedrag van werknemers, bewust of onbewust",
+      "Het beheren van beveiligingscontracten met externe leveranciers",
+      "Het configureren van firewalls voor inkomend en uitgaand netwerkverkeer"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -278,10 +278,10 @@
   {
     "vraag": "In welke vijf stappen werkt Insider Risk Management?",
     "opties": [
-      "Scannen, Detecteren, Blokkeren, Rapporteren, Herstellen",
+      "Scannen, Detecteren, Blokkeren, Rapporteren, Herstellen van data",
       "Policies, Risico-indicatoren, Triage, Investigate, Action",
-      "Classificeren, Labelen, Bewaren, Verwijderen, Auditen",
-      "Analyseren, Implementeren, Monitoren, Evalueren, Bijwerken"
+      "Classificeren, Labelen, Bewaren, Verwijderen, Auditen van documenten",
+      "Analyseren, Implementeren, Monitoren, Evalueren, Bijwerken van regels"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -290,10 +290,10 @@
   {
     "vraag": "Wat is een voorbeeld van een risico-indicator bij Insider Risk Management?",
     "opties": [
-      "Een gebruiker die inlogt om 9 uur 's ochtends",
-      "Een gebruiker die in één uur 1000 bestanden downloadt terwijl normaal 10 per dag het maximum is",
-      "Een gebruiker die Teams gebruikt voor overleg",
-      "Een gebruiker die een wachtwoord wijzigt"
+      "Een gebruiker die dagelijks inlogt rond negen uur 's ochtends",
+      "Een gebruiker die in één uur duizend bestanden downloadt in plaats van tien",
+      "Een gebruiker die regelmatig deelneemt aan Teams-vergaderingen",
+      "Een gebruiker die periodiek zijn wachtwoord wijzigt voor de veiligheid"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -302,10 +302,10 @@
   {
     "vraag": "Wat is het verschil tussen eDiscovery Standard en eDiscovery Premium?",
     "opties": [
-      "Er is geen verschil",
-      "Standard heeft basic search en legal hold, Premium heeft geavanceerde analytics en complexe cases",
-      "Standard is gratis, Premium is betaald",
-      "Premium werkt alleen met Exchange"
+      "Er is geen verschil tussen deze twee versies van eDiscovery",
+      "Standard heeft basic search en legal hold, Premium heeft geavanceerde analytics",
+      "Standard is volledig gratis, Premium vereist een betaalde licentie",
+      "Premium functioneert uitsluitend met Exchange Online mailboxen"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -314,10 +314,10 @@
   {
     "vraag": "Wat is een Legal Hold?",
     "opties": [
-      "Een tijdelijke blokkering van een gebruikersaccount",
-      "Een mechanisme waarmee data wordt bevroren zodat deze niet verwijderd of gewijzigd kan worden",
-      "Een back-up van gegevens",
-      "Een type encryptie"
+      "Een tijdelijke blokkering van een gebruikersaccount bij verdacht gedrag",
+      "Een mechanisme waarmee data wordt bevroren zodat deze niet verwijderd kan worden",
+      "Een automatische back-up van gegevens naar een externe locatie",
+      "Een type versleuteling voor het beschermen van gevoelige documenten"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -326,10 +326,10 @@
   {
     "vraag": "Wat is het doel van Data Lifecycle Management?",
     "opties": [
-      "Alleen data back-uppen",
-      "Data bewaren wat bewaard moet worden en verwijderen wat verwijderd moet worden",
-      "Data versleutelen",
-      "Data naar de cloud migreren"
+      "Alleen het back-uppen van gegevens naar een veilige cloudlocatie",
+      "Data bewaren wat bewaard moet worden en verwijderen wat niet nodig is",
+      "Alle data versleutelen met een sterk encryptie-algoritme",
+      "Data van on-premises migreren naar een cloudomgeving"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -338,10 +338,10 @@
   {
     "vraag": "Wat is het verschil tussen Retention Policies en Retention Labels?",
     "opties": [
-      "Er is geen verschil",
-      "Retention Policies zijn automatische regels voor datatypes, Retention Labels kunnen door gebruikers op specifieke documenten worden toegepast",
-      "Retention Labels zijn sterker",
-      "Retention Policies werken alleen in Exchange"
+      "Er is geen verschil, het zijn twee namen voor dezelfde functie",
+      "Retention Policies zijn automatisch, Labels kunnen handmatig worden toegepast",
+      "Retention Labels zijn altijd sterker en overschrijven alle policies",
+      "Retention Policies werken uitsluitend binnen Exchange Online mailboxen"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -350,10 +350,10 @@
   {
     "vraag": "Wat is Records Management?",
     "opties": [
-      "Het bijhouden van gebruikersactiviteiten",
-      "Het vergrendelen van belangrijke documenten zodat niemand deze kan wijzigen of verwijderen",
-      "Het maken van back-ups",
-      "Het archiveren van e-mails"
+      "Het bijhouden en monitoren van gebruikersactiviteiten in systemen",
+      "Het vergrendelen van belangrijke documenten zodat niemand deze kan wijzigen",
+      "Het maken van back-ups naar een externe locatie voor calamiteiten",
+      "Het archiveren van oude e-mails in een gecentraliseerde omgeving"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -362,10 +362,10 @@
   {
     "vraag": "Wat is Communications Compliance?",
     "opties": [
-      "Het blokkeren van alle communicatie",
-      "Het monitoren van e-mails, Teams-chats en andere communicatie op risico's als ongepaste taal of discriminatie",
-      "Het versleutelen van berichten",
-      "Het maken van back-ups van chatberichten"
+      "Het volledig blokkeren van alle interne en externe communicatiekanalen",
+      "Het monitoren van communicatie op risico's als ongepaste taal of discriminatie",
+      "Het versleutelen van alle berichten tussen collega's en externe partijen",
+      "Het automatisch maken van back-ups van alle chatberichten en e-mails"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -374,10 +374,10 @@
   {
     "vraag": "Hoe lang worden audit logs standaard bewaard in Microsoft Purview (basisversie)?",
     "opties": [
-      "30 dagen",
-      "90 dagen",
-      "1 jaar",
-      "7 jaar"
+      "30 dagen na de laatste activiteit van de gebruiker",
+      "90 dagen vanaf het moment van vastlegging",
+      "1 jaar na het einde van het boekjaar",
+      "7 jaar conform wettelijke bewaarplicht"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -386,10 +386,10 @@
   {
     "vraag": "Hoe lang worden audit logs standaard bewaard met een Premium-licentie?",
     "opties": [
-      "90 dagen",
-      "6 maanden",
-      "1 jaar",
-      "5 jaar"
+      "90 dagen vanaf het moment van vastlegging in het systeem",
+      "6 maanden na het einde van het betreffende boekjaar",
+      "1 jaar vanaf het moment van vastlegging, uitbreidbaar tot 10 jaar",
+      "5 jaar conform de standaard bewaartermijn van Microsoft"
     ],
     "antwoord": 2,
     "domein": "Gegevensbescherming",
@@ -398,10 +398,10 @@
   {
     "vraag": "Wat is Compliance Manager?",
     "opties": [
-      "Een tool voor netwerkmonitoring",
-      "Een dashboard dat een compliance-score (0-100%) geeft met assessment templates en verbeteradviezen",
-      "Een e-mailarchiveringstool",
-      "Een identity management-dienst"
+      "Een tool voor het monitoren van netwerkprestaties en verbindingen",
+      "Een dashboard met een compliance-score en assessment templates voor verbetering",
+      "Een e-mailarchiveringstool voor het bewaren van zakelijke berichten",
+      "Een identity management-dienst voor het beheren van gebruikersrechten"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -411,9 +411,9 @@
     "vraag": "Welke Microsoft-dienst wordt gebruikt om identiteit te beheren in de cloud?",
     "opties": [
       "Microsoft Azure AD (nu Microsoft Entra ID)",
-      "Microsoft SQL Server",
-      "Microsoft SharePoint",
-      "Microsoft System Center"
+      "Microsoft SQL Server voor databasebeheer",
+      "Microsoft SharePoint voor documentopslag",
+      "Microsoft System Center voor infrastructuurbeheer"
     ],
     "antwoord": 0,
     "domein": "Identiteits- en toegangsbeheer",
@@ -422,10 +422,10 @@
   {
     "vraag": "Hoe wordt Conditional Access het best beschreven?",
     "opties": [
-      "Een firewall die netwerkverkeer blokkeert",
-      "Een 'slimme portier' die toegang controleert op basis van wie, waar, welk apparaat, hoe laat en normaal gedrag",
-      "Een back-updienst",
-      "Een antivirusoplossing"
+      "Een firewall die al het inkomende en uitgaande netwerkverkeer blokkeert",
+      "Een slimme portier die toegang controleert op basis van meerdere signalen",
+      "Een back-updienst voor het automatisch herstellen van data",
+      "Een antivirusoplossing die malware in real-time detecteert"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -434,10 +434,10 @@
   {
     "vraag": "Wat is het formele patroon van Conditional Access?",
     "opties": [
-      "Actie → Signaal → Beslissing",
-      "Signaal → Beslissing → Handhaving",
-      "Handhaving → Signaal → Actie",
-      "Detectie → Rapportage → Actie"
+      "Actie ondernemen op basis van een signaal en dan een beslissing nemen",
+      "Signaal → Beslissing → Handhaving van de genomen beslissing",
+      "Handhaving toepassen en dan een signaal genereren voor de volgende keer",
+      "Detectie van een dreiging, rapportage aan management, actie ondernemen"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -446,10 +446,10 @@
   {
     "vraag": "Wat is Self-Service Password Reset (SSPR)?",
     "opties": [
-      "Een tool voor IT-beheer om wachtwoorden te resetten",
+      "Een tool voor IT-beheerders om wachtwoorden van gebruikers te resetten",
       "Een zelfbedieningsportaal waarmee gebruikers hun eigen wachtwoord kunnen resetten",
-      "Een wachtwoordbeheerder",
-      "Een type encryptie"
+      "Een wachtwoordbeheerder die alle wachtwoorden opslaat in een kluis",
+      "Een type encryptie die wachtwoorden beschermt tegen brute-force aanvallen"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -458,10 +458,10 @@
   {
     "vraag": "Welke verificatiemethodes zijn beschikbaar voor SSPR?",
     "opties": [
-      "Alleen e-mail",
-      "Microsoft Authenticator, alternatief e-mailadres, mobiele telefoon (SMS/oproep), kantoortelefoon, security questions",
-      "Alleen SMS",
-      "Alleen een hardwaretoken"
+      "E-mail met een tijdelijke code voor verificatie van identiteit",
+      "Microsoft Authenticator, e-mail, SMS, kantoortelefoon of vragen",
+      "SMS-berichten naar het geregistreerde mobiele nummer van gebruiker",
+      "Een hardwaretoken voor fysieke authenticatie van identiteit"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -470,10 +470,10 @@
   {
     "vraag": "Welke wachtwoordbeveiligingsmaatregel blokkeert veelvoorkomende zwakke wachtwoorden?",
     "opties": [
-      "Wachtwoordminimale lengte van 8 tekens",
+      "Een wachtwoordminimale lengte van ten minste acht tekens",
       "Password Protection met een global banned password list",
-      "Wachtwoorden moeten cijfers bevatten",
-      "Wachtwoorden moeten elke maand worden gewijzigd"
+      "Een verplichting om cijfers op te nemen in elk wachtwoord",
+      "Een maandelijkse verplichte wijziging van alle wachtwoorden"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -482,10 +482,10 @@
   {
     "vraag": "Wat is FIDO2?",
     "opties": [
-      "Een type firewall",
-      "Een standaard voor wachtwoordloze authenticatie",
-      "Een encryptieprotocol",
-      "Een cloudopslagservice"
+      "Een type firewall voor het beschermen van interne netwerken",
+      "Een standaard voor wachtwoordloze authenticatie met biometrie of sleutels",
+      "Een encryptieprotocol voor het versleutelen van netwerkverkeer",
+      "Een cloudopslagservice voor het bewaren van beveiligingscertificaten"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -494,10 +494,10 @@
   {
     "vraag": "Wat is het hoofddoel van Privileged Identity Management (PIM)?",
     "opties": [
-      "Alle gebruikers dezelfde rechten geven",
+      "Alle gebruikers in de organisatie dezelfde rechten toewijzen",
       "Just-in-time toegang tot admin-rollen om het attack window te verkleinen",
-      "Wachtwoorden automatisch wijzigen",
-      "Netwerkverkeer versleutelen"
+      "Alle wachtwoorden automatisch wijzigen op een vast interval",
+      "Alle netwerkverkeer versleutelen met een sterk encryptie-algoritme"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -506,10 +506,10 @@
   {
     "vraag": "Wat is het verschil tussen een 'eligible' en 'active' status in PIM?",
     "opties": [
-      "Er is geen verschil",
-      "Eligible: gebruiker kan de rol activeren wanneer nodig. Active: de rol is tijdelijk actief (bijv. 4-8 uur)",
-      "Eligible is permanent, active is tijdelijk",
-      "Active is voor admins, eligible voor gewone gebruikers"
+      "Er is geen verschil, beide termen beschrijven dezelfde status",
+      "Eligible: de rol kan geactiveerd worden wanneer nodig. Active: de rol is actief",
+      "Eligible is permanent, terwijl active altijd tijdelijk is",
+      "Active is uitsluitend voor admins, eligible is voor gewone gebruikers"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -518,10 +518,10 @@
   {
     "vraag": "Wat is het verschil tussen Conditional Access en PIM?",
     "opties": [
-      "Er is geen verschil",
-      "Conditional Access controleert toegang op basis van condities (locatie, apparaat), PIM geeft tijdelijke admin-rechten",
-      "PIM is voor alle gebruikers, Conditional Access alleen voor admins",
-      "Conditional Access blokkeert altijd, PIM blokkeert nooit"
+      "Er is geen verschil, beide diensten bieden dezelfde functionaliteit",
+      "CA controleert toegang op basis van condities, PIM geeft tijdelijke rechten",
+      "PIM is bedoeld voor alle gebruikers, CA alleen voor admins",
+      "CA blokkeert altijd toegang, PIM blokkeert nooit toegang"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -530,10 +530,10 @@
   {
     "vraag": "Wat doet Entra ID Protection?",
     "opties": [
-      "Het beheren van admin-rollen",
-      "Het detecteren van risico's en verdachte activiteiten (maar het beheert geen admin-rollen)",
-      "Het versleutelen van data",
-      "Het maken van back-ups"
+      "Het beheren van admin-rollen en privilege toegang in de organisatie",
+      "Het detecteren van risico's en verdachte activiteiten op identiteiten",
+      "Het versleutelen van alle data in de cloudomgeving",
+      "Het dagelijks maken van back-ups van alle gebruikersaccounts"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -542,10 +542,10 @@
   {
     "vraag": "Wat gebeurt er bij een 'high risk' sign-in volgens Entra ID Protection?",
     "opties": [
-      "De gebruiker krijgt automatisch toegang",
-      "De gebruiker moet MFA doorstaan",
+      "De gebruiker krijgt automatisch volledige toegang tot alle resources",
+      "De gebruiker moet extra verificatie doorstaan via MFA voordat toegang wordt verleend",
       "De inlog wordt geblokkeerd en een admin moet het account handmatig unlocken",
-      "Er wordt een waarschuwing gestuurd naar de gebruiker"
+      "Er wordt een waarschuwing gestuurd naar de gebruiker zonder verdere actie"
     ],
     "antwoord": 2,
     "domein": "Identiteits- en toegangsbeheer",
@@ -554,10 +554,10 @@
   {
     "vraag": "Wat is Federatie (Federation) in de context van identity?",
     "opties": [
-      "Het synchroniseren van wachtwoorden",
-      "Een koppeling tussen identiteitssystemen waarmee externe gebruikers inloggen met hun eigen bedrijfsaccount",
-      "Het blokkeren van externe toegang",
-      "Een type encryptie"
+      "Het synchroniseren van wachtwoorden tussen lokale en cloud directory's",
+      "Een koppeling waarmee externe gebruikers inloggen met hun eigen bedrijfsaccount",
+      "Het blokkeren van alle externe toegang tot interne bedrijfsresources",
+      "Een type versleuteling voor het beschermen van identiteitsgegevens"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -566,10 +566,10 @@
   {
     "vraag": "Wat is Verified ID (Decentralized Identity)?",
     "opties": [
-      "Een traditionele identity-oplossing van Microsoft",
-      "Een gedecentraliseerde identity-oplossing met drie partijen: issuer, holder en verifier",
-      "Een type MFA",
-      "Een cloudopslagservice"
+      "Een traditionele identity-oplossing gebaseerd op centrale directory's",
+      "Een gedecentraliseerde identity-oplossing met issuer, holder en verifier",
+      "Een type multi-factor authenticatie voor extra beveiliging",
+      "Een cloudopslagservice voor het bewaren van identiteitsdocumenten"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -578,10 +578,10 @@
   {
     "vraag": "Wat is het verschil tussen Authentication en Authorization?",
     "opties": [
-      "Er is geen verschil",
-      "Authentication is bewijzen wie je bent, Authorization is toestemming geven om iets te doen",
-      "Authentication is voor gebruikers, Authorization is voor servers",
-      "Authentication is sneller dan Authorization"
+      "Er is geen verschil tussen deze twee beveiligingsconcepten",
+      "Authentication bewijst wie je bent, Authorization geeft toestemming om iets te doen",
+      "Authentication is bedoeld voor gebruikers, Authorization voor servers",
+      "Authentication is altijd sneller dan Authorization vanwege minder stappen"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -590,10 +590,10 @@
   {
     "vraag": "Wat is het doel van RBAC (Role-Based Access Control)?",
     "opties": [
-      "Alle gebruikers dezelfde rechten geven",
-      "Rollen toewijzen op basis van functie, niet per persoon",
-      "Wachtwoorden automatisch genereren",
-      "Netwerken configureren"
+      "Alle gebruikers in de organisatie dezelfde rechten toewijzen",
+      "Rollen toewijzen op basis van functie, niet op basis van persoon",
+      "Wachtwoorden automatisch genereren voor nieuwe gebruikers",
+      "Netwerkconfiguraties beheren vanuit één centraal punt"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -602,10 +602,10 @@
   {
     "vraag": "Welke Entra ID-rol heeft de meeste macht en het grootste risico?",
     "opties": [
-      "User Administrator",
-      "Helpdesk Administrator",
-      "Global Administrator",
-      "Global Reader"
+      "User Administrator voor het beheren van gebruikersaccounts",
+      "Helpdesk Administrator voor het ondersteunen van gebruikers",
+      "Global Administrator met volledige toegang tot alle functies",
+      "Global Reader voor het bekijken van alle instellingen"
     ],
     "antwoord": 2,
     "domein": "Identiteits- en toegangsbeheer",
@@ -614,10 +614,10 @@
   {
     "vraag": "Wat is het 'Principle of Least Privileges'?",
     "opties": [
-      "Gebruikers zoveel mogelijk rechten geven",
-      "Gebruikers alleen de minimale rechten geven die ze nodig hebben om hun werk te doen",
-      "Alle rechten permanent toewijzen",
-      "Rechten toewijzen op basis van anciënniteit"
+      "Gebruikers zoveel mogelijk rechten geven voor maximale flexibiliteit",
+      "Gebruikers alleen de minimale rechten geven die ze nodig hebben",
+      "Alle rechten permanent toewijzen voor continuïteit van bedrijfsprocessen",
+      "Rechten toewijzen op basis van anciënniteit in de organisatie"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -626,10 +626,10 @@
   {
     "vraag": "Wat is Access Creep?",
     "opties": [
-      "Langzaam stijgende netwerksnelheid",
+      "Langzaam stijgende netwerksnelheid door ongebruikte bandbreedte",
       "Gebruikers die in de loop van tijd steeds meer rechten verzamelen",
-      "Een type malware",
-      "Een techniek voor netwerksegmentatie"
+      "Een type malware die zich onopgemerkt verspreidt door het netwerk",
+      "Een techniek voor netwerksegmentatie om beveiliging te verbeteren"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -638,10 +638,10 @@
   {
     "vraag": "Wat is het doel van Access Reviews in ID Governance?",
     "opties": [
-      "Alle rechten permanent maken",
+      "Alle rechten permanent maken zonder mogelijkheid tot intrekking",
       "Periodiek reviewen of gebruikers nog steeds de juiste rechten nodig hebben",
-      "Wachtwoorden controleren",
-      "Netwerkinstellingen wijzigen"
+      "Alle wachtwoorden controleren op sterkte en actualiteit",
+      "Netwerkinstellingen wijzigen op basis van gebruikersgedrag"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -650,10 +650,10 @@
   {
     "vraag": "Wat is Entitlement Management?",
     "opties": [
-      "Een tool voor wachtwoordbeheer",
-      "Een self-service systeem waarbij gebruikers toegang aanvragen via access packages",
-      "Een type encryptie",
-      "Een back-upoplossing"
+      "Een tool voor het beheren van wachtwoorden en verificatiemethodes",
+      "Een self-service systeem waarbij gebruikers toegang aanvragen via packages",
+      "Een type encryptie voor het beschermen van identiteitsgegevens",
+      "Een back-upoplossing voor het bewaren van identity data"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -662,10 +662,10 @@
   {
     "vraag": "Wat is Separation of Duties?",
     "opties": [
-      "Alle taken aan één persoon toewijzen",
-      "Voorkomen dat één persoon conflicterende rollen heeft (bijv. facturen aanmaken én betalen)",
-      "Taken verdelen over meerdere netwerken",
-      "Wachtwoorden splitsen over meerdere systemen"
+      "Alle taken aan één persoon toewijzen voor maximale efficiency",
+      "Voorkomen dat één persoon zowel een handeling uitvoert als goedkeurt",
+      "Taken verdelen over meerdere netwerken voor redundantie",
+      "Wachtwoorden splitsen over meerdere systemen voor extra veiligheid"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -674,10 +674,10 @@
   {
     "vraag": "Wat is Azure AD Connect?",
     "opties": [
-      "Een cloudopslagservice",
-      "Een tool voor synchronisatie tussen on-premises Active Directory en Azure AD (hybride identiteit)",
-      "Een firewall",
-      "Een e-mailclient"
+      "Een cloudopslagservice voor het bewaren van identiteitsgegevens",
+      "Een tool voor synchronisatie tussen on-premises Active Directory en Azure AD",
+      "Een firewall voor het beschermen van het identiteitssysteem",
+      "Een e-mailclient voor het beheren van zakelijke berichten"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -686,10 +686,10 @@
   {
     "vraag": "Welke authenticatieprotocollen worden gebruikt voor identity federation?",
     "opties": [
-      "FTP en HTTP",
-      "OAuth, OpenID Connect en SAML",
-      "SMTP en IMAP",
-      "DNS en DHCP"
+      "FTP voor bestandsoverdracht en HTTP voor webverkeer",
+      "OAuth, OpenID Connect en SAML voor identiteitsuitwisseling",
+      "SMTP voor e-mailverkeer en IMAP voor mailboxtoegang",
+      "DNS voor naamresolutie en DHCP voor IP-adresverdeling"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -698,10 +698,10 @@
   {
     "vraag": "Wat is Global Secure Access?",
     "opties": [
-      "Een type firewall",
-      "Microsoft's oplossing voor veilige toegang met Internet Access en Private Access",
-      "Een backup-oplossing",
-      "Een e-mailversleutelingsservice"
+      "Een type firewall voor het beveiligen van inkomend netwerkverkeer",
+      "Microsoft's oplossing voor veilige toegang met Internet en Private Access",
+      "Een backup-oplossing voor het beschermen van bedrijfsgegevens",
+      "Een e-mailversleutelingsservice voor zakelijke communicatie"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -710,10 +710,10 @@
   {
     "vraag": "Wat is het verschil tussen Microsoft Entra Internet Access en Private Access?",
     "opties": [
-      "Er is geen verschil",
-      "Internet Access beveiligt internetverkeer (scant malware, blokkeert kwaadaardige sites), Private Access geeft veilige toegang tot interne apps",
-      "Internet Access is voor admins, Private Access voor gebruikers",
-      "Private Access is sneller"
+      "Er is geen verschil, beide diensten bieden dezelfde functionaliteit",
+      "Internet Access beveiligt internetverkeer, Private Access geeft toegang tot interne apps",
+      "Internet Access is bedoeld voor admins, Private Access voor gewone gebruikers",
+      "Private Access is altijd sneller dan Internet Access vanwege kortste route"
     ],
     "antwoord": 1,
     "domein": "Identiteits- en toegangsbeheer",
@@ -722,22 +722,22 @@
   {
     "vraag": "Wat is Microsoft Defender for Cloud primair?",
     "opties": [
-      "Een antivirusprogramma",
+      "Een antivirusprogramma voor het scannen van bestanden op malware",
       "Een cloud security posture management (CSPM) en workloadbeschermingsplatform",
-      "Een e-mailfilter",
-      "Een identity management-dienst"
+      "Een e-mailfilter voor het blokkeren van spam en phishing mails",
+      "Een identity management-dienst voor het beheren van gebruikersrechten"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
     "toelichting": "Defender for Cloud is een CSPM-oplossing (Cloud Security Posture Management) die ook workloadbescherming biedt. Het beoordeelt je beveiligingspostuur en geeft aanbevelingen."
   },
   {
-    "vraag": "Welke onderdeel van Microsoft Defender XDR beschermt tegen phishing e-mails en Safe Links?",
+    "vraag": "Welk onderdeel van Microsoft Defender XDR beschermt tegen phishing e-mails en Safe Links?",
     "opties": [
-      "Defender for Endpoint",
-      "Defender for Office 365",
-      "Defender for Cloud Apps",
-      "Defender for Identity"
+      "Defender for Endpoint voor het beschermen van apparaten",
+      "Defender for Office 365 voor e-mail en samenwerkingstools",
+      "Defender for Cloud Apps voor cloudapplicatiebeveiliging",
+      "Defender for Identity voor identiteitsbescherming"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -746,10 +746,10 @@
   {
     "vraag": "Welk Defender-onderdeel beschermt apparaten zoals laptops, desktops en smartphones?",
     "opties": [
-      "Defender for Office 365",
-      "Defender for Endpoint",
-      "Defender for Identity",
-      "Defender for Cloud Apps"
+      "Defender for Office 365 voor het beveiligen van e-mailcommunicatie",
+      "Defender for Endpoint voor endpoint detectie en response",
+      "Defender for Identity voor het beschermen van accounts",
+      "Defender for Cloud Apps voor cloudapplicatiebeveiliging"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -758,10 +758,10 @@
   {
     "vraag": "Wat is een CASB (Cloud Access Security Broker)?",
     "opties": [
-      "Een type firewall",
-      "Een tool die cloudapplicatiegebruik bewaakt, ook voor non-Microsoft apps zoals Dropbox en Salesforce",
-      "Een e-mailclient",
-      "Een database"
+      "Een type firewall voor het beveiligen van inkomend netwerkverkeer",
+      "Een tool die cloudapplicatiegebruik bewaakt, ook voor non-Microsoft apps",
+      "Een e-mailclient voor het beheren van zakelijke berichten",
+      "Een database voor het opslaan van beveiligingslogs en rapportages"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -770,10 +770,10 @@
   {
     "vraag": "Welk Defender-onderdeel is gericht op het beschermen van on-premises Active Directory?",
     "opties": [
-      "Defender for Endpoint",
-      "Defender for Office 365",
-      "Defender for Identity",
-      "Defender for Cloud"
+      "Defender for Endpoint voor het beveiligen van individuele apparaten",
+      "Defender for Office 365 voor het beveiligen van e-mailcommunicatie",
+      "Defender for Identity voor het beschermen van identiteit en accounts",
+      "Defender for Cloud voor het beveiligen van cloudworkloads"
     ],
     "antwoord": 2,
     "domein": "Bedreigingsbescherming",
@@ -782,10 +782,10 @@
   {
     "vraag": "Wat doet Defender for Vulnerability Management?",
     "opties": [
-      "Het scannen van e-mails op malware",
-      "Het identificeren van zwakke plekken en het prioriteren van fixes op basis van actief misbruik",
-      "Het versleutelen van data",
-      "Het beheren van gebruikersrollen"
+      "Het scannen van e-mails op malware en phishing pogingen",
+      "Het identificeren van zwakke plekken en prioriteren van fixes",
+      "Het versleutelen van data met een sterk encryptie-algoritme",
+      "Het beheren van gebruikersrollen en toegangsrechten in de organisatie"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -794,10 +794,10 @@
   {
     "vraag": "Wat is een belangrijk kenmerk van Microsoft Defender XDR?",
     "opties": [
-      "Elk onderdeel werkt volledig onafhankelijk",
-      "Alle onderdelen delen informatie met elkaar en zien het volledige attack story",
-      "Het werkt alleen met Microsoft-producten",
-      "Het vereist een eigen infrastructuur"
+      "Elk onderdeel werkt volledig onafhankelijk zonder gegevensuitwisseling",
+      "Alle onderdelen delen informatie en zien het volledige attack story",
+      "Het werkt uitsluitend met Microsoft-producten en diensten",
+      "Het vereist een eigen fysieke infrastructuur in het datacenter"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -806,10 +806,10 @@
   {
     "vraag": "Wat is Microsoft Sentinel?",
     "opties": [
-      "Een antivirusprogramma",
-      "Een cloud-native SIEM + SOAR oplossing",
-      "Een identity management-dienst",
-      "Een cloudopslagservice"
+      "Een antivirusprogramma voor het scannen van bestanden op malware",
+      "Een cloud-native SIEM + SOAR oplossing voor detectie en respons",
+      "Een identity management-dienst voor het beheren van gebruikersrechten",
+      "Een cloudopslagservice voor het bewaren van beveiligingsgegevens"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -818,10 +818,10 @@
   {
     "vraag": "Wat zijn de vier hoofdfuncties van Microsoft Sentinel?",
     "opties": [
-      "Login, Logout, Search, Delete",
-      "Collect, Detect, Investigate, Respond",
-      "Scan, Block, Report, Archive",
-      "Monitor, Alert, Notify, Remediate"
+      "Login, Logout, Search, Delete van gebruikersgegevens",
+      "Collect, Detect, Investigate, Respond op beveiligingsgebeurtenissen",
+      "Scan, Block, Report, Archive van verdachte bestanden",
+      "Monitor, Alert, Notify, Remediate van netwerkbedreigingen"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -830,10 +830,10 @@
   {
     "vraag": "Wat is het verschil tussen een Incident en een Alert in Sentinel?",
     "opties": [
-      "Er is geen verschil",
-      "Een Alert is een individueel signaal, een Incident is een groepering van meerdere gerelateerde alerts",
-      "Een Incident is altijd fout, een Alert is een waarschuwing",
-      "Alerts komen van users, Incidents van systemen"
+      "Er is geen verschil, beide termen beschrijven hetzelfde concept",
+      "Een Alert is een individueel signaal, een Incident groepeert gerelateerde alerts",
+      "Een Incident is altijd fout, een Alert is slechts een waarschuwing",
+      "Alerts komen van gebruikers, Incidents worden gegenereerd door systemen"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -842,10 +842,10 @@
   {
     "vraag": "Wat is het MITRE ATT&CK-raamwerk?",
     "opties": [
-      "Een type firewall",
-      "Een raamwerk dat tactieken en technieken van aanvallers catalogiseert met T-nummers",
-      "Een encryptieprotocol",
-      "Een cloudopslagservice"
+      "Een type firewall voor het beveiligen van netwerkinfrastructuur",
+      "Een raamwerk dat tactieken en technieken van aanvallers catalogiseert",
+      "Een encryptieprotocol voor het versleutelen van netwerkverkeer",
+      "Een cloudopslagservice voor het bewaren van beveiligingsdata"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -854,10 +854,10 @@
   {
     "vraag": "Wat is een hunting query in Sentinel?",
     "opties": [
-      "Een query die automatisch draait",
-      "Een proactieve KQL-query om bedreigingen te zoeken die nog niet gedetecteerd zijn",
-      "Een query die alleen历史gegevens verwijdert",
-      "Een query die gebruikers blokkeert"
+      "Een query die automatisch en op vastgestelde tijdstippen wordt uitgevoerd",
+      "Een proactieve KQL-query om bedreigingen te zoeken die niet gedetecteerd zijn",
+      "Een query die historical gegevens permanent verwijdert uit het systeem",
+      "Een query die verdachte gebruikers direct blokkeert zonder tussenkomst"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -866,10 +866,10 @@
   {
     "vraag": "Wat zijn playbooks in Microsoft Sentinel?",
     "opties": [
-      "Handboeken voor IT-beheerders",
+      "Handboeken voor IT-beheerders met handleidingen voor beveiliging",
       "Geautomatiseerde workflows gebaseerd op Azure Logic Apps voor snelle reactie",
-      "Back-upplannen",
-      "Documentatie van beveiligingsbeleid"
+      "Back-upplannen voor het automatisch herstellen van data na een incident",
+      "Documentatie van beveiligingsbeleid voor interne richtlijnen"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -878,10 +878,10 @@
   {
     "vraag": "Welke tool van Microsoft Copilot in Security genereert KQL queries?",
     "opties": [
-      "Microsoft Word",
-      "Microsoft Copilot in Security kan KQL queries genereren op basis van natuurlijke taal",
-      "Azure Portal",
-      "Microsoft Teams"
+      "Microsoft Word voor het maken en bewerken van querydocumenten",
+      "Microsoft Copilot in Security genereert KQL queries op basis van taal",
+      "Azure Portal voor het handmatig schrijven en testen van queries",
+      "Microsoft Teams voor het delen en bespreken van queries"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -890,10 +890,10 @@
   {
     "vraag": "Wat is het voordeel van playbooks bij een ransomware-aanval?",
     "opties": [
-      "Ze vertragen de aanval",
+      "Ze vertragen de aanval zodat het security team meer tijd heeft",
       "Ze versnellen de reactietijd van uren naar seconden door automatische acties",
-      "Ze voorkomen de aanval helemaal",
-      "Ze maken back-ups van de data"
+      "Ze voorkomen de ransomware-aanval volledig zonder tussenkomst van mens",
+      "Ze maken automatisch back-ups van de data tijdens de aanval"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -902,10 +902,10 @@
   {
     "vraag": "In het voorbeeld van een ransomware-aanval, welk Defender-onderdeel detecteert de phishing mail?",
     "opties": [
-      "Defender for Endpoint",
-      "Defender for Office 365",
-      "Defender for Identity",
-      "Defender for Cloud Apps"
+      "Defender for Endpoint voor het detecteren van malware op apparaten",
+      "Defender for Office 365 voor het scannen van e-mails op phishing",
+      "Defender for Identity voor het detecteren van accountcompromittering",
+      "Defender for Cloud Apps voor het monitoren van cloudapplicatiegebruik"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -914,10 +914,10 @@
   {
     "vraag": "Wat is een Security Operations Center (SOC)?",
     "opties": [
-      "Een fysieke serverruimte",
-      "Een centrale functie die 24/7 beveiligingsactiviteiten monitort en beheert",
-      "Een type firewall",
-      "Een cloudopslagservice"
+      "Een fysieke serverruimte voor het opslaan van netwerkapparatuur",
+      "Een centrale functie die 24/7 beveiligingsactiviteiten monitort",
+      "Een type firewall voor het beveiligen van inkomend netwerkverkeer",
+      "Een cloudopslagservice voor het bewaren van beveiligingslogs"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsoperaties",
@@ -926,10 +926,10 @@
   {
     "vraag": "Wat is KQL?",
     "opties": [
-      "Een programmeertaal voor websites",
-      "Een querytaal voor logboekanalyse, essentieel voor hunting queries in Sentinel",
-      "Een type encryptie",
-      "Een e-mailprotocol"
+      "Een programmeertaal voor het bouwen van websites en applicaties",
+      "Een querytaal voor logboekanalyse, essentieel voor hunting queries",
+      "Een type encryptie voor het versleutelen van gevoelige gegevens",
+      "Een e-mailprotocol voor het verzenden en ontvangen van berichten"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsoperaties",
@@ -938,10 +938,10 @@
   {
     "vraag": "Wat is een Log Analytics workspace?",
     "opties": [
-      "Een fysieke werkplek",
+      "Een fysieke werkplek voor beveiligingsanalisten",
       "Een centrale opslagplaats voor logboeken en beveiligingsgegevens",
-      "Een type database",
-      "Een e-mailclient"
+      "Een type database voor het opslaan van zakelijke gegevens",
+      "Een e-mailclient voor het beheren van zakelijke berichten"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsoperaties",
@@ -950,10 +950,10 @@
   {
     "vraag": "Wat is het verschil tussen Logic Apps en Azure Functions?",
     "opties": [
-      "Er is geen verschil",
-      "Logic Apps zijn visuele workflows (trigger → actie), Functions zijn stukjes code die worden uitgevoerd",
-      "Functions zijn trager",
-      "Logic Apps werken niet met Sentinel"
+      "Er is geen verschil, beide diensten bieden dezelfde functionaliteit",
+      "Logic Apps zijn visuele workflows, Functions zijn stukjes code die worden uitgevoerd",
+      "Functions zijn altijd trager dan Logic Apps vanwege het uitvoeringsproces",
+      "Logic Apps kunnen niet worden geïntegreerd met Microsoft Sentinel"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsoperaties",
@@ -962,10 +962,10 @@
   {
     "vraag": "Wat zijn Automation Rules in Sentinel?",
     "opties": [
-      "Handmatige regels",
-      "Regels die automatisch herhaalde taken uitvoeren op basis van vooraf gedefinieerde criteria",
-      "Wachtwoordregels",
-      "Netwerkregels"
+      "Handmatige regels die door analisten worden ingesteld",
+      "Regels die automatisch herhaalde taken uitvoeren op basis van criteria",
+      "Wachtwoordregels voor het afdwingen van sterkte-vereisten",
+      "Netwerkregels voor het beheren van inkomend en uitgaand verkeer"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsoperaties",
@@ -974,10 +974,10 @@
   {
     "vraag": "Waarom is er een tekort aan SOC-talent?",
     "opties": [
-      "Omdat het werk te makkelijk is",
+      "Omdat het werk te makkelijk is en weinig uitdaging biedt",
       "Omdat de vraag naar beveiligingsanalisten groter is dan het aanbod",
-      "Omdat SOC-werk niet betaald wordt",
-      "Omdat het alleen in de VS beschikbaar is"
+      "Omdat SOC-werk niet wordt betaald in de meeste organisaties",
+      "Omdat het alleen in de Verenigde Staten beschikbaar is"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsoperaties",
@@ -986,10 +986,10 @@
   {
     "vraag": "Wat is Azure Policy?",
     "opties": [
-      "Een wachtwoordbeleid",
-      "Een service om beleidsregels af te dwingen op Azure-resources voor compliance",
-      "Een type firewall",
-      "Een e-mailarchiveringstool"
+      "Een wachtwoordbeleid voor het afdwingen van sterkte-vereisten",
+      "Een service om beleidsregels af te dwingen op Azure-resources",
+      "Een type firewall voor het beveiligen van netwerkinfrastructuur",
+      "Een e-mailarchiveringstool voor het bewaren van zakelijke berichten"
     ],
     "antwoord": 1,
     "domein": "Governance, risico en compliance",
@@ -998,10 +998,10 @@
   {
     "vraag": "Welke Azure Policy-effecten zijn er?",
     "opties": [
-      "Alleen blokkeren",
+      "Alleen blokkeren van niet-conforme resources",
       "Deny, Audit, DeployIfNotExists, Modify, Append",
-      "Alleen waarschuwen",
-      "Alleen verwijderen"
+      "Alleen waarschuwen bij het overtreden van beleidsregels",
+      "Alleen verwijderen van resources die niet voldoen aan het beleid"
     ],
     "antwoord": 1,
     "domein": "Governance, risico en compliance",
@@ -1010,10 +1010,10 @@
   {
     "vraag": "Wat is het verschil tussen een Policy en een Policy Initiative?",
     "opties": [
-      "Er is geen verschil",
-      "Een Policy is één regel, een Policy Initiative is een groepering van meerdere beleidsregels",
-      "Een Initiative is sterker",
-      "Policies werken niet in Azure"
+      "Er is geen verschil, beide termen beschrijven hetzelfde concept",
+      "Een Policy is één regel, een Initiative groepeert meerdere beleidsregels",
+      "Een Initiative is altijd sterker dan een enkele Policy",
+      "Policies werken niet binnen Azure, alleen Initiatives zijn functioneel"
     ],
     "antwoord": 1,
     "domein": "Governance, risico en compliance",
@@ -1022,10 +1022,10 @@
   {
     "vraag": "Wat is het doel van Resource Locks?",
     "opties": [
-      "Resources versleutelen",
+      "Resources versleutelen met een sterk encryptie-algoritme",
       "Voorkomen dat resources per ongeluk worden verwijderd of gewijzigd",
-      "Resources naar een andere regio verplaatsen",
-      "Resources back-uppen"
+      "Resources naar een andere Azure-regio verplaatsen",
+      "Resources automatisch back-uppen naar een externe locatie"
     ],
     "antwoord": 1,
     "domein": "Governance, risico en compliance",
@@ -1034,10 +1034,10 @@
   {
     "vraag": "Wat is het nut van Tags in Azure?",
     "opties": [
-      "Ze maken resources sneller",
+      "Ze maken resources aanzienlijk sneller door optimalisatie",
       "Ze zijn labels voor resource-organisatie en kostenbeheer",
-      "Ze versleutelen resources",
-      "Ze blokkeren toegang tot resources"
+      "Ze versleutelen automatisch alle resources in een resource group",
+      "Ze blokkeren onbevoegde toegang tot resources"
     ],
     "antwoord": 1,
     "domein": "Governance, risico en compliance",
@@ -1046,10 +1046,10 @@
   {
     "vraag": "Wat is Azure Arc?",
     "opties": [
-      "Een gamingplatform",
-      "Een service voor het beheren van hybride en multi-cloud omgevingen vanuit Azure",
-      "Een type firewall",
-      "Een e-mailclient"
+      "Een gamingplatform voor het spelen van online spellen",
+      "Een service voor het beheren van hybride en multi-cloud omgevingen",
+      "Een type firewall voor het beveiligen van netwerkinfrastructuur",
+      "Een e-mailclient voor het beheren van zakelijke berichten"
     ],
     "antwoord": 1,
     "domein": "Governance, risico en compliance",
@@ -1058,10 +1058,10 @@
   {
     "vraag": "Wat is Azure Stack?",
     "opties": [
-      "Een cloudopslagservice",
+      "Een cloudopslagservice voor het bewaren van bedrijfsgegevens",
       "Een hybride cloudplatform dat Azure-diensten biedt op eigen infrastructuur",
-      "Een identity management-dienst",
-      "Een backup-oplossing"
+      "Een identity management-dienst voor het beheren van gebruikersrechten",
+      "Een backup-oplossing voor het beschermen van bedrijfsdata"
     ],
     "antwoord": 1,
     "domein": "Governance, risico en compliance",
@@ -1070,10 +1070,10 @@
   {
     "vraag": "Welke dienst van Azure wordt gebruikt voor IoT-beveiliging?",
     "opties": [
-      "Azure IoT Hub",
-      "Azure SQL Database",
-      "Azure Virtual Machines",
-      "Azure Active Directory"
+      "Azure IoT Hub voor het koppelen en beheren van IoT-apparaten",
+      "Azure SQL Database voor het opslaan van IoT-gegevens",
+      "Azure Virtual Machines voor het draaien van IoT-applicaties",
+      "Azure Active Directory voor het authenticeren van IoT-apparaten"
     ],
     "antwoord": 0,
     "domein": "Governance, risico en compliance",
@@ -1082,22 +1082,22 @@
   {
     "vraag": "Wat is het doel van Azure Resource Manager (ARM)?",
     "opties": [
-      "Het beheren van gebruikers",
-      "De beheerlaag voor het deployen, beheren en orkestreren van Azure-resources",
-      "Het versleutelen van data",
-      "Het maken van back-ups"
+      "Het beheren van gebruikersrechten en toegang in de organisatie",
+      "De beheerlaag voor het deployen, beheren en orkestreren van resources",
+      "Het versleutelen van data met een sterk encryptie-algoritme",
+      "Het maken van automatische back-ups van bedrijfsgegevens"
     ],
     "antwoord": 1,
     "domein": "Governance, risico en compliance",
     "toelichting": "Azure Resource Manager (ARM) is de beheerlaag waarmee je resources kunt deployen, beheren en orkestreren. Het biedt een gecentraliseerde interface voor alle Azure-operaties."
   },
   {
-    "vraag": "Wat gebeurt er als een DLP-policy creditcardnummers detecteert in een e-mail die naar een extern adres wordt gestuurd?",
+    "vraag": "Wat gebeurt er als een DLP-policy creditcardnummers detecteert in een e-mail?",
     "opties": [
-      "Er gebeurt niets",
-      "De e-mail wordt gescand, het creditcardnummer wordt gedetecteerd, en een beschermingsactie wordt getriggerd",
-      "De gebruiker wordt uitgeschreven",
-      "Het hele account wordt verwijderd"
+      "Er gebeurt niets, de e-mail wordt normaal afgeleverd",
+      "De e-mail wordt gescan, het nummer gedetecteerd en een actie gestart",
+      "De gebruiker wordt automatisch uitgeschreven uit het e-mailsysteem",
+      "Het hele account van de gebruiker wordt onmiddellijk verwijderd"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -1106,10 +1106,10 @@
   {
     "vraag": "Waarom is eDiscovery belangrijk voor een organisatie?",
     "opties": [
-      "Het is verplicht voor alle bedrijven",
-      "Het stelt organisaties in staat om elektronisch bewijsmateriaal te vinden en te bewaren voor juridische procedures",
-      "Het is een type back-up",
-      "Het wordt gebruikt voor marketing"
+      "Het is wettelijk verplicht voor alle bedrijven in dezelfde vorm",
+      "Het maakt het vinden van elektronisch bewijsmateriaal voor rechtszaken mogelijk",
+      "Het is een geavanceerde vorm van data back-uppen naar de cloud",
+      "Het wordt voornamelijk gebruikt voor marketingdoeleinden en klantanalyse"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -1118,34 +1118,33 @@
   {
     "vraag": "Wat is het voordeel van het automatiseren van Identity Lifecycle Management?",
     "opties": [
-      "Het is goedkoper",
-      "Het voorkomt foutgevoelige handmatige processen bij aanmaken, wijzigen en verwijderen van accounts",
-      "Het is sneller dan handmatig werken",
-      "Het is alleen voor grote bedrijven"
+      "Het is aanzienlijk goedkoper dan handmatig accountbeheer",
+      "Het voorkomt foutgevoelige handmatige processen bij accountaanmaak en -verwijdering",
+      "Het is altijd sneller dan handmatig werken, ongeacht de organisatiegrootte",
+      "Het is uitsluitend geschikt voor grote bedrijven met meer dan duizend medewerkers"
     ],
     "antwoord": 1,
-    "domein": "Identiteits- en toegangsbeheer",
-    "toelichting": "Automatisering van Identity Lifecycle (Joiner/Mover/Leaver) voorkomt fouten bij handmatige processen. Nieuwe medewerkers krijgen automatisch toegang, vertrekkende medewerkers worden automatisch geblokkeerd."
+    "domein": "Identiteits- en toegangsbeheer"
   },
   {
-    "vraag": "Wat is een belangrijk verschil tussen 'block with override' en 'block without override' bij DLP?",
+    "vraag": "Wat is een belangrijk verschil tussen 'block with override' en 'block without override'?",
     "opties": [
-      "Block with override is strenger",
-      "Bij block with override kan de gebruiker een rechtvaardiging geven, bij block without override is er geen uitzondering mogelijk",
-      "Block without override is sneller",
-      "Er is geen verschil"
+      "Block with override is altijd strenger dan block without override",
+      "Bij override kan de gebruiker een rechtvaardiging geven, zonder niet",
+      "Block without override is aanzienlijk sneller in de uitvoering",
+      "Er is geen inhoudelijk verschil tussen deze twee DLP-acties"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
     "toelichting": "Block with override geeft de gebruiker de kans om uit te leggen waarom de actie toch nodig is. Block without override blokkeert volledig, zonder uitzondering – voor de meest gevoelige data."
   },
   {
-    "vraag": "Welke Purview-functie helpt HR en compliance teams bij het detecteren van ongepaste taal in communicatie?",
+    "vraag": "Welke Purview-functie helpt HR en compliance teams bij het detecteren van ongepaste taal?",
     "opties": [
-      "Data Loss Prevention",
-      "Communications Compliance",
-      "eDiscovery",
-      "Records Management"
+      "Data Loss Prevention voor het beschermen van gevoelige gegevens",
+      "Communications Compliance voor het monitoren van communicatie",
+      "eDiscovery voor het vinden van elektronisch bewijsmateriaal",
+      "Records Management voor het vergrendelen van belangrijke documenten"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -1154,10 +1153,10 @@
   {
     "vraag": "Wat is het belangrijkste verschil tussen een retention policy en een retention label?",
     "opties": [
-      "Er is geen verschil",
-      "Een retention policy is automatisch en geldt voor een datatype, een retention label kan handmatig op een specifiek document worden toegepast",
-      "Een retention label is automatisch",
-      "Een retention policy werkt alleen in Exchange"
+      "Er is geen verschil, beide functies zijn identiek",
+      "Een policy is automatisch, een label kan handmatig worden toegepast",
+      "Een retention label is altijd automatisch en overschrijft alle policies",
+      "Een retention policy werkt uitsluitend binnen Exchange Online"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -1166,10 +1165,10 @@
   {
     "vraag": "Waarom is het essentieel om een audit trail te hebben bij het wijzigen van sensitivity labels?",
     "opties": [
-      "Het is niet essentieel",
+      "Het is niet essentieel, het is slechts een aanbevolen praktijk",
       "Zodat je kunt achterhalen wie het label heeft gewijzigd, wanneer en waarom",
-      "Voor het maken van back-ups",
-      "Voor het versleutelen van bestanden"
+      "Voor het automatisch maken van back-ups van labelconfiguraties",
+      "Voor het versleutelen van de bestanden die het label dragen"
     ],
     "antwoord": 1,
     "domein": "Gegevensbescherming",
@@ -1178,10 +1177,10 @@
   {
     "vraag": "Wat is het verschil tussen Defender for Cloud en Defender XDR?",
     "opties": [
-      "Er is geen verschil",
-      "Defender for Cloud richt zich op cloud workload security (CSPM), Defender XDR integreert bescherming over Office 365, Endpoint, Identity en Cloud Apps",
-      "Defender XDR is alleen voor on-premises",
-      "Defender for Cloud is gratis"
+      "Er is geen verschil, beide producten bieden dezelfde functionaliteit",
+      "Defender for Cloud richt zich op cloud security, XDR integreert meerdere diensten",
+      "Defender XDR is uitsluitend bedoeld voor on-premises omgevingen",
+      "Defender for Cloud is volledig gratis voor alle Azure-gebruikers"
     ],
     "antwoord": 1,
     "domein": "Bedreigingsbescherming",
@@ -1190,10 +1189,10 @@
   {
     "vraag": "Welke Microsoft-dienst biedt AI-gestuurde ondersteuning voor beveiligingsanalisten?",
     "opties": [
-      "Microsoft Excel",
-      "Microsoft Copilot in Security",
-      "Microsoft Outlook",
-      "Microsoft Teams"
+      "Microsoft Excel voor het analyseren van beveiligingsgegevens",
+      "Microsoft Copilot in Security voor AI-ondersteuning bij analyse",
+      "Microsoft Outlook voor het beheren van beveiligingsmeldingen",
+      "Microsoft Teams voor het communiceren met het security team"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsoperaties",
@@ -1202,10 +1201,10 @@
   {
     "vraag": "Wat is het belangrijkste voordeel van automatisering in een SOC-omgeving?",
     "opties": [
-      "Het vermindert het aantal werknemers",
+      "Het vermindert het aantal werknemers in het security team",
       "Het versnelt de reactietijd en vermindert de belasting van analisten",
-      "Het verwijdert de noodzaak voor menselijke interven tie",
-      "Het maakt het werk saaier"
+      "Het verwijdert de noodzaak voor menselijke tussenkomst volledig",
+      "Het maakt het werk aanzienlijk saaier voor de analisten"
     ],
     "antwoord": 1,
     "domein": "Beveiligingsoperaties",
@@ -1214,10 +1213,10 @@
   {
     "vraag": "Welke Microsoft-dienst biedt een compliance-score met assessment templates?",
     "opties": [
-      "Microsoft Sentinel",
-      "Compliance Manager",
-      "Azure Policy",
-      "Microsoft Defender for Cloud"
+      "Microsoft Sentinel voor het monitoren van beveiligingsgebeurtenissen",
+      "Compliance Manager met een score en templates voor verbetering",
+      "Azure Policy voor het afdwingen van beleidsregels op resources",
+      "Microsoft Defender for Cloud voor het beoordelen van beveiligingspostuur"
     ],
     "antwoord": 1,
     "domein": "Governance, risico en compliance",
@@ -1226,10 +1225,10 @@
   {
     "vraag": "Wat is het Service Trust Portal?",
     "opties": [
-      "Een e-mailarchiveringstool",
-      "Een portal met certificaten, compliance documenten en auditrapporten van Microsoft",
-      "Een cloudopslagservice",
-      "Een identity management-dienst"
+      "Een e-mailarchiveringstool voor het bewaren van zakelijke berichten",
+      "Een portal met certificaten, compliance documenten en auditrapporten",
+      "Een cloudopslagservice voor het bewaren van beveiligingsgegevens",
+      "Een identity management-dienst voor het beheren van gebruikersrechten"
     ],
     "antwoord": 1,
     "domein": "Governance, risico en compliance",
