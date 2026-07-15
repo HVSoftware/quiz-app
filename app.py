@@ -33,16 +33,13 @@ OPTIONAL_FIELDS = {"toelichting", "domein"}
 def scan_quiz_files() -> dict[str, Path]:
     """Scan QUIZ_DIRS for * .json files and return {label: path}."""
     files: dict[str, Path] = {}
-    label_counts: dict[str, int] = {}
     for d in QUIZ_DIRS:
         if not d.exists():
             continue
         for fp in sorted(d.rglob("*.json")):
             label_base = fp.stem.removeprefix("quiz-")
-            count = label_counts.get(label_base, 0) + 1
-            label_counts[label_base] = count
-            label = label_base if count == 1 else f"{label_base} ({count})"
-            i = count + 1
+            label = label_base
+            i = 2
             while label in files:
                 label = f"{label_base} ({i})"
                 i += 1
