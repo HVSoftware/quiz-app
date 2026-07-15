@@ -39,10 +39,10 @@ def scan_quiz_files() -> dict[str, Path]:
         for fp in sorted(d.rglob("*.json")):
             label_base = fp.stem.removeprefix("quiz-")
             label = label_base
-            i = 2
+            suffix_number = 2
             while label in files:
-                label = f"{label_base} ({i})"
-                i += 1
+                label = f"{label_base} ({suffix_number})"
+                suffix_number += 1
             files[label] = fp
     return files
 
