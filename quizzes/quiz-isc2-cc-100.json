@@ -1,0 +1,1302 @@
+[
+  {
+    "vraag": "Which of the following best describes the concept of Confidentiality in the CIA triad?",
+    "opties": [
+      "Ensuring data is accurate and trustworthy",
+      "Ensuring data is accessible to authorized users when needed",
+      "Ensuring data is only accessible to authorized individuals",
+      "Ensuring data cannot be denied by the sender"
+    ],
+    "antwoord": 2,
+    "toelichting": "Confidentiality ensures that information is only accessible to those authorized to view it, preventing unauthorized disclosure.",
+    "domein": "Security Principles",
+    "_idx": 0
+  },
+  {
+    "vraag": "What does the Integrity principle of the CIA triad protect against?",
+    "opties": [
+      "Unauthorized access to data",
+      "Data being modified or tampered with without authorization",
+      "System downtime and unavailability",
+      "Loss of data due to hardware failure"
+    ],
+    "antwoord": 1,
+    "toelichting": "Integrity ensures that data remains accurate and has not been altered in an unauthorized manner.",
+    "domein": "Security Principles",
+    "_idx": 1
+  },
+  {
+    "vraag": "A company experiences a power outage that takes down its servers. Which CIA triad principle is primarily affected?",
+    "opties": [
+      "Confidentiality",
+      "Integrity",
+      "Availability",
+      "Authentication"
+    ],
+    "antwoord": 2,
+    "toelichting": "Availability ensures systems and data are accessible when needed. A power outage directly impacts availability.",
+    "domein": "Security Principles",
+    "_idx": 2
+  },
+  {
+    "vraag": "Multi-factor authentication (MFA) requires users to provide which of the following?",
+    "opties": [
+      "Two different passwords",
+      "A password and a PIN",
+      "Two or more different types of authentication factors",
+      "A biometric scan only"
+    ],
+    "antwoord": 2,
+    "toelichting": "MFA requires at least two different authentication factors: something you know, something you have, or something you are.",
+    "domein": "Security Principles",
+    "_idx": 3
+  },
+  {
+    "vraag": "What is Non-repudiation in information security?",
+    "opties": [
+      "The ability to deny access to a system",
+      "Proof that a specific user performed an action, preventing them from denying it",
+      "The process of removing user privileges",
+      "A method to encrypt data in transit"
+    ],
+    "antwoord": 1,
+    "toelichting": "Non-repudiation provides proof of origin or delivery, ensuring a party cannot deny having sent or received a message.",
+    "domein": "Security Principles",
+    "_idx": 4
+  },
+  {
+    "vraag": "Which of the following is a physical authentication factor?",
+    "opties": [
+      "Password",
+      "Security question",
+      "Smart card",
+      "PIN code"
+    ],
+    "antwoord": 2,
+    "toelichting": "A smart card is a physical object (something you have) used for authentication.",
+    "domein": "Security Principles",
+    "_idx": 5
+  },
+  {
+    "vraag": "What is risk tolerance in risk management?",
+    "opties": [
+      "The total amount of risk an organization can eliminate",
+      "The amount of risk an organization is willing to accept",
+      "The process of transferring all risk to a third party",
+      "The maximum number of security incidents allowed per year"
+    ],
+    "antwoord": 1,
+    "toelichting": "Risk tolerance (or risk appetite) defines the level of risk an organization is willing to accept in pursuit of its objectives.",
+    "domein": "Security Principles",
+    "_idx": 6
+  },
+  {
+    "vraag": "In the risk management process, what is the correct order of these steps: Risk Treatment, Risk Assessment, Risk Identification, Risk Monitoring?",
+    "opties": [
+      "Risk Identification → Risk Assessment → Risk Treatment → Risk Monitoring",
+      "Risk Assessment → Risk Identification → Risk Monitoring → Risk Treatment",
+      "Risk Treatment → Risk Monitoring → Risk Identification → Risk Assessment",
+      "Risk Monitoring → Risk Treatment → Risk Assessment → Risk Identification"
+    ],
+    "antwoord": 0,
+    "toelichting": "The risk management process follows: identify risks, assess them, treat/mitigate them, then continuously monitor.",
+    "domein": "Security Principles",
+    "_idx": 7
+  },
+  {
+    "vraag": "What is the primary purpose of a risk assessment?",
+    "opties": [
+      "To eliminate all risks completely",
+      "To identify and evaluate potential risks to an organization",
+      "To purchase cyber insurance",
+      "To create a disaster recovery plan"
+    ],
+    "antwoord": 1,
+    "toelichting": "Risk assessment identifies, analyzes, and evaluates risks to help organizations make informed decisions about risk treatment.",
+    "domein": "Security Principles",
+    "_idx": 8
+  },
+  {
+    "vraag": "Which type of security control is a firewall?",
+    "opties": [
+      "Physical control",
+      "Administrative control",
+      "Technical (logical) control",
+      "Operational control"
+    ],
+    "antwoord": 2,
+    "toelichting": "A firewall is a technical (logical) control that uses technology to protect systems and networks.",
+    "domein": "Security Principles",
+    "_idx": 9
+  },
+  {
+    "vraag": "A security policy that requires all employees to complete annual security training is an example of which control type?",
+    "opties": [
+      "Technical control",
+      "Physical control",
+      "Administrative control",
+      "Detective control"
+    ],
+    "antwoord": 2,
+    "toelichting": "Administrative controls include policies, procedures, and guidelines that govern how an organization manages security.",
+    "domein": "Security Principles",
+    "_idx": 10
+  },
+  {
+    "vraag": "A locked door with a badge reader protecting a server room is an example of which control type?",
+    "opties": [
+      "Technical control",
+      "Physical control",
+      "Administrative control",
+      "Compensating control"
+    ],
+    "antwoord": 1,
+    "toelichting": "Physical controls protect the physical environment, such as locks, badges, and security guards.",
+    "domein": "Security Principles",
+    "_idx": 11
+  },
+  {
+    "vraag": "According to the ISC2 Code of Ethics, which of the following is a fundamental canon?",
+    "opties": [
+      "Protect society, the common good, necessary public trust and confidence, and the profession",
+      "Maximize personal profit from cybersecurity work",
+      "Avoid following organizational policies if they hinder productivity",
+      "Only work on projects that have national security implications"
+    ],
+    "antwoord": 0,
+    "toelichting": "The ISC2 Code of Ethics requires members to protect society, the common good, and the profession.",
+    "domein": "Security Principles",
+    "_idx": 12
+  },
+  {
+    "vraag": "What is the primary purpose of a security policy?",
+    "opties": [
+      "To punish employees who violate security rules",
+      "To define rules and guidelines for protecting information assets",
+      "To replace all technical security controls",
+      "To eliminate the need for security awareness training"
+    ],
+    "antwoord": 1,
+    "toelichting": "Security policies define the rules, guidelines, and expectations for how an organization protects its information assets.",
+    "domein": "Security Principles",
+    "_idx": 13
+  },
+  {
+    "vraag": "Which of the following best describes a standard in security governance?",
+    "opties": [
+      "A high-level statement of intent from management",
+      "A mandatory requirement that specifies how to implement a policy",
+      "A recommended best practice that is optional to follow",
+      "A legal requirement imposed by government regulators"
+    ],
+    "antwoord": 1,
+    "toelichting": "Standards are mandatory requirements that specify how policies should be implemented in practice.",
+    "domein": "Security Principles",
+    "_idx": 14
+  },
+  {
+    "vraag": "GDPR is an example of which governance component?",
+    "opties": [
+      "Internal policy",
+      "Standard",
+      "Regulation/law",
+      "Procedure"
+    ],
+    "antwoord": 2,
+    "toelichting": "GDPR (General Data Protection Regulation) is a legal regulation that organizations must comply with.",
+    "domein": "Security Principles",
+    "_idx": 15
+  },
+  {
+    "vraag": "What is the difference between a policy and a procedure?",
+    "opties": [
+      "Policies are mandatory, procedures are optional",
+      "Policies define what to do, procedures define how to do it",
+      "Policies apply to IT staff only, procedures apply to everyone",
+      "There is no difference; they are the same thing"
+    ],
+    "antwoord": 1,
+    "toelichting": "Policies state what must be done (goals/rules), while procedures provide step-by-step instructions on how to implement them.",
+    "domein": "Security Principles",
+    "_idx": 16
+  },
+  {
+    "vraag": "An organization decides to purchase cyber insurance to handle potential data breach costs. Which risk treatment method is this?",
+    "opties": [
+      "Risk avoidance",
+      "Risk mitigation",
+      "Risk transfer",
+      "Risk acceptance"
+    ],
+    "antwoord": 2,
+    "toelichting": "Risk transfer shifts the financial impact of a risk to another party, such as an insurance provider.",
+    "domein": "Security Principles",
+    "_idx": 17
+  },
+  {
+    "vraag": "A company chooses not to implement a new feature because the security risk is too high. This is an example of:",
+    "opties": [
+      "Risk mitigation",
+      "Risk transfer",
+      "Risk avoidance",
+      "Risk acceptance"
+    ],
+    "antwoord": 2,
+    "toelichting": "Risk avoidance eliminates the risk entirely by not engaging in the activity that creates the risk.",
+    "domein": "Security Principles",
+    "_idx": 18
+  },
+  {
+    "vraag": "Which of the following is an example of privacy in information security?",
+    "opties": [
+      "Encrypting all data at rest",
+      "Ensuring personal data is collected and processed lawfully and fairly",
+      "Installing antivirus software on all endpoints",
+      "Creating regular backups of critical data"
+    ],
+    "antwoord": 1,
+    "toelichting": "Privacy ensures that personal information is collected, used, and protected in compliance with laws and individual rights.",
+    "domein": "Security Principles",
+    "_idx": 19
+  },
+  {
+    "vraag": "What is the CIA triad?",
+    "opties": [
+      "Confidentiality, Integrity, Authentication",
+      "Confidentiality, Integrity, Availability",
+      "Control, Integrity, Authorization",
+      "Confidentiality, Identification, Availability"
+    ],
+    "antwoord": 1,
+    "toelichting": "The CIA triad consists of Confidentiality, Integrity, and Availability - the three core principles of information security.",
+    "domein": "Security Principles",
+    "_idx": 20
+  },
+  {
+    "vraag": "What is the main purpose of a security audit?",
+    "opties": [
+      "To punish employees for violations",
+      "To systematically evaluate security controls against standards",
+      "To install new security software",
+      "To create marketing materials"
+    ],
+    "antwoord": 1,
+    "toelichting": "A security audit systematically evaluates an organization's security posture against defined standards and policies.",
+    "domein": "Security Principles",
+    "_idx": 21
+  },
+  {
+    "vraag": "What is the primary purpose of a security governance framework?",
+    "opties": [
+      "To eliminate all security risks",
+      "To provide a structured approach to managing security risks and compliance",
+      "To replace all technical security controls",
+      "To reduce IT costs"
+    ],
+    "antwoord": 1,
+    "toelichting": "A governance framework provides a structured approach to managing security, ensuring alignment with business objectives and compliance.",
+    "domein": "Security Principles",
+    "_idx": 22
+  },
+  {
+    "vraag": "What is the purpose of a security metrics program?",
+    "opties": [
+      "To punish employees who violate policies",
+      "To measure and track the effectiveness of security controls",
+      "To replace security audits",
+      "To eliminate the need for security training"
+    ],
+    "antwoord": 1,
+    "toelichting": "Security metrics measure the effectiveness of controls and help organizations make data-driven security decisions.",
+    "domein": "Security Principles",
+    "_idx": 23
+  },
+  {
+    "vraag": "What is the difference between a threat and a vulnerability?",
+    "opties": [
+      "They are the same thing",
+      "A threat is a potential danger, a vulnerability is a weakness that can be exploited",
+      "A threat is always external, a vulnerability is always internal",
+      "A vulnerability is more dangerous than a threat"
+    ],
+    "antwoord": 1,
+    "toelichting": "A threat is a potential danger that could exploit a weakness, while a vulnerability is the weakness itself.",
+    "domein": "Security Principles",
+    "_idx": 24
+  },
+  {
+    "vraag": "What is the primary purpose of Business Continuity Planning (BCP)?",
+    "opties": [
+      "To prevent all security incidents from occurring",
+      "To ensure critical business functions continue during and after a disaster",
+      "To recover lost data from backups",
+      "To identify the root cause of a security breach"
+    ],
+    "antwoord": 1,
+    "toelichting": "BCP ensures that essential business operations can continue with minimal disruption during and after a crisis.",
+    "domein": "BC/DR & Incident Response",
+    "_idx": 25
+  },
+  {
+    "vraag": "What is the difference between Business Continuity and Disaster Recovery?",
+    "opties": [
+      "They are the same thing",
+      "BC focuses on keeping business running, DR focuses on restoring IT systems",
+      "BC is about preventing disasters, DR is about responding to them",
+      "BC applies to small businesses, DR applies to large enterprises"
+    ],
+    "antwoord": 1,
+    "toelichting": "Business Continuity keeps operations running during a disruption, while Disaster Recovery specifically restores IT infrastructure and data.",
+    "domein": "BC/DR & Incident Response",
+    "_idx": 26
+  },
+  {
+    "vraag": "What does RTO stand for in disaster recovery?",
+    "opties": [
+      "Recovery Time Objective",
+      "Return to Operations",
+      "Recovery Task Objective",
+      "Restoration Time Order"
+    ],
+    "antwoord": 0,
+    "toelichting": "RTO (Recovery Time Objective) is the maximum acceptable time to restore a system after a failure.",
+    "domein": "BC/DR & Incident Response",
+    "_idx": 27
+  },
+  {
+    "vraag": "What is the purpose of a Business Impact Analysis (BIA)?",
+    "opties": [
+      "To identify and prioritize critical business functions and their recovery requirements",
+      "To train employees on security procedures",
+      "To install backup power systems",
+      "To negotiate insurance policies"
+    ],
+    "antwoord": 0,
+    "toelichting": "A BIA identifies critical business functions, determines the impact of disruption, and establishes recovery priorities.",
+    "domein": "BC/DR & Incident Response",
+    "_idx": 28
+  },
+  {
+    "vraag": "Which of the following is a key component of an Incident Response Plan?",
+    "opties": [
+      "A list of all employee salaries",
+      "Procedures for containing, eradicating, and recovering from security incidents",
+      "Marketing strategies for public relations",
+      "Hardware warranty information"
+    ],
+    "antwoord": 1,
+    "toelichting": "An IR plan defines how to detect, contain, eradicate, and recover from security incidents systematically.",
+    "domein": "BC/DR & Incident Response",
+    "_idx": 29
+  },
+  {
+    "vraag": "What is the first step in the incident response process?",
+    "opties": [
+      "Eradication",
+      "Recovery",
+      "Preparation",
+      "Lessons learned"
+    ],
+    "antwoord": 2,
+    "toelichting": "Preparation is the first step - having plans, tools, and training ready before an incident occurs.",
+    "domein": "BC/DR & Incident Response",
+    "_idx": 30
+  },
+  {
+    "vraag": "What is a hot site in disaster recovery?",
+    "opties": [
+      "A fully equipped backup facility that can be activated immediately",
+      "An empty building where equipment must be installed",
+      "A cloud-based backup service",
+      "A secondary data center in a different country"
+    ],
+    "antwoord": 0,
+    "toelichting": "A hot site is a fully operational backup facility with all necessary equipment and data, ready for immediate use.",
+    "domein": "BC/DR & Incident Response",
+    "_idx": 31
+  },
+  {
+    "vraag": "What is a Memorandum of Understanding (MOU) in the context of business continuity?",
+    "opties": [
+      "A legally binding contract between two organizations",
+      "An agreement between organizations to support each other during a disaster",
+      "A document outlining employee responsibilities",
+      "A policy for data classification"
+    ],
+    "antwoord": 1,
+    "toelichting": "An MOU is a formal agreement between organizations outlining mutual support during emergencies or disasters.",
+    "domein": "BC/DR & Incident Response",
+    "_idx": 32
+  },
+  {
+    "vraag": "What is a warm site in disaster recovery?",
+    "opties": [
+      "A fully equipped backup facility ready for immediate use",
+      "A backup facility with some equipment that needs additional setup",
+      "An empty building with only power and connectivity",
+      "A cloud-based backup service"
+    ],
+    "antwoord": 1,
+    "toelichting": "A warm site has some equipment and connectivity but requires additional setup and data restoration before use.",
+    "domein": "BC/DR & Incident Response",
+    "_idx": 33
+  },
+  {
+    "vraag": "What is the purpose of a tabletop exercise?",
+    "opties": [
+      "To test physical security controls",
+      "To simulate a disaster scenario and walk through response procedures",
+      "To train employees on new software",
+      "To test network bandwidth"
+    ],
+    "antwoord": 1,
+    "toelichting": "A tabletop exercise is a discussion-based simulation where team members walk through a scenario to test response procedures.",
+    "domein": "BC/DR & Incident Response",
+    "_idx": 34
+  },
+  {
+    "vraag": "Which of the following is an example of a physical access control?",
+    "opties": [
+      "Firewall rules",
+      "Badge reader at building entrance",
+      "Password policy",
+      "Antivirus software"
+    ],
+    "antwoord": 1,
+    "toelichting": "A badge reader is a physical control that restricts access to a building or area.",
+    "domein": "Access Controls",
+    "_idx": 35
+  },
+  {
+    "vraag": "What is the Principle of Least Privilege?",
+    "opties": [
+      "Giving users maximum access to improve productivity",
+      "Granting users only the minimum permissions needed to perform their job",
+      "Allowing all users equal access to all resources",
+      "Restricting access based on time of day only"
+    ],
+    "antwoord": 1,
+    "toelichting": "The Principle of Least Privilege states that users should only have the minimum access necessary to perform their duties.",
+    "domein": "Access Controls",
+    "_idx": 36
+  },
+  {
+    "vraag": "What does Segregation of Duties (SoD) prevent?",
+    "opties": [
+      "Users from sharing passwords",
+      "A single person from having complete control over a critical process",
+      "Unauthorized physical access to buildings",
+      "Data loss from hardware failure"
+    ],
+    "antwoord": 1,
+    "toelichting": "SoD divides critical tasks among multiple people to prevent fraud and errors - no single person should control an entire process.",
+    "domein": "Access Controls",
+    "_idx": 37
+  },
+  {
+    "vraag": "In Discretionary Access Control (DAC), who determines who can access resources?",
+    "opties": [
+      "The system administrator only",
+      "The owner of the resource",
+      "A central security policy",
+      "The operating system"
+    ],
+    "antwoord": 1,
+    "toelichting": "In DAC, the resource owner has discretion to determine who can access their resources.",
+    "domein": "Access Controls",
+    "_idx": 38
+  },
+  {
+    "vraag": "Which access control model uses security labels and clearances to determine access?",
+    "opties": [
+      "Discretionary Access Control (DAC)",
+      "Role-Based Access Control (RBAC)",
+      "Mandatory Access Control (MAC)",
+      "Rule-Based Access Control"
+    ],
+    "antwoord": 2,
+    "toelichting": "MAC uses security labels (classifications) and user clearances to enforce access decisions - the system makes the decision, not the owner.",
+    "domein": "Access Controls",
+    "_idx": 39
+  },
+  {
+    "vraag": "In Role-Based Access Control (RBAC), access is determined by:",
+    "opties": [
+      "The user's personal preferences",
+      "The user's job role within the organization",
+      "The time of day",
+      "The user's security clearance level"
+    ],
+    "antwoord": 1,
+    "toelichting": "RBAC assigns permissions based on a user's role or position within the organization.",
+    "domein": "Access Controls",
+    "_idx": 40
+  },
+  {
+    "vraag": "CCTV cameras monitoring a building entrance are an example of which type of security control?",
+    "opties": [
+      "Preventive control",
+      "Detective control",
+      "Corrective control",
+      "Compensating control"
+    ],
+    "antwoord": 1,
+    "toelichting": "CCTV is a detective control - it detects and records security events but doesn't prevent them.",
+    "domein": "Access Controls",
+    "_idx": 41
+  },
+  {
+    "vraag": "What is the primary purpose of environmental design in physical security?",
+    "opties": [
+      "To make buildings look aesthetically pleasing",
+      "To naturally deter criminal behavior through building design",
+      "To reduce energy costs",
+      "To improve employee productivity"
+    ],
+    "antwoord": 1,
+    "toelichting": "Environmental design (CPTED) uses building design to naturally deter crime - lighting, visibility, and layout.",
+    "domein": "Access Controls",
+    "_idx": 42
+  },
+  {
+    "vraag": "Which of the following is a logical access control?",
+    "opties": [
+      "Security guard",
+      "Lock and key",
+      "Password authentication",
+      "Fence around property"
+    ],
+    "antwoord": 2,
+    "toelichting": "Password authentication is a logical (technical) access control that uses technology to verify identity.",
+    "domein": "Access Controls",
+    "_idx": 43
+  },
+  {
+    "vraag": "What is the difference between authentication and authorization?",
+    "opties": [
+      "They are the same thing",
+      "Authentication verifies identity, authorization determines access level",
+      "Authentication is for administrators, authorization is for users",
+      "Authentication uses passwords, authorization uses biometrics"
+    ],
+    "antwoord": 1,
+    "toelichting": "Authentication confirms who you are (identity), while authorization determines what you can access (permissions).",
+    "domein": "Access Controls",
+    "_idx": 44
+  },
+  {
+    "vraag": "Which access control model is most commonly used in government and military environments?",
+    "opties": [
+      "DAC",
+      "RBAC",
+      "MAC",
+      "ABAC"
+    ],
+    "antwoord": 2,
+    "toelichting": "MAC is commonly used in government/military where data has formal classifications (Top Secret, Secret, etc.).",
+    "domein": "Access Controls",
+    "_idx": 45
+  },
+  {
+    "vraag": "Which of the following is a detective control?",
+    "opties": [
+      "Firewall",
+      "Security camera with motion detection",
+      "Encryption",
+      "Access badge"
+    ],
+    "antwoord": 1,
+    "toelichting": "Security cameras with motion detection are detective controls - they detect and record suspicious activity.",
+    "domein": "Access Controls",
+    "_idx": 46
+  },
+  {
+    "vraag": "What is the primary purpose of identity and access management (IAM)?",
+    "opties": [
+      "To create user accounts only",
+      "To ensure the right people have the right access to the right resources",
+      "To monitor network traffic",
+      "To encrypt data"
+    ],
+    "antwoord": 1,
+    "toelichting": "IAM ensures proper identification, authentication, and authorization of users accessing organizational resources.",
+    "domein": "Access Controls",
+    "_idx": 47
+  },
+  {
+    "vraag": "What is a mantrap in physical security?",
+    "opties": [
+      "A type of malware",
+      "A small room with two doors that controls access to a secure area",
+      "A network security device",
+      "A type of encryption algorithm"
+    ],
+    "antwoord": 1,
+    "toelichting": "A mantrap is a physical access control with two doors - one opens, then closes before the second opens, preventing tailgating.",
+    "domein": "Access Controls",
+    "_idx": 48
+  },
+  {
+    "vraag": "What is the OSI model?",
+    "opties": [
+      "A physical cable standard for networking",
+      "A conceptual framework describing network communication in seven layers",
+      "A type of firewall configuration",
+      "A cloud computing architecture"
+    ],
+    "antwoord": 1,
+    "toelichting": "The OSI (Open Systems Interconnection) model is a seven-layer conceptual framework for network communication.",
+    "domein": "Network Security",
+    "_idx": 49
+  },
+  {
+    "vraag": "At which layer of the OSI model does a firewall typically operate?",
+    "opties": [
+      "Layer 1 - Physical",
+      "Layer 2 - Data Link",
+      "Layer 3 - Network",
+      "Layer 7 - Application"
+    ],
+    "antwoord": 2,
+    "toelichting": "Traditional firewalls operate at Layer 3 (Network) and Layer 4 (Transport), though modern firewalls can work at higher layers.",
+    "domein": "Network Security",
+    "_idx": 50
+  },
+  {
+    "vraag": "What is the primary purpose of a DMZ (Demilitarized Zone)?",
+    "opties": [
+      "To encrypt all network traffic",
+      "To provide a buffer zone between the internal network and external networks",
+      "To replace the need for firewalls",
+      "To increase network bandwidth"
+    ],
+    "antwoord": 1,
+    "toelichting": "A DMZ is a network segment that sits between the internal network and the internet, hosting public-facing services safely.",
+    "domein": "Network Security",
+    "_idx": 51
+  },
+  {
+    "vraag": "What type of attack floods a network or server with traffic to make it unavailable?",
+    "opties": [
+      "Man-in-the-Middle attack",
+      "SQL Injection",
+      "Distributed Denial of Service (DDoS)",
+      "Phishing"
+    ],
+    "antwoord": 2,
+    "toelichting": "DDoS attacks overwhelm targets with massive traffic from multiple sources, causing service disruption.",
+    "domein": "Network Security",
+    "_idx": 52
+  },
+  {
+    "vraag": "Which of the following best describes a Trojan horse malware?",
+    "opties": [
+      "Malware that replicates itself across networks",
+      "Malware disguised as legitimate software that performs malicious actions",
+      "Malware that encrypts files and demands payment",
+      "Malware that records keystrokes"
+    ],
+    "antwoord": 1,
+    "toelichting": "A Trojan appears to be legitimate software but contains hidden malicious functionality.",
+    "domein": "Network Security",
+    "_idx": 53
+  },
+  {
+    "vraag": "What is a Man-in-the-Middle (MITM) attack?",
+    "opties": [
+      "An attacker intercepts and potentially alters communication between two parties",
+      "An attacker floods a server with requests",
+      "An attacker guesses passwords through brute force",
+      "An attacker sends fake email messages"
+    ],
+    "antwoord": 0,
+    "toelichting": "In a MITM attack, the attacker secretly intercepts and possibly modifies communication between two unsuspecting parties.",
+    "domein": "Network Security",
+    "_idx": 54
+  },
+  {
+    "vraag": "What is the difference between IDS and IPS?",
+    "opties": [
+      "IDS prevents attacks, IPS detects them",
+      "IDS detects intrusions, IPS detects and prevents them",
+      "They are the same thing",
+      "IDS is for networks, IPS is for hosts only"
+    ],
+    "antwoord": 1,
+    "toelichting": "IDS (Intrusion Detection System) only detects and alerts, while IPS (Intrusion Prevention System) can detect and automatically block threats.",
+    "domein": "Network Security",
+    "_idx": 55
+  },
+  {
+    "vraag": "What is a VLAN?",
+    "opties": [
+      "A type of firewall",
+      "A logical network segmentation that separates broadcast domains",
+      "A virtual private network protocol",
+      "A type of wireless encryption"
+    ],
+    "antwoord": 1,
+    "toelichting": "A VLAN (Virtual Local Area Network) logically segments a network to separate traffic and improve security.",
+    "domein": "Network Security",
+    "_idx": 56
+  },
+  {
+    "vraag": "What is the purpose of a VPN?",
+    "opties": [
+      "To increase internet speed",
+      "To create a secure, encrypted connection over a public network",
+      "To replace firewalls",
+      "To block all incoming traffic"
+    ],
+    "antwoord": 1,
+    "toelichting": "A VPN creates an encrypted tunnel over a public network (like the internet) to securely connect remote users or networks.",
+    "domein": "Network Security",
+    "_idx": 57
+  },
+  {
+    "vraag": "What is micro-segmentation?",
+    "opties": [
+      "Dividing a network into large subnets",
+      "Creating granular security zones around individual workloads or applications",
+      "Removing all network switches",
+      "Using a single firewall for the entire network"
+    ],
+    "antwoord": 1,
+    "toelichting": "Micro-segmentation creates very granular security zones around individual workloads, limiting lateral movement.",
+    "domein": "Network Security",
+    "_idx": 58
+  },
+  {
+    "vraag": "What is the primary difference between IPv4 and IPv6?",
+    "opties": [
+      "IPv6 is slower than IPv4",
+      "IPv6 uses 128-bit addresses, while IPv4 uses 32-bit addresses",
+      "IPv4 supports more devices than IPv6",
+      "IPv6 is not compatible with the internet"
+    ],
+    "antwoord": 1,
+    "toelichting": "IPv6 uses 128-bit addresses (340+ undecillion addresses) compared to IPv4's 32-bit addresses (about 4 billion).",
+    "domein": "Network Security",
+    "_idx": 59
+  },
+  {
+    "vraag": "What does Defense in Depth mean in network security?",
+    "opties": [
+      "Using a single, powerful security control",
+      "Layering multiple security controls throughout the infrastructure",
+      "Placing all servers in a deep underground bunker",
+      "Using only physical security controls"
+    ],
+    "antwoord": 1,
+    "toelichting": "Defense in Depth uses multiple layers of security controls so that if one fails, others still protect the asset.",
+    "domein": "Network Security",
+    "_idx": 60
+  },
+  {
+    "vraag": "What is the purpose of Network Access Control (NAC)?",
+    "opties": [
+      "To increase network bandwidth",
+      "To enforce security policies on devices before they can connect to the network",
+      "To replace all network switches",
+      "To provide wireless internet access"
+    ],
+    "antwoord": 1,
+    "toelichting": "NAC ensures devices meet security requirements (patches, antivirus, etc.) before being allowed on the network.",
+    "domein": "Network Security",
+    "_idx": 61
+  },
+  {
+    "vraag": "What is a side-channel attack?",
+    "opties": [
+      "An attack that targets the network infrastructure directly",
+      "An attack that exploits information leaked through physical implementations like power consumption or timing",
+      "An attack that uses social engineering",
+      "An attack that targets cloud services only"
+    ],
+    "antwoord": 1,
+    "toelichting": "Side-channel attacks exploit information from physical implementation (power usage, electromagnetic emissions, timing) rather than software vulnerabilities.",
+    "domein": "Network Security",
+    "_idx": 62
+  },
+  {
+    "vraag": "Which port is commonly used for HTTPS traffic?",
+    "opties": [
+      "Port 80",
+      "Port 443",
+      "Port 22",
+      "Port 25"
+    ],
+    "antwoord": 1,
+    "toelichting": "Port 443 is used for HTTPS (encrypted web traffic), while port 80 is for unencrypted HTTP.",
+    "domein": "Network Security",
+    "_idx": 63
+  },
+  {
+    "vraag": "What is the purpose of an SLA (Service Level Agreement) in cloud computing?",
+    "opties": [
+      "To define the salary of IT staff",
+      "To guarantee minimum levels of service availability and performance",
+      "To replace all security controls",
+      "To provide free cloud storage"
+    ],
+    "antwoord": 1,
+    "toelichting": "An SLA defines the expected level of service, including uptime guarantees, performance metrics, and remedies for failures.",
+    "domein": "Network Security",
+    "_idx": 64
+  },
+  {
+    "vraag": "What is Zero Trust in network security?",
+    "opties": [
+      "Trusting all devices inside the corporate network",
+      "Never trusting, always verifying - regardless of location",
+      "Using zero security controls",
+      "Trusting only cloud providers"
+    ],
+    "antwoord": 1,
+    "toelichting": "Zero Trust assumes no implicit trust - every access request is verified regardless of whether it originates inside or outside the network.",
+    "domein": "Network Security",
+    "_idx": 65
+  },
+  {
+    "vraag": "What is the primary goal of network segmentation?",
+    "opties": [
+      "To increase network speed",
+      "To limit the spread of attacks by separating network segments",
+      "To reduce the number of switches needed",
+      "To eliminate the need for firewalls"
+    ],
+    "antwoord": 1,
+    "toelichting": "Network segmentation limits lateral movement by containing breaches to specific network segments.",
+    "domein": "Network Security",
+    "_idx": 66
+  },
+  {
+    "vraag": "What type of attack uses legitimate credentials that were stolen?",
+    "opties": [
+      "Brute force attack",
+      "Credential stuffing",
+      "Man-in-the-Middle attack",
+      "SQL injection"
+    ],
+    "antwoord": 1,
+    "toelichting": "Credential stuffing uses stolen username/password pairs to gain unauthorized access to accounts.",
+    "domein": "Network Security",
+    "_idx": 67
+  },
+  {
+    "vraag": "What is the shared responsibility model in cloud security?",
+    "opties": [
+      "The cloud provider is responsible for everything",
+      "Security responsibilities are shared between the provider and the customer",
+      "The customer is responsible for everything",
+      "There are no security responsibilities in the cloud"
+    ],
+    "antwoord": 1,
+    "toelichting": "The shared responsibility model divides security duties between the cloud provider (infrastructure) and customer (data, access).",
+    "domein": "Network Security",
+    "_idx": 68
+  },
+  {
+    "vraag": "What is the primary benefit of using a VPN for remote workers?",
+    "opties": [
+      "Faster internet connection",
+      "Secure, encrypted access to corporate resources over public networks",
+      "Free access to streaming services",
+      "Increased storage space"
+    ],
+    "antwoord": 1,
+    "toelichting": "VPNs encrypt remote workers' connections, allowing them to securely access corporate resources over public networks.",
+    "domein": "Network Security",
+    "_idx": 69
+  },
+  {
+    "vraag": "What is a worm in cybersecurity?",
+    "opties": [
+      "Malware that requires a host file to spread",
+      "Self-replicating malware that spreads across networks without user interaction",
+      "A type of phishing attack",
+      "A physical security threat"
+    ],
+    "antwoord": 1,
+    "toelichting": "A worm is malware that self-replicates and spreads across networks without needing a host file or user action.",
+    "domein": "Network Security",
+    "_idx": 70
+  },
+  {
+    "vraag": "What is the primary purpose of antivirus software?",
+    "opties": [
+      "To increase computer speed",
+      "To detect, prevent, and remove malicious software",
+      "To manage user accounts",
+      "To backup data"
+    ],
+    "antwoord": 1,
+    "toelichting": "Antivirus software identifies and removes malware, and can prevent new infections from occurring.",
+    "domein": "Network Security",
+    "_idx": 71
+  },
+  {
+    "vraag": "What is a rogue access point?",
+    "opties": [
+      "An authorized wireless access point",
+      "An unauthorized wireless access point connected to a network",
+      "A wired network connection",
+      "A firewall configuration"
+    ],
+    "antwoord": 1,
+    "toelichting": "A rogue access point is an unauthorized wireless device that can provide an entry point for attackers.",
+    "domein": "Network Security",
+    "_idx": 72
+  },
+  {
+    "vraag": "What is the primary purpose of encryption?",
+    "opties": [
+      "To compress data for faster transmission",
+      "To convert data into an unreadable format to protect confidentiality",
+      "To delete sensitive data permanently",
+      "To increase network bandwidth"
+    ],
+    "antwoord": 1,
+    "toelichting": "Encryption transforms data into ciphertext that can only be read with the correct decryption key, protecting confidentiality.",
+    "domein": "Security Operations",
+    "_idx": 73
+  },
+  {
+    "vraag": "What is the difference between symmetric and asymmetric encryption?",
+    "opties": [
+      "Symmetric uses public/private key pairs, asymmetric uses one shared key",
+      "Symmetric uses one shared key for both encryption and decryption, asymmetric uses a key pair",
+      "Symmetric is only for files, asymmetric is only for email",
+      "There is no difference between them"
+    ],
+    "antwoord": 1,
+    "toelichting": "Symmetric encryption uses one shared secret key, while asymmetric uses a public/private key pair.",
+    "domein": "Security Operations",
+    "_idx": 74
+  },
+  {
+    "vraag": "What is hashing primarily used for?",
+    "opties": [
+      "Encrypting data for transmission",
+      "Verifying data integrity by creating a fixed-size unique fingerprint",
+      "Compressing files for storage",
+      "Authenticating users"
+    ],
+    "antwoord": 1,
+    "toelichting": "Hashing creates a unique fixed-size fingerprint of data. If the data changes, the hash changes, verifying integrity.",
+    "domein": "Security Operations",
+    "_idx": 75
+  },
+  {
+    "vraag": "What does data classification help an organization achieve?",
+    "opties": [
+      "Reduce storage costs",
+      "Apply appropriate security controls based on data sensitivity",
+      "Eliminate the need for encryption",
+      "Increase network speed"
+    ],
+    "antwoord": 1,
+    "toelichting": "Data classification categorizes data by sensitivity, allowing organizations to apply proportional security controls.",
+    "domein": "Security Operations",
+    "_idx": 76
+  },
+  {
+    "vraag": "What is the purpose of secure data destruction?",
+    "opties": [
+      "To free up storage space",
+      "To ensure data cannot be recovered when no longer needed",
+      "To compress data for archiving",
+      "To transfer data to the cloud"
+    ],
+    "antwoord": 1,
+    "toelichting": "Secure data destruction ensures sensitive data cannot be recovered or reconstructed after disposal.",
+    "domein": "Security Operations",
+    "_idx": 77
+  },
+  {
+    "vraag": "What is a security baseline?",
+    "opties": [
+      "The minimum security configuration for a system",
+      "The maximum security level possible",
+      "A backup of security settings",
+      "A type of firewall rule"
+    ],
+    "antwoord": 0,
+    "toelichting": "A security baseline is the minimum security configuration that all systems must meet to be considered secure.",
+    "domein": "Security Operations",
+    "_idx": 78
+  },
+  {
+    "vraag": "What is the purpose of patch management?",
+    "opties": [
+      "To install new software features",
+      "To fix security vulnerabilities and bugs in software",
+      "To delete old files from hard drives",
+      "To create system backups"
+    ],
+    "antwoord": 1,
+    "toelichting": "Patch management ensures software is updated with security fixes to protect against known vulnerabilities.",
+    "domein": "Security Operations",
+    "_idx": 79
+  },
+  {
+    "vraag": "What is an Acceptable Use Policy (AUP)?",
+    "opties": [
+      "A policy that defines how company resources can be used by employees",
+      "A policy for accepting vendor proposals",
+      "A policy for accepting customer payments",
+      "A policy for accepting new employees"
+    ],
+    "antwoord": 0,
+    "toelichting": "An AUP defines rules for how employees may use company technology, networks, and data.",
+    "domein": "Security Operations",
+    "_idx": 80
+  },
+  {
+    "vraag": "What is the primary concern with BYOD (Bring Your Own Device)?",
+    "opties": [
+      "Employees prefer their own devices",
+      "Personal devices may not meet organizational security standards",
+      "Company devices are too expensive",
+      "BYOD increases network speed"
+    ],
+    "antwoord": 1,
+    "toelichting": "BYOD introduces security risks because personal devices may lack proper security controls, updates, or configurations.",
+    "domein": "Security Operations",
+    "_idx": 81
+  },
+  {
+    "vraag": "What is Change Management in IT security?",
+    "opties": [
+      "Changing passwords regularly",
+      "A formal process for requesting, approving, and implementing changes to IT systems",
+      "Updating antivirus definitions",
+      "Installing new hardware"
+    ],
+    "antwoord": 1,
+    "toelichting": "Change Management is a structured process to ensure changes are documented, approved, tested, and can be rolled back if needed.",
+    "domein": "Security Operations",
+    "_idx": 82
+  },
+  {
+    "vraag": "What is social engineering?",
+    "opties": [
+      "Using social media for marketing",
+      "Manipulating people into revealing confidential information",
+      "Building secure social networks",
+      "Training employees on security"
+    ],
+    "antwoord": 1,
+    "toelichting": "Social engineering exploits human psychology to trick people into giving up sensitive information or performing actions.",
+    "domein": "Security Operations",
+    "_idx": 83
+  },
+  {
+    "vraag": "What is the purpose of security awareness training?",
+    "opties": [
+      "To replace technical security controls",
+      "To educate employees about security threats and their role in protecting information",
+      "To certify employees as security professionals",
+      "To reduce IT staff workload"
+    ],
+    "antwoord": 1,
+    "toelichting": "Security awareness training teaches employees to recognize and respond to security threats, making them the first line of defense.",
+    "domein": "Security Operations",
+    "_idx": 84
+  },
+  {
+    "vraag": "What is a SIEM system?",
+    "opties": [
+      "A type of firewall",
+      "A tool that collects and analyzes security logs from multiple sources",
+      "A backup solution",
+      "A network switch"
+    ],
+    "antwoord": 1,
+    "toelichting": "SIEM (Security Information and Event Management) aggregates and analyzes log data from across the organization to detect threats.",
+    "domein": "Security Operations",
+    "_idx": 85
+  },
+  {
+    "vraag": "What is data retention?",
+    "opties": [
+      "Deleting data immediately after use",
+      "Keeping data for a specified period according to policies and regulations",
+      "Encrypting data permanently",
+      "Backing up data to the cloud"
+    ],
+    "antwoord": 1,
+    "toelichting": "Data retention defines how long data is kept and when it should be disposed of, based on legal and business requirements.",
+    "domein": "Security Operations",
+    "_idx": 86
+  },
+  {
+    "vraag": "What is configuration management?",
+    "opties": [
+      "Managing user accounts and passwords",
+      "Establishing and maintaining consistent system settings and documentation",
+      "Installing new software on servers",
+      "Managing network cables"
+    ],
+    "antwoord": 1,
+    "toelichting": "Configuration management ensures systems are configured consistently and changes are tracked and documented.",
+    "domein": "Security Operations",
+    "_idx": 87
+  },
+  {
+    "vraag": "What is the main risk of employees using public AI tools like ChatGPT for work?",
+    "opties": [
+      "AI tools are always inaccurate",
+      "Sensitive company data may be exposed or leaked through the AI service",
+      "AI tools are too slow for business use",
+      "AI tools require special hardware"
+    ],
+    "antwoord": 1,
+    "toelichting": "Public AI tools may store or process input data, potentially exposing confidential company information through data leakage.",
+    "domein": "Security Operations",
+    "_idx": 88
+  },
+  {
+    "vraag": "What is a strong password policy typically require?",
+    "opties": [
+      "Using the same password for all accounts",
+      "Minimum length, complexity requirements, and regular changes",
+      "Only using numbers in passwords",
+      "Sharing passwords with colleagues"
+    ],
+    "antwoord": 1,
+    "toelichting": "A good password policy requires minimum length (12+ characters), complexity (mix of characters), and periodic changes.",
+    "domein": "Security Operations",
+    "_idx": 89
+  },
+  {
+    "vraag": "What is the purpose of logging and monitoring?",
+    "opties": [
+      "To record employee conversations",
+      "To track system activity and detect potential security incidents",
+      "To increase network bandwidth",
+      "To replace antivirus software"
+    ],
+    "antwoord": 1,
+    "toelichting": "Logging captures system events, and monitoring analyzes logs to detect anomalies and potential security incidents.",
+    "domein": "Security Operations",
+    "_idx": 90
+  },
+  {
+    "vraag": "What is the primary purpose of security governance?",
+    "opties": [
+      "To eliminate all risks",
+      "To align security with business objectives and manage risk",
+      "To replace IT staff",
+      "To increase profits"
+    ],
+    "antwoord": 1,
+    "toelichting": "Security governance ensures security aligns with business goals and manages risk effectively.",
+    "domein": "Security Principles",
+    "_idx": 91
+  },
+  {
+    "vraag": "What is tailgating in physical security?",
+    "opties": [
+      "A type of malware",
+      "Following an authorized person through a secured door without authorization",
+      "A network attack",
+      "A type of encryption"
+    ],
+    "antwoord": 1,
+    "toelichting": "Tailgating (piggybacking) is when an unauthorized person follows an authorized person through a secured entry point.",
+    "domein": "Access Controls",
+    "_idx": 92
+  },
+  {
+    "vraag": "What is the purpose of a security badge?",
+    "opties": [
+      "To identify employees",
+      "To provide physical access control and identification",
+      "To replace passwords",
+      "To encrypt data"
+    ],
+    "antwoord": 1,
+    "toelichting": "Security badges serve dual purposes: physical access control and visual identification of authorized personnel.",
+    "domein": "Access Controls",
+    "_idx": 93
+  },
+  {
+    "vraag": "What is Kerberos?",
+    "opties": [
+      "A type of firewall",
+      "A network authentication protocol using tickets",
+      "A malware type",
+      "A physical security control"
+    ],
+    "antwoord": 1,
+    "toelichting": "Kerberos is a network authentication protocol that uses tickets to allow nodes to prove their identity over an insecure network.",
+    "domein": "Access Controls",
+    "_idx": 94
+  },
+  {
+    "vraag": "What is Single Sign-On (SSO)?",
+    "opties": [
+      "Using multiple passwords",
+      "Authenticating once and gaining access to multiple systems",
+      "Using biometrics only",
+      "A type of encryption"
+    ],
+    "antwoord": 1,
+    "toelichting": "SSO allows users to authenticate once and access multiple related systems without re-entering credentials.",
+    "domein": "Access Controls",
+    "_idx": 95
+  },
+  {
+    "vraag": "What is an ACL (Access Control List)?",
+    "opties": [
+      "A list of all users",
+      "A list of permissions attached to a resource",
+      "A type of firewall",
+      "A password policy"
+    ],
+    "antwoord": 1,
+    "toelichting": "An ACL defines which users or system processes are granted access to objects and what operations are allowed.",
+    "domein": "Access Controls",
+    "_idx": 96
+  },
+  {
+    "vraag": "What is Privileged Access Management (PAM)?",
+    "opties": [
+      "Managing all user accounts",
+      "Controlling and monitoring access to critical systems by privileged users",
+      "Managing network cables",
+      "Creating backup policies"
+    ],
+    "antwoord": 1,
+    "toelichting": "PAM focuses on controlling, monitoring, and securing access to privileged accounts and critical systems.",
+    "domein": "Access Controls",
+    "_idx": 97
+  },
+  {
+    "vraag": "What is a security token?",
+    "opties": [
+      "A physical coin",
+      "A physical or digital device used for authentication",
+      "A type of password",
+      "A network cable"
+    ],
+    "antwoord": 1,
+    "toelichting": "A security token is a physical or digital device (like a YubiKey or smart card) used to prove identity.",
+    "domein": "Access Controls",
+    "_idx": 98
+  },
+  {
+    "vraag": "What is the purpose of a proxy server?",
+    "opties": [
+      "To increase speed",
+      "To act as an intermediary between clients and the internet for security and caching",
+      "To replace firewalls",
+      "To store passwords"
+    ],
+    "antwoord": 1,
+    "toelichting": "A proxy server acts as a gateway between users and the internet, providing security, caching, and access control.",
+    "domein": "Access Controls",
+    "_idx": 99
+  }
+]
