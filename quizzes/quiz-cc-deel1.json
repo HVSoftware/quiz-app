@@ -3,11 +3,11 @@
     "vraag": "Wat is het juiste antwoord op de formule voor risico?",
     "opties": [
       "Risk = Impact x Cost",
-      "Risk = Threat x Vulnerability",
       "Risk = Threat x Asset",
+      "Risk = Threat x Vulnerability",
       "Risk = Vulnerability x Compliance"
     ],
-    "antwoord": 1,
+    "antwoord": 2,
     "toelichting": "De standaard formule is Risk = Threat x Vulnerability, ook wel Kans x Impact. Zonder dreiging OF zonder kwetsbaarheid is er geen risico. Dit is een van de meest gestelde vragen op het CC-examen.",
     "domein": "Security Principles",
     "_idx": 0
@@ -15,12 +15,12 @@
   {
     "vraag": "Welke van de volgende is een voorbeeld van single factor authenticatie?",
     "opties": [
-      "Gebruikersnaam + wachtwoord + pincode",
       "Wachtwoord + fingerprint",
+      "Gebruikersnaam + wachtwoord + pincode",
       "Gebruikersnaam + vingerafdruk + SMS-code",
       "Paspoort + retina scan"
     ],
-    "antwoord": 0,
+    "antwoord": 1,
     "toelichting": "Username, password en pin komen allemaal uit dezelfde categorie: something you know. Meerdere items uit dezelfde factor blijft single-factor. Pas als je een tweede categorie toevoegt (something you have of something you are) wordt het MFA.",
     "domein": "Access Control Concepts",
     "_idx": 1
@@ -28,12 +28,12 @@
   {
     "vraag": "Welk onderdeel van de CIA Triad gaat over digitale vingerafdrukken (hashing)?",
     "opties": [
+      "Integrity",
       "Confidentiality",
       "Availability",
-      "Integrity",
       "Integrity en Availability samen"
     ],
-    "antwoord": 2,
+    "antwoord": 0,
     "toelichting": "Hashing zorgt voor integriteit: als er ook maar één teken verandert, verandert de hele hash. Hiermee kun je controleren of data ongewijzigd is. Confidentiality gaat over vertrouwelijkheid, availability over toegankelijkheid.",
     "domein": "Security Principles",
     "_idx": 2
@@ -42,11 +42,11 @@
     "vraag": "Wat is het verschil tussen Accept en Negeren van een risico?",
     "opties": [
       "Er is geen verschil",
-      "Accepteren is een bewuste, gedocumenteerde keuze; negeren is nalatigheid",
       "Negeren is altijd de juiste keuze",
-      "Accepteren is goedkoper"
+      "Accepteren is goedkoper",
+      "Accepteren is een bewuste, gedocumenteerde keuze; negeren is nalatigheid"
     ],
-    "antwoord": 1,
+    "antwoord": 3,
     "toelichting": "Een risico accepteren is een bewuste, gedocumenteerde keuze van management dat het risico binnen de risk appetite valt. Een risico negeren is nalatigheid: je weet ervan maar doet alsof het niet bestaat. Op het examen is dit een veelgemaakte valkuil.",
     "domein": "Security Principles",
     "_idx": 3
@@ -55,11 +55,11 @@
     "vraag": "Een IPS (Intrusion Prevention System) verschilt van een IDS doordat IPS:",
     "opties": [
       "Alleen waarschuwt bij verdacht verkeer",
-      "Verkeer daadwerkelijk kan blokkeren/tegenhouden",
       "Alleen op servers draait",
+      "Verkeer daadwerkelijk kan blokkeren/tegenhouden",
       "Geen logs bijhoudt"
     ],
-    "antwoord": 1,
+    "antwoord": 2,
     "toelichting": "IPS is preventief en kan verkeer daadwerkelijk tegenhouden. IDS is detectief: het kopieert verkeer en slaat alarm, maar kan niet blokkeren. Beide zijn nodig: je kunt nooit 100% voorkomen.",
     "domein": "Security Principles",
     "_idx": 4
@@ -67,12 +67,12 @@
   {
     "vraag": "Welke laag in de documentatiepiramide is de enige vrijblijvende (niet-verplichte)?",
     "opties": [
-      "Regulation",
-      "Policy",
       "Guideline",
-      "Procedure"
+      "Regulation",
+      "Procedure",
+      "Policy"
     ],
-    "antwoord": 2,
+    "antwoord": 0,
     "toelichting": "Guidelines zijn richtlijnen die vrijblijvend zijn en niet verplicht. Alles erboven (regulations, policies, procedures, standards) is verplicht. Wanneer regels botsen, wint de wet altijd.",
     "domein": "Governance",
     "_idx": 5
@@ -81,11 +81,11 @@
     "vraag": "Waarom worden IP-adressen als PII beschouwd?",
     "opties": [
       "Omdat ze altijd statisch zijn",
-      "Omdat ze herleidbaar zijn tot een persoon of aansluiting",
       "Omdat ze in elk land hetzelfde zijn",
-      "Omdat ze nooit worden gedeeld"
+      "Omdat ze nooit worden gedeeld",
+      "Omdat ze herleidbaar zijn tot een persoon of aansluiting"
     ],
-    "antwoord": 1,
+    "antwoord": 3,
     "toelichting": "PII (Personally Identifiable Information) is alle informatie waarmee een persoon geïdentificeerd of herleid kan worden. Een IP-adres kan worden herleid tot een huisaansluiting en valt dus onder PII. Dit is een klassieke examenvraag.",
     "domein": "Security Principles",
     "_idx": 6
@@ -93,12 +93,12 @@
   {
     "vraag": "Welk van de volgende is een voorbeeld van een fysieke security control?",
     "opties": [
-      "Firewall",
       "CCTV (bewakingscamera's)",
+      "Firewall",
       "Antivirussoftware",
       "Encryption"
     ],
-    "antwoord": 1,
+    "antwoord": 0,
     "toelichting": "CCTV is een fysieke control: het bewaakt de fysieke omgeving. Firewalls, antivirus en encryptie zijn technische/logische controls. Toegangspoortjes, alarmsystemen en beveiligers zijn ook fysieke controls.",
     "domein": "Security Principles",
     "_idx": 7
@@ -106,12 +106,12 @@
   {
     "vraag": "De American Cloud Act is een probleem voor bedrijven in de EU omdat:",
     "opties": [
-      "Het de EU-wetten opheft",
       "De VS altijd data mag opvragen van Amerikaanse cloudaanbieders, ook als die in Europa staat",
+      "Het de EU-wetten opheft",
       "Het alle clouddata versleutelt",
       "Het alleen voor sociale media geldt"
     ],
-    "antwoord": 1,
+    "antwoord": 0,
     "toelichting": "De American Cloud Act geeft de VS de bevoegdheid om data op te vragen bij Amerikaanse cloudaanbieders, ongeacht waar de data fysiek staat. Dit is een risico voor EU-organisaties die gevoelige data in Amerikaanse cloudopslag hebben.",
     "domein": "Security Principles",
     "_idx": 8
@@ -120,11 +120,11 @@
     "vraag": "Welke van de volgende hoort bij Availability (beschikbaarheid)?",
     "opties": [
       "Geen ongeautoriseerde wijzigingen in data",
-      "Data moet er zijn voor de juiste mensen op het moment dat het nodig is",
       "Alleen geautoriseerde personen mogen de data zien",
+      "Data moet er zijn voor de juiste mensen op het moment dat het nodig is",
       "Alle data moet versleuteld zijn"
     ],
-    "antwoord": 1,
+    "antwoord": 2,
     "toelichting": "Availability betekent dat data beschikbaar is voor geautoriseerde gebruikers op het moment dat ze het nodig hebben. Denk aan een bankstoring of DigiD die plat ligt: dat is een availability-probleem.",
     "domein": "Security Principles",
     "_idx": 9
@@ -133,11 +133,11 @@
     "vraag": "Wat is een key vault in vergelijking met een password manager?",
     "opties": [
       "Hetzelfde concept, alleen voor particulieren",
-      "Wordt vooral op applicatieniveau gebruikt (voor ontwikkelaars), geen UI voor gebruikers",
       "Altijd offline",
-      "Altijd gratis"
+      "Altijd gratis",
+      "Wordt vooral op applicatieniveau gebruikt (voor ontwikkelaars), geen UI voor gebruikers"
     ],
-    "antwoord": 1,
+    "antwoord": 3,
     "toelichting": "Een password manager is een digitale kluis met user interface voor gebruikers. Een key vault wordt vaak op applicatieniveau gebruikt door ontwikkelaars om sleutels en certificaten veilig op te slaan.",
     "domein": "Access Control Concepts",
     "_idx": 10
@@ -145,12 +145,12 @@
   {
     "vraag": "Wanneer is een risico nul?",
     "opties": [
-      "Altijd, als je genoeg maatregelen treft",
       "Alleen als er geen dreiging OF geen kwetsbaarheid is",
+      "Altijd, als je genoeg maatregelen treft",
       "Altijd bij een ISO 27001-certificering",
       "Risico is nooit nul"
     ],
-    "antwoord": 1,
+    "antwoord": 0,
     "toelichting": "Volgens de formule Risk = Threat x Vulnerability is er alleen risico als两者 samenkomen. Zonder dreiging of zonder kwetsbaarheid is het risico nul. In de praktijk is risico echter nooit helemaal nul.",
     "domein": "Security Principles",
     "_idx": 11
@@ -159,11 +159,11 @@
     "vraag": "Een SOC-analist heeft vooral te maken met:",
     "opties": [
       "Het oplossen van wachtwoordproblemen",
-      "Het analyseren van logs en activiteit (accountability)",
       "Het beheren van sociale media",
+      "Het analyseren van logs en activiteit (accountability)",
       "Het opzetten van een netwerk"
     ],
-    "antwoord": 1,
+    "antwoord": 2,
     "toelichting": "Een SOC-analist analyseert logs en activiteit om incidenten te detecteren. Accountability (verantwoording) is essentieel: alles wat gebruikers doen is herleidbaar naar hun login. Logs zijn dagelijkse kost voor een SOC.",
     "domein": "Security Principles",
     "_idx": 12
@@ -172,11 +172,11 @@
     "vraag": "Een ransomware-aanval is een klassiek voorbeeld van een probleem met:",
     "opties": [
       "Integrity",
-      "Confidentiality",
       "Availability",
+      "Confidentiality",
       "Authenticity"
     ],
-    "antwoord": 2,
+    "antwoord": 1,
     "toelichting": "Bij ransomware wordt data versleuteld en ontoegankelijk gemaakt. Dit is primair een availability-probleem: de data is er nog, maar je kunt er niet bij. Het kan ook een confidentiality-probleem zijn als er ook data gestolen wordt.",
     "domein": "Security Principles",
     "_idx": 13
@@ -185,11 +185,11 @@
     "vraag": "Non-repudiation (onweerlegbaarheid) betekent:",
     "opties": [
       "Je kunt altijd ontkennen iets gedaan te hebben",
-      "Er is bewijs dat je iets gedaan hebt, en je kunt het niet ontkennen",
       "Je bent anoniem in het systeem",
+      "Er is bewijs dat je iets gedaan hebt, en je kunt het niet ontkennen",
       "Je hoeft geen verantwoording af te leggen"
     ],
-    "antwoord": 1,
+    "antwoord": 2,
     "toelichting": "Repudiate betekent ontkennen, non-repudiation is dus niet-kunnen-ontkennen. Denk aan een digitale handtekening of een handtekening voor ontvangst: je kunt achteraf niet zeggen dat je het niet was.",
     "domein": "Security Principles",
     "_idx": 14
@@ -199,10 +199,10 @@
     "opties": [
       "De toren vliegt zelf de vliegtuigen",
       "De toren bepaalt hoe elk vliegtuig-besturingssysteem werkt",
-      "De toren zorgt voor overzicht en stuurt aan, zonder zelf te vliegen",
-      "De toren is optioneel"
+      "De toren is optioneel",
+      "De toren zorgt voor overzicht en stuurt aan, zonder zelf te vliegen"
     ],
-    "antwoord": 2,
+    "antwoord": 3,
     "toelichting": "Governance is als een verkeerstoren: de toren vliegt zelf niet, maar zonder de toren wordt het chaos. Governance bepaalt dat er een firewall moet zijn en wie verantwoordelijk is, niet hoe je hem instelt.",
     "domein": "Governance",
     "_idx": 15
@@ -210,12 +210,12 @@
   {
     "vraag": "Welke van de volgende is een preventieve security control?",
     "opties": [
-      "Alarm dat afgaat bij inbraak",
       "Firewall die verkeer blokkeert",
+      "Alarm dat afgaat bij inbraak",
       "IDS die verdacht verkeer kopieert en waarschuwt",
       "CCTV-beelden die worden teruggekeken"
     ],
-    "antwoord": 1,
+    "antwoord": 0,
     "toelichting": "Een firewall blokkeert verkeer voordat het het netwerk bereikt: dat is preventief. Alarmen en IDS zijn detectief (ze merken op dat iets gebeurt). CCTV kan zowel preventief als detectief werken.",
     "domein": "Security Principles",
     "_idx": 16
@@ -225,10 +225,10 @@
     "opties": [
       "Gezondheidszorg",
       "Creditcardbeveiliging",
-      "Informatiebeveiliging (ISMS — Information Security Management System)",
-      "Cloud computing"
+      "Cloud computing",
+      "Informatiebeveiliging (ISMS — Information Security Management System)"
     ],
-    "antwoord": 2,
+    "antwoord": 3,
     "toelichting": "ISO 27001 is de internationale standaard voor een Information Security Management System (ISMS). HIPAA gaat over medische data, PCI DSS over creditcards, en NIST SP 800-53 is een uitgebreide lijst beveiligingsmaatregelen.",
     "domein": "Governance",
     "_idx": 17
@@ -237,11 +237,11 @@
     "vraag": "De Code of Ethics van ISC2 heeft een specifieke volgorde. Wat staat er op nummer 1?",
     "opties": [
       "Je opdrachtgever beschermen",
-      "De samenleving beschermen",
       "Jezelf beschermen",
+      "De samenleving beschermen",
       "Het vakgebied promoten"
     ],
-    "antwoord": 1,
+    "antwoord": 2,
     "toelichting": "De vier canons staan in volgorde van prioriteit: 1) Bescherm de samenleving, 2) Handel eerlijk, 3) Verleen diensten aan opdrachtgevers, 4) Bevorder het vak. Samenleving eerst, dan integriteit, dan opdrachtgever, dan het vak.",
     "domein": "Security Principles",
     "_idx": 18
@@ -263,11 +263,11 @@
     "vraag": "Een policy verschilt van een procedure doordat een policy:",
     "opties": [
       "Specifieke stap-voor-stap-instructies bevat",
-      "Het wat en waarom beschrijft, niet het hoe",
       "Altijd optioneel is",
-      "Alleen door ICT-medewerkers wordt gelezen"
+      "Alleen door ICT-medewerkers wordt gelezen",
+      "Het wat en waarom beschrijft, niet het hoe"
     ],
-    "antwoord": 1,
+    "antwoord": 3,
     "toelichting": "Een policy beschrijft het wat en waarom en wordt op directieniveau getekend. Een procedure beschrijft het hoe, stap voor stap, en wordt op afdelingsniveau opgesteld.",
     "domein": "Governance",
     "_idx": 20
@@ -276,11 +276,11 @@
     "vraag": "Bij multi-factor authenticatie (MFA) moeten factoren komen uit:",
     "opties": [
       "Drie dezelfde categorieën (alles wachtwoord)",
-      "Minimaal twee verschillende categorieën (knowledge, possession, inherence)",
       "Altijd vier factoren",
+      "Minimaal twee verschillende categorieën (knowledge, possession, inherence)",
       "Minimaal één categorie"
     ],
-    "antwoord": 1,
+    "antwoord": 2,
     "toelichting": "MFA vereist minimaal twee factoren uit verschillende categorieën: something you know (wachtwoord), something you have (telefoon, pas), of something you are (biometrie). Twee wachtwoorden is dus geen MFA.",
     "domein": "Access Control Concepts",
     "_idx": 21
@@ -288,12 +288,12 @@
   {
     "vraag": "Welk van de volgende is een technische/logische security control?",
     "opties": [
-      "Beveiligers bij de ingang",
       "Encryptie van data",
+      "Beveiligers bij de ingang",
       "Training van medewerkers",
       "Alarmsysteem op het pand"
     ],
-    "antwoord": 1,
+    "antwoord": 0,
     "toelichting": "Encryptie is een technische/logische control. Beveiligers en alarmsystemen zijn fysieke controls, trainingen zijn administratieve controls.",
     "domein": "Security Principles",
     "_idx": 22
@@ -315,11 +315,11 @@
     "vraag": "In de context van SSO (Single Sign-On):",
     "opties": [
       "Moet je elke applicatie apart inloggen",
-      "Voorkomt het dat mensen zwakke wachtwoorden kiezen door herhaald inloggen",
       "Gebruikt het alleen wachtwoorden",
-      "Is het alleen voor servers"
+      "Is het alleen voor servers",
+      "Voorkomt het dat mensen zwakke wachtwoorden kiezen door herhaald inloggen"
     ],
-    "antwoord": 1,
+    "antwoord": 3,
     "toelichting": "SSO betekent één keer inloggen en toegang tot alle applicaties. Het voorkomt dat mensen zwakke wachtwoorden kiezen omdat ze niet steeds opnieuw hoeven in te loggen. SSO werkt onder water met een ticketsysteem (Kerberos).",
     "domein": "Access Control Concepts",
     "_idx": 24
@@ -327,12 +327,12 @@
   {
     "vraag": "Welke van de volgende is een voorbeeld van een intentionele dreiging?",
     "opties": [
+      "Een medewerker die expres gevoelige data steelt",
       "Bliksem",
       "Per ongeluk een bestand verwijderen",
-      "Een medewerker die expres gevoelige data steelt",
       "Een overstroming"
     ],
-    "antwoord": 2,
+    "antwoord": 0,
     "toelichting": "Dreigingen zijn er in drie vormen: environmental (bliksem, overstroming), accidental (per ongeluk verwijderen), en intentional (moedwillig stelen). Een medewerker die expres data steelt is een intentionele dreiging.",
     "domein": "Security Principles",
     "_idx": 25
@@ -341,11 +341,11 @@
     "vraag": "HIPAA gaat specifiek over de bescherming van:",
     "opties": [
       "Creditcardgegevens",
-      "Medische data (gezondheidsinformatie)",
       "Sociale media-gegevens",
+      "Medische data (gezondheidsinformatie)",
       "Bedrijfsgeheimen"
     ],
-    "antwoord": 1,
+    "antwoord": 2,
     "toelichting": "HIPAA (Health Insurance Portability and Accountability Act) is een Amerikaanse wet die specifiek gaat over de bescherming van medische data. PCI DSS gaat over creditcards.",
     "domein": "Governance",
     "_idx": 26
@@ -354,8 +354,8 @@
     "vraag": "Een organisatie heeft het risico overgedragen aan een verzekering. Welke risk response is dit?",
     "opties": [
       "Accept",
-      "Avoid",
       "Mitigate",
+      "Avoid",
       "Transfer"
     ],
     "antwoord": 3,
@@ -366,12 +366,12 @@
   {
     "vraag": "Bij de documentatiepiramide geldt: wanneer regels botsen, wint altijd:",
     "opties": [
-      "De guideline",
       "De procedure",
       "De wet (regulation)",
-      "De policy"
+      "De policy",
+      "De guideline"
     ],
-    "antwoord": 2,
+    "antwoord": 1,
     "toelichting": "De hiërarchie is: wetgeving (regulations) bovenaan, dan policies, dan procedures en standards, en onderaan guidelines. Je mag nooit toestaan wat de wet verbiedt.",
     "domein": "Governance",
     "_idx": 28
@@ -379,12 +379,12 @@
   {
     "vraag": "Wat is het verschil tussen compliance en governance?",
     "opties": [
-      "Ze zijn exact hetzelfde",
       "Governance gaat over sturen en beslissingen maken; compliance gaat over voldoen aan de regels",
+      "Ze zijn exact hetzelfde",
       "Compliance is belangrijker dan governance",
       "Governance geldt alleen voor overheden"
     ],
-    "antwoord": 1,
+    "antwoord": 0,
     "toelichting": "Governance is het sturen en controleren van een organisatie (inclusief beslissingen over risico en beveiliging). Compliance is het voldoen aan de regels die voor jou gelden (wetten, regelgeving, interne policies).",
     "domein": "Governance",
     "_idx": 29
