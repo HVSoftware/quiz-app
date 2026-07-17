@@ -2,10 +2,10 @@
   {
     "vraag": "Wat is het juiste antwoord op de formule voor risico?",
     "opties": [
-      "Risk = Impact x Cost",
-      "Risk = Threat x Asset",
-      "Risk = Threat x Vulnerability",
-      "Risk = Vulnerability x Compliance"
+      "Risk = Impact x Cost (invloed maal kosten berekenen)",
+      "Risk = Threat x Asset (dreiging maal bezittingen tellen)",
+      "Risk = Threat x Vulnerability (dreiging maal kwetsbaarheid)",
+      "Risk = Vulnerability x Compliance (kwetsbaarheid maal naleving)"
     ],
     "antwoord": 2,
     "toelichting": "De standaard formule is Risk = Threat x Vulnerability, ook wel Kans x Impact. Zonder dreiging OF zonder kwetsbaarheid is er geen risico. Dit is een van de meest gestelde vragen op het CC-examen.",
@@ -15,10 +15,10 @@
   {
     "vraag": "Welke van de volgende is een voorbeeld van single factor authenticatie?",
     "opties": [
-      "Wachtwoord + fingerprint",
-      "Gebruikersnaam + wachtwoord + pincode",
-      "Gebruikersnaam + vingerafdruk + SMS-code",
-      "Paspoort + retina scan"
+      "Wachtwoord plus een vingerafdruk scan",
+      "Gebruikersnaam plus wachtwoord plus pincode",
+      "Gebruikersnaam plus vingerafdruk plus SMS",
+      "Paspoort tonen plus een retina scan"
     ],
     "antwoord": 1,
     "toelichting": "Username, password en pin komen allemaal uit dezelfde categorie: something you know. Meerdere items uit dezelfde factor blijft single-factor. Pas als je een tweede categorie toevoegt (something you have of something you are) wordt het MFA.",
@@ -28,10 +28,10 @@
   {
     "vraag": "Welk onderdeel van de CIA Triad gaat over digitale vingerafdrukken (hashing)?",
     "opties": [
-      "Integrity",
-      "Confidentiality",
-      "Availability",
-      "Integrity en Availability samen"
+      "Integriteit (data niet ongewijzigd)",
+      "Vertrouwelijkheid (alleen geautoriseerd)",
+      "Beschikbaarheid (altijd toegankelijk)",
+      "Integriteit en beschikbaarheid samen"
     ],
     "antwoord": 0,
     "toelichting": "Hashing zorgt voor integriteit: als er ook maar één teken verandert, verandert de hele hash. Hiermee kun je controleren of data ongewijzigd is. Confidentiality gaat over vertrouwelijkheid, availability over toegankelijkheid.",
@@ -41,10 +41,10 @@
   {
     "vraag": "Wat is het verschil tussen Accept en Negeren van een risico?",
     "opties": [
-      "Er is geen verschil",
-      "Negeren is altijd de juiste keuze",
-      "Accepteren is goedkoper",
-      "Accepteren is een bewuste, gedocumenteerde keuze; negeren is nalatigheid"
+      "Er is helemaal geen verschil tussen beide keuzes",
+      "Negeren is altijd de juiste keuze voor een organisatie",
+      "Accept is altijd goedkoper dan andere opties kiezen",
+      "Accept is bewust; negeren is nalatigheid plegen"
     ],
     "antwoord": 3,
     "toelichting": "Een risico accepteren is een bewuste, gedocumenteerde keuze van management dat het risico binnen de risk appetite valt. Een risico negeren is nalatigheid: je weet ervan maar doet alsof het niet bestaat. Op het examen is dit een veelgemaakte valkuil.",
@@ -54,10 +54,10 @@
   {
     "vraag": "Een IPS (Intrusion Prevention System) verschilt van een IDS doordat IPS:",
     "opties": [
-      "Alleen waarschuwt bij verdacht verkeer",
-      "Alleen op servers draait",
-      "Verkeer daadwerkelijk kan blokkeren/tegenhouden",
-      "Geen logs bijhoudt"
+      "Alleen waarschuwt bij verdacht netwerkverkeer",
+      "Alleen op servers kan draaien in een netwerk",
+      "Verkeer kan blokkeren en tegenhouden actief",
+      "Geen logging van verdachte activiteit bijhoudt"
     ],
     "antwoord": 2,
     "toelichting": "IPS is preventief en kan verkeer daadwerkelijk tegenhouden. IDS is detectief: het kopieert verkeer en slaat alarm, maar kan niet blokkeren. Beide zijn nodig: je kunt nooit 100% voorkomen.",
@@ -67,10 +67,10 @@
   {
     "vraag": "Welke laag in de documentatiepiramide is de enige vrijblijvende (niet-verplichte)?",
     "opties": [
-      "Guideline",
-      "Regulation",
-      "Procedure",
-      "Policy"
+      "Guideline (een niet-verplichte richtlijn)",
+      "Regulation (een wettelijk verplichte regel)",
+      "Procedure (een verplichte stap-voor-stap)",
+      "Policy (een verplicht beleidsdocument)"
     ],
     "antwoord": 0,
     "toelichting": "Guidelines zijn richtlijnen die vrijblijvend zijn en niet verplicht. Alles erboven (regulations, policies, procedures, standards) is verplicht. Wanneer regels botsen, wint de wet altijd.",
@@ -80,10 +80,10 @@
   {
     "vraag": "Waarom worden IP-adressen als PII beschouwd?",
     "opties": [
-      "Omdat ze altijd statisch zijn",
-      "Omdat ze in elk land hetzelfde zijn",
-      "Omdat ze nooit worden gedeeld",
-      "Omdat ze herleidbaar zijn tot een persoon of aansluiting"
+      "Omdat ze altijd statisch blijven voor een gebruiker",
+      "Omdat ze in elk land hetzelfde worden weergegeven",
+      "Omdat ze nooit worden gedeeld met derde partijen",
+      "Omdat ze herleidbaar zijn tot een specifieke persoon"
     ],
     "antwoord": 3,
     "toelichting": "PII (Personally Identifiable Information) is alle informatie waarmee een persoon geïdentificeerd of herleid kan worden. Een IP-adres kan worden herleid tot een huisaansluiting en valt dus onder PII. Dit is een klassieke examenvraag.",
@@ -93,10 +93,10 @@
   {
     "vraag": "Welk van de volgende is een voorbeeld van een fysieke security control?",
     "opties": [
-      "CCTV (bewakingscamera's)",
-      "Firewall",
-      "Antivirussoftware",
-      "Encryption"
+      "CCTV bewakingscamera's op het terrein",
+      "Een firewall op het centrale netwerk",
+      "Antivirussoftware op alle laptops",
+      "Encryptie van alle gevoelige data"
     ],
     "antwoord": 0,
     "toelichting": "CCTV is een fysieke control: het bewaakt de fysieke omgeving. Firewalls, antivirus en encryptie zijn technische/logische controls. Toegangspoortjes, alarmsystemen en beveiligers zijn ook fysieke controls.",
@@ -106,10 +106,10 @@
   {
     "vraag": "De American Cloud Act is een probleem voor bedrijven in de EU omdat:",
     "opties": [
-      "De VS altijd data mag opvragen van Amerikaanse cloudaanbieders, ook als die in Europa staat",
-      "Het de EU-wetten opheft",
-      "Het alle clouddata versleutelt",
-      "Het alleen voor sociale media geldt"
+      "De VS data mag ophalen bij Amerikaanse cloudbedrijven",
+      "Het de EU-wetten gedeeltelijk of geheel opheft",
+      "Het alle data versleutelt met een Amerikaanse sleutel",
+      "Het alleen van toepassing is op sociale media"
     ],
     "antwoord": 0,
     "toelichting": "De American Cloud Act geeft de VS de bevoegdheid om data op te vragen bij Amerikaanse cloudaanbieders, ongeacht waar de data fysiek staat. Dit is een risico voor EU-organisaties die gevoelige data in Amerikaanse cloudopslag hebben.",
@@ -119,10 +119,10 @@
   {
     "vraag": "Welke van de volgende hoort bij Availability (beschikbaarheid)?",
     "opties": [
-      "Geen ongeautoriseerde wijzigingen in data",
-      "Alleen geautoriseerde personen mogen de data zien",
-      "Data moet er zijn voor de juiste mensen op het moment dat het nodig is",
-      "Alle data moet versleuteld zijn"
+      "Geen wijzigingen maken door onbevoegde gebruikers",
+      "Alleen geautoriseerde personen mogen de data bekijken",
+      "Data moet beschikbaar zijn wanneer het nodig is",
+      "Alle data wordt versleuteld opgeslagen voor veiligheid"
     ],
     "antwoord": 2,
     "toelichting": "Availability betekent dat data beschikbaar is voor geautoriseerde gebruikers op het moment dat ze het nodig hebben. Denk aan een bankstoring of DigiD die plat ligt: dat is een availability-probleem.",
@@ -132,10 +132,10 @@
   {
     "vraag": "Wat is een key vault in vergelijking met een password manager?",
     "opties": [
-      "Hetzelfde concept, alleen voor particulieren",
-      "Altijd offline",
-      "Altijd gratis",
-      "Wordt vooral op applicatieniveau gebruikt (voor ontwikkelaars), geen UI voor gebruikers"
+      "Hetzelfde digitale kluis-concept voor particulieren",
+      "Altijd volledig offline en luchtgeïsoleerd opslag",
+      "Altijd helemaal gratis te gebruiken voor iedereen",
+      "Wordt vooral door ontwikkelaars op apps gebruikt"
     ],
     "antwoord": 3,
     "toelichting": "Een password manager is een digitale kluis met user interface voor gebruikers. Een key vault wordt vaak op applicatieniveau gebruikt door ontwikkelaars om sleutels en certificaten veilig op te slaan.",
@@ -145,10 +145,10 @@
   {
     "vraag": "Wanneer is een risico nul?",
     "opties": [
-      "Alleen als er geen dreiging OF geen kwetsbaarheid is",
-      "Altijd, als je genoeg maatregelen treft",
-      "Altijd bij een ISO 27001-certificering",
-      "Risico is nooit nul"
+      "Alleen als er geen dreiging of kwetsbaarheid is",
+      "Altijd als je genoeg maatregelen hebt getroffen",
+      "Altijd bij een volledige ISO 27001-certificering",
+      "Risico is in de praktijk nooit helemaal nul"
     ],
     "antwoord": 0,
     "toelichting": "Volgens de formule Risk = Threat x Vulnerability is er alleen risico als两者 samenkomen. Zonder dreiging of zonder kwetsbaarheid is het risico nul. In de praktijk is risico echter nooit helemaal nul.",
@@ -158,10 +158,10 @@
   {
     "vraag": "Een SOC-analist heeft vooral te maken met:",
     "opties": [
-      "Het oplossen van wachtwoordproblemen",
-      "Het beheren van sociale media",
-      "Het analyseren van logs en activiteit (accountability)",
-      "Het opzetten van een netwerk"
+      "Het oplossen van wachtwoordproblemen voor users",
+      "Het beheren van alle sociale media kanalen",
+      "Het analyseren van logs en verdachte activiteit",
+      "Het opzetten en onderhouden van een netwerk"
     ],
     "antwoord": 2,
     "toelichting": "Een SOC-analist analyseert logs en activiteit om incidenten te detecteren. Accountability (verantwoording) is essentieel: alles wat gebruikers doen is herleidbaar naar hun login. Logs zijn dagelijkse kost voor een SOC.",
@@ -171,10 +171,10 @@
   {
     "vraag": "Een ransomware-aanval is een klassiek voorbeeld van een probleem met:",
     "opties": [
-      "Integrity",
-      "Availability",
-      "Confidentiality",
-      "Authenticity"
+      "De integriteit van de opgeslagen data",
+      "De beschikbaarheid van de opgeslagen data",
+      "De vertrouwelijkheid van de opgeslagen data",
+      "De authenticiteit van de betreffende gebruiker"
     ],
     "antwoord": 1,
     "toelichting": "Bij ransomware wordt data versleuteld en ontoegankelijk gemaakt. Dit is primair een availability-probleem: de data is er nog, maar je kunt er niet bij. Het kan ook een confidentiality-probleem zijn als er ook data gestolen wordt.",
@@ -184,10 +184,10 @@
   {
     "vraag": "Non-repudiation (onweerlegbaarheid) betekent:",
     "opties": [
-      "Je kunt altijd ontkennen iets gedaan te hebben",
-      "Je bent anoniem in het systeem",
-      "Er is bewijs dat je iets gedaan hebt, en je kunt het niet ontkennen",
-      "Je hoeft geen verantwoording af te leggen"
+      "Je kunt altijd ontkennen wat je gedaan hebt",
+      "Je bent volledig anoniem in het gehele systeem",
+      "Je kunt niet ontkennen dat je iets gedaan hebt",
+      "Je hebt geen enkele verantwoording af te leggen"
     ],
     "antwoord": 2,
     "toelichting": "Repudiate betekent ontkennen, non-repudiation is dus niet-kunnen-ontkennen. Denk aan een digitale handtekening of een handtekening voor ontvangst: je kunt achteraf niet zeggen dat je het niet was.",
@@ -197,10 +197,10 @@
   {
     "vraag": "Bij de analogie van de verkeerstoren (governance):",
     "opties": [
-      "De toren vliegt zelf de vliegtuigen",
-      "De toren bepaalt hoe elk vliegtuig-besturingssysteem werkt",
-      "De toren is optioneel",
-      "De toren zorgt voor overzicht en stuurt aan, zonder zelf te vliegen"
+      "De toren vliegt zelf de vliegtuigen rond vliegen",
+      "De toren bepaalt het besturingssysteem per vliegtuig",
+      "De toren is optioneel voor de meeste luchthavens",
+      "De toren zorgt voor overzicht en stuurt het aan"
     ],
     "antwoord": 3,
     "toelichting": "Governance is als een verkeerstoren: de toren vliegt zelf niet, maar zonder de toren wordt het chaos. Governance bepaalt dat er een firewall moet zijn en wie verantwoordelijk is, niet hoe je hem instelt.",
@@ -210,10 +210,10 @@
   {
     "vraag": "Welke van de volgende is een preventieve security control?",
     "opties": [
-      "Firewall die verkeer blokkeert",
-      "Alarm dat afgaat bij inbraak",
-      "IDS die verdacht verkeer kopieert en waarschuwt",
-      "CCTV-beelden die worden teruggekeken"
+      "Een firewall die verkeer blokkeert op het netwerk",
+      "Een inbraakalarm dat een melding geeft bij inbraak",
+      "Een IDS die verkeer kopieert en een waarschuwing stuurt",
+      "CCTV-beelden die achteraf worden teruggekeken"
     ],
     "antwoord": 0,
     "toelichting": "Een firewall blokkeert verkeer voordat het het netwerk bereikt: dat is preventief. Alarmen en IDS zijn detectief (ze merken op dat iets gebeurt). CCTV kan zowel preventief als detectief werken.",
@@ -223,10 +223,10 @@
   {
     "vraag": "ISO 27001 gaat specifiek over:",
     "opties": [
-      "Gezondheidszorg",
-      "Creditcardbeveiliging",
-      "Cloud computing",
-      "Informatiebeveiliging (ISMS — Information Security Management System)"
+      "Bescherming van gezondheids- en medische gegevens",
+      "Beveiliging van creditcard- en betalingstransacties",
+      "Beveiliging van clouddiensten en online opslag",
+      "Beheer van een informatiebeveiligingssysteem (ISMS)"
     ],
     "antwoord": 3,
     "toelichting": "ISO 27001 is de internationale standaard voor een Information Security Management System (ISMS). HIPAA gaat over medische data, PCI DSS over creditcards, en NIST SP 800-53 is een uitgebreide lijst beveiligingsmaatregelen.",
@@ -236,10 +236,10 @@
   {
     "vraag": "De Code of Ethics van ISC2 heeft een specifieke volgorde. Wat staat er op nummer 1?",
     "opties": [
-      "Je opdrachtgever beschermen",
-      "Jezelf beschermen",
-      "De samenleving beschermen",
-      "Het vakgebied promoten"
+      "Je opdrachtgever altijd beschermen en dienen",
+      "Jezelf en je directe gezin beschermen altijd",
+      "De hele samenleving beschermen en dienen",
+      "Het vakgebied actief promoten en beschermen"
     ],
     "antwoord": 2,
     "toelichting": "De vier canons staan in volgorde van prioriteit: 1) Bescherm de samenleving, 2) Handel eerlijk, 3) Verleen diensten aan opdrachtgevers, 4) Bevorder het vak. Samenleving eerst, dan integriteit, dan opdrachtgever, dan het vak.",
@@ -249,10 +249,10 @@
   {
     "vraag": "Een organisatie kiest ervoor om het risico op een bepaalde aanval te accepteren. Wat houdt dit in?",
     "opties": [
-      "Ze doen niets en hopen dat het goed gaat",
-      "Ze weten van het risico, hebben het beoordeeld, en kiezen bewust om geen extra maatregelen te treffen",
-      "Ze zijn verplicht dit te doen door de wet",
-      "Ze hebben geen andere keuze"
+      "Ze doen helemaal niets en hopen op het beste",
+      "Ze kiezen bewust om geen extra maatregelen te nemen",
+      "Ze zijn wettelijk verplicht om dit te doen altijd",
+      "Ze hebben simpelweg geen andere optie beschikbaar"
     ],
     "antwoord": 1,
     "toelichting": "Risk acceptance is een bewuste, gedocumenteerde keuze van management dat het risico binnen de risk appetite valt. Het is NIET hetzelfde als negeren: negeren is nalatigheid, accepteren is een weloverwogen beslissing.",
@@ -262,10 +262,10 @@
   {
     "vraag": "Een policy verschilt van een procedure doordat een policy:",
     "opties": [
-      "Specifieke stap-voor-stap-instructies bevat",
-      "Altijd optioneel is",
-      "Alleen door ICT-medewerkers wordt gelezen",
-      "Het wat en waarom beschrijft, niet het hoe"
+      "Altijd specifieke stap-voor-stap instructies geeft",
+      "Altijd optioneel is voor alle medewerkers",
+      "Alleen door IT-personeel mag worden gebruikt",
+      "Het wat en waarom van een regel beschrijft"
     ],
     "antwoord": 3,
     "toelichting": "Een policy beschrijft het wat en waarom en wordt op directieniveau getekend. Een procedure beschrijft het hoe, stap voor stap, en wordt op afdelingsniveau opgesteld.",
@@ -275,10 +275,10 @@
   {
     "vraag": "Bij multi-factor authenticatie (MFA) moeten factoren komen uit:",
     "opties": [
-      "Drie dezelfde categorieën (alles wachtwoord)",
-      "Altijd vier factoren",
-      "Minimaal twee verschillende categorieën (knowledge, possession, inherence)",
-      "Minimaal één categorie"
+      "Drie dezelfde categorieën van authenticatie",
+      "Altijd minimaal vier verschillende factoren",
+      "Twee of meer verschillende categorieën steeds",
+      "Minimaal één authenticatiefactor per gebruiker"
     ],
     "antwoord": 2,
     "toelichting": "MFA vereist minimaal twee factoren uit verschillende categorieën: something you know (wachtwoord), something you have (telefoon, pas), of something you are (biometrie). Twee wachtwoorden is dus geen MFA.",
@@ -288,10 +288,10 @@
   {
     "vraag": "Welk van de volgende is een technische/logische security control?",
     "opties": [
-      "Encryptie van data",
-      "Beveiligers bij de ingang",
-      "Training van medewerkers",
-      "Alarmsysteem op het pand"
+      "Encryptie van alle gevoelige data opslaan",
+      "Beveiligers bij de hoofdingang van het pand",
+      "Verplichte training van alle medewerkers jaarlijks",
+      "Een alarmsysteem op het gehele bedrijfspand"
     ],
     "antwoord": 0,
     "toelichting": "Encryptie is een technische/logische control. Beveiligers en alarmsystemen zijn fysieke controls, trainingen zijn administratieve controls.",
@@ -301,10 +301,10 @@
   {
     "vraag": "Asset Management als eerste stap van risk assessment houdt in:",
     "opties": [
-      "Het kopen van nieuwe apparatuur",
-      "Het in kaart brengen van alle fysieke en logische assets van de organisatie",
-      "Het verwijderen van oude bestanden",
-      "Het trainen van medewerkers"
+      "Het aanschaffen van nieuwe apparatuur voor het team",
+      "Het in kaart brengen van alle fysieke en logische assets",
+      "Het verwijderen van oude bestanden en data opslag",
+      "Het trainen van medewerkers over beveiligingsregels"
     ],
     "antwoord": 1,
     "toelichting": "Asset Management is het identificeren en catalogiseren van alle assets: fysiek (computers, servers) en logisch (klantendata, bedrijfsgeheimen). Je kunt niet beschermen wat je niet kent.",
@@ -314,10 +314,10 @@
   {
     "vraag": "In de context van SSO (Single Sign-On):",
     "opties": [
-      "Moet je elke applicatie apart inloggen",
-      "Gebruikt het alleen wachtwoorden",
-      "Is het alleen voor servers",
-      "Voorkomt het dat mensen zwakke wachtwoorden kiezen door herhaald inloggen"
+      "Moet je bij elke applicatie apart inloggen steeds",
+      "Gebruikt het uitsluitend wachtwoorden voor authenticatie",
+      "Is het alleen toegankelijk voor serversystemen intern",
+      "Voorkomt het kiezen van zwakke wachtwoorden door gebruikers"
     ],
     "antwoord": 3,
     "toelichting": "SSO betekent één keer inloggen en toegang tot alle applicaties. Het voorkomt dat mensen zwakke wachtwoorden kiezen omdat ze niet steeds opnieuw hoeven in te loggen. SSO werkt onder water met een ticketsysteem (Kerberos).",
@@ -327,10 +327,10 @@
   {
     "vraag": "Welke van de volgende is een voorbeeld van een intentionele dreiging?",
     "opties": [
-      "Een medewerker die expres gevoelige data steelt",
-      "Bliksem",
-      "Per ongeluk een bestand verwijderen",
-      "Een overstroming"
+      "Een medewerker steelt expres gevoelige bedrijfsdata",
+      "Bliksem treft het datacenter van een organisatie",
+      "Iemand verwijdert per ongeluk een belangrijk bestand",
+      "Een overstroming treft het kantoor van het bedrijf"
     ],
     "antwoord": 0,
     "toelichting": "Dreigingen zijn er in drie vormen: environmental (bliksem, overstroming), accidental (per ongeluk verwijderen), en intentional (moedwillig stelen). Een medewerker die expres data steelt is een intentionele dreiging.",
@@ -340,10 +340,10 @@
   {
     "vraag": "HIPAA gaat specifiek over de bescherming van:",
     "opties": [
-      "Creditcardgegevens",
-      "Sociale media-gegevens",
-      "Medische data (gezondheidsinformatie)",
-      "Bedrijfsgeheimen"
+      "Alle creditcardgegevens en betalingstransacties",
+      "Alle sociale media-inhoud en accounts van gebruikers",
+      "Medische gegevens en gezondheidsinformatie van patiënten",
+      "Bedrijfsgeheimen en intellectueel eigendom van een bedrijf"
     ],
     "antwoord": 2,
     "toelichting": "HIPAA (Health Insurance Portability and Accountability Act) is een Amerikaanse wet die specifiek gaat over de bescherming van medische data. PCI DSS gaat over creditcards.",
@@ -353,10 +353,10 @@
   {
     "vraag": "Een organisatie heeft het risico overgedragen aan een verzekering. Welke risk response is dit?",
     "opties": [
-      "Accept",
-      "Mitigate",
-      "Avoid",
-      "Transfer"
+      "Accept (het risico zelf voor eigen volledige rekening nemen)",
+      "Mitigate (extra maatregelen nemen om het risico te verkleinen)",
+      "Avoid (de activiteit stoppen die het risico veroorzaakt)",
+      "Transfer (het risico financieel overdragen aan een verzekeraar)"
     ],
     "antwoord": 3,
     "toelichting": "Een verzekering verplaatst de financiële gevolgen van het risico naar een andere partij: dat is transfer (ook wel share). Let op: de kans op de aanval zelf wordt door een verzekering niet kleiner.",
@@ -366,10 +366,10 @@
   {
     "vraag": "Bij de documentatiepiramide geldt: wanneer regels botsen, wint altijd:",
     "opties": [
-      "De procedure",
-      "De wet (regulation)",
-      "De policy",
-      "De guideline"
+      "De procedure met stap-voor-stap instructies",
+      "De wet die door de overheid is vastgesteld",
+      "Het beleidsdocument getekend door de directie",
+      "De richtlijn die vrijblijvend is voor medewerkers"
     ],
     "antwoord": 1,
     "toelichting": "De hiërarchie is: wetgeving (regulations) bovenaan, dan policies, dan procedures en standards, en onderaan guidelines. Je mag nooit toestaan wat de wet verbiedt.",
@@ -379,10 +379,10 @@
   {
     "vraag": "Wat is het verschil tussen compliance en governance?",
     "opties": [
-      "Governance gaat over sturen en beslissingen maken; compliance gaat over voldoen aan de regels",
-      "Ze zijn exact hetzelfde",
-      "Compliance is belangrijker dan governance",
-      "Governance geldt alleen voor overheden"
+      "Governance stuurt en beslist; compliance naleeft regels",
+      "Ze zijn exact hetzelfde begrip in de praktijk",
+      "Compliance is altijd belangrijker dan governance",
+      "Governance is alleen van toepassing op overheden"
     ],
     "antwoord": 0,
     "toelichting": "Governance is het sturen en controleren van een organisatie (inclusief beslissingen over risico en beveiliging). Compliance is het voldoen aan de regels die voor jou gelden (wetten, regelgeving, interne policies).",
