@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 
 REQUIRED = {"vraag", "opties", "antwoord"}
-ALLOWED = REQUIRED | {"toelichting", "domein"}
+ALLOWED = REQUIRED | {"toelichting", "domein", "_idx", "agent", "model"}
 
 errors = 0
 exam_dir = Path(__file__).resolve().parent / "quizzes"
