@@ -1,0 +1,752 @@
+[
+  {
+    "vraag": "Wat is het primaire doel van classificatie van informatie?",
+    "opties": [
+      "Alle data automatisch versleuteld verwijderen",
+      "Alle data standaard publiek beschikbaar maken",
+      "Bepalen welke cloudleverancier het goedkoopst is",
+      "Bepalen welke bescherming per gegevenssoort nodig is"
+    ],
+    "antwoord": 3,
+    "toelichting": "Classificatie koppelt datawaarde aan passende beveiligingsmaatregelen.",
+    "domein": "Data Security",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 0
+  },
+  {
+    "vraag": "Welke control is vooral corrigerend van aard?",
+    "opties": [
+      "Een camera die toegangsdeuren observeert",
+      "Een SIEM-alert dat alleen meldingen doorstuurt",
+      "Een restore-procedure die data na incident terugzet",
+      "Een firewallregel die verkeer vooraf blokkeert"
+    ],
+    "antwoord": 2,
+    "toelichting": "Corrigerende controls herstellen de situatie na een verstoring.",
+    "domein": "Security Controls",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 1
+  },
+  {
+    "vraag": "Waarom is het principe least privilege belangrijk?",
+    "opties": [
+      "Het maakt logging overbodig in productieomgevingen",
+      "Het garandeert dat software geen kwetsbaarheden bevat",
+      "Het vervangt alle vormen van multifactor-authenticatie",
+      "Het beperkt schade als accounts worden misbruikt"
+    ],
+    "antwoord": 3,
+    "toelichting": "Minder rechten betekent kleiner aanvalsoppervlak en minder impact.",
+    "domein": "Access Control Concepts",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 2
+  },
+  {
+    "vraag": "Wat beschrijft een risk register het best?",
+    "opties": [
+      "Een lijst met alle gebruikersaccounts en wachtwoorden",
+      "Een overzicht van alle softwarelicenties per afdeling",
+      "Een overzicht van risico's, kans, impact en maatregelen",
+      "Een planning van releases voor alle applicaties"
+    ],
+    "antwoord": 2,
+    "toelichting": "Een risk register ondersteunt besluitvorming en opvolging.",
+    "domein": "Risk Management",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 3
+  },
+  {
+    "vraag": "Welke uitspraak over hashing is correct?",
+    "opties": [
+      "Hashing is een methode om data terugleesbaar te versleutelen",
+      "Hashing voorkomt volledig dat data wordt gekopieerd",
+      "Hashing vervangt netwerksegmentatie in elk ontwerp",
+      "Hashing controleert integriteit maar ontsleutelt niets"
+    ],
+    "antwoord": 3,
+    "toelichting": "Een hash detecteert wijzigingen maar is geen encryptie.",
+    "domein": "Cryptography",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 4
+  },
+  {
+    "vraag": "Scenario: Een medewerker deelt een bestand via privémail omdat VPN uitvalt. Wat is het grootste risico?",
+    "opties": [
+      "Te lage bandbreedte op de thuisrouter",
+      "Vertraging in het openen van de mailbox",
+      "Onvoldoende batterijduur van de laptop",
+      "Ongecontroleerde datalekken buiten bedrijfsbeleid"
+    ],
+    "antwoord": 3,
+    "toelichting": "Shadow IT en ongecontroleerde kanalen vergroten datarisico's.",
+    "domein": "Security Operations",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 5
+  },
+  {
+    "vraag": "Wat is een belangrijk kenmerk van een policy?",
+    "opties": [
+      "Het geldt alleen voor tijdelijke contractors",
+      "Het bevat altijd technische commando's per platform",
+      "Het beschrijft wat verplicht is op hoofdlijnen",
+      "Het vervalt automatisch na één kwartaal"
+    ],
+    "antwoord": 2,
+    "toelichting": "Policy geeft richting; procedures beschrijven uitvoering.",
+    "domein": "Governance",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 6
+  },
+  {
+    "vraag": "Welke optie past bij defense in depth?",
+    "opties": [
+      "Eén sterke control zonder aanvullende maatregelen",
+      "Alle data onbeperkt repliceren naar internet",
+      "Meerdere lagen controls rond kritieke systemen",
+      "Alleen endpointbeveiliging zonder netwerklaag"
+    ],
+    "antwoord": 2,
+    "toelichting": "Gelaagde beveiliging voorkomt single point of failure.",
+    "domein": "Security Principles",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 7
+  },
+  {
+    "vraag": "Wat is het nut van security awareness training?",
+    "opties": [
+      "Menselijke fouten en phishingkans verlagen",
+      "Netwerkapparatuur zonder beheer laten werken",
+      "Alle kwetsbaarheden in code automatisch patchen",
+      "Encryptiesleutels permanent openbaar maken"
+    ],
+    "antwoord": 0,
+    "toelichting": "Menselijk gedrag is een belangrijke risicofactor.",
+    "domein": "Security Operations",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 8
+  },
+  {
+    "vraag": "Welke factor hoort bij 'something you have'?",
+    "opties": [
+      "Een vingerafdruk van de gebruiker",
+      "Een beveiligingsvraag over je jeugd",
+      "Een hardware token met eenmalige code",
+      "Een persoonlijk wachtwoordzin met symbolen"
+    ],
+    "antwoord": 2,
+    "toelichting": "Een fysiek bezit is een aparte authenticatiefactor.",
+    "domein": "Access Control Concepts",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 9
+  },
+  {
+    "vraag": "Scenario: Een leverancier krijgt adminrechten voor onderhoud en houdt die maandenlang. Welk risico groeit vooral?",
+    "opties": [
+      "Te snelle rotatie van DNS-records",
+      "Lagere beschikbaarheid van printerservices",
+      "Hogere compressie van back-upbestanden",
+      "Privilege creep en misbruik van overmatige rechten"
+    ],
+    "antwoord": 3,
+    "toelichting": "Tijdelijke elevated access moet worden ingetrokken na taak.",
+    "domein": "Third-Party Risk",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 10
+  },
+  {
+    "vraag": "Welke control helpt vooral bij non-repudiation?",
+    "opties": [
+      "Automatisch verwijderen van auditlogs na een uur",
+      "Generiek teamwachtwoord voor alle beheerders",
+      "Anoniem gastaccount zonder logging",
+      "Digitale ondertekening met persoonsgebonden sleutel"
+    ],
+    "antwoord": 3,
+    "toelichting": "Ondertekening koppelt handeling aan een identificeerbare actor.",
+    "domein": "Cryptography",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 11
+  },
+  {
+    "vraag": "Wat is het verschil tussen vulnerability en threat?",
+    "opties": [
+      "Kwetsbaarheid en dreiging betekenen exact hetzelfde",
+      "Kwetsbaarheid is altijd extern; dreiging altijd intern",
+      "Kwetsbaarheid is zwakte; dreiging is potentiële oorzaak",
+      "Kwetsbaarheid is impact; dreiging is kans"
+    ],
+    "antwoord": 2,
+    "toelichting": "Beide samen bepalen risico volgens de basisformule.",
+    "domein": "Security Principles",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 12
+  },
+  {
+    "vraag": "Welke maatregel ondersteunt beschikbaarheid het meest?",
+    "opties": [
+      "Alleen maandelijkse handmatige patchrondes",
+      "Uitsluitend lokale accounts zonder monitoring",
+      "Strikte geheimhouding zonder back-upstrategie",
+      "Redundante componenten met automatische failover"
+    ],
+    "antwoord": 3,
+    "toelichting": "Failover beperkt uitval bij storing van componenten.",
+    "domein": "Business Continuity",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 13
+  },
+  {
+    "vraag": "Scenario: Een SOC ziet veel mislukte logins op één account vanaf meerdere landen. Wat is de beste eerste actie?",
+    "opties": [
+      "Account tijdelijk blokkeren en incidentonderzoek starten",
+      "Alle firewallregels direct verwijderen",
+      "Wachten tot de volgende werkdag voor analyse",
+      "Alle gebruikers verplicht laten uitloggen"
+    ],
+    "antwoord": 0,
+    "toelichting": "Containment en snelle triage beperken verdere schade.",
+    "domein": "Incident Response",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 14
+  },
+  {
+    "vraag": "Wat is een belangrijk doel van change management?",
+    "opties": [
+      "Securitytests uitsluitend na grote storingen draaien",
+      "Wijzigingen gecontroleerd en herleidbaar doorvoeren",
+      "Productie direct door eindgebruikers laten aanpassen",
+      "Alle wijzigingen zonder goedkeuring direct toepassen"
+    ],
+    "antwoord": 1,
+    "toelichting": "Beheerst wijzigen verkleint kans op verstoringen en fouten.",
+    "domein": "Governance",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 15
+  },
+  {
+    "vraag": "Welke stelling over backups is het meest juist?",
+    "opties": [
+      "Backups zijn voldoende zolang jobs groen tonen",
+      "Encryptie is overbodig voor backupmedia",
+      "Eén online backupkopie is altijd voldoende",
+      "Backups moeten periodiek op herstel getest worden"
+    ],
+    "antwoord": 3,
+    "toelichting": "Ongeteste backups geven schijnzekerheid bij herstel.",
+    "domein": "Business Continuity",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 16
+  },
+  {
+    "vraag": "Wat is het primaire doel van network segmentation?",
+    "opties": [
+      "Alle netwerkverkeer volledig uitschakelen",
+      "Fysieke toegang tot serverruimte vervangen",
+      "Laterale beweging van aanvallers beperken",
+      "Wachtwoordbeleid voor HR automatiseren"
+    ],
+    "antwoord": 2,
+    "toelichting": "Segmentatie beperkt verspreiding binnen het netwerk.",
+    "domein": "Network Security",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 17
+  },
+  {
+    "vraag": "Scenario: Een medewerker installeert ongeautoriseerde browserextensie. Welk controltype voorkomt dit het best?",
+    "opties": [
+      "Handmatige rapportage achteraf per kwartaal",
+      "Open wifi zonder netwerktoegangscontrole",
+      "Alleen jaarlijkse awareness zonder technische maatregel",
+      "Application allowlisting met centraal beheer"
+    ],
+    "antwoord": 3,
+    "toelichting": "Allowlisting voorkomt uitvoering van niet-goedgekeurde software.",
+    "domein": "Endpoint Security",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 18
+  },
+  {
+    "vraag": "Welke wet of norm richt zich op betalingstransacties met kaarten?",
+    "opties": [
+      "PCI DSS voor bescherming van kaarthouderdata",
+      "HIPAA voor medische privacy in de zorg",
+      "ISO 22301 voor continuïteitsbeheerprocessen",
+      "NIS2 voor cyberweerbaarheid van vitale sectoren"
+    ],
+    "antwoord": 0,
+    "toelichting": "PCI DSS bevat eisen voor cardholder data environment.",
+    "domein": "Compliance",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 19
+  },
+  {
+    "vraag": "Wat beschrijft een playbook in incident response?",
+    "opties": [
+      "Stappenplan voor een specifiek incidenttype",
+      "Een contract voor externe cloudopslag",
+      "Een organigram van de IT-afdeling",
+      "Een lijst met alle hardware-assets in gebruik"
+    ],
+    "antwoord": 0,
+    "toelichting": "Playbooks versnellen consistente respons onder druk.",
+    "domein": "Incident Response",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 20
+  },
+  {
+    "vraag": "Welke control is voornamelijk detectief?",
+    "opties": [
+      "IDS dat afwijkend netwerkgedrag alarmeert",
+      "Patchmanagement dat kwetsbaarheden oplost",
+      "Fysiek slot dat serverrack afsluit",
+      "MFA dat toegang vooraf verifieert"
+    ],
+    "antwoord": 0,
+    "toelichting": "Detectieve controls signaleren dat iets gebeurt of gebeurde.",
+    "domein": "Security Controls",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 21
+  },
+  {
+    "vraag": "Wat betekent data minimization in privacycontext?",
+    "opties": [
+      "Alle beschikbare persoonsgegevens onbeperkt archiveren",
+      "Elk formulier uitbreiden met extra velden",
+      "Persoonsgegevens delen met alle leveranciers",
+      "Alleen noodzakelijke persoonsgegevens verzamelen en bewaren"
+    ],
+    "antwoord": 3,
+    "toelichting": "Minder data verlaagt privacyrisico en compliance-last.",
+    "domein": "Privacy",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 22
+  },
+  {
+    "vraag": "Scenario: Een kritieke patch breekt een kernapplicatie in productie. Welke praktijk had dit risico het meest verminderd?",
+    "opties": [
+      "Alleen vertrouwen op leverancier zonder validatie",
+      "Patches uitsluitend in weekend zonder rollbackplan",
+      "Vooraf testen in een representatieve acceptatieomgeving",
+      "Patchnotes overslaan om tijd te besparen"
+    ],
+    "antwoord": 2,
+    "toelichting": "Testen en rollbackplanning beperken implementatierisico.",
+    "domein": "Vulnerability Management",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 23
+  },
+  {
+    "vraag": "Welke uitspraak over logging is juist?",
+    "opties": [
+      "Lokale logs volstaan altijd zonder centrale opslag",
+      "Tijdsynchrone logs zijn cruciaal voor forensisch onderzoek",
+      "Logs zonder timestamps blijven volledig bruikbaar",
+      "Auditlogs mogen direct na incident worden verwijderd"
+    ],
+    "antwoord": 1,
+    "toelichting": "Consistente tijdstempels maken correlatie tussen systemen mogelijk.",
+    "domein": "Security Operations",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 24
+  },
+  {
+    "vraag": "Wat is een sterke maatregel tegen phishing?",
+    "opties": [
+      "Alleen vertrouwen op gebruikersintuïtie zonder tooling",
+      "Links in e-mail automatisch toestaan voor snelheid",
+      "Combinatie van mailfiltering, MFA en training",
+      "Phishingtests volledig stoppen na één kwartaal"
+    ],
+    "antwoord": 2,
+    "toelichting": "Meerdere controls samen geven de beste bescherming.",
+    "domein": "Security Operations",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 25
+  },
+  {
+    "vraag": "Scenario: Een database met klantdata moet naar test worden gekopieerd. Wat is de veiligste aanpak?",
+    "opties": [
+      "Backupsleutels delen via groepschat",
+      "Testomgeving openbaar maken voor externe testers",
+      "Volledige productie-export zonder aanpassingen gebruiken",
+      "Productiedata maskeren voordat deze naar test gaat"
+    ],
+    "antwoord": 3,
+    "toelichting": "Datamasking voorkomt blootstelling van echte persoonsgegevens.",
+    "domein": "Data Security",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 26
+  },
+  {
+    "vraag": "Welke rol hoort typisch bij data owner?",
+    "opties": [
+      "Dagelijkse firewallregels handmatig toepassen",
+      "Softwarelicenties inkopen zonder budgetcontrole",
+      "Classificatie en toegangsregels voor data bepalen",
+      "Werkplekken fysiek schoonmaken na kantooruren"
+    ],
+    "antwoord": 2,
+    "toelichting": "Data ownership koppelt verantwoordelijkheid aan bedrijfswaarde.",
+    "domein": "Governance",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 27
+  },
+  {
+    "vraag": "Wat is het doel van een baseline configuratie?",
+    "opties": [
+      "Patches uitsluiten voor stabiele systemen",
+      "Elke server volledig uniek laten configureren",
+      "Veilige standaardinstellingen consequent toepassen",
+      "Configuraties alleen mondeling documenteren"
+    ],
+    "antwoord": 2,
+    "toelichting": "Baselines verlagen variatie en bekende misconfiguraties.",
+    "domein": "System Hardening",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 28
+  },
+  {
+    "vraag": "Scenario: Een insider downloadt buiten werktijd grote datasets. Welke control helpt het snelst bij detectie?",
+    "opties": [
+      "UEBA-alertering op afwijkend gebruikersgedrag",
+      "Jaarlijkse handmatige review van accesslijsten",
+      "Eenmalige onboardingtraining zonder herhaling",
+      "Papieren bezoekersregistratie bij receptie"
+    ],
+    "antwoord": 0,
+    "toelichting": "Gedragsanalyse maakt afwijkingen vroeg zichtbaar.",
+    "domein": "Security Monitoring",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 29
+  },
+  {
+    "vraag": "Welke eigenschap hoort bij symmetric encryption?",
+    "opties": [
+      "Encryptie werkt zonder sleutelmateriaal in software",
+      "Dezelfde sleutel wordt gebruikt voor encryptie en decryptie",
+      "Sleutelbeheer is niet nodig bij symmetrische methodes",
+      "Publieke sleutel versleutelt en private sleutel tekent"
+    ],
+    "antwoord": 1,
+    "toelichting": "Symmetrisch is snel maar vereist veilige sleuteluitwisseling.",
+    "domein": "Cryptography",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 30
+  },
+  {
+    "vraag": "Wat is het belangrijkste doel van asset management?",
+    "opties": [
+      "Inzicht in wat beschermd moet worden en waar",
+      "Onbekende apparaten standaard internettoegang geven",
+      "Inventaris alleen bij audits eenmalig opstellen",
+      "Alle assets jaarlijks willekeurig hernoemen"
+    ],
+    "antwoord": 0,
+    "toelichting": "Je kunt niet beveiligen wat je niet kent.",
+    "domein": "Security Principles",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 31
+  },
+  {
+    "vraag": "Scenario: Een webapplicatie toont SQL-fouten aan eindgebruikers. Welke verbetering heeft prioriteit?",
+    "opties": [
+      "Veilige foutafhandeling en parameterized queries toepassen",
+      "Databasepoort openbaar zetten voor snellere tests",
+      "Broncode delen in het publieke issue-overzicht",
+      "Alle logging uitschakelen om ruis te beperken"
+    ],
+    "antwoord": 0,
+    "toelichting": "Foutdetails kunnen aanvallers helpen bij exploitatie.",
+    "domein": "Application Security",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 32
+  },
+  {
+    "vraag": "Welke control verlaagt risico op credential stuffing?",
+    "opties": [
+      "Onbeperkte loginpogingen vanaf elk IP-adres",
+      "Verouderde hashfunctie voor wachtwoordopslag",
+      "Rate limiting en MFA op inlogprocessen",
+      "Wachtwoordhint verplicht tonen na foutmelding"
+    ],
+    "antwoord": 2,
+    "toelichting": "Misbruik van gelekte credentials wordt zo minder effectief.",
+    "domein": "Access Control Concepts",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 33
+  },
+  {
+    "vraag": "Wat betekent RTO bij disaster recovery?",
+    "opties": [
+      "Maximale hoeveelheid dataverlies in minuten",
+      "Standaardtijd voor periodieke patchinstallaties",
+      "Maximale hersteltijd voordat dienst weer beschikbaar moet zijn",
+      "Gemiddelde reactietijd van servicedeskmedewerkers"
+    ],
+    "antwoord": 2,
+    "toelichting": "RTO focust op tijd, RPO focust op dataverlies.",
+    "domein": "Business Continuity",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 34
+  },
+  {
+    "vraag": "Scenario: Een cloudbucket met back-ups staat per ongeluk publiek. Wat is de beste directe stap?",
+    "opties": [
+      "Eerst kostenrapport van cloudverbruik opvragen",
+      "Wachten tot de maandelijkse governance meeting",
+      "Back-upretentie permanent uitschakelen",
+      "Publieke toegang direct intrekken en impact beoordelen"
+    ],
+    "antwoord": 3,
+    "toelichting": "Snelle containment voorkomt verdere blootstelling.",
+    "domein": "Cloud Security",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 35
+  },
+  {
+    "vraag": "Welke maatregel versterkt supply-chain security het meest?",
+    "opties": [
+      "Leveranciers onbeperkte productie-toegang geven",
+      "Leveranciers toetsen op security-eisen en auditrechten",
+      "Contracten zonder beveiligingsclausules ondertekenen",
+      "Updates van leveranciers nooit installeren"
+    ],
+    "antwoord": 1,
+    "toelichting": "Derde partijen moeten aantoonbaar aan eisen voldoen.",
+    "domein": "Third-Party Risk",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 36
+  },
+  {
+    "vraag": "Wat is het doel van vulnerability scanning?",
+    "opties": [
+      "Bekende kwetsbaarheden tijdig identificeren",
+      "Alle malware handmatig reverse engineeren",
+      "Incidenten automatisch juridisch afhandelen",
+      "Gebruikersrechten permanent op admin zetten"
+    ],
+    "antwoord": 0,
+    "toelichting": "Scans helpen prioriteren van patch- en mitigatiewerk.",
+    "domein": "Vulnerability Management",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 37
+  },
+  {
+    "vraag": "Scenario: Een API-sleutel staat hardcoded in broncode. Welke aanpak is het best?",
+    "opties": [
+      "Sleutel hergebruiken in meerdere publieke repositories",
+      "Sleutel roteren en secrets in een vault beheren",
+      "Sleutel delen via e-mail met alle teamleden",
+      "Sleutel in commentaar verbergen voor ontwikkelaars"
+    ],
+    "antwoord": 1,
+    "toelichting": "Secrets horen niet in code en moeten direct worden vervangen.",
+    "domein": "Application Security",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 38
+  },
+  {
+    "vraag": "Welke control is administratief van aard?",
+    "opties": [
+      "Disk-encryptie op laptops en servers",
+      "Netwerkfirewall met stateful inspectie",
+      "Vingerafdrukscanner bij datacenterdeur",
+      "Verplicht screening- en onboardingbeleid voor personeel"
+    ],
+    "antwoord": 3,
+    "toelichting": "Administratieve controls sturen gedrag en processen.",
+    "domein": "Security Controls",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 39
+  },
+  {
+    "vraag": "Wat is het belangrijkste voordeel van central identity management?",
+    "opties": [
+      "Auditsporen worden verspreid en onvolledig",
+      "Elke applicatie gebruikt eigen los wachtwoordbeleid",
+      "Consistente toegang en snellere intrekking van rechten",
+      "Gebruikers maken zelfstandig productieaccounts aan"
+    ],
+    "antwoord": 2,
+    "toelichting": "Centrale identiteit verbetert governance en lifecyclebeheer.",
+    "domein": "Identity & Access Management",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 40
+  },
+  {
+    "vraag": "Scenario: Een medewerker verliest een onbeveiligde USB-stick met rapporten. Welke control had dit risico vooral beperkt?",
+    "opties": [
+      "Hogere schermresolutie op kantoorwerkplekken",
+      "Automatische herstart van werkstations elke nacht",
+      "Verplichte encryptie op verwisselbare opslagmedia",
+      "Minder frequente software-updates op laptops"
+    ],
+    "antwoord": 2,
+    "toelichting": "Encryptie beschermt data bij verlies van fysieke media.",
+    "domein": "Data Security",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 41
+  },
+  {
+    "vraag": "Welke stelling over zero trust is het meest correct?",
+    "opties": [
+      "Zero trust vervangt alle monitoring en logging",
+      "Interne netwerken zijn standaard volledig vertrouwd",
+      "Na één login is extra verificatie overbodig",
+      "Vertrouw nooit impliciet; verifieer continu per verzoek"
+    ],
+    "antwoord": 3,
+    "toelichting": "Zero trust combineert identiteit, context en least privilege.",
+    "domein": "Security Architecture",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 42
+  },
+  {
+    "vraag": "Wat is het primaire doel van een tabletop-oefening?",
+    "opties": [
+      "Alle incidenttickets automatisch sluiten",
+      "Crisisrollen en besluitvorming vooraf oefenen",
+      "Back-uphardware fysiek afvoeren als test",
+      "Nieuwe software direct in productie installeren"
+    ],
+    "antwoord": 1,
+    "toelichting": "Tabletop verbetert paraatheid zonder echte verstoring.",
+    "domein": "Incident Response",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 43
+  },
+  {
+    "vraag": "Scenario: Een aanvaller gebruikt gestolen sessiecookies. Welke maatregel helpt dit het best beperken?",
+    "opties": [
+      "Onbeperkte sessies zonder herauthenticatie",
+      "Korte sessieduur en token-binding met device-context",
+      "Wachtwoorden in plain text loggen voor troubleshooting",
+      "Cookies zonder secure- en httponly-attributen"
+    ],
+    "antwoord": 1,
+    "toelichting": "Sterk sessiebeheer verkleint kapingskansen.",
+    "domein": "Application Security",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 44
+  },
+  {
+    "vraag": "Welke aanpak ondersteunt secure disposal van media?",
+    "opties": [
+      "Serverdisks hergebruiken zonder data-erasure",
+      "Data wissen of vernietigen volgens vastgesteld proces",
+      "Back-uptapes onbeheerd in open kantoor bewaren",
+      "Oude schijven zonder controle online verkopen"
+    ],
+    "antwoord": 1,
+    "toelichting": "Veilige afvoer voorkomt herstel van gevoelige data.",
+    "domein": "Data Security",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 45
+  },
+  {
+    "vraag": "Wat is het voordeel van patch-prioritering op basis van CVSS en exploitability?",
+    "opties": [
+      "Patchbeleid uitsluitend baseren op leverancierlogo",
+      "Alle patches willekeurig in alfabetische volgorde uitvoeren",
+      "Kwetsbaarheden pas na jaarlijkse audit bekijken",
+      "Kritieke en misbruikbare kwetsbaarheden eerst aanpakken"
+    ],
+    "antwoord": 3,
+    "toelichting": "Risicogestuurde prioritering gebruikt tijd en capaciteit effectief.",
+    "domein": "Vulnerability Management",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 46
+  },
+  {
+    "vraag": "Scenario: Een DDoS-aanval raakt het klantportaal. Welke maatregel helpt direct bij beschikbaarheid?",
+    "opties": [
+      "Alle gebruikersaccounts handmatig resetten per e-mail",
+      "Databaselogging volledig uitschakelen in productie",
+      "Verkeer omleiden via DDoS-mitigatieservice en rate controls",
+      "Nieuwe functionaliteit direct live zetten als afleiding"
+    ],
+    "antwoord": 2,
+    "toelichting": "Mitigatie op netwerklaag helpt impact van volumetrische aanvallen.",
+    "domein": "Network Security",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 47
+  },
+  {
+    "vraag": "Welke control helpt bij scheiding van taken (SoD)?",
+    "opties": [
+      "Alle bevoegdheden in een gedeeld superaccount plaatsen",
+      "Kritieke transacties door verschillende rollen laten goedkeuren",
+      "Eén beheerder volledige end-to-end rechten geven",
+      "Testaccounts in productie adminrechten toekennen"
+    ],
+    "antwoord": 1,
+    "toelichting": "SoD beperkt fraude en fouten door concentratie van macht.",
+    "domein": "Governance",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 48
+  },
+  {
+    "vraag": "Wat is het doel van een lessons learned fase na incident?",
+    "opties": [
+      "Incidentdetails direct vergeten om stress te beperken",
+      "Alleen schuldigen aanwijzen zonder procesanalyse",
+      "Forensische data verwijderen voordat rapportage start",
+      "Structurele verbeteringen vastleggen en opvolgen"
+    ],
+    "antwoord": 3,
+    "toelichting": "Nazorg verhoogt volwassenheid van de securityorganisatie.",
+    "domein": "Incident Response",
+    "agent": "copilot-coding-agent",
+    "model": "gpt-5.4",
+    "_idx": 49
+  }
+]
