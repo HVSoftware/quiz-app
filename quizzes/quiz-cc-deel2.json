@@ -1,0 +1,392 @@
+[
+  {
+    "vraag": "Welk netwerkapparaat stuurt ontvangen verkeer naar alle poorten, waardoor iedereen alles hoort?",
+    "opties": [
+      "Een switch die adresgegevens onthoudt voor elke poort",
+      "Een router die verkeer tussen netwerken doorstuurt",
+      "Een hub die al het binnenkomende verkeer doorgeeft",
+      "Een bridge die twee netwerksegmenten met elkaar verbindt"
+    ],
+    "antwoord": 2,
+    "toelichting": "Een hub is een dom apparaat op laag 1 dat alle data naar alle poorten doorstuurt. Dat is onveilig (iedereen hoort alles) en inefficiënt. Tegenwoordig worden hubs bijna niet meer gebruikt.",
+    "domein": "Network Security",
+    "_idx": 0
+  },
+  {
+    "vraag": "Op welke OSI-laag werken switches en worden MAC-adressen gebruikt?",
+    "opties": [
+      "Laag 1 — Physical, waar kabels en hubs werken",
+      "Laag 4 — Transport, waar TCP en UDP draaien",
+      "Laag 3 — Network, waar IP-adressen worden gebruikt",
+      "Laag 2 — Data Link, waar MAC-adressen thuishoren"
+    ],
+    "antwoord": 3,
+    "toelichting": "Switches werken op laag 2 (Data Link) en gebruiken MAC-adressen om te bepalen naar welke poort ze frames moeten sturen. MAC-adressen zijn 48 bits lang en bestaan uit 6 groepjes van 2 hexadecimale tekens.",
+    "domein": "Network Security",
+    "_idx": 1
+  },
+  {
+    "vraag": "Welk ezelsbruggetje helpt om de OSI-lagen van boven naar onder te onthouden?",
+    "opties": [
+      "DIP in de PSAP voor de lagen van boven naar onder",
+      "All People Seem To Need Data Processing van 7 naar 1",
+      "Please Do Not Throw Sausage Pizza Away van 7 naar 1",
+      "De bovenste vier en de onderste drie voor de lagen"
+    ],
+    "antwoord": 0,
+    "toelichting": "DIP in de PSAP staat voor Data, Presentation, Application, Session, Physical — en dan Network en Data Link erbij. De andere ezelsbruggetjes gaan van onder naar boven (laag 1 naar 7).",
+    "domein": "Network Security",
+    "_idx": 2
+  },
+  {
+    "vraag": "Welke eenheid wordt gebruikt voor data op OSI-laag 4 (Transport)?",
+    "opties": [
+      "Bits, de kleinste eenheid op het fysieke netwerk",
+      "Frames, de eenheid op de datalink-laag van het netwerk",
+      "Segments, de eenheid op de transportlaag van TCP",
+      "Packets, de eenheid op de netwerklaag van IP"
+    ],
+    "antwoord": 2,
+    "toelichting": "Op laag 4 (Transport) heet de data-eenheid een segment. FPS helpt onthouden: Frames (laag 2), Packets (laag 3), Segments (laag 4).",
+    "domein": "Network Security",
+    "_idx": 3
+  },
+  {
+    "vraag": "Wat is het juiste antwoord over het verschil tussen TCP en UDP?",
+    "opties": [
+      "TCP is betrouwbaarder maar langzamer, UDP is sneller maar onzekerder",
+      "UDP maakt eerst verbinding voordat het data verstuurt naar de server",
+      "Er is geen verschil tussen beide protocollen voor transport",
+      "TCP is sneller maar minder betrouwbaar dan UDP voor dataverkeer"
+    ],
+    "antwoord": 0,
+    "toelichting": "TCP is connectie-gericht en betrouwbaar: het gebruikt een three-way handshake en volgnummers zodat ontbrekende stukjes opnieuw verstuurd worden. UDP is sneller maar connectionless — verlies van pakketjes is acceptabel.",
+    "domein": "Network Security",
+    "_idx": 4
+  },
+  {
+    "vraag": "Welke drie stappen doorloopt een TCP three-way handshake?",
+    "opties": [
+      "Connect, Verify en Transfer om data uit te wisselen",
+      "Open, Data en Close om verbinding op te zetten",
+      "SYN, SYN-ACK en ACK voor de verbindingsovereenkomst",
+      "Request, Response en Confirm voor de verbinding"
+    ],
+    "antwoord": 2,
+    "toelichting": "De three-way handshake verloopt als volgt: SYN (klant wil verbinding), SYN-ACK (server bevestigt), ACK (klant bevestigt). Daarna is de verbinding opgezet en kan data worden uitgewisseld.",
+    "domein": "Network Security",
+    "_idx": 5
+  },
+  {
+    "vraag": "Welke poort wordt gebruikt voor HTTPS (beveiligd webverkeer)?",
+    "opties": [
+      "Poort 443, de standaard voor versleuteld webverkeer",
+      "Poort 22, gebruikt voor Secure Shell verbindingen",
+      "Poort 3389, de standaard voor Remote Desktop Protocol",
+      "Poort 80, de standaard voor onversleuteld webverkeer"
+    ],
+    "antwoord": 0,
+    "toelichting": "HTTPS draait op poort 443. Poort 80 is HTTP (onbeveiligd), poort 22 is SSH, en poort 3389 is Remote Desktop (RDP). Deze vier moet je sowieso uit je hoofd kennen.",
+    "domein": "Network Security",
+    "_idx": 6
+  },
+  {
+    "vraag": "Hoe groot is een IPv4-adres in bits en hoe wordt het weergegeven?",
+    "opties": [
+      "128 bits, weergegeven als acht groepjes van hexadecimale tekens",
+      "64 bits, weergegeven als vier groepjes van decimale cijfers",
+      "256 bits, weergegeven als tien groepjes van binaire getallen",
+      "32 bits, weergegeven als vier groepjes van decimale cijfers"
+    ],
+    "antwoord": 3,
+    "toelichting": "IPv4-adressen zijn 32 bits lang en worden weergegeven als 4 cijfergroepen (bijv. 192.168.1.1). IPv6 is 128 bits, wat veel meer adressen mogelijk maakt.",
+    "domein": "Network Security",
+    "_idx": 7
+  },
+  {
+    "vraag": "Wat is het belangrijkste verschil tussen een hub en een switch?",
+    "opties": [
+      "Een switch stuurt verkeer alleen naar de juiste poort, een hub naar iedereen",
+      "Er is geen verschil, beide apparaten doen hetzelfde in een netwerk",
+      "Een hub stuurt verkeer naar één specifieke poort, een switch naar iedereen",
+      "Een hub is een laag 2-apparaat terwijl een switch op laag 1 werkt"
+    ],
+    "antwoord": 0,
+    "toelichting": "Een switch is intelligent: hij leert welk apparaat op welke poort zit en stuurt frames alleen daarheen. Een hub is dom en stuurt alles naar iedereen. Daarom worden hubs bijna niet meer gebruikt.",
+    "domein": "Network Security",
+    "_idx": 8
+  },
+  {
+    "vraag": "Waar staat het acroniem VLAN voor in netwerken?",
+    "opties": [
+      "Virtual Layer Access Network voor draadloze verbindingen",
+      "Verified LAN Architecture Node voor beveiligde netwerken",
+      "Verified Local Access Node voor lokale verbindingen",
+      "Virtual Local Area Network voor virtuele segmentatie"
+    ],
+    "antwoord": 3,
+    "toelichting": "VLAN staat voor Virtual Local Area Network. Het is een manier om een fysiek netwerk op te delen in virtuele segmenten zonder fysieke veranderingen.",
+    "domein": "Network Security",
+    "_idx": 9
+  },
+  {
+    "vraag": "Welk type aanval verstoort de ARP-tabel van een slachtoffer op het netwerk?",
+    "opties": [
+      "Een deauthentication attack die WiFi-gebruikers ontkoppelt",
+      "Een ARP-poisoning die de tabel met IP- en MAC-adressen verwart",
+      "Een DNS-spoofing die valse domeinnaamoplossingen geeft",
+      "Een packet sniffing die verkeer afluistert op het netwerk"
+    ],
+    "antwoord": 1,
+    "toelichting": "Bij ARP-poisoning (ook wel ARP-spoofing) wordt de ARP-tabel van het slachtoffer gemanipuleerd zodat verkeer wordt omgeleid naar de aanvaller. Dit is een veelgebruikte techniek voor man-in-the-middle-aanvallen.",
+    "domein": "Network Security",
+    "_idx": 10
+  },
+  {
+    "vraag": "Wat is een 'evil twin' in de context van draadloze beveiliging?",
+    "opties": [
+      "Een nep-access point dat zich voordoet als een legitiem WiFi-netwerk",
+      "Een reserve-access point dat als back-up dient bij storingen",
+      "Een versleuteld WiFi-netwerk met twee verschillende wachtwoorden",
+      "Een redundantie-opstelling met twee access points voor dekking"
+    ],
+    "antwoord": 0,
+    "toelichting": "Een evil twin is een ongeautoriseerd access point dat zich voordoet als een legitiem netwerk. Gebruikers verbinden er ongemerkt mee, waarna de aanvaller hun verkeer kan onderscheppen.",
+    "domein": "Network Security",
+    "_idx": 11
+  },
+  {
+    "vraag": "Welke firewall houdt bij welke verbindingen al open zijn?",
+    "opties": [
+      "Een stateless firewall die alleen vaste regels toepast op verkeer",
+      "Een application-layer firewall die op applicatieniveau filtert",
+      "Een proxy firewall die als tussenpersoon fungeert voor verbindingen",
+      "Een stateful firewall die de staat van alle open verbindingen bijhoudt"
+    ],
+    "antwoord": 3,
+    "toelichting": "Een stateful firewall onthoudt de staat van verbindingen (welke er open zijn). Een stateless firewall filtert alleen op vaste regels zonder context.",
+    "domein": "Network Security",
+    "_idx": 12
+  },
+  {
+    "vraag": "Wat is het hoofddoel van netwerksegmentatie?",
+    "opties": [
+      "De totale netwerksnelheid verhogen voor alle gebruikers",
+      "Het aantal switches in een netwerk aanzienlijk verminderen",
+      "Alle apparaten in één overzichtelijk netwerk plaatsen together",
+      "Netwerken opdelen zodat een incident zich niet verder verspreidt"
+    ],
+    "antwoord": 3,
+    "toelichting": "Netwerksegmentatie zorgt ervoor dat als één segment wordt aangetast, de rest van het netwerk beschermd blijft. Het beperkt de schade bij een incident.",
+    "domein": "Network Security",
+    "_idx": 13
+  },
+  {
+    "vraag": "Welke fases kent het NIST-model voor incidentrespons?",
+    "opties": [
+      "Voorbereiding, detectie en analyse, inperking en herstel, lessen",
+      "Identificatie, protectie, detectie, reactie en herstel vijf fases",
+      "Detectie, analyse, quarantaine en herstel van het incident",
+      "Preventie, monitoring, logging en rapportage van incidenten"
+    ],
+    "antwoord": 0,
+    "toelichting": "Het NIST-lifecycle model bestaat uit vier fases: 1) Voorbereiding, 2) Detectie en analyse, 3) Inperking, uitroeiing en herstel, 4) Activiteiten na het incident (lessons learned).",
+    "domein": "Security Operations",
+    "_idx": 14
+  },
+  {
+    "vraag": "Wat is het verschil tussen een vulnerability scan en een penetratietest?",
+    "opties": [
+      "Een pentest is uitsluitend bedoeld voor draadloze netwerken",
+      "Een vulnerability scan zoekt kwetsbaarheden, een pentest dringt door",
+      "Beide onderzoeken zijn exact hetzelfde in aanpak en doel",
+      "Een vulnerability scan is actief, een pentest is volledig passief"
+    ],
+    "antwoord": 1,
+    "toelichting": "Een vulnerability scan is passief: hij scant systemen op bekende kwetsbaarheden. Een penetratietest is actief: iemand probeert daadwerkelijk binnen te dringen om de kwetsbaarheden te exploiteren.",
+    "domein": "Security Operations",
+    "_idx": 15
+  },
+  {
+    "vraag": "Wat staat er op de eerste plaats in het BIA-rapport?",
+    "opties": [
+      "De contactgegevens van alle relevante leveranciers en partners",
+      "Een volledige lijst van alle IT-systemen in de organisatie",
+      "De back-upfrequentie van alle servers en werkplekken",
+      "De kritische bedrijfsprocessen en de impact bij een storing"
+    ],
+    "antwoord": 3,
+    "toelichting": "In een BIA worden allereerst de kritische bedrijfsprocessen geïdentificeerd en de impact van onderbreking op die processen. Op basis daarvan worden RTO en RPO vastgesteld.",
+    "domein": "Security Operations",
+    "_idx": 16
+  },
+  {
+    "vraag": "Wat is het doel van RPO (Recovery Point Objective)?",
+    "opties": [
+      "Bepalen wie verantwoordelijk is voor het herstel na een ramp",
+      "Aangeven hoe snel een systeem weer moet werken na een storing",
+      "Vaststellen hoeveel data maximaal verloren mag gaan bij een ramp",
+      "Beslissen hoe vaak back-ups gemaakt moeten worden in totaal"
+    ],
+    "antwoord": 2,
+    "toelichting": "RPO bepaalt hoeveel data je maximaal kwijt mag raken. Als je RPO 4 uur is, moet je minstens elke 4 uur een back-up maken. RTO gaat over hoe snel het weer moet werken.",
+    "domein": "Security Operations",
+    "_idx": 17
+  },
+  {
+    "vraag": "Waarom is patch management belangrijk en wat is een valkuil?",
+    "opties": [
+      "Patches worden automatisch geïnstalleerd en vereisen geen actie",
+      "Patches maken systemen langzamer, dus je moet ze altijd vermijden",
+      "Organisaties wachten te lang uit angst dat een patch storingen veroorzaakt",
+      "Patch management is alleen relevant voor servers, niet voor werkplekken"
+    ],
+    "antwoord": 2,
+    "toelichting": "Veel organisaties zijn bang dat een patch een storing veroorzaakt in productie. Daarom wachten ze te lang met patchen, wat juist risico's oplevert. Patches moeten getest worden, maar niet patchen is nog riskanter.",
+    "domein": "Security Operations",
+    "_idx": 18
+  },
+  {
+    "vraag": "Wat is het verschil tussen logging, monitoring en auditing?",
+    "opties": [
+      "Ze zijn allemaal hetzelfde en worden door elkaar gebruikt",
+      "Logging is optioneel, monitoring is verplicht, auditing optioneel",
+      "Logging is voor netwerken, monitoring voor servers, auditing apps",
+      "Logging registreert, monitoring let actief op, auditing controleert"
+    ],
+    "antwoord": 3,
+    "toelichting": "Logging registreert wat er gebeurt. Monitoring houdt actief in de gaten of er iets misgaat. Auditing controleert of regels en beleid daadwerkelijk nageleefd worden.",
+    "domein": "Security Operations",
+    "_idx": 19
+  },
+  {
+    "vraag": "Welke tool voegt logs samen van verschillende systemen en ontdekt patronen?",
+    "opties": [
+      "NAC, dat controleert of apparaten voldoen aan het netwerkbeleid",
+      "VPN, dat een versleutelde tunnel opzet naar een extern netwerk",
+      "SIEM, dat logs centraliseert, normaliseert en analyseert op patronen",
+      "IDS, dat verdacht verkeer detecteert maar geen logs samenvoegt"
+    ],
+    "antwoord": 2,
+    "toelichting": "Een SIEM aggregeert (samenvoegt) en normaliseert (hetzelfde formaat maakt) van logs van alle systemen in een netwerk. Het detecteert patronen en genereert alerts. Dit is de belangrijkste tool voor een SOC-analist.",
+    "domein": "Security Operations",
+    "_idx": 20
+  },
+  {
+    "vraag": "Wat is het verschil tussen een forward proxy en een reverse proxy?",
+    "opties": [
+      "Forward proxy is voor inkomend verkeer, reverse proxy voor uitgaand",
+      "Forward proxy regelt uitgaand verkeer, reverse proxy beschermt servers",
+      "Er is geen verschil tussen beide vormen van proxy servers",
+      "Forward proxy beschermt binnenshuis, reverse proxy externe gebruikers"
+    ],
+    "antwoord": 1,
+    "toelichting": "Een forward proxy regelt verkeer van interne gebruikers naar het internet (bijv. voor filtering). Een reverse proxy staat voor een server en beschermt die tegen inkomend verkeer.",
+    "domein": "Network Security",
+    "_idx": 21
+  },
+  {
+    "vraag": "Wat is het gevaar van een deauthentication attack op WiFi?",
+    "opties": [
+      "Alle apparaten op het netwerk worden tegelijk gescand op kwetsbaarheden",
+      "WiFi-gebruikers worden ontkoppeld zodat ze verbinden met een nep-AP",
+      "Het wachtwoord van het WiFi-netwerk wordt onleesbaar gemaakt",
+      "De verbinding wordt versleuteld met een zwakke sleutel die te kraken is"
+    ],
+    "antwoord": 1,
+    "toelichting": "Bij een deauthentication attack worden WiFi-gebruikers gedwongen ongekoppeld te worden. Als er een evil twin (nep AP) staat, zullen ze daarmee verbinden en kan de aanvaller hun verkeer onderscheppen.",
+    "domein": "Network Security",
+    "_idx": 22
+  },
+  {
+    "vraag": "Wat is het verschil tussen public, private en hybride cloud?",
+    "opties": [
+      "Public is alleen voor overheden, private voor bedrijven, hybride mix",
+      "Public is gratis, private is betaald, hybride is deels gratis",
+      "Public deelt infrastructuur, private is alleen voor jou, hybride mix",
+      "Er is geen verschil, het zijn allemaal dezelfde cloudmodellen"
+    ],
+    "antwoord": 2,
+    "toelichting": "In een public cloud deel je infrastructuur met andere organisaties. In een private cloud heb je je eigen omgeving. Hybride cloud is een mix: sommige diensten in public, andere in private.",
+    "domein": "Security Operations",
+    "_idx": 23
+  },
+  {
+    "vraag": "Welke factor hoort bij 'something you have' in authenticatie?",
+    "opties": [
+      "Een wachtwoord dat je moet onthouden voor de login",
+      "Een vingerafdruk die gescand wordt bij de toegangscontrole",
+      "Een mobiele telefoon met een authenticator-app voor tweefactor",
+      "Je stemherkenning die je identiteit bevestigt via je stem"
+    ],
+    "antwoord": 2,
+    "toelichting": "Een mobiele telefoon of een hardware-token is 'something you have'. Vingerafdruk en stemherkenning zijn 'something you are'. Wachtwoord en pincode zijn 'something you know'.",
+    "domein": "Security Operations",
+    "_idx": 24
+  },
+  {
+    "vraag": "Welk type back-up bevat wijzigingen sinds de laatste volledige back-up?",
+    "opties": [
+      "Een volledige back-up die alles in één keer kopieert",
+      "Een differentiële back-up bewaart wijzigingen sinds de volledige",
+      "Een incrementele back-up die sinds de vorige backup wijzigt",
+      "Een snapshot back-up die een momentopname van het systeem maakt"
+    ],
+    "antwoord": 1,
+    "toelichting": "Een differentiële back-up slaat alle wijzigingen op sinds de laatste volledige back-up. Een incrementele back-up slaat alleen de wijzigingen op sinds de laatste back-up van welk type dan ook.",
+    "domein": "Security Operations",
+    "_idx": 25
+  },
+  {
+    "vraag": "Waarom is chain of custody belangrijk bij forensisch onderzoek?",
+    "opties": [
+      "Om de kosten van het digitale onderzoek goed te kunnen dekken",
+      "Om het bewijsmateriaal sneller te kunnen analyseren en verwerken",
+      "Om te bewijzen dat het bewijs niet is vervalst of gewijzigd onderweg",
+      "Om de verdachte op tijd te kunnen arresteren voor het incident"
+    ],
+    "antwoord": 2,
+    "toelichting": "Chain of custody documentatie zorgt ervoor dat bewijsmateriaal onveranderd blijft en de rechtmatigheid ervan aangetoond kan worden. Zonder goede chain of custody is bewijs vaak niet geldig in de rechtbank.",
+    "domein": "Security Operations",
+    "_idx": 26
+  },
+  {
+    "vraag": "Wat is het verschil tussen IaaS, PaaS en SaaS?",
+    "opties": [
+      "SaaS is het meest flexibel voor de klant, IaaS het minst flexibel",
+      "Bij IaaS beheert de klant alles, bij SaaS alleen data, PaaS ertussenin",
+      "Er is geen verschil, het zijn allemaal dezelfde cloudservicemodellen",
+      "PaaS is alleen voor ontwikkelaars, IaaS en SaaS voor iedereen"
+    ],
+    "antwoord": 1,
+    "toelichting": "IaaS geeft de klant de meeste controle (OS, apps, data). Bij PaaS beheer je alleen apps en data. Bij SaaS beheer je alleen je data. Hoe hoger in het model, hoe minder controle je hebt over de onderliggende infrastructuur.",
+    "domein": "Security Operations",
+    "_idx": 27
+  },
+  {
+    "vraag": "Wat is het doel van NAC (Network Access Control)?",
+    "opties": [
+      "Het blokkeren van al het inkomende verkeer van buitenaf op het netwerk",
+      "Het monitoren van alle draadloze access points op het kantoor",
+      "Het versleutelen van al het netwerkverkeer tussen apparaten",
+      "Controleren of een apparaat voldoet aan het beleid voor toegang"
+    ],
+    "antwoord": 3,
+    "toelichting": "NAC controleert voordat een apparaat toegang krijgt tot het netwerk of het voldoet aan het beleid: is de antivirus up-to-date? Zijn de patches geïnstalleerd? Alleen dan krijgt het apparaat toegang.",
+    "domein": "Security Operations",
+    "_idx": 28
+  },
+  {
+    "vraag": "Welke aanval verstoort een netwerk door massaal SYN-verzoeken te versturen?",
+    "opties": [
+      "Een DNS-spoofing die valse antwoorden teruggeeft aan gebruikers",
+      "Een deauthentication attack die WiFi-gebruikers ontkoppelt van het netwerk",
+      "Een man-in-the-middle-aanval die verkeer onderschept tussen twee partijen",
+      "Een SYN-flood die de wachtrij van het slachtoffer vol probeert te maken"
+    ],
+    "antwoord": 3,
+    "toelichting": "Bij een SYN-flood stuurt de aanvaller enorm veel SYN-verzoeken, maar beantwoordt de SYN-ACK nooit. Het slachtoffer houdt steeds verbindingen open in afwachting, waardoor de wachtrij vol raakt en echte gebruikers geweerd worden.",
+    "domein": "Network Security",
+    "_idx": 29
+  }
+]
