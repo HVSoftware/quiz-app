@@ -1,0 +1,1406 @@
+[
+  {
+    "vraag": "What does ISC2 stand for?",
+    "opties": [
+      "International Security Certification Council",
+      "International Information System Security Certification Consortium",
+      "Information Systems Cybersecurity Certification Consortium",
+      "International Cybersecurity Standards Committee"
+    ],
+    "antwoord": 1,
+    "toelichting": "ISC2 stands for International Information System Security Certification Consortium, the organization that administers the CC and CISSP certifications.",
+    "domein": "CC Certification"
+  },
+  {
+    "vraag": "What type of testing format does the ISC2 CC exam use?",
+    "opties": [
+      "Paper-based fixed-length test",
+      "Computerized adaptive testing (CAT)",
+      "Oral examination",
+      "Performance-based lab test"
+    ],
+    "antwoord": 1,
+    "toelichting": "The ISC2 CC exam uses Computerized Adaptive Testing (CAT), which adjusts the difficulty of questions based on the candidate's performance.",
+    "domein": "CC Certification"
+  },
+  {
+    "vraag": "Which of the following best describes a career path that the CC certification is designed to support?",
+    "opties": [
+      "Senior software architect",
+      "Entry-level cybersecurity professional",
+      "Chief Financial Officer",
+      "Database Administrator"
+    ],
+    "antwoord": 1,
+    "toelichting": "The ISC2 CC (Certified in Cybersecurity) is designed as an entry-level credential for those starting a career in cybersecurity.",
+    "domein": "CC Certification"
+  },
+  {
+    "vraag": "What is the ISC2 Code of Ethics primarily intended to do?",
+    "opties": [
+      "Provide technical guidelines for securing networks",
+      "Define the legal requirements for cybersecurity professionals",
+      "Set behavioral and professional standards for ISC2 members",
+      "Outline the syllabus for ISC2 exams"
+    ],
+    "antwoord": 2,
+    "toelichting": "The ISC2 Code of Ethics establishes the professional and ethical standards that all ISC2 members are expected to uphold.",
+    "domein": "CC Certification"
+  },
+  {
+    "vraag": "Which of the following is NOT one of the four canons of the ISC2 Code of Ethics?",
+    "opties": [
+      "Protect society, the common good, necessary public trust, and the infrastructure",
+      "Act honorably, honestly, justly, responsibly, and legally",
+      "Maximize personal financial gain through cybersecurity expertise",
+      "Advance and protect the profession"
+    ],
+    "antwoord": 2,
+    "toelichting": "The four canons of the ISC2 Code of Ethics focus on protecting society, acting honorably, providing diligent service, and advancing the profession — not personal financial gain.",
+    "domein": "CC Certification"
+  },
+  {
+    "vraag": "Which CIA triad principle ensures that information is accessible only to those authorized to view it?",
+    "opties": [
+      "Availability",
+      "Integrity",
+      "Confidentiality",
+      "Authentication"
+    ],
+    "antwoord": 2,
+    "toelichting": "Confidentiality ensures that sensitive information is only accessible to authorized individuals and is not disclosed to unauthorized parties.",
+    "domein": "Security Concepts"
+  },
+  {
+    "vraag": "Which CIA triad principle ensures that data has not been altered in an unauthorized manner?",
+    "opties": [
+      "Confidentiality",
+      "Availability",
+      "Non-repudiation",
+      "Integrity"
+    ],
+    "antwoord": 3,
+    "toelichting": "Integrity ensures that data remains accurate, consistent, and trustworthy, and has not been tampered with by unauthorized parties.",
+    "domein": "Security Concepts"
+  },
+  {
+    "vraag": "A ransomware attack encrypts all files on a company's servers, preventing employees from accessing their work. Which CIA triad principle is most directly violated?",
+    "opties": [
+      "Integrity",
+      "Confidentiality",
+      "Availability",
+      "Non-repudiation"
+    ],
+    "antwoord": 2,
+    "toelichting": "Availability ensures that systems and data are accessible when needed. A ransomware attack that prevents access to files directly violates availability.",
+    "domein": "Security Concepts"
+  },
+  {
+    "vraag": "What is the primary purpose of authentication in cybersecurity?",
+    "opties": [
+      "To encrypt data in transit",
+      "To verify the identity of a user or system",
+      "To authorize access to specific resources",
+      "To log all user activity"
+    ],
+    "antwoord": 1,
+    "toelichting": "Authentication is the process of verifying the identity of a user, system, or entity before granting access to resources.",
+    "domein": "Security Concepts"
+  },
+  {
+    "vraag": "Which of the following is an example of a strong password policy?",
+    "opties": [
+      "Requiring passwords to be at least 6 characters",
+      "Allowing users to reuse their last password",
+      "Requiring minimum length, complexity, and regular rotation",
+      "Storing passwords in plain text for easy recovery"
+    ],
+    "antwoord": 2,
+    "toelichting": "A strong password policy typically requires minimum length, a mix of character types (complexity), and periodic password changes while preventing reuse of old passwords.",
+    "domein": "Security Concepts"
+  },
+  {
+    "vraag": "Multifactor authentication (MFA) relies on which combination of factors?",
+    "opties": [
+      "Two or more passwords",
+      "Two or more different types of authentication factors",
+      "A username and a security question",
+      "A PIN and a password"
+    ],
+    "antwoord": 1,
+    "toelichting": "MFA uses two or more different factor types: something you know (password), something you have (token), or something you are (biometric).",
+    "domein": "Security Concepts"
+  },
+  {
+    "vraag": "What is non-repudiation in the context of cybersecurity?",
+    "opties": [
+      "The ability to deny sending a message",
+      "Proof that an action or communication took place and cannot be denied by the sender",
+      "Encrypting messages so they cannot be read",
+      "Verifying that a user's identity is legitimate"
+    ],
+    "antwoord": 1,
+    "toelichting": "Non-repudiation provides proof that a sender cannot later deny having sent a message or performed an action, typically implemented through digital signatures.",
+    "domein": "Security Concepts"
+  },
+  {
+    "vraag": "Which of the following best defines privacy in the context of information security?",
+    "opties": [
+      "Keeping all organizational data secret from employees",
+      "The right of individuals to control how their personal information is collected and used",
+      "Encrypting all network traffic",
+      "Preventing unauthorized system access"
+    ],
+    "antwoord": 1,
+    "toelichting": "Privacy refers to the rights of individuals to control the collection, use, and disclosure of their personal information.",
+    "domein": "Security Concepts"
+  },
+  {
+    "vraag": "What is the difference between a threat and a vulnerability?",
+    "opties": [
+      "They are the same thing",
+      "A threat is a potential harm, while a vulnerability is a weakness that could be exploited",
+      "A vulnerability is a potential harm, while a threat is a weakness",
+      "A threat only applies to hardware, while a vulnerability applies to software"
+    ],
+    "antwoord": 1,
+    "toelichting": "A threat is any potential event that could harm an asset, while a vulnerability is a weakness or flaw that a threat can exploit to cause harm.",
+    "domein": "Risk Management"
+  },
+  {
+    "vraag": "In risk management, what does the term 'risk' represent?",
+    "opties": [
+      "The probability that a vulnerability exists",
+      "The combination of the likelihood of a threat exploiting a vulnerability and the resulting impact",
+      "The monetary value of an asset",
+      "The number of security controls in place"
+    ],
+    "antwoord": 1,
+    "toelichting": "Risk is the combination of the probability that a threat will exploit a vulnerability and the magnitude of the resulting harm or impact.",
+    "domein": "Risk Management"
+  },
+  {
+    "vraag": "Which risk treatment option involves accepting the potential loss without taking action?",
+    "opties": [
+      "Risk avoidance",
+      "Risk mitigation",
+      "Risk transference",
+      "Risk acceptance"
+    ],
+    "antwoord": 3,
+    "toelichting": "Risk acceptance means acknowledging a risk and deciding to accept the potential consequences without implementing additional controls.",
+    "domein": "Risk Management"
+  },
+  {
+    "vraag": "A company purchases cyber liability insurance to cover potential data breach costs. Which risk treatment strategy is this?",
+    "opties": [
+      "Risk avoidance",
+      "Risk mitigation",
+      "Risk transference",
+      "Risk acceptance"
+    ],
+    "antwoord": 2,
+    "toelichting": "Risk transference shifts the financial impact of a risk to a third party, such as an insurance company, through cyber liability insurance.",
+    "domein": "Risk Management"
+  },
+  {
+    "vraag": "Which of the following best describes the purpose of a security control?",
+    "opties": [
+      "To eliminate all risks to an organization",
+      "To reduce the likelihood or impact of a security risk",
+      "To identify all vulnerabilities in a system",
+      "To transfer risk to an insurance provider"
+    ],
+    "antwoord": 1,
+    "toelichting": "Security controls are safeguards or countermeasures used to reduce risk by decreasing the likelihood or impact of a threat exploiting a vulnerability.",
+    "domein": "Risk Management"
+  },
+  {
+    "vraag": "What is the purpose of configuration management in cybersecurity?",
+    "opties": [
+      "To track and control changes to system configurations to maintain security",
+      "To manage user passwords and access credentials",
+      "To document network diagrams",
+      "To classify data based on sensitivity"
+    ],
+    "antwoord": 0,
+    "toelichting": "Configuration management ensures that system configurations are tracked, controlled, and maintained in a known, secure state, preventing unauthorized changes.",
+    "domein": "Risk Management"
+  },
+  {
+    "vraag": "Which of the following is an example of a regulatory requirement that organizations must comply with?",
+    "opties": [
+      "The organization's internal password policy",
+      "The General Data Protection Regulation (GDPR)",
+      "A vendor's service level agreement",
+      "An industry best practice guideline"
+    ],
+    "antwoord": 1,
+    "toelichting": "GDPR is a regulation issued by the European Union that organizations must comply with regarding the handling of personal data of EU residents.",
+    "domein": "Security Governance"
+  },
+  {
+    "vraag": "What is the primary purpose of a security policy framework?",
+    "opties": [
+      "To provide technical implementation details for firewalls",
+      "To define acceptable use of organizational systems and guide security behavior",
+      "To replace all technical security controls",
+      "To satisfy vendor requirements"
+    ],
+    "antwoord": 1,
+    "toelichting": "A security policy framework consists of policies, standards, procedures, and guidelines that define acceptable behavior and guide security decision-making across the organization.",
+    "domein": "Security Governance"
+  },
+  {
+    "vraag": "Which document type provides mandatory, high-level rules governing security behavior within an organization?",
+    "opties": [
+      "Procedure",
+      "Guideline",
+      "Policy",
+      "Standard"
+    ],
+    "antwoord": 2,
+    "toelichting": "A policy is a high-level, mandatory document that sets the rules and expectations for security behavior within an organization.",
+    "domein": "Security Governance"
+  },
+  {
+    "vraag": "An acceptable use policy (AUP) typically covers which of the following?",
+    "opties": [
+      "Technical firewall configuration rules",
+      "Permitted uses of organizational technology resources by employees",
+      "Physical access control to data centers",
+      "Encryption algorithms used for data protection"
+    ],
+    "antwoord": 1,
+    "toelichting": "An Acceptable Use Policy defines what constitutes appropriate and inappropriate use of an organization's technology resources, including computers, networks, and internet access.",
+    "domein": "Security Governance"
+  },
+  {
+    "vraag": "What is the primary goal of business continuity planning (BCP)?",
+    "opties": [
+      "To recover IT systems after a disaster",
+      "To ensure critical business functions continue during and after a disruption",
+      "To create data backups for all company files",
+      "To comply with regulatory requirements"
+    ],
+    "antwoord": 1,
+    "toelichting": "Business continuity planning focuses on ensuring that critical business operations can continue during and after a disruptive event, not just IT recovery.",
+    "domein": "Business Continuity"
+  },
+  {
+    "vraag": "Which metric represents the maximum amount of time a business can tolerate being without a critical system?",
+    "opties": [
+      "Recovery Point Objective (RPO)",
+      "Mean Time to Repair (MTTR)",
+      "Recovery Time Objective (RTO)",
+      "Maximum Tolerable Downtime (MTD)"
+    ],
+    "antwoord": 2,
+    "toelichting": "The Recovery Time Objective (RTO) specifies the maximum acceptable amount of time to restore a system or process after a disruption.",
+    "domein": "Business Continuity"
+  },
+  {
+    "vraag": "What does Recovery Point Objective (RPO) measure?",
+    "opties": [
+      "How long a system can be offline before business impact is unacceptable",
+      "The maximum acceptable amount of data loss measured in time",
+      "The time required to restore a backup",
+      "The frequency of disaster recovery drills"
+    ],
+    "antwoord": 1,
+    "toelichting": "RPO defines the maximum age of data that must be recoverable, effectively setting how much data loss is acceptable (e.g., an RPO of 4 hours means you must restore data from within the last 4 hours).",
+    "domein": "Business Continuity"
+  },
+  {
+    "vraag": "High availability systems are designed to achieve which primary goal?",
+    "opties": [
+      "Maximum data encryption",
+      "Minimize authorized user access",
+      "Minimize downtime and ensure continuous operation",
+      "Reduce hardware costs"
+    ],
+    "antwoord": 2,
+    "toelichting": "High availability aims to minimize system downtime and ensure that systems remain operational and accessible, often through redundancy and failover mechanisms.",
+    "domein": "Business Continuity"
+  },
+  {
+    "vraag": "Which of the following is an example of a fault tolerance mechanism?",
+    "opties": [
+      "Installing antivirus software",
+      "Using RAID storage to continue operating if a disk fails",
+      "Conducting annual security awareness training",
+      "Encrypting all network traffic"
+    ],
+    "antwoord": 1,
+    "toelichting": "RAID (Redundant Array of Independent Disks) is a fault tolerance technology that allows a system to continue functioning even if one disk fails.",
+    "domein": "Business Continuity"
+  },
+  {
+    "vraag": "What is the first step in building an effective incident response program?",
+    "opties": [
+      "Purchase security monitoring tools",
+      "Develop and document an incident response policy and plan",
+      "Hire additional security staff",
+      "Install a SIEM system"
+    ],
+    "antwoord": 1,
+    "toelichting": "An effective incident response program starts with developing a policy and plan that defines roles, responsibilities, and procedures before an incident occurs.",
+    "domein": "Incident Response"
+  },
+  {
+    "vraag": "Which phase of the incident response lifecycle involves identifying whether a security event has actually occurred?",
+    "opties": [
+      "Preparation",
+      "Containment",
+      "Detection and Analysis",
+      "Eradication"
+    ],
+    "antwoord": 2,
+    "toelichting": "The Detection and Analysis phase involves identifying security events, analyzing indicators of compromise, and determining whether an incident has occurred.",
+    "domein": "Incident Response"
+  },
+  {
+    "vraag": "Why is an incident communications plan important?",
+    "opties": [
+      "It specifies which encryption algorithms to use during an incident",
+      "It defines who to notify and what to communicate during and after an incident",
+      "It outlines the technical steps to contain malware",
+      "It establishes backup schedules for incident recovery"
+    ],
+    "antwoord": 1,
+    "toelichting": "An incident communications plan ensures that the right people — internal teams, management, customers, regulators, and law enforcement — are notified appropriately during and after an incident.",
+    "domein": "Incident Response"
+  },
+  {
+    "vraag": "Which of the following is an example of an Indicator of Compromise (IoC)?",
+    "opties": [
+      "A scheduled backup completing successfully",
+      "Unusual outbound network traffic to an unknown IP address",
+      "A user logging in during business hours",
+      "A routine software update"
+    ],
+    "antwoord": 1,
+    "toelichting": "Indicators of Compromise (IoC) are forensic artifacts or observable events that suggest a system may have been breached, such as unusual traffic patterns or unexpected outbound connections.",
+    "domein": "Incident Response"
+  },
+  {
+    "vraag": "What is the primary difference between disaster recovery (DR) and business continuity (BC)?",
+    "opties": [
+      "DR focuses on IT systems while BC focuses on all business processes",
+      "BC focuses only on data backups while DR focuses on people",
+      "DR and BC are the same thing",
+      "BC is only for natural disasters while DR covers cyber incidents"
+    ],
+    "antwoord": 0,
+    "toelichting": "Disaster recovery focuses on restoring IT infrastructure and data after a disaster, while business continuity covers maintaining all essential business operations during a disruption.",
+    "domein": "Disaster Recovery"
+  },
+  {
+    "vraag": "Which type of backup only copies files that have changed since the last full backup?",
+    "opties": [
+      "Full backup",
+      "Differential backup",
+      "Incremental backup",
+      "Snapshot backup"
+    ],
+    "antwoord": 1,
+    "toelichting": "A differential backup copies all files that have changed since the last full backup, making restoration faster than incrementals (you only need the full backup plus the latest differential).",
+    "domein": "Disaster Recovery"
+  },
+  {
+    "vraag": "A disaster recovery site that is fully operational with live data replication is known as a:",
+    "opties": [
+      "Cold site",
+      "Warm site",
+      "Hot site",
+      "Mirror site"
+    ],
+    "antwoord": 2,
+    "toelichting": "A hot site is a fully operational recovery facility with current data, ready to take over operations with minimal or no downtime in case of a disaster.",
+    "domein": "Disaster Recovery"
+  },
+  {
+    "vraag": "Which disaster recovery site requires the most time to become operational after a disaster?",
+    "opties": [
+      "Hot site",
+      "Warm site",
+      "Cold site",
+      "Mirrored site"
+    ],
+    "antwoord": 2,
+    "toelichting": "A cold site has the physical space and basic infrastructure but no pre-installed equipment or data, requiring significant setup time — typically days or weeks — before it can become operational.",
+    "domein": "Disaster Recovery"
+  },
+  {
+    "vraag": "What is the purpose of testing BC/DR plans?",
+    "opties": [
+      "To satisfy insurance requirements",
+      "To verify that plans work as intended and identify gaps before an actual disaster",
+      "To train new employees on IT systems",
+      "To reduce data backup storage costs"
+    ],
+    "antwoord": 1,
+    "toelichting": "Testing BC/DR plans validates that they will work when needed, identifies weaknesses or gaps, and ensures that staff are familiar with their roles and responsibilities.",
+    "domein": "Disaster Recovery"
+  },
+  {
+    "vraag": "Which physical access control mechanism uses a small enclosed space with two doors where only one can be open at a time?",
+    "opties": [
+      "Turnstile",
+      "Mantrap (airlock)",
+      "Badge reader",
+      "Security camera"
+    ],
+    "antwoord": 1,
+    "toelichting": "A mantrap (also called an airlock or access control vestibule) is a small room with two interlocking doors, ensuring that only one person can enter at a time and preventing tailgating.",
+    "domein": "Physical Access Controls"
+  },
+  {
+    "vraag": "Which physical security design principle involves placing multiple layers of controls between an attacker and a protected area?",
+    "opties": [
+      "Defense in depth",
+      "Least privilege",
+      "Separation of duties",
+      "Need to know"
+    ],
+    "antwoord": 0,
+    "toelichting": "Defense in depth applies multiple overlapping layers of security controls so that if one layer fails, others remain to protect the asset.",
+    "domein": "Physical Access Controls"
+  },
+  {
+    "vraag": "What is the primary purpose of visitor management procedures?",
+    "opties": [
+      "To reduce the cost of physical security",
+      "To track and control visitor access to facilities and sensitive areas",
+      "To replace badge access systems",
+      "To manage employee parking"
+    ],
+    "antwoord": 1,
+    "toelichting": "Visitor management procedures ensure that all visitors are identified, tracked, escorted when necessary, and that their access is limited to appropriate areas.",
+    "domein": "Physical Access Controls"
+  },
+  {
+    "vraag": "What role do security guards play in physical security?",
+    "opties": [
+      "Monitoring only digital network activity",
+      "Enforcing access policies and responding to physical security incidents",
+      "Installing software updates on servers",
+      "Managing user account credentials"
+    ],
+    "antwoord": 1,
+    "toelichting": "Security personnel enforce physical access controls, verify identities, monitor areas for suspicious activity, and respond to security incidents.",
+    "domein": "Physical Access Controls"
+  },
+  {
+    "vraag": "What is the principle of least privilege?",
+    "opties": [
+      "Giving all users administrator rights to ensure productivity",
+      "Granting users only the minimum level of access needed to perform their job duties",
+      "Restricting all users from accessing any data",
+      "Sharing access credentials among team members for convenience"
+    ],
+    "antwoord": 1,
+    "toelichting": "The principle of least privilege ensures that users are only granted the access rights necessary to perform their specific job functions, reducing the risk of unauthorized access.",
+    "domein": "Logical Access Controls"
+  },
+  {
+    "vraag": "What is account monitoring in the context of logical access controls?",
+    "opties": [
+      "Reviewing financial accounts for unauthorized transactions",
+      "Regularly reviewing user account activity to detect abnormal or suspicious behavior",
+      "Updating user passwords on a schedule",
+      "Creating new user accounts automatically"
+    ],
+    "antwoord": 1,
+    "toelichting": "Account monitoring involves regularly reviewing login activity, privilege usage, and account changes to detect and respond to suspicious or unauthorized behavior.",
+    "domein": "Logical Access Controls"
+  },
+  {
+    "vraag": "Deprovisioning refers to which of the following processes?",
+    "opties": [
+      "Creating new user accounts when employees are hired",
+      "Revoking access rights when an employee leaves the organization or changes roles",
+      "Upgrading user privileges based on job performance",
+      "Installing security software on new devices"
+    ],
+    "antwoord": 1,
+    "toelichting": "Deprovisioning involves removing or revoking a user's access rights when they leave the organization, change roles, or no longer need access to specific resources.",
+    "domein": "Logical Access Controls"
+  },
+  {
+    "vraag": "Which access control model assigns permissions based on the user's role within an organization?",
+    "opties": [
+      "Mandatory Access Control (MAC)",
+      "Discretionary Access Control (DAC)",
+      "Role-Based Access Control (RBAC)",
+      "Attribute-Based Access Control (ABAC)"
+    ],
+    "antwoord": 2,
+    "toelichting": "Role-Based Access Control (RBAC) assigns access permissions based on a user's job role or function rather than individual identity, simplifying administration.",
+    "domein": "Logical Access Controls"
+  },
+  {
+    "vraag": "Which network type typically spans a single building or campus?",
+    "opties": [
+      "Wide Area Network (WAN)",
+      "Local Area Network (LAN)",
+      "Metropolitan Area Network (MAN)",
+      "Personal Area Network (PAN)"
+    ],
+    "antwoord": 1,
+    "toelichting": "A Local Area Network (LAN) is a network that connects devices within a limited area such as a single building, office, or campus.",
+    "domein": "Computer Networking"
+  },
+  {
+    "vraag": "What does TCP/IP stand for?",
+    "opties": [
+      "Transmission Control Protocol / Internet Protocol",
+      "Transfer Control Program / Internet Protocol",
+      "Trusted Computing Platform / Information Protocol",
+      "Transmission Control Program / Integrated Protocol"
+    ],
+    "antwoord": 0,
+    "toelichting": "TCP/IP stands for Transmission Control Protocol / Internet Protocol, the foundational suite of protocols that governs how data is transmitted over the internet and most modern networks.",
+    "domein": "Computer Networking"
+  },
+  {
+    "vraag": "What is the primary function of DHCP?",
+    "opties": [
+      "Translating domain names to IP addresses",
+      "Automatically assigning IP addresses to devices on a network",
+      "Encrypting network communications",
+      "Filtering network traffic based on IP addresses"
+    ],
+    "antwoord": 1,
+    "toelichting": "DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses and other network configuration parameters to devices when they join a network.",
+    "domein": "Computer Networking"
+  },
+  {
+    "vraag": "Which port number is used by HTTPS (secure web traffic)?",
+    "opties": [
+      "Port 21",
+      "Port 80",
+      "Port 443",
+      "Port 8080"
+    ],
+    "antwoord": 2,
+    "toelichting": "HTTPS uses port 443 by default, providing encrypted web traffic using TLS/SSL.",
+    "domein": "Computer Networking"
+  },
+  {
+    "vraag": "Which wireless encryption standard provides the strongest security for Wi-Fi networks?",
+    "opties": [
+      "WEP (Wired Equivalent Privacy)",
+      "WPA (Wi-Fi Protected Access)",
+      "WPA2",
+      "WPA3"
+    ],
+    "antwoord": 3,
+    "toelichting": "WPA3 is the latest and most secure Wi-Fi encryption standard, offering improved security over WPA2 with features like Simultaneous Authentication of Equals (SAE).",
+    "domein": "Computer Networking"
+  },
+  {
+    "vraag": "What command is used to test basic network connectivity to a remote host?",
+    "opties": [
+      "traceroute",
+      "netstat",
+      "ping",
+      "ipconfig"
+    ],
+    "antwoord": 2,
+    "toelichting": "The ping command sends ICMP echo request packets to a target host to test basic network connectivity and measure round-trip time.",
+    "domein": "Computer Networking"
+  },
+  {
+    "vraag": "What does the traceroute (tracert) command show?",
+    "opties": [
+      "Active network connections on the local machine",
+      "The path packets take from the source to a destination, including each hop",
+      "Open ports on a remote system",
+      "The DNS servers configured on a device"
+    ],
+    "antwoord": 1,
+    "toelichting": "Traceroute shows the route packets take across a network, displaying each intermediate hop (router) and the time taken to reach each one.",
+    "domein": "Computer Networking"
+  },
+  {
+    "vraag": "What is WEP's main security weakness?",
+    "opties": [
+      "It uses too large an encryption key",
+      "It relies on a static, weak RC4 encryption implementation with poor key management",
+      "It requires too much processing power",
+      "It can only support a single connected device"
+    ],
+    "antwoord": 1,
+    "toelichting": "WEP (Wired Equivalent Privacy) has well-known cryptographic weaknesses, including a short, static initialization vector and poor key management, making it easily crackable.",
+    "domein": "Computer Networking"
+  },
+  {
+    "vraag": "Which of the following best describes a computer virus?",
+    "opties": [
+      "Malicious code that self-replicates across networks without user interaction",
+      "Malicious code that attaches to legitimate programs and spreads when the host program runs",
+      "Software that displays unwanted advertisements",
+      "A program that records keystrokes"
+    ],
+    "antwoord": 1,
+    "toelichting": "A computer virus attaches itself to a legitimate host file or program and spreads when the infected file is executed, requiring some form of user interaction to propagate.",
+    "domein": "Network Threats"
+  },
+  {
+    "vraag": "How does a worm differ from a virus?",
+    "opties": [
+      "A worm requires a host program to spread; a virus does not",
+      "A worm self-replicates and spreads automatically across networks without needing a host file",
+      "A worm only affects hardware; a virus only affects software",
+      "A worm is always detected by antivirus software; a virus is not"
+    ],
+    "antwoord": 1,
+    "toelichting": "A worm is self-replicating malware that spreads independently across networks without needing to attach to a host file or requiring user action.",
+    "domein": "Network Threats"
+  },
+  {
+    "vraag": "What is a Trojan horse in cybersecurity?",
+    "opties": [
+      "A type of network attack that floods servers with traffic",
+      "Malware disguised as legitimate software that performs malicious actions when executed",
+      "A network protocol vulnerability exploit",
+      "Software that records all keystrokes"
+    ],
+    "antwoord": 1,
+    "toelichting": "A Trojan horse is malware that disguises itself as legitimate, useful software to trick users into installing it, then performs malicious activities in the background.",
+    "domein": "Network Threats"
+  },
+  {
+    "vraag": "What is a botnet?",
+    "opties": [
+      "A network of legitimate servers used for cloud computing",
+      "A collection of compromised computers controlled remotely by an attacker",
+      "A type of firewall configuration",
+      "An automated software testing framework"
+    ],
+    "antwoord": 1,
+    "toelichting": "A botnet is a network of computers infected with malware and remotely controlled by an attacker (botmaster), often used for DDoS attacks, spam campaigns, or credential theft.",
+    "domein": "Network Threats"
+  },
+  {
+    "vraag": "Which type of attack involves capturing network traffic to steal sensitive data such as credentials?",
+    "opties": [
+      "Man-in-the-middle attack",
+      "SQL injection",
+      "Eavesdropping (packet sniffing) attack",
+      "Buffer overflow"
+    ],
+    "antwoord": 2,
+    "toelichting": "Eavesdropping attacks involve passively capturing network packets to intercept sensitive data such as passwords, credit card numbers, or confidential communications.",
+    "domein": "Network Threats"
+  },
+  {
+    "vraag": "What type of attack exploits a known vulnerability in specific software before the vendor releases a patch?",
+    "opties": [
+      "Brute force attack",
+      "Zero-day exploit",
+      "Denial of service attack",
+      "Social engineering attack"
+    ],
+    "antwoord": 1,
+    "toelichting": "A zero-day exploit takes advantage of a previously unknown or unpatched vulnerability in software, giving the vendor zero days to create and distribute a patch.",
+    "domein": "Network Threats"
+  },
+  {
+    "vraag": "What is the primary function of an Intrusion Detection System (IDS)?",
+    "opties": [
+      "To automatically block all malicious traffic",
+      "To monitor network or system activity and alert administrators to potential threats",
+      "To encrypt all network communications",
+      "To replace firewall functionality"
+    ],
+    "antwoord": 1,
+    "toelichting": "An IDS monitors network or system activity and generates alerts when suspicious or malicious behavior is detected, but does not automatically block attacks (unlike an IPS).",
+    "domein": "Threat Identification and Prevention"
+  },
+  {
+    "vraag": "How does an Intrusion Prevention System (IPS) differ from an Intrusion Detection System (IDS)?",
+    "opties": [
+      "An IPS monitors traffic passively; an IDS actively blocks threats",
+      "An IPS can automatically block malicious traffic; an IDS only monitors and alerts",
+      "An IPS operates at the application layer only; an IDS operates at the network layer",
+      "An IPS requires manual intervention; an IDS operates automatically"
+    ],
+    "antwoord": 1,
+    "toelichting": "An IPS sits inline in the network and can actively block or drop malicious traffic, while an IDS only monitors and generates alerts without taking blocking actions.",
+    "domein": "Threat Identification and Prevention"
+  },
+  {
+    "vraag": "What is the purpose of antivirus (malware prevention) software?",
+    "opties": [
+      "To encrypt all data stored on a computer",
+      "To detect, prevent, and remove malicious software from computer systems",
+      "To monitor network traffic for intrusions",
+      "To manage user access rights"
+    ],
+    "antwoord": 1,
+    "toelichting": "Antivirus software is designed to detect, prevent, and remove malware including viruses, worms, trojans, ransomware, and other malicious software.",
+    "domein": "Threat Identification and Prevention"
+  },
+  {
+    "vraag": "What does a port scanner do?",
+    "opties": [
+      "Encrypts data on network ports",
+      "Probes a network host to identify which ports are open and what services are running",
+      "Blocks unauthorized port access",
+      "Monitors network traffic for malicious patterns"
+    ],
+    "antwoord": 1,
+    "toelichting": "A port scanner sends probes to a target system's ports to identify which are open, helping administrators understand their network exposure and helping attackers identify attack surfaces.",
+    "domein": "Threat Identification and Prevention"
+  },
+  {
+    "vraag": "What is the purpose of a vulnerability scanner?",
+    "opties": [
+      "To automatically fix all security vulnerabilities",
+      "To identify known security weaknesses in systems, applications, and networks",
+      "To block network attacks in real time",
+      "To encrypt sensitive data at rest"
+    ],
+    "antwoord": 1,
+    "toelichting": "Vulnerability scanners probe systems and applications to identify known security weaknesses, misconfigurations, and missing patches, helping organizations prioritize remediation.",
+    "domein": "Threat Identification and Prevention"
+  },
+  {
+    "vraag": "What is the primary purpose of a data center's physical security controls?",
+    "opties": [
+      "To reduce electricity consumption",
+      "To protect servers and critical infrastructure from unauthorized physical access and environmental hazards",
+      "To improve network bandwidth",
+      "To manage software licensing"
+    ],
+    "antwoord": 1,
+    "toelichting": "Data center physical security protects critical IT infrastructure from unauthorized access, theft, vandalism, and environmental threats such as fire, flooding, or temperature extremes.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "What is the purpose of creating security zones in a network?",
+    "opties": [
+      "To reduce the number of network devices needed",
+      "To segment the network to limit the spread of attacks and enforce access controls between zones",
+      "To increase available IP addresses",
+      "To improve wireless signal strength"
+    ],
+    "antwoord": 1,
+    "toelichting": "Security zones segment a network into areas with different trust levels (e.g., DMZ, internal, external), enforcing access controls between zones and limiting the blast radius of an attack.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "What is the primary function of a router in a network?",
+    "opties": [
+      "To forward data packets between different networks based on IP addresses",
+      "To connect devices within the same network using MAC addresses",
+      "To encrypt network traffic between endpoints",
+      "To assign IP addresses to network devices"
+    ],
+    "antwoord": 0,
+    "toelichting": "Routers forward packets between different networks (e.g., from a LAN to the internet) by examining the destination IP address and selecting the best path.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "What is a VLAN (Virtual Local Area Network)?",
+    "opties": [
+      "A physically separate network in a different building",
+      "A logically segmented network created on a single physical switch infrastructure",
+      "A type of wireless network",
+      "An encrypted tunnel between two remote sites"
+    ],
+    "antwoord": 1,
+    "toelichting": "A VLAN is a logical partition of a physical network that allows devices to be grouped together regardless of their physical location, improving security through network segmentation.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "What is the primary security function of a firewall?",
+    "opties": [
+      "To encrypt all data passing through the network",
+      "To monitor and control incoming and outgoing network traffic based on security rules",
+      "To detect and remove malware from systems",
+      "To authenticate users before granting network access"
+    ],
+    "antwoord": 1,
+    "toelichting": "A firewall monitors and controls network traffic based on predetermined security rules, allowing or blocking traffic based on factors like IP address, port, and protocol.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "What is the purpose of a VPN (Virtual Private Network)?",
+    "opties": [
+      "To increase internet bandwidth for all users",
+      "To create an encrypted tunnel for secure communication over a public network",
+      "To replace physical network cables with wireless connections",
+      "To assign static IP addresses to remote users"
+    ],
+    "antwoord": 1,
+    "toelichting": "A VPN creates an encrypted tunnel between a user's device and a VPN gateway, allowing secure transmission of data over public networks like the internet.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "What does NAC (Network Access Control) primarily do?",
+    "opties": [
+      "Encrypts all network communications",
+      "Controls which devices are permitted to connect to a network based on compliance policies",
+      "Provides firewall services at the perimeter",
+      "Manages IP address allocation"
+    ],
+    "antwoord": 1,
+    "toelichting": "Network Access Control (NAC) evaluates devices requesting network access against security policies (e.g., OS patch level, antivirus status) and allows or restricts access based on compliance.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "Which of the following best describes the Internet of Things (IoT)?",
+    "opties": [
+      "A network connecting only traditional computers and servers",
+      "The interconnection of everyday physical devices with computing capability to the internet",
+      "A type of cloud computing service",
+      "An encrypted communication protocol"
+    ],
+    "antwoord": 1,
+    "toelichting": "IoT refers to the growing network of physical devices — from smart thermostats to industrial sensors — embedded with computing and connectivity capabilities.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "Which of the following is a significant security challenge with IoT devices?",
+    "opties": [
+      "They use too much bandwidth",
+      "They often have weak default credentials, limited security updates, and poor patching capabilities",
+      "They are too expensive to deploy at scale",
+      "They cannot connect to wireless networks"
+    ],
+    "antwoord": 1,
+    "toelichting": "IoT devices frequently ship with default or weak credentials, receive infrequent security updates, and often cannot run traditional security software, making them attractive attack targets.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "What is a best practice for securing smart devices on a corporate network?",
+    "opties": [
+      "Connecting all IoT devices directly to the corporate network",
+      "Placing IoT devices on an isolated network segment separate from critical business systems",
+      "Using default manufacturer credentials for all IoT devices",
+      "Disabling all firmware updates on IoT devices"
+    ],
+    "antwoord": 1,
+    "toelichting": "Isolating IoT devices on a separate network segment prevents compromised devices from accessing critical business systems and limits the blast radius of a potential breach.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "Which of the following best describes cloud computing?",
+    "opties": [
+      "Running applications on local servers in your own data center",
+      "Delivering computing services such as servers, storage, and applications over the internet on demand",
+      "Using dedicated physical hardware leased from a provider",
+      "Installing software locally on each user's workstation"
+    ],
+    "antwoord": 1,
+    "toelichting": "Cloud computing delivers on-demand computing resources — servers, storage, databases, networking, software — over the internet with flexible, pay-as-you-go pricing.",
+    "domein": "Cloud Computing"
+  },
+  {
+    "vraag": "Which cloud service model provides virtualized computing infrastructure (servers, storage, networking) over the internet?",
+    "opties": [
+      "Software as a Service (SaaS)",
+      "Platform as a Service (PaaS)",
+      "Infrastructure as a Service (IaaS)",
+      "Function as a Service (FaaS)"
+    ],
+    "antwoord": 2,
+    "toelichting": "IaaS provides virtualized computing infrastructure — virtual machines, storage, and networking — allowing customers to build their own platforms and applications.",
+    "domein": "Cloud Computing"
+  },
+  {
+    "vraag": "Which cloud deployment model is used exclusively by a single organization?",
+    "opties": [
+      "Public cloud",
+      "Private cloud",
+      "Hybrid cloud",
+      "Community cloud"
+    ],
+    "antwoord": 1,
+    "toelichting": "A private cloud is cloud infrastructure operated solely for a single organization, offering greater control and privacy, hosted either on-premises or by a third party.",
+    "domein": "Cloud Computing"
+  },
+  {
+    "vraag": "What is a Managed Security Service Provider (MSSP)?",
+    "opties": [
+      "A cloud provider that only offers storage services",
+      "A third-party company that manages an organization's security operations and monitoring",
+      "An internal security team within a large enterprise",
+      "A government agency that oversees cybersecurity standards"
+    ],
+    "antwoord": 1,
+    "toelichting": "An MSSP is an outsourced provider that manages security services for organizations, including monitoring, threat detection, firewall management, and incident response.",
+    "domein": "Cloud Computing"
+  },
+  {
+    "vraag": "Which of the following is a common vendor risk management activity?",
+    "opties": [
+      "Issuing vendor security assessments and reviewing their security practices",
+      "Allowing vendors unrestricted access to all internal systems",
+      "Skipping due diligence to speed up procurement",
+      "Sharing internal encryption keys with all vendors"
+    ],
+    "antwoord": 0,
+    "toelichting": "Vendor risk management includes assessing vendors' security practices, reviewing their controls, and ensuring they meet your organization's security requirements before and during engagement.",
+    "domein": "Cloud Computing"
+  },
+  {
+    "vraag": "What is the purpose of a Service Level Agreement (SLA) with a cloud vendor?",
+    "opties": [
+      "To define the technical architecture of the cloud service",
+      "To specify the agreed-upon performance levels, availability guarantees, and remedies if they are not met",
+      "To list all software applications available from the vendor",
+      "To provide instructions for configuring cloud services"
+    ],
+    "antwoord": 1,
+    "toelichting": "An SLA is a contract between a service provider and customer that defines expected service levels — including uptime, performance, and support — and the remedies if those levels are not achieved.",
+    "domein": "Cloud Computing"
+  },
+  {
+    "vraag": "What is the difference between symmetric and asymmetric encryption?",
+    "opties": [
+      "Symmetric uses two different keys; asymmetric uses the same key for encryption and decryption",
+      "Symmetric uses the same key for encryption and decryption; asymmetric uses a key pair (public and private)",
+      "Symmetric is always faster than asymmetric encryption",
+      "Asymmetric encryption is only used for data at rest"
+    ],
+    "antwoord": 1,
+    "toelichting": "Symmetric encryption uses a single shared key for both encryption and decryption. Asymmetric encryption uses a mathematically related key pair — public key to encrypt and private key to decrypt.",
+    "domein": "Data Security"
+  },
+  {
+    "vraag": "What is the primary purpose of a hash function in cybersecurity?",
+    "opties": [
+      "To encrypt data so it can be decrypted later",
+      "To produce a fixed-length fingerprint (digest) of data to verify its integrity",
+      "To compress data for faster transmission",
+      "To generate encryption keys for symmetric algorithms"
+    ],
+    "antwoord": 1,
+    "toelichting": "A cryptographic hash function takes input data of any size and produces a fixed-length digest. Any change to the input results in a completely different hash, making it ideal for verifying data integrity.",
+    "domein": "Data Security"
+  },
+  {
+    "vraag": "Which of the following best describes the data lifecycle?",
+    "opties": [
+      "The process of backing up and restoring data",
+      "The stages data goes through from creation to disposal, including storage, use, and archiving",
+      "The encryption and decryption cycle of sensitive data",
+      "The process of converting raw data into useful business information"
+    ],
+    "antwoord": 1,
+    "toelichting": "The data lifecycle encompasses all stages of data management: creation, storage, use, sharing, archiving, and destruction — each with associated security considerations.",
+    "domein": "Data Security"
+  },
+  {
+    "vraag": "What is the purpose of data classification?",
+    "opties": [
+      "To assign backup schedules to different data types",
+      "To categorize data based on its sensitivity and required level of protection",
+      "To organize data alphabetically in databases",
+      "To compress data to reduce storage costs"
+    ],
+    "antwoord": 1,
+    "toelichting": "Data classification labels data according to its sensitivity (e.g., public, internal, confidential, restricted), enabling appropriate security controls to be applied based on the data's value and risk.",
+    "domein": "Data Security"
+  },
+  {
+    "vraag": "What is the primary purpose of logging and monitoring in cybersecurity?",
+    "opties": [
+      "To reduce network bandwidth usage",
+      "To record system and user activity for security analysis, incident detection, and investigation",
+      "To back up critical data automatically",
+      "To enforce password policies"
+    ],
+    "antwoord": 1,
+    "toelichting": "Logging records events and activities across systems, while monitoring analyzes those logs to detect suspicious behavior, security incidents, and policy violations.",
+    "domein": "Data Security"
+  },
+  {
+    "vraag": "What is social engineering in the context of cybersecurity?",
+    "opties": [
+      "Manipulating software code to introduce vulnerabilities",
+      "Psychologically manipulating people into revealing confidential information or performing actions",
+      "Using automated tools to crack passwords",
+      "Exploiting network protocol vulnerabilities"
+    ],
+    "antwoord": 1,
+    "toelichting": "Social engineering attacks exploit human psychology rather than technical vulnerabilities, tricking people into revealing sensitive information, clicking malicious links, or granting unauthorized access.",
+    "domein": "Security Awareness"
+  },
+  {
+    "vraag": "What is a phishing attack?",
+    "opties": [
+      "A network protocol that captures traffic passively",
+      "A fraudulent communication that appears to come from a trusted source to trick users into revealing sensitive information",
+      "A brute-force attack targeting web application login pages",
+      "Malware that self-replicates across a network"
+    ],
+    "antwoord": 1,
+    "toelichting": "Phishing is a social engineering attack typically delivered via email, where the attacker impersonates a trusted entity to trick victims into revealing credentials, financial data, or installing malware.",
+    "domein": "Security Awareness"
+  },
+  {
+    "vraag": "What is spear phishing?",
+    "opties": [
+      "A phishing attack targeting large numbers of random recipients",
+      "A highly targeted phishing attack aimed at a specific individual or organization using personalized information",
+      "A phishing attack delivered via SMS text messages",
+      "A phishing attack conducted over phone calls"
+    ],
+    "antwoord": 1,
+    "toelichting": "Spear phishing is a targeted form of phishing that uses specific information about the victim (name, job title, colleagues) to make the attack more convincing and harder to detect.",
+    "domein": "Security Awareness"
+  },
+  {
+    "vraag": "What is the goal of security awareness training?",
+    "opties": [
+      "To teach employees advanced hacking techniques",
+      "To educate employees about security threats, policies, and safe behaviors to reduce human-related security risks",
+      "To replace technical security controls",
+      "To meet vendor contractual obligations"
+    ],
+    "antwoord": 1,
+    "toelichting": "Security awareness training helps employees recognize threats, understand security policies, and practice safe behaviors, reducing the risk of successful social engineering and user error.",
+    "domein": "Security Awareness"
+  },
+  {
+    "vraag": "Which of the following is an example of a pretexting attack?",
+    "opties": [
+      "Sending mass phishing emails to random users",
+      "Creating a fabricated scenario (pretext) to manipulate someone into sharing information or performing an action",
+      "Using malware to capture keystrokes",
+      "Conducting a denial-of-service attack against a web server"
+    ],
+    "antwoord": 1,
+    "toelichting": "Pretexting involves creating a believable false scenario (e.g., impersonating IT support or a bank auditor) to manipulate a target into revealing information or performing an action.",
+    "domein": "Security Awareness"
+  },
+  {
+    "vraag": "Which risk treatment option involves stopping an activity entirely to eliminate a specific risk?",
+    "opties": [
+      "Risk acceptance",
+      "Risk mitigation",
+      "Risk avoidance",
+      "Risk transference"
+    ],
+    "antwoord": 2,
+    "toelichting": "Risk avoidance involves deciding not to perform the activity or change circumstances in a way that completely eliminates the risk, such as discontinuing a high-risk business process.",
+    "domein": "Risk Management"
+  },
+  {
+    "vraag": "What type of security assessment uses a quantitative approach to evaluate risk?",
+    "opties": [
+      "A qualitative risk assessment using descriptive risk levels",
+      "A quantitative risk assessment using numerical values and monetary impact",
+      "A gap analysis comparing current and desired security states",
+      "A vulnerability scan using automated tools"
+    ],
+    "antwoord": 1,
+    "toelichting": "A quantitative risk assessment assigns monetary values to assets, threats, and impacts, calculating risk using numbers (e.g., Annualized Loss Expectancy = SLE × ARO).",
+    "domein": "Risk Management"
+  },
+  {
+    "vraag": "What is the DMZ (Demilitarized Zone) in network security?",
+    "opties": [
+      "A secure area where only administrators can work",
+      "A neutral network segment between the internal network and the internet, housing publicly accessible servers",
+      "A region where military cybersecurity rules apply",
+      "A network isolated from all internet connectivity"
+    ],
+    "antwoord": 1,
+    "toelichting": "A DMZ is a perimeter network segment that sits between the internal network and the internet, hosting public-facing services (web servers, mail servers) while protecting the internal network.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "What is a stateful firewall?",
+    "opties": [
+      "A firewall that only filters packets based on IP addresses",
+      "A firewall that tracks the state of active connections and makes decisions based on connection context",
+      "A firewall that operates only at the application layer",
+      "A firewall that requires manual rule updates every hour"
+    ],
+    "antwoord": 1,
+    "toelichting": "A stateful firewall tracks the state of active network connections, allowing it to distinguish between legitimate responses to internal requests and potentially malicious unsolicited inbound traffic.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "Which backup strategy creates a full backup every time it runs?",
+    "opties": [
+      "Incremental backup",
+      "Differential backup",
+      "Full backup",
+      "Snapshot backup"
+    ],
+    "antwoord": 2,
+    "toelichting": "A full backup copies all selected data every time it runs, providing the simplest restoration process but requiring the most storage space and time.",
+    "domein": "Disaster Recovery"
+  },
+  {
+    "vraag": "What does a differential backup copy?",
+    "opties": [
+      "Only files changed since the last incremental backup",
+      "All files that have changed since the last full backup",
+      "All files on the system regardless of changes",
+      "Only deleted files for recovery purposes"
+    ],
+    "antwoord": 1,
+    "toelichting": "A differential backup copies all files that have changed since the last full backup. It requires less restoration time than incrementals since you only need the full backup plus the latest differential.",
+    "domein": "Disaster Recovery"
+  },
+  {
+    "vraag": "Which of the following describes the concept of 'tailgating' in physical security?",
+    "opties": [
+      "Following a vehicle too closely in a parking garage",
+      "An unauthorized person gaining physical access by closely following an authorized person through a secure door",
+      "Monitoring employees with surveillance cameras",
+      "Installing locks on server cabinets"
+    ],
+    "antwoord": 1,
+    "toelichting": "Tailgating (also called piggybacking) occurs when an unauthorized person follows an authorized employee through a secured entry point without presenting credentials.",
+    "domein": "Physical Access Controls"
+  },
+  {
+    "vraag": "What is the primary difference between authentication and authorization?",
+    "opties": [
+      "Authentication grants access rights; authorization verifies identity",
+      "Authentication verifies who you are; authorization determines what you are allowed to do",
+      "Authentication is done by the server; authorization is done by the client",
+      "Authentication and authorization are the same concept"
+    ],
+    "antwoord": 1,
+    "toelichting": "Authentication confirms a user's identity (who you are), while authorization determines the resources and actions that the authenticated user is permitted to access.",
+    "domein": "Security Concepts"
+  },
+  {
+    "vraag": "What is a Platform as a Service (PaaS) cloud model?",
+    "opties": [
+      "Provides ready-to-use applications accessible over the internet",
+      "Provides a development platform and runtime environment for building and deploying applications",
+      "Provides only virtualized compute and storage infrastructure",
+      "Provides physical hardware managed by the cloud customer"
+    ],
+    "antwoord": 1,
+    "toelichting": "PaaS provides a platform including operating systems, development tools, databases, and middleware, allowing developers to build and deploy applications without managing the underlying infrastructure.",
+    "domein": "Cloud Computing"
+  },
+  {
+    "vraag": "Which of the following is an example of a Software as a Service (SaaS) application?",
+    "opties": [
+      "Amazon EC2 virtual machine instances",
+      "Microsoft Office 365 (cloud-based email and productivity suite)",
+      "Google Cloud Platform compute engine",
+      "VMware vSphere virtualization platform"
+    ],
+    "antwoord": 1,
+    "toelichting": "SaaS delivers complete software applications over the internet on a subscription basis. Microsoft Office 365 is a classic SaaS example where users access email, documents, and collaboration tools via a browser.",
+    "domein": "Cloud Computing"
+  },
+  {
+    "vraag": "What is the purpose of network segmentation?",
+    "opties": [
+      "To increase the total number of IP addresses available",
+      "To divide a network into subnetworks to improve security and limit the spread of attacks",
+      "To increase wireless coverage across a building",
+      "To reduce the number of network switches needed"
+    ],
+    "antwoord": 1,
+    "toelichting": "Network segmentation divides a network into smaller segments to contain security breaches, reduce attack surfaces, and enforce access controls between different parts of the network.",
+    "domein": "Network Security Infrastructure"
+  },
+  {
+    "vraag": "What is vishing?",
+    "opties": [
+      "A phishing attack delivered via email",
+      "A social engineering attack conducted via voice calls to trick victims into revealing sensitive information",
+      "A phishing attack using fake websites",
+      "A malware attack targeting voice-over-IP systems"
+    ],
+    "antwoord": 1,
+    "toelichting": "Vishing (voice phishing) uses telephone calls to impersonate trusted entities (banks, IT support, government agencies) and trick victims into revealing sensitive information.",
+    "domein": "Security Awareness"
+  },
+  {
+    "vraag": "Which of the following describes smishing?",
+    "opties": [
+      "A phishing attack conducted over social media",
+      "A phishing attack delivered through SMS (text) messages",
+      "A physical intrusion method using social engineering",
+      "A denial-of-service attack targeting mobile networks"
+    ],
+    "antwoord": 1,
+    "toelichting": "Smishing (SMS phishing) uses text messages to trick victims into clicking malicious links or calling fraudulent numbers, typically impersonating banks, delivery services, or government agencies.",
+    "domein": "Security Awareness"
+  },
+  {
+    "vraag": "What is the primary advantage of asymmetric encryption over symmetric encryption?",
+    "opties": [
+      "Asymmetric encryption is faster than symmetric encryption",
+      "Asymmetric encryption solves the key distribution problem by using a public key that can be shared openly",
+      "Asymmetric encryption uses shorter key lengths",
+      "Asymmetric encryption requires less computational power"
+    ],
+    "antwoord": 1,
+    "toelichting": "Asymmetric encryption's main advantage is solving the key distribution problem: the public key can be shared openly, while only the private key must remain secret, eliminating the need to securely share a secret key.",
+    "domein": "Data Security"
+  },
+  {
+    "vraag": "In a hybrid cloud deployment model, what is the primary benefit?",
+    "opties": [
+      "All data is stored on public cloud servers",
+      "Organizations can use a mix of private cloud and public cloud resources, balancing security and scalability",
+      "The cloud provider owns all the infrastructure",
+      "Users have no control over where their data is stored"
+    ],
+    "antwoord": 1,
+    "toelichting": "A hybrid cloud combines private and public cloud environments, allowing organizations to keep sensitive workloads on-premises while leveraging public cloud scalability for less sensitive workloads.",
+    "domein": "Cloud Computing"
+  },
+  {
+    "vraag": "What type of malware encrypts a victim's files and demands payment to restore access?",
+    "opties": [
+      "Spyware",
+      "Adware",
+      "Ransomware",
+      "Rootkit"
+    ],
+    "antwoord": 2,
+    "toelichting": "Ransomware encrypts files on the victim's system and demands a ransom payment (often in cryptocurrency) in exchange for the decryption key.",
+    "domein": "Network Threats"
+  },
+  {
+    "vraag": "What is a man-in-the-middle (MitM) attack?",
+    "opties": [
+      "An attacker disrupting network services with excessive traffic",
+      "An attacker secretly intercepting and potentially altering communications between two parties",
+      "An attacker gaining administrative access to a server",
+      "An attacker installing malware via physical access"
+    ],
+    "antwoord": 1,
+    "toelichting": "In a MitM attack, an attacker positions themselves between two communicating parties to intercept, read, or modify communications without either party's knowledge.",
+    "domein": "Network Threats"
+  },
+  {
+    "vraag": "Which port does the SSH (Secure Shell) protocol typically use?",
+    "opties": [
+      "Port 21",
+      "Port 22",
+      "Port 23",
+      "Port 25"
+    ],
+    "antwoord": 1,
+    "toelichting": "SSH uses port 22 by default and provides encrypted remote access to systems, replacing the insecure Telnet protocol (port 23).",
+    "domein": "Computer Networking"
+  },
+  {
+    "vraag": "What is a Business Impact Analysis (BIA)?",
+    "opties": [
+      "A financial audit of business operations",
+      "An analysis that identifies critical business functions and the impact of their disruption",
+      "A technical vulnerability assessment of IT systems",
+      "A review of employee productivity metrics"
+    ],
+    "antwoord": 1,
+    "toelichting": "A Business Impact Analysis (BIA) identifies critical business processes, determines the impact of their disruption over time, and helps prioritize recovery efforts in continuity planning.",
+    "domein": "Business Continuity"
+  },
+  {
+    "vraag": "What is the principle of separation of duties?",
+    "opties": [
+      "Assigning all critical tasks to the most experienced employee",
+      "Dividing critical tasks among multiple people so no single person has complete control over a sensitive process",
+      "Separating IT staff from non-IT staff in the organization",
+      "Assigning different job functions to employees based on their department"
+    ],
+    "antwoord": 1,
+    "toelichting": "Separation of duties requires that no single person has complete control over a sensitive or critical process, reducing the risk of fraud, errors, and insider threats.",
+    "domein": "Logical Access Controls"
+  },
+  {
+    "vraag": "What is the purpose of encrypting data at rest?",
+    "opties": [
+      "To speed up database query performance",
+      "To protect stored data from unauthorized access if storage media is lost or stolen",
+      "To compress data to reduce storage requirements",
+      "To ensure data is available to authorized users at all times"
+    ],
+    "antwoord": 1,
+    "toelichting": "Encrypting data at rest protects stored data (on disks, USB drives, backups) from unauthorized access, especially in cases of physical theft or unauthorized access to storage media.",
+    "domein": "Data Security"
+  },
+  {
+    "vraag": "Which of the following is the best description of a security baseline?",
+    "opties": [
+      "The minimum acceptable security configuration for a type of system",
+      "The highest level of encryption available for a system",
+      "The total cost of all security tools deployed",
+      "The list of all known vulnerabilities in a system"
+    ],
+    "antwoord": 0,
+    "toelichting": "A security baseline defines the minimum security configuration standards that systems of a particular type must meet, ensuring a consistent and acceptable level of security.",
+    "domein": "Risk Management"
+  },
+  {
+    "vraag": "What does a 'need to know' access principle mean?",
+    "opties": [
+      "All employees need to know all company information",
+      "Access to information should be granted only to individuals who require it to perform their specific job duties",
+      "Information should be publicly available to improve transparency",
+      "Managers need to know the passwords of all their employees"
+    ],
+    "antwoord": 1,
+    "toelichting": "The 'need to know' principle means access to sensitive information is granted only to individuals who genuinely require it for their specific job responsibilities, limiting unnecessary data exposure.",
+    "domein": "Logical Access Controls"
+  },
+  {
+    "vraag": "Which AWS service category represents an example of IaaS?",
+    "opties": [
+      "Salesforce CRM",
+      "Amazon EC2 (Elastic Compute Cloud)",
+      "Google Workspace",
+      "Dropbox file storage"
+    ],
+    "antwoord": 1,
+    "toelichting": "Amazon EC2 provides virtualized computing instances (virtual machines) that customers manage themselves — a classic example of Infrastructure as a Service.",
+    "domein": "Cloud Computing"
+  },
+  {
+    "vraag": "What does the term 'defense in depth' mean in cybersecurity?",
+    "opties": [
+      "Relying on a single, very strong security control",
+      "Using multiple layers of security controls so that if one fails, others still protect the asset",
+      "Only securing the outermost network perimeter",
+      "Focusing exclusively on physical security measures"
+    ],
+    "antwoord": 1,
+    "toelichting": "Defense in depth is a security strategy that employs multiple overlapping layers of controls, so that an attacker who bypasses one layer still faces additional barriers.",
+    "domein": "Security Concepts"
+  },
+  {
+    "vraag": "What is a security incident?",
+    "opties": [
+      "Any scheduled system maintenance activity",
+      "Any event that violates or threatens to violate security policies, acceptable use policies, or standard security practices",
+      "A successful software deployment",
+      "A routine firewall rule update"
+    ],
+    "antwoord": 1,
+    "toelichting": "A security incident is any event that actually or potentially compromises the confidentiality, integrity, or availability of information or information systems.",
+    "domein": "Incident Response"
+  },
+  {
+    "vraag": "What is the containment phase of incident response primarily focused on?",
+    "opties": [
+      "Identifying the root cause of the incident",
+      "Limiting the spread and impact of an ongoing security incident",
+      "Restoring systems to normal operation",
+      "Documenting lessons learned from the incident"
+    ],
+    "antwoord": 1,
+    "toelichting": "Containment focuses on stopping the spread of an incident and limiting its impact on systems and data, which may include isolating affected systems from the network.",
+    "domein": "Incident Response"
+  }
+]
